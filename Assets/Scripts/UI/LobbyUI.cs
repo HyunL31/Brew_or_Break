@@ -1,16 +1,44 @@
+﻿using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LobbyUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("플레이어 정보")]
+    [SerializeField] private TextMeshProUGUI PlayerName;
+    [SerializeField] private TextMeshProUGUI StoreName;
+
+    [Header("가게 정보")]
+    [SerializeField] private TextMeshProUGUI GoldText;
+    [SerializeField] private TextMeshProUGUI ReputationText;
+    [SerializeField] private Image LevelStat;
+    [SerializeField] private TextMeshProUGUI LevelStatText;
+    [SerializeField] private Image ReputationStat;
+    [SerializeField] private TextMeshProUGUI ReputationStatText;
+    [SerializeField] private Image DebtStat;
+    [SerializeField] private TextMeshProUGUI DebtStatText;
+
+    [Header("버튼")]
+    [SerializeField] private Button InventoryButton;
+    [SerializeField] private Button OpenStoreButton;
+
+    [Header("패널")]
+    [SerializeField] private GameObject DialogueUI;
+
+    private void Awake()
     {
-        
+        InventoryButton.onClick.AddListener(OnClickInventory);
+        OpenStoreButton.onClick.AddListener(OnClickOpenStore);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnClickInventory()
     {
-        
+        // [TODO] 인벤토리 구현
+    }
+
+    private void OnClickOpenStore()
+    {
+        DialogueUI.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 }
