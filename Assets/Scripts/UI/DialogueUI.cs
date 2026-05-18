@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,9 +22,13 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private Image Image_Speaker;
 
     private string _currentID;
+    private bool _isTyping = false;
+    private WaitForSeconds _typingWaitTime;
+    private Coroutine _typingEffect;
 
     private void Awake()
     {
+        _typingWaitTime = new WaitForSeconds(0.03f);
         _currentID = "Episode_00_01";
     }
 
@@ -44,7 +49,6 @@ public class DialogueUI : MonoBehaviour
     {
         var data = GameDataManager.Inst.GetDialogueData(id);
         string speaker = data.Speaker;
-        string content = data.Content;
 
         if (speaker != string.Empty)
         {
@@ -56,7 +60,12 @@ public class DialogueUI : MonoBehaviour
             Image_Speaker.gameObject.SetActive(false);
         }
 
-        Text_Dialogue.text = content;
+        if (_typingEffect != null)
+        {
+            StopCoroutine(_typingEffect);
+        }
+
+        _typingEffect = StartCoroutine(Typing(_currentID));
 
         ChangeSpeakerCharacter(_currentID);
         ChangeBackgroundImage(_currentID);
@@ -90,5 +99,22 @@ public class DialogueUI : MonoBehaviour
             Image_Character.gameObject.SetActive(true);
             Image_Character.sprite = Resources.Load<Sprite>($"Character/{characterFacial}");
         }
+    }
+
+    private IEnumerator Typing(string id)
+    {
+        _isTyping = true;
+        Text_Dialogue.text = string.Empty;
+
+        string content = GameDataManager.Inst.GetDialogueData(id).Content;
+
+        for (int i = 0; i < content.Length; i++)
+        {
+            Text_Dialogue.text += content[i];
+
+            yield return _typingWaitTime;
+        }
+
+        yield return null;
     }
 }
