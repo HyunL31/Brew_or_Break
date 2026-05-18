@@ -25,14 +25,19 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private GameObject LobbyUI;
 
     private bool _isTyping = false;
+    private bool _isAuto = false;
     private WaitForSeconds _typingWaitTime;
+    private WaitForSeconds _autoWaitTime;
     private Coroutine _typingEffect;
 
     private void Awake()
     {
         _typingWaitTime = new WaitForSeconds(0.03f);
+        _autoWaitTime = new WaitForSeconds(0.5f);
 
         Button_Skip.onClick.AddListener(SkipDialogue);
+        Toggle_Auto.isOn = _isAuto;
+        Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
     }
 
     private void OnEnable()
@@ -152,6 +157,18 @@ public class DialogueUI : MonoBehaviour
         ShowDialogue(GetCurrentID());
     }
 
+    private void OnClickAuto(bool isOn)
+    {
+        if (isOn)
+        {
+            _isAuto = true;
+        }
+        else
+        {
+            _isAuto = false;
+        }
+    }
+
     private IEnumerator Typing(string id)
     {
         _isTyping = true;
@@ -176,6 +193,13 @@ public class DialogueUI : MonoBehaviour
 
         _isTyping = false;
         Image_NextArrow.gameObject.SetActive(true);
+
+        if (_isAuto)
+        {
+            yield return _autoWaitTime;
+
+            MoveToNextDialogue(id);
+        }
 
         yield return null;
     }
