@@ -203,8 +203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4734,6 +4734,7 @@ MonoBehaviour:
   Image_Background: {fileID: 150260600}
   Image_Character: {fileID: 2041224060}
   Image_NextArrow: {fileID: 1299857369}
+  Image_Speaker: {fileID: 455139141}
 --- !u!1 &2040935677
 GameObject:
   m_ObjectHideFlags: 0
