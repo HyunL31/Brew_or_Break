@@ -41,7 +41,14 @@ public class DialogueUI : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            MoveToNextDialogue(_currentID);
+            if (_isTyping)
+            {
+                _isTyping = false;
+            }
+            else
+            {
+                MoveToNextDialogue(_currentID);
+            }
         }
     }
 
@@ -110,10 +117,19 @@ public class DialogueUI : MonoBehaviour
 
         for (int i = 0; i < content.Length; i++)
         {
+            if (!_isTyping)
+            {
+                break;
+            }
+
             Text_Dialogue.text += content[i];
 
             yield return _typingWaitTime;
         }
+
+        Text_Dialogue.text = content;
+
+        _isTyping = false;
 
         yield return null;
     }
