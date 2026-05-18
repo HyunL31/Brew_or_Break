@@ -166,6 +166,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: UI_TravelBook_Spritesheet01a_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 224
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 3, z: 12, w: 12}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2fddea6883a2645a284cea61675f52
+      internalID: -1640300749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_TravelBook_Spritesheet01a_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 385
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 1, z: 4, w: 1}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a84e3cf70f5f4180d3625cac41e07
+      internalID: 162982368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -182,6 +226,8 @@ TextureImporter:
     nameFileIdTable:
       UI_TravelBook_Spritesheet01a_0: 1797578944
       UI_TravelBook_Spritesheet01a_1: -1667395046
+      UI_TravelBook_Spritesheet01a_2: -1640300749
+      UI_TravelBook_Spritesheet01a_3: 162982368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
