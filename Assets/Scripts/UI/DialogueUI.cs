@@ -21,7 +21,9 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private Image Image_NextArrow;
     [SerializeField] private Image Image_Speaker;
 
-    private string _currentID;
+    [Header("패널")]
+    [SerializeField] private GameObject LobbyUI;
+
     private bool _isTyping = false;
     private WaitForSeconds _typingWaitTime;
     private Coroutine _typingEffect;
@@ -29,12 +31,13 @@ public class DialogueUI : MonoBehaviour
     private void Awake()
     {
         _typingWaitTime = new WaitForSeconds(0.03f);
-        _currentID = "Episode_00_01";
+
+        Button_Skip.onClick.AddListener(SkipDialogue);
     }
 
     private void OnEnable()
     {
-        ShowDialogue(_currentID);
+        ShowDialogue(GetCurrentID());
     }
 
     private void Update()
@@ -47,7 +50,7 @@ public class DialogueUI : MonoBehaviour
             }
             else
             {
-                MoveToNextDialogue(_currentID);
+                MoveToNextDialogue(GetCurrentID());
             }
         }
     }
@@ -72,18 +75,27 @@ public class DialogueUI : MonoBehaviour
             StopCoroutine(_typingEffect);
         }
 
-        _typingEffect = StartCoroutine(Typing(_currentID));
+        _typingEffect = StartCoroutine(Typing(id));
 
-        ChangeSpeakerCharacter(_currentID);
-        ChangeBackgroundImage(_currentID);
+        ChangeSpeakerCharacter(id);
+        ChangeBackgroundImage(id);
     }
 
     private void MoveToNextDialogue(string id)
     {
         string nextID = GameDataManager.Inst.GetDialogueData(id).NextID;
-        _currentID = nextID;
 
-        ShowDialogue(_currentID);
+        if (nextID == "Lobby")
+        {
+            GameManager.Inst.AddDay();
+            LobbyUI.SetActive(true);
+            this.gameObject.SetActive(false);
+
+            return;
+        }
+
+        GameManager.Inst.SetCurrentDialogueID(nextID);
+        ShowDialogue(GetCurrentID());
     }
 
     private void ChangeBackgroundImage(string id)
@@ -108,10 +120,30 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
+    private void SkipDialogue()
+    {
+        string nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
+
+        if (!nextID.Contains("Episode"))
+        {
+            return;
+        }
+
+        while (nextID.Contains("Episode"))
+        {
+            GameManager.Inst.SetCurrentDialogueID(nextID);
+
+            nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
+        }
+
+        ShowDialogue(GetCurrentID());
+    }
+
     private IEnumerator Typing(string id)
     {
         _isTyping = true;
         Text_Dialogue.text = string.Empty;
+        Image_NextArrow.gameObject.SetActive(false);
 
         string content = GameDataManager.Inst.GetDialogueData(id).Content;
 
@@ -130,7 +162,13 @@ public class DialogueUI : MonoBehaviour
         Text_Dialogue.text = content;
 
         _isTyping = false;
+        Image_NextArrow.gameObject.SetActive(true);
 
         yield return null;
+    }
+
+    private string GetCurrentID()
+    {
+        return GameManager.Inst.GetCurrentDialogueID();
     }
 }

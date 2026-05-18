@@ -17,6 +17,7 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Text_ReputationStat;
     [SerializeField] private Image Image_DebtStat;
     [SerializeField] private TextMeshProUGUI Text_DebtStat;
+    [SerializeField] private TextMeshProUGUI Text_Day;
 
     [Header("버튼")]
     [SerializeField] private Button Button_Inventory;
@@ -31,6 +32,11 @@ public class LobbyUI : MonoBehaviour
         Button_OpenStore.onClick.AddListener(OnClickOpenStore);
     }
 
+    private void OnEnable()
+    {
+        Text_Day.text = $"Day {GameManager.Inst.GetDay()}";
+    }
+
     private void OnClickInventory()
     {
         // [TODO] 인벤토리 구현
@@ -38,6 +44,7 @@ public class LobbyUI : MonoBehaviour
 
     private void OnClickOpenStore()
     {
+        GameManager.Inst.SetCurrentDialogueID();
         DialogueUI.SetActive(true);
         this.gameObject.SetActive(false);
     }

@@ -287,7 +287,7 @@
   },
   {
     "ID": "Episode_00_27",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "이제, 마을 한구석에서 시작되는 조금은 위험한 마법약 장사가 시작된다.",
     "Facial": null,
@@ -518,7 +518,7 @@
   },
   {
     "ID": "Episode_01_21",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Scholar_01",
     "Content": "이 은혜는 잊지 않을게요. 시간 마법의 위험성을 이제야 깨달았어요.",
     "Facial": "Scholar_01_05",
@@ -562,7 +562,7 @@
   },
   {
     "ID": "Episode_01_25",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Scholar_01",
     "Content": "내 찬란했던 미래가 이렇게 허무하게...",
     "Facial": "Scholar_01_02",
@@ -584,7 +584,7 @@
   },
   {
     "ID": "Episode_01_27",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Scholar_01",
     "Content": "아무래도 내가 잘못 찾아왔나보군. 쯧.",
     "Facial": "Scholar_01_01",
@@ -606,7 +606,7 @@
   },
   {
     "ID": "Episode_01_29",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Scholar_01",
     "Content": "잘못 찾아왔나보네... 다음에 또 봐요. 젊은이...",
     "Facial": "Scholar_01_03",
@@ -837,7 +837,7 @@
   },
   {
     "ID": "Episode_02_21",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "다음 날, 언덕 위 저택의 주인이 실종되고 모든 보물이 털렸다는 소식이 들려왔다...",
     "Facial": null,
@@ -892,7 +892,7 @@
   },
   {
     "ID": "Episode_02_26",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Tatto_01",
     "Content": "젠장, 약제사 주제에 눈치만 빨라가지고...!",
     "Facial": "Tatto_01_04",
@@ -936,7 +936,7 @@
   },
   {
     "ID": "Episode_02_30",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Tatto_01",
     "Content": "어? 어... 맞아... 의회에 가려고 했지...",
     "Facial": "Tatto_01_03",
@@ -958,7 +958,7 @@
   },
   {
     "ID": "Episode_02_32",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Tatto_01",
     "Content": "쓸모없긴. 쯧.",
     "Facial": "Tatto_01_01",
@@ -1310,7 +1310,7 @@
   },
   {
     "ID": "Episode_03_32",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Prophet_01",
     "Content": "쳇, 운도 없지! 촌구석 약사가 눈치만 빨라가지고... 오늘 장사는 망쳤군!",
     "Facial": "Prophet_01_01",
@@ -1387,7 +1387,7 @@
   },
   {
     "ID": "Episode_03_39",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Prophet_01",
     "Content": "오늘 장사는 자네 때문에 공쳤네, 공쳤어!",
     "Facial": "Prophet_01_01",
@@ -1574,7 +1574,7 @@
   },
   {
     "ID": "Episode_04_17",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Magician_01",
     "Content": "흠... 그래요. 양심적이시네요.",
     "Facial": "Magician_01_01",
@@ -1629,7 +1629,7 @@
   },
   {
     "ID": "Episode_04_22",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Player_01",
     "Content": "허, 뭐야...?",
     "Facial": "Player_01_06",
@@ -1706,7 +1706,7 @@
   },
   {
     "ID": "Episode_04_29",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Magician_01",
     "Content": "애초에 불법 마법약을 만들 실력조차 없었군요.",
     "Facial": "Magician_01_03",
@@ -1937,7 +1937,7 @@
   },
   {
     "ID": "Episode_05_21",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Boss_01",
     "Content": "쳇, 한 시가 바쁜데 잘못 찾아왔구만.",
     "Facial": "Boss_01_02",
@@ -1970,7 +1970,7 @@
   },
   {
     "ID": "Episode_05_24",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "그날 밤, 수상한 빛을 본 경비대가 전설의 성검을 훔친 도적단을 검거했다는 소식이 신문에 실렸다.",
     "Facial": null,
@@ -2069,7 +2069,7 @@
   },
   {
     "ID": "Episode_05_33",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "다음 날, 전설의 성검이 흔적없이 사라졌다는 소식이 신문에 실렸다.",
     "Facial": null,
@@ -2102,7 +2102,7 @@
   },
   {
     "ID": "Episode_05_36",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Boss_01",
     "Content": "괜찮아... 그럴 수 있지... 형씨만큼 재능없는 사람은 처음 보지만... 힘내고, 응?",
     "Facial": "Player_01_04",
@@ -2333,7 +2333,7 @@
   },
   {
     "ID": "Episode_06_21",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Loyal_01",
     "Content": "다음에 또 볼 기회가 있을 거란 걸 염두에 두도록.",
     "Facial": "Loyal_01_01",
@@ -2542,7 +2542,7 @@
   },
   {
     "ID": "Episode_06_40",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Loyal_01",
     "Content": "고맙군. 여기 보답으로 금화를 주도록 하지.",
     "Facial": "Loyal_01_01",
@@ -2575,7 +2575,7 @@
   },
   {
     "ID": "Episode_06_43",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Loyal_01",
     "Content": "멍청하긴, 이만 가도록 하지. 시간만 낭비했군.",
     "Facial": "Loyal_01_01",
@@ -2773,7 +2773,7 @@
   },
   {
     "ID": "Episode_07_18",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "다음 날, 도적단 말단이 마법 의회의 함정 수사 미끼로 활동했다는 소식이 신문에 실렸다.",
     "Facial": null,
@@ -2861,7 +2861,7 @@
   },
   {
     "ID": "Episode_07_26",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Regular_01",
     "Content": "어쩔 수 없지. 난 이만 가볼게... 힘내, 알았지?",
     "Facial": "Regular_01_03",
@@ -3202,7 +3202,7 @@
   },
   {
     "ID": "Episode_08_31",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "카일이 떠난 다음 날, 미친 연금술사가 실험 중 사망했다는 소식이 신문에 실렸다.",
     "Facial": null,
@@ -3301,7 +3301,7 @@
   },
   {
     "ID": "Episode_08_40",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "다음 날, 멀쩡해진 카일은 가게를 다시 찾아와 멋쩍은 표정으로 미안하다 말했다.",
     "Facial": "Alchemist_01_04",
@@ -3345,7 +3345,7 @@
   },
   {
     "ID": "Episode_08_44",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Alchemist_01",
     "Content": "내가 뭐라 할 입장은 아니지만 그래도... 다른 길을 찾아보는 게 좋을 것 같아...",
     "Facial": "Alchemist_01_03",
@@ -3532,7 +3532,7 @@
   },
   {
     "ID": "Episode_09_17",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": null,
     "Content": "신고한 다음 날, 경비대장을 사칭하던 도둑이 잡혀 들어갔다는 소식이 신문에 실렸다.",
     "Facial": null,
@@ -3598,7 +3598,7 @@
   },
   {
     "ID": "Episode_09_23",
-    "NextID": "0",
+    "NextID": "Lobby",
     "Speaker": "Guard_01",
     "Content": "됐네, 자네와는 더 이상 거래하지 않을거야!",
     "Facial": "Guard_01_01",

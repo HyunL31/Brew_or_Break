@@ -11,6 +11,7 @@ public class TitleUI : MonoBehaviour
 
     [Header("패널")]
     [SerializeField] private GameObject LobbyUI;
+    [SerializeField] private GameObject DialogueUI;
 
     private void Awake()
     {
@@ -22,7 +23,8 @@ public class TitleUI : MonoBehaviour
 
     private void OnClickNewGameButton()
     {
-        LobbyUI.SetActive(true);
+        GameManager.Inst.SetCurrentDialogueID();
+        DialogueUI.SetActive(true);
         this.gameObject.SetActive(false);
     }
 
