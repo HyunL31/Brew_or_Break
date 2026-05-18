@@ -486,6 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1312564045}
   - component: {fileID: 1312564046}
+  - component: {fileID: 1312564047}
   m_Layer: 0
   m_Name: GameDataManager
   m_TagString: Untagged
@@ -520,6 +521,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d914b386db0c37a40beb5488b00117a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameDataManager
+--- !u!114 &1312564047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312564044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d38afa048c97d4cb42e3abb46f3f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!224 &1486053340 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6221046969231254569, guid: a80443e688219914a9c406ae527fa95f, type: 3}

@@ -62,8 +62,7 @@ public class DialogueUI : MonoBehaviour
 
         if (speaker != string.Empty)
         {
-            Image_Speaker.gameObject.SetActive(true);
-            Text_Speaker.text = speaker;
+            SetCharacterName(speaker);
         }
         else
         {
@@ -96,6 +95,20 @@ public class DialogueUI : MonoBehaviour
 
         GameManager.Inst.SetCurrentDialogueID(nextID);
         ShowDialogue(GetCurrentID());
+    }
+
+    private void SetCharacterName(string speakerID)
+    {
+        string speakerName = GameDataManager.Inst.GetCharacterData(speakerID).Name;
+
+        if (speakerName == "{Player.Name}")
+        {
+            // [TODO] 진짜 플레이어 이름 받아서 수정해야 함
+            speakerName = "플레이어";
+        }
+
+        Image_Speaker.gameObject.SetActive(true);
+        Text_Speaker.text = speakerName;
     }
 
     private void ChangeBackgroundImage(string id)
