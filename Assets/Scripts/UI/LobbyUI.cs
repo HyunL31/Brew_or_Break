@@ -5,30 +5,30 @@ using UnityEngine.UI;
 public class LobbyUI : MonoBehaviour
 {
     [Header("플레이어 정보")]
-    [SerializeField] private TextMeshProUGUI PlayerName;
-    [SerializeField] private TextMeshProUGUI StoreName;
+    [SerializeField] private TextMeshProUGUI Text_PlayerName;
+    [SerializeField] private TextMeshProUGUI Text_StoreName;
 
     [Header("가게 정보")]
-    [SerializeField] private TextMeshProUGUI GoldText;
-    [SerializeField] private TextMeshProUGUI ReputationText;
-    [SerializeField] private Image LevelStat;
-    [SerializeField] private TextMeshProUGUI LevelStatText;
-    [SerializeField] private Image ReputationStat;
-    [SerializeField] private TextMeshProUGUI ReputationStatText;
-    [SerializeField] private Image DebtStat;
-    [SerializeField] private TextMeshProUGUI DebtStatText;
+    [SerializeField] private TextMeshProUGUI Text_Gold;
+    [SerializeField] private TextMeshProUGUI Text_Reputation;
+    [SerializeField] private Image Image_LevelStat;
+    [SerializeField] private TextMeshProUGUI TextLevelStat;
+    [SerializeField] private Image Image_ReputationStat;
+    [SerializeField] private TextMeshProUGUI Text_ReputationStat;
+    [SerializeField] private Image Image_DebtStat;
+    [SerializeField] private TextMeshProUGUI Text_DebtStat;
 
     [Header("버튼")]
-    [SerializeField] private Button InventoryButton;
-    [SerializeField] private Button OpenStoreButton;
+    [SerializeField] private Button Button_Inventory;
+    [SerializeField] private Button Button_OpenStore;
 
     [Header("패널")]
     [SerializeField] private GameObject DialogueUI;
 
     private void Awake()
     {
-        InventoryButton.onClick.AddListener(OnClickInventory);
-        OpenStoreButton.onClick.AddListener(OnClickOpenStore);
+        Button_Inventory.onClick.AddListener(OnClickInventory);
+        Button_OpenStore.onClick.AddListener(OnClickOpenStore);
     }
 
     private void OnClickInventory()

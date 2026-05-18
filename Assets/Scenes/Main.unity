@@ -1534,6 +1534,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 891970368625710920, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
   m_PrefabInstance: {fileID: 523498486}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &559332444 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1440719166623859118, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+  m_PrefabInstance: {fileID: 523498486}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &564396579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2648,6 +2659,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1043843227 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1440719166623859118, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+  m_PrefabInstance: {fileID: 718177602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &1091146183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3229,10 +3251,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d32a264c45a5f545aa203c8edbf91d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TitleUI
-  NewGameButton: {fileID: 1136533564}
-  GameLoadButton: {fileID: 564396581}
-  GameSettingButton: {fileID: 1957186741}
-  QuitButton: {fileID: 1663404859}
+  Button_NewGame: {fileID: 1136533564}
+  Button_GameLoad: {fileID: 564396581}
+  Button_GameSetting: {fileID: 1957186741}
+  Button_Quit: {fileID: 1663404859}
   LobbyUI: {fileID: 1733913213}
 --- !u!1 &1550164826
 GameObject:
@@ -4230,18 +4252,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4114f7d06aec3c0449326222b3abc18f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LobbyUI
-  PlayerName: {fileID: 1243697826}
-  StoreName: {fileID: 831752594}
-  GoldText: {fileID: 1691041836}
-  ReputationText: {fileID: 437505571}
-  LevelStat: {fileID: 394560326}
-  LevelStatText: {fileID: 1110872633}
-  ReputationStat: {fileID: 142960599}
-  ReputationStatText: {fileID: 1884350079}
-  DebtStat: {fileID: 1890250726}
-  DebtStatText: {fileID: 271791336}
-  InventoryButton: {fileID: 847878654}
-  OpenStoreButton: {fileID: 1830975037}
+  Text_PlayerName: {fileID: 1243697826}
+  Text_StoreName: {fileID: 831752594}
+  Text_Gold: {fileID: 1691041836}
+  Text_Reputation: {fileID: 437505571}
+  Image_LevelStat: {fileID: 394560326}
+  TextLevelStat: {fileID: 1110872633}
+  Image_ReputationStat: {fileID: 142960599}
+  Text_ReputationStat: {fileID: 1884350079}
+  Image_DebtStat: {fileID: 1890250726}
+  Text_DebtStat: {fileID: 271791336}
+  Button_Inventory: {fileID: 847878654}
+  Button_OpenStore: {fileID: 1830975037}
   DialogueUI: {fileID: 2039719952}
 --- !u!1001 &1830975035
 PrefabInstance:
@@ -4703,6 +4725,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53804ae429b9a3e4aa3e1c7ec07f2d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueUI
+  Button_Return: {fileID: 2109905183}
+  Button_Log: {fileID: 1043843227}
+  Toggle_Auto: {fileID: 1010312900}
+  Button_Skip: {fileID: 559332444}
+  Text_Dialogue: {fileID: 17079754}
+  Text_Speaker: {fileID: 1725164399}
+  Image_Background: {fileID: 150260600}
+  Image_Character: {fileID: 2041224060}
+  Image_NextArrow: {fileID: 1299857369}
 --- !u!1 &2040935677
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,6 +4853,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041224058}
   m_CullTransparentMesh: 1
+--- !u!114 &2109905183 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1440719166623859118, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+  m_PrefabInstance: {fileID: 994900998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &2145503864
 GameObject:
   m_ObjectHideFlags: 0

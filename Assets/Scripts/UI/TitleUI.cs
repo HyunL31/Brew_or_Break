@@ -4,20 +4,20 @@ using UnityEngine.UI;
 public class TitleUI : MonoBehaviour
 {
     [Header("버튼")]
-    [SerializeField] private Button NewGameButton;
-    [SerializeField] private Button GameLoadButton;
-    [SerializeField] private Button GameSettingButton;
-    [SerializeField] private Button QuitButton;
+    [SerializeField] private Button Button_NewGame;
+    [SerializeField] private Button Button_GameLoad;
+    [SerializeField] private Button Button_GameSetting;
+    [SerializeField] private Button Button_Quit;
 
     [Header("패널")]
     [SerializeField] private GameObject LobbyUI;
 
     private void Awake()
     {
-        NewGameButton.onClick.AddListener(OnClickNewGameButton);
-        GameLoadButton.onClick.AddListener(OnClickLoadButton);
-        GameSettingButton.onClick.AddListener(OnClickSettingButton);
-        QuitButton.onClick.AddListener(OnClickQuitButton);
+        Button_NewGame.onClick.AddListener(OnClickNewGameButton);
+        Button_GameLoad.onClick.AddListener(OnClickLoadButton);
+        Button_GameSetting.onClick.AddListener(OnClickSettingButton);
+        Button_Quit.onClick.AddListener(OnClickQuitButton);
     }
 
     private void OnClickNewGameButton()
