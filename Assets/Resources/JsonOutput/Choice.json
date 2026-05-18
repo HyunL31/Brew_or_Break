@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "Choice_1_01",
+    "ReturnID": "Episode_01_19",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_1_02",
+    "ReturnID": "Episode_01_22",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_2_01",
+    "ReturnID": "Episode_02_16",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_2_02",
+    "ReturnID": "Episode_02_22",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_3_01",
+    "ReturnID": "Episode_03_18",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_3_02",
+    "ReturnID": "Episode_03_23",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_4_01",
+    "ReturnID": "Episode_04_13",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_4_02",
+    "ReturnID": "Episode_04_15",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_5_01",
+    "ReturnID": "Episode_05_12",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_5_02",
+    "ReturnID": "Episode_05_14",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_6_01",
+    "ReturnID": "Episode_06_12",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_6_02",
+    "ReturnID": "Episode_06_15",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_7_01",
+    "ReturnID": "Episode_07_09",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_7_02",
+    "ReturnID": "Episode_07_12",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_8_01",
+    "ReturnID": "Episode_08_20",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_8_02",
+    "ReturnID": "Episode_08_23",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_9_01",
+    "ReturnID": "Episode_09_06",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_9_02",
+    "ReturnID": "Episode_09_09",
+    "Content": "의뢰를 거절한다."
+  },
+  {
+    "ID": "Choice_10_01",
+    "ReturnID": "Episode_10_12",
+    "Content": "의뢰를 받는다."
+  },
+  {
+    "ID": "Choice_10_02",
+    "ReturnID": "Bad_Hell_01",
+    "Content": "의뢰를 거절한다."
+  }
+]

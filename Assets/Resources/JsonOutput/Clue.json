@@ -1,0 +1,156 @@
+[
+  {
+    "ID": "Clue_01_01",
+    "Name": "얼굴",
+    "Description": "80대처럼 보인다.",
+    "Point": 1,
+    "ReturnID": "Episode_01_14"
+  },
+  {
+    "ID": "Clue_01_02",
+    "Name": "목소리",
+    "Description": "80대보다는 젊게 들리는 것 같다.",
+    "Point": 1,
+    "ReturnID": "Episode_01_14"
+  },
+  {
+    "ID": "Clue_01_03",
+    "Name": "시계",
+    "Description": "바늘이 비정상적으로 빠르게 돌아가고 있다.",
+    "Point": 3,
+    "ReturnID": "Episode_01_14"
+  },
+  {
+    "ID": "Clue_02_01",
+    "Name": "문신",
+    "Description": "얼굴에 큰 문신이 있다.",
+    "Point": 3,
+    "ReturnID": "Episode_02_15"
+  },
+  {
+    "ID": "Clue_03_01",
+    "Name": "안경",
+    "Description": "안경 뒤로 비치는 눈동자가 무언가를 보고 있다.",
+    "Point": 3,
+    "ReturnID": "Episode_03_14"
+  },
+  {
+    "ID": "Clue_03_02",
+    "Name": "금화",
+    "Description": "금화를 정확히 쳐다보고 있다.",
+    "Point": 1,
+    "ReturnID": "Episode_03_14"
+  },
+  {
+    "ID": "Clue_04_01",
+    "Name": "표정",
+    "Description": "그다지 슬퍼보이지 않는다.",
+    "Point": 2,
+    "ReturnID": "Episode_04_09"
+  },
+  {
+    "ID": "Clue_04_02",
+    "Name": "팬던트",
+    "Description": "마법 의회 출입용 팬던트이다.",
+    "Point": 3,
+    "ReturnID": "Episode_04_09"
+  },
+  {
+    "ID": "Clue_05_01",
+    "Name": "늑대 문양",
+    "Description": "도적단의 상징인 늑대 문양을 새겨진 망토를 입고 있다.",
+    "Point": 3,
+    "ReturnID": "Episode_05_08"
+  },
+  {
+    "ID": "Clue_05_02",
+    "Name": "팬던트",
+    "Description": "마법 의회 출입용 팬던트이다.",
+    "Point": 1,
+    "ReturnID": "Episode_05_08"
+  },
+  {
+    "ID": "Clue_06_01",
+    "Name": "배",
+    "Description": "맛있는 것을 많이 먹은 것처럼 보인다.",
+    "Point": 1,
+    "ReturnID": "Episode_06_06"
+  },
+  {
+    "ID": "Clue_06_02",
+    "Name": "호위 기사",
+    "Description": "호위 기사를 대동하였다.",
+    "Point": 3,
+    "ReturnID": "Episode_06_06"
+  },
+  {
+    "ID": "Clue_06_03",
+    "Name": "반지",
+    "Description": "값비싼 보석 반지이다.",
+    "Point": 2,
+    "ReturnID": "Episode_06_06"
+  },
+  {
+    "ID": "Clue_07_01",
+    "Name": "표정",
+    "Description": "표정이 미묘하게 굳어있다.",
+    "Point": 2,
+    "ReturnID": "Episode_07_07"
+  },
+  {
+    "ID": "Clue_07_02",
+    "Name": "눈",
+    "Description": "눈을 마주치지 못한다.",
+    "Point": 2,
+    "ReturnID": "Episode_07_07"
+  },
+  {
+    "ID": "Clue_07_03",
+    "Name": "땀",
+    "Description": "이마에 식은 땀이 흐르고 있다.",
+    "Point": 2,
+    "ReturnID": "Episode_07_07"
+  },
+  {
+    "ID": "Clue_08_01",
+    "Name": "다크써클",
+    "Description": "눈 밑에 짙은 다크써클이 생겼다.",
+    "Point": 2,
+    "ReturnID": "Episode_08_15"
+  },
+  {
+    "ID": "Clue_08_02",
+    "Name": "손",
+    "Description": "뒷짐을 지고 손을 숨기고 있다.",
+    "Point": 3,
+    "ReturnID": "Episode_08_15"
+  },
+  {
+    "ID": "Clue_08_03",
+    "Name": "수염",
+    "Description": "정리되지 않은 수염이 지저분하다.",
+    "Point": 2,
+    "ReturnID": "Episode_08_15"
+  },
+  {
+    "ID": "Clue_09_01",
+    "Name": "직인",
+    "Description": "급하게 찍은 것처럼 깔끔하지 않다.",
+    "Point": 3,
+    "ReturnID": "Episode_09_06"
+  },
+  {
+    "ID": "Clue_10_01",
+    "Name": "다크써클",
+    "Description": "눈 밑에 짙은 다크써클이 생겼다.",
+    "Point": 2,
+    "ReturnID": "Episode_10_07"
+  },
+  {
+    "ID": "Clue_10_02",
+    "Name": "서리",
+    "Description": "몸에 서리가 내렸다.",
+    "Point": 3,
+    "ReturnID": "Episode_10_07"
+  }
+]

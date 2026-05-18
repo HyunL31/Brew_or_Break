@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "Monster_01",
+    "Name": "왕눈박쥐",
+    "HP": 60,
+    "DropItem": [
+      "Item_01",
+      "Item_05",
+      "Item_09"
+    ]
+  },
+  {
+    "ID": "Monster_02",
+    "Name": "광기모자버섯",
+    "HP": 50,
+    "DropItem": [
+      "Item_02",
+      "Item_10",
+      "Item_16"
+    ]
+  },
+  {
+    "ID": "Monster_03",
+    "Name": "해골바가지",
+    "HP": 100,
+    "DropItem": [
+      "Item_13",
+      "Item_03",
+      "Item_07"
+    ]
+  },
+  {
+    "ID": "Monster_04",
+    "Name": "고블린",
+    "HP": 80,
+    "DropItem": [
+      "Item_08",
+      "Item_04",
+      "Item_12"
+    ]
+  },
+  {
+    "ID": "Monster_05",
+    "Name": "다크울프",
+    "HP": 90,
+    "DropItem": [
+      "Item_11",
+      "Item_14",
+      "Item_06"
+    ]
+  },
+  {
+    "ID": "Monster_06",
+    "Name": "진흙괴물",
+    "HP": 70,
+    "DropItem": [
+      "Item_15",
+      "Item_01",
+      "Item_02"
+    ]
+  }
+]

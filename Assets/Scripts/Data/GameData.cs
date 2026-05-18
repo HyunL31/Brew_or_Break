@@ -1,0 +1,83 @@
+﻿using System;
+using System.Collections.Generic;
+
+[Serializable]
+public class GameDataBase
+{
+    public string ID;
+}
+
+[Serializable]
+public class Character : GameDataBase
+{
+    public string Name;
+    public string Description;
+}
+
+[Serializable]
+public class Choice : GameDataBase
+{
+    public string ReturnID;
+    public string Content;
+}
+
+[Serializable]
+public class Clue : GameDataBase
+{
+    public string Name;
+    public string Description;
+    public int Point;
+    public string ReturnID;
+}
+
+[Serializable]
+public class Craft : GameDataBase
+{
+    public string PotionID;
+    public string SuccessID;
+    public string FailID;
+}
+
+[Serializable]
+public class Dialogue : GameDataBase
+{
+    public string NextID;
+    public string Speaker;
+    public string Content;
+    public string Facial;
+    public string BGM;
+    public string SFX;
+    public string Background;
+    public string ResultID;
+}
+
+[Serializable]
+public class Ingredient : GameDataBase
+{
+    public string Name;
+    public string Description;
+    public List<float> RGB;
+}
+
+[Serializable]
+public class Monster : GameDataBase
+{
+    public string Name;
+    public int HP;
+    public List<string> DropItem;
+}
+
+[Serializable]
+public class Potion : GameDataBase
+{
+    public string Name;
+    public string Description;
+    public List<string> Ingredient;
+}
+
+[Serializable]
+public class Result : GameDataBase
+{
+    public int Reputation;
+    public int Gold;
+}

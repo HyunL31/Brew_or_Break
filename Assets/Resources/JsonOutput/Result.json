@@ -1,0 +1,42 @@
+[
+  {
+    "ID": "Good_01",
+    "Reputation": 50,
+    "Gold": 50
+  },
+  {
+    "ID": "Normal_01",
+    "Reputation": -50,
+    "Gold": 0
+  },
+  {
+    "ID": "Normal_02",
+    "Reputation": 10,
+    "Gold": 10
+  },
+  {
+    "ID": "Bad_01",
+    "Reputation": -30,
+    "Gold": -30
+  },
+  {
+    "ID": "Normal_03",
+    "Reputation": 50,
+    "Gold": 0
+  },
+  {
+    "ID": "Normal_04",
+    "Reputation": -30,
+    "Gold": 50
+  },
+  {
+    "ID": "Normal_05",
+    "Reputation": -30,
+    "Gold": 0
+  },
+  {
+    "ID": "Normal_06",
+    "Reputation": -10,
+    "Gold": 50
+  }
+]
