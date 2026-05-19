@@ -7,10 +7,9 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     [SerializeField] private string ClueID;
     [SerializeField] private Button Button_Clue;
 
-    [SerializeField] private ClueUI ClueUI;
-
     private void Awake()
     {
+        Button_Clue.onClick.AddListener(SetReturnID);
         Button_Clue.onClick.AddListener(OnClickClue);
     }
 
@@ -34,8 +33,16 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
     private void OnClickClue()
     {
-        ClueUI.OnClickClueButton?.Invoke(ClueID);
+        VisualNovelManager.Inst.OnClickClueButton?.Invoke(ClueID);
+        this.gameObject.SetActive(false);
 
         // [TODO] 점수 계산
+    }
+
+    private void SetReturnID()
+    {
+        string returnID = GameDataManager.Inst.GetClueData(ClueID).ReturnID;
+
+        VisualNovelManager.Inst.SetCurrentDialogueID(returnID);
     }
 }

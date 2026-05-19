@@ -230,6 +230,7 @@ MonoBehaviour:
   - {fileID: 7974998787026417004}
   clueSlotPrefab: {fileID: 629780780926599037, guid: aaeea4da079807348b7724466dc1c4e5, type: 3}
   parent: {fileID: 4704437458955174990}
+  Button_Confirm: {fileID: 6358024951627526701}
 --- !u!1 &7468298877683869653
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +843,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 891970368625710920, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
   m_PrefabInstance: {fileID: 5459005358047654787}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6358024951627526701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1440719166623859118, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+  m_PrefabInstance: {fileID: 5459005358047654787}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &5573842965174346568
 PrefabInstance:
   m_ObjectHideFlags: 0

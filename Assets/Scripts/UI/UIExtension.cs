@@ -35,11 +35,6 @@ public static class UIExtension
         uiManager.CloseUI(UIType.TitleUI);
     }
 
-    public static void CloseVisualNovelUI(this UIManager uiManager)
-    {
-        uiManager.CloseUI(UIType.VisualNovelUI);
-    }
-
     public static void OpenLobbyUI(this UIManager uiManager)
     {
         uiManager.OpenMainUI(UIType.LobbyUI);
@@ -48,6 +43,16 @@ public static class UIExtension
     public static void CloseLobbyUI(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.LobbyUI);
+    }
+
+    public static void OpenVisualNovelUI(this UIManager uiManager)
+    {
+        uiManager.OpenMainUI(UIType.VisualNovelUI);
+    }
+
+    public static void CloseVisualNovelUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.VisualNovelUI);
     }
 
     public static void OpenDialogueUI(this UIManager uiManager)

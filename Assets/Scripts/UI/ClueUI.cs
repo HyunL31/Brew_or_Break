@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,11 +10,9 @@ public class ClueUI : UIBase
     [SerializeField] private Transform parent;
     [SerializeField] private Button Button_Confirm;
 
-    public Action<string> OnClickClueButton;
-
     private void OnEnable()
     {
-        OnClickClueButton = SetClueSlot;
+        VisualNovelManager.Inst.OnClickClueButton = SetClueSlot;
         Button_Confirm.onClick.AddListener(OnClickConfirm);
         ActiveClueParent(GameManager.Inst.GetDay());
     }
@@ -35,6 +32,10 @@ public class ClueUI : UIBase
     private void OnClickConfirm()
     {
         // [TODO] 팝업창 띄우기
+
+        ClueButtons[GameManager.Inst.GetDay() - 1].SetActive(false);
+
         UIManager.Inst.CloseClueUI();
+        UIManager.Inst.OpenDialogueUI();
     }
 }
