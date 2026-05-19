@@ -34,6 +34,8 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     private void OnClickClue()
     {
         VisualNovelManager.Inst.OnClickClueButton?.Invoke(ClueID);
+
+        SetCursorImage("DefaultCursor");
         this.gameObject.SetActive(false);
 
         // [TODO] 점수 계산

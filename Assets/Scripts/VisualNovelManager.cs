@@ -42,6 +42,9 @@ public class VisualNovelManager : MonoBehaviour
         }
         else if (nextID.Contains("Choice"))
         {
+            SetCurrentDialogueID(nextID);
+
+            UIManager.Inst.CloseDialogueUI();
             UIManager.Inst.OpenChoiceUI();
 
             isMoved = true;

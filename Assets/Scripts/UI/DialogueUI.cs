@@ -87,10 +87,11 @@ public class DialogueUI : UIBase
 
         bool isMoved = VisualNovelManager.Inst.MoveToContent(nextID);
 
-        if (isMoved) return;
-
-        VisualNovelManager.Inst.SetCurrentDialogueID(nextID);
-        ShowDialogue(GetCurrentID());
+        if (!isMoved)
+        {
+            VisualNovelManager.Inst.SetCurrentDialogueID(nextID);
+            ShowDialogue(GetCurrentID());
+        }
     }
 
     private void SetCharacterName(string speakerID)
