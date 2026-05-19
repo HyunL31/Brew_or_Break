@@ -28,6 +28,8 @@ public class ChoiceSlot : MonoBehaviour
     {
         VisualNovelManager.Inst.SetCurrentDialogueID(SetReturnID());
 
+        VisualNovelManager.Inst.OnClickChoiceButton?.Invoke();
+
         UIManager.Inst.OpenDialogueUI();
         UIManager.Inst.CloseChoiceUI();
     }

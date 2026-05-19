@@ -10,6 +10,8 @@ public class ClueUI : UIBase
     [SerializeField] private Transform parent;
     [SerializeField] private Button Button_Confirm;
 
+    private List<GameObject> _clueSlots = new List<GameObject>();
+
     private void OnEnable()
     {
         VisualNovelManager.Inst.OnClickClueButton = SetClueSlot;
@@ -27,15 +29,24 @@ public class ClueUI : UIBase
         GameObject slot = Instantiate(clueSlotPrefab, parent);
         ClueSlot clueSlot = slot.GetComponent<ClueSlot>();
         clueSlot.SetClueInfo(id);
+
+        _clueSlots.Add(slot);
     }
 
     private void OnClickConfirm()
     {
         // [TODO] 팝업창 띄우기
 
+        foreach (GameObject clueSlot in _clueSlots)
+        {
+            Destroy(clueSlot);
+        }
+
+        _clueSlots.Clear();
+
         ClueButtons[GameManager.Inst.GetDay() - 1].SetActive(false);
 
-        UIManager.Inst.CloseClueUI();
         UIManager.Inst.OpenDialogueUI();
+        UIManager.Inst.CloseClueUI();
     }
 }

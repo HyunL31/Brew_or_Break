@@ -9,6 +9,7 @@ public class VisualNovelManager : MonoBehaviour
 
     public Action<string> OnChangeBaseUI;
     public Action<string> OnClickClueButton;
+    public Action OnClickChoiceButton;
 
     private void Awake()
     {
