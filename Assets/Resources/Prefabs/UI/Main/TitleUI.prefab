@@ -242,7 +242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6221046969231254569
 RectTransform:
   m_ObjectHideFlags: 0
@@ -281,7 +281,6 @@ MonoBehaviour:
   Button_GameLoad: {fileID: 6230013314969998743}
   Button_GameSetting: {fileID: 3284130530326549691}
   Button_Quit: {fileID: 6155543550922287892}
-  LobbyUI: {fileID: 0}
 --- !u!1 &7477677669161707925
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,17 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class TitleUI : MonoBehaviour
+public class TitleUI : UIBase
 {
     [Header("버튼")]
     [SerializeField] private Button Button_NewGame;
     [SerializeField] private Button Button_GameLoad;
     [SerializeField] private Button Button_GameSetting;
     [SerializeField] private Button Button_Quit;
-
-    [Header("패널")]
-    [SerializeField] private GameObject LobbyUI;
-    [SerializeField] private GameObject DialogueUI;
 
     private void Awake()
     {
@@ -24,13 +20,13 @@ public class TitleUI : MonoBehaviour
     private void OnClickNewGameButton()
     {
         GameManager.Inst.SetCurrentDialogueID();
-        DialogueUI.SetActive(true);
-        this.gameObject.SetActive(false);
+        UIManager.Inst.OpenDialogueUI();
+        UIManager.Inst.CloseTitleUI();
     }
 
     private void OnClickLoadButton()
     {
-        LobbyUI.SetActive(true);
+        UIManager.Inst.OpenLobbyUI();
         this.gameObject.SetActive(false);
     }
 

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public static class GameUtil
 {
@@ -13,5 +14,13 @@ public static class GameUtil
         GameDataManager.Inst.LoadMonsterData("Monster");
         GameDataManager.Inst.LoadPotionData("Potion");
         GameDataManager.Inst.LoadResultData("Result");
+    }
+
+    public static void LoadSpriteAndSet(string path, Image imageObject)
+    {
+        ResourceManager.Inst.LoadSprite(path, (sprite) =>
+        {
+            imageObject.sprite = sprite;
+        });
     }
 }

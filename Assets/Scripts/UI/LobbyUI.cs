@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LobbyUI : MonoBehaviour
+public class LobbyUI : UIBase
 {
     [Header("플레이어 정보")]
     [SerializeField] private TextMeshProUGUI Text_PlayerName;
@@ -23,13 +23,12 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private Button Button_Inventory;
     [SerializeField] private Button Button_OpenStore;
 
-    [Header("패널")]
-    [SerializeField] private GameObject DialogueUI;
-
     private void Awake()
     {
         Button_Inventory.onClick.AddListener(OnClickInventory);
         Button_OpenStore.onClick.AddListener(OnClickOpenStore);
+
+        Text_Day.text = $"Day {GameManager.Inst.GetDay()}";
     }
 
     private void OnEnable()
@@ -45,7 +44,7 @@ public class LobbyUI : MonoBehaviour
     private void OnClickOpenStore()
     {
         GameManager.Inst.SetCurrentDialogueID();
-        DialogueUI.SetActive(true);
-        this.gameObject.SetActive(false);
+        UIManager.Inst.OpenDialogueUI();
+        UIManager.Inst.CloseLobbyUI();
     }
 }

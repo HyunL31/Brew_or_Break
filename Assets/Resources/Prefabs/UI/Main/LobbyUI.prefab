@@ -350,9 +350,9 @@ MonoBehaviour:
   Text_ReputationStat: {fileID: 7616474438346298756}
   Image_DebtStat: {fileID: 5172334954376783952}
   Text_DebtStat: {fileID: 7342249709141324549}
+  Text_Day: {fileID: 5516673290860973720}
   Button_Inventory: {fileID: 4868982274897497595}
   Button_OpenStore: {fileID: 177553803595376323}
-  DialogueUI: {fileID: 0}
 --- !u!1 &2156019329460070597
 GameObject:
   m_ObjectHideFlags: 0

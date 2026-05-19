@@ -2,101 +2,101 @@
   {
     "ID": "Choice_1_01",
     "ReturnID": "Episode_01_19",
-    "Content": "의뢰를 받는다."
+    "Content": "당신을 믿어보죠."
   },
   {
     "ID": "Choice_1_02",
     "ReturnID": "Episode_01_22",
-    "Content": "의뢰를 거절한다."
+    "Content": "죄송하지만..."
   },
   {
     "ID": "Choice_2_01",
     "ReturnID": "Episode_02_16",
-    "Content": "의뢰를 받는다."
+    "Content": "알겠어요..."
   },
   {
     "ID": "Choice_2_02",
     "ReturnID": "Episode_02_22",
-    "Content": "의뢰를 거절한다."
+    "Content": "거짓말 하지마세요."
   },
   {
     "ID": "Choice_3_01",
     "ReturnID": "Episode_03_18",
-    "Content": "의뢰를 받는다."
+    "Content": "아, 네..."
   },
   {
     "ID": "Choice_3_02",
     "ReturnID": "Episode_03_23",
-    "Content": "의뢰를 거절한다."
+    "Content": "예언자님, 이상하네요."
   },
   {
     "ID": "Choice_4_01",
     "ReturnID": "Episode_04_13",
-    "Content": "의뢰를 받는다."
+    "Content": "그래요..."
   },
   {
     "ID": "Choice_4_02",
     "ReturnID": "Episode_04_15",
-    "Content": "의뢰를 거절한다."
+    "Content": "안타깝지만..."
   },
   {
     "ID": "Choice_5_01",
-    "ReturnID": "Episode_05_12",
-    "Content": "의뢰를 받는다."
+    "ReturnID": "Episode_05_13",
+    "Content": "알겠어요."
   },
   {
     "ID": "Choice_5_02",
-    "ReturnID": "Episode_05_14",
-    "Content": "의뢰를 거절한다."
+    "ReturnID": "Episode_05_15",
+    "Content": "음... 안될 거 같은데요..."
   },
   {
     "ID": "Choice_6_01",
     "ReturnID": "Episode_06_12",
-    "Content": "의뢰를 받는다."
+    "Content": "으음... 알겠어요..."
   },
   {
     "ID": "Choice_6_02",
     "ReturnID": "Episode_06_15",
-    "Content": "의뢰를 거절한다."
+    "Content": "의뢰를 받지 않겠습니다."
   },
   {
     "ID": "Choice_7_01",
     "ReturnID": "Episode_07_09",
-    "Content": "의뢰를 받는다."
+    "Content": "너는 우리 가게 단골이니깐."
   },
   {
     "ID": "Choice_7_02",
     "ReturnID": "Episode_07_12",
-    "Content": "의뢰를 거절한다."
+    "Content": "정말 미안한데 안 될 거 같아."
   },
   {
     "ID": "Choice_8_01",
     "ReturnID": "Episode_08_20",
-    "Content": "의뢰를 받는다."
+    "Content": "하, 알았어."
   },
   {
     "ID": "Choice_8_02",
     "ReturnID": "Episode_08_23",
-    "Content": "의뢰를 거절한다."
+    "Content": "아니, 지금 의뢰보다는..."
   },
   {
     "ID": "Choice_9_01",
-    "ReturnID": "Episode_09_06",
-    "Content": "의뢰를 받는다."
+    "ReturnID": "Episode_09_09",
+    "Content": "잠시만 기다리세요."
   },
   {
     "ID": "Choice_9_02",
-    "ReturnID": "Episode_09_09",
-    "Content": "의뢰를 거절한다."
+    "ReturnID": "Episode_09_11",
+    "Content": "하지만 직인이 이상한데요."
   },
   {
     "ID": "Choice_10_01",
     "ReturnID": "Episode_10_12",
-    "Content": "의뢰를 받는다."
+    "Content": "잠시만 기다리세요!"
   },
   {
     "ID": "Choice_10_02",
     "ReturnID": "Bad_Hell_01",
-    "Content": "의뢰를 거절한다."
+    "Content": "그런 위험한 일에 얽히고 싶지 않아요."
   }
 ]

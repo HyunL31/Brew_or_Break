@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class ClueUI : MonoBehaviour
+public class ClueUI : UIBase
 {
 
 }

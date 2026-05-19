@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueUI : MonoBehaviour
+public class DialogueUI : UIBase
 {
     [Header("버튼")]
     [SerializeField] private Button Button_Return;
@@ -20,9 +20,6 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private Image Image_Character;
     [SerializeField] private Image Image_NextArrow;
     [SerializeField] private Image Image_Speaker;
-
-    [Header("패널")]
-    [SerializeField] private GameObject LobbyUI;
 
     private bool _isTyping = false;
     private bool _isAuto = false;
@@ -92,8 +89,8 @@ public class DialogueUI : MonoBehaviour
         if (nextID == "Lobby")
         {
             GameManager.Inst.AddDay();
-            LobbyUI.SetActive(true);
-            this.gameObject.SetActive(false);
+            UIManager.Inst.OpenLobbyUI();
+            UIManager.Inst.CloseDialogueUI();
 
             return;
         }
@@ -119,8 +116,9 @@ public class DialogueUI : MonoBehaviour
     private void ChangeBackgroundImage(string id)
     {
         string background = GameDataManager.Inst.GetDialogueData(id).Background;
+        string path = $"Background/{background}";
 
-        Image_Background.sprite = Resources.Load<Sprite>($"Background/{background}");
+        GameUtil.LoadSpriteAndSet(path, Image_Background);
     }
 
     private void ChangeSpeakerCharacter(string id)
@@ -134,7 +132,10 @@ public class DialogueUI : MonoBehaviour
         else
         {
             Image_Character.gameObject.SetActive(true);
-            Image_Character.sprite = Resources.Load<Sprite>($"Character/{characterFacial}");
+
+            string path = $"Character/{characterFacial}";
+
+            GameUtil.LoadSpriteAndSet(path, Image_Character);
         }
     }
 
