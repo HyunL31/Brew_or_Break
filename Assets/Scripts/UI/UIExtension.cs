@@ -15,6 +15,7 @@ public enum UIType
 {
     TitleUI,
     LobbyUI,
+    VisualNovelUI,
     DialogueUI,
     ChoiceUI,
     ClueUI
@@ -26,12 +27,17 @@ public static class UIExtension
     {
         uiManager.OpenMainUI(UIType.TitleUI);
         uiManager.OpenMainUI(UIType.LobbyUI, false);
-        uiManager.OpenMainUI(UIType.DialogueUI, false);
+        uiManager.OpenMainUI(UIType.VisualNovelUI, false);
     }
 
     public static void CloseTitleUI(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.TitleUI);
+    }
+
+    public static void CloseVisualNovelUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.VisualNovelUI);
     }
 
     public static void OpenLobbyUI(this UIManager uiManager)
@@ -46,11 +52,31 @@ public static class UIExtension
 
     public static void OpenDialogueUI(this UIManager uiManager)
     {
-        uiManager.OpenMainUI(UIType.DialogueUI);
+        uiManager.OpenContentUI(UIType.DialogueUI);
     }
 
     public static void CloseDialogueUI(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.DialogueUI);
+    }
+
+    public static void OpenClueUI(this UIManager uiManager)
+    {
+        uiManager.OpenContentUI(UIType.ClueUI);
+    }
+
+    public static void CloseClueUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.ClueUI);
+    }
+
+    public static void OpenChoiceUI(this UIManager uiManager)
+    {
+        uiManager.OpenContentUI(UIType.ChoiceUI);
+    }
+
+    public static void CloseChoiceUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.ChoiceUI);
     }
 }

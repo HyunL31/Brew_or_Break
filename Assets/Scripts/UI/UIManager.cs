@@ -113,4 +113,10 @@ public class UIManager : MonoBehaviour
         return ui;
     }
 
+    public UIBase OpenContentUI(UIType type)
+    {
+        UIBase ui = OpenUI(UIRootType.Content, type);
+
+        return ui;
+    }
 }

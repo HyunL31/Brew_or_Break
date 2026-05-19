@@ -7,4 +7,16 @@ public class ClueSlot : MonoBehaviour
     [SerializeField] private Image Image_Clue;
     [SerializeField] private TextMeshProUGUI Text_Name;
     [SerializeField] private TextMeshProUGUI Text_Description;
+
+    public void SetClueInfo(string id)
+    {
+        var data = GameDataManager.Inst.GetClueData(id);
+        string name = data.Name;
+        string description = data.Description;
+        string path = $"Icon/{id}";
+
+        GameUtil.LoadSpriteAndSet(path, Image_Clue);
+        Text_Name.text = name;
+        Text_Description.text = description;
+    }
 }

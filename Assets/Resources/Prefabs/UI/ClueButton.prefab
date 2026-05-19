@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5813903798193938067}
   - component: {fileID: 4975636796277617176}
   - component: {fileID: 8389759421330321894}
+  - component: {fileID: 5607566458420595149}
   m_Layer: 5
   m_Name: ClueButton
   m_TagString: Untagged
@@ -120,3 +121,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5607566458420595149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677681161402436721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599c60713ed3df642ae9a407545d8335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClueButton
+  ClueID: 
+  Button_Clue: {fileID: 8389759421330321894}
+  ClueUI: {fileID: 0}

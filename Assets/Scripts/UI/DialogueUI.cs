@@ -16,8 +16,8 @@ public class DialogueUI : UIBase
     [SerializeField] private TextMeshProUGUI Text_Speaker;
 
     [Header("이미지")]
-    [SerializeField] private Image Image_Background;
-    [SerializeField] private Image Image_Character;
+    //[SerializeField] private Image Image_Background;
+    //[SerializeField] private Image Image_Character;
     [SerializeField] private Image Image_NextArrow;
     [SerializeField] private Image Image_Speaker;
 
@@ -35,9 +35,11 @@ public class DialogueUI : UIBase
         Button_Skip.onClick.AddListener(SkipDialogue);
         Toggle_Auto.isOn = _isAuto;
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
+
+        Button_Return.onClick.AddListener(ReturnLobby);
     }
 
-    private void Start()
+    private void OnEnable()
     {
         ShowDialogue(GetCurrentID());
     }
@@ -94,8 +96,20 @@ public class DialogueUI : UIBase
 
             return;
         }
+        else if (nextID.Contains("Clue"))
+        {
+            DialogueContent.SetActive(false);
+            UIManager.Inst.OpenClueUI();
 
-        GameManager.Inst.SetCurrentDialogueID(nextID);
+            return;
+        }
+
+        if (!DialogueContent.activeSelf)
+        {
+            DialogueContent.SetActive(true);
+        }
+
+        VisualNovelManager.Inst.SetCurrentDialogueID(nextID);
         ShowDialogue(GetCurrentID());
     }
 
@@ -150,7 +164,7 @@ public class DialogueUI : UIBase
 
         while (nextID.Contains("Episode"))
         {
-            GameManager.Inst.SetCurrentDialogueID(nextID);
+            VisualNovelManager.Inst.SetCurrentDialogueID(nextID);
 
             nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
         }
@@ -207,6 +221,11 @@ public class DialogueUI : UIBase
 
     private string GetCurrentID()
     {
-        return GameManager.Inst.GetCurrentDialogueID();
+        return VisualNovelManager.Inst.GetCurrentDialogueID();
+    }
+
+    private void ReturnLobby()
+    {
+        // [TODO] 팝업창 띄우기
     }
 }
