@@ -27,8 +27,6 @@ public class LobbyUI : UIBase
     {
         Button_Inventory.onClick.AddListener(OnClickInventory);
         Button_OpenStore.onClick.AddListener(OnClickOpenStore);
-
-        Text_Day.text = $"Day {GameManager.Inst.GetDay()}";
     }
 
     private void OnEnable()

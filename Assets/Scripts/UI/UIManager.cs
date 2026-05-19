@@ -18,7 +18,10 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         Inst = this;
+    }
 
+    private void Start()
+    {
         this.InitStart();
     }
 
@@ -34,13 +37,7 @@ public class UIManager : MonoBehaviour
 
         if (ui != null)
         {
-            Debug.Log($"{path}, {root}");
             GameObject uiObject = Instantiate(ui, GetUIRootTransform(root));
-
-            if (uiObject == null)
-            {
-                Debug.Log("null");
-            }
 
             UIBase uiBase = uiObject.GetComponent<UIBase>();
 
@@ -110,7 +107,6 @@ public class UIManager : MonoBehaviour
         if (!isActive)
         {
             _openedUI.Remove(type);
-            Debug.Log(type);
             ui.gameObject.SetActive(false);
         }
 

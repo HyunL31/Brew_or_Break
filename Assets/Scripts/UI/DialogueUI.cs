@@ -37,7 +37,7 @@ public class DialogueUI : UIBase
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
     }
 
-    private void OnEnable()
+    private void Start()
     {
         ShowDialogue(GetCurrentID());
     }
