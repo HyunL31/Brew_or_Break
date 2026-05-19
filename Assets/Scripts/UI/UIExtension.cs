@@ -1,7 +1,4 @@
-﻿using UnityEditor;
-using UnityEngine;
-
-public enum UIRootType
+﻿public enum UIRootType
 {
     None,
     Background,
@@ -18,7 +15,8 @@ public enum UIType
     VisualNovelUI,
     DialogueUI,
     ChoiceUI,
-    ClueUI
+    ClueUI,
+    InventoryPopup
 }
 
 public static class UIExtension
@@ -83,5 +81,15 @@ public static class UIExtension
     public static void CloseChoiceUI(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.ChoiceUI);
+    }
+
+    public static void OpenInventory(this UIManager uiManager)
+    {
+        uiManager.OpenPopupUI(UIType.InventoryPopup);
+    }
+
+    public static void CloseInventory(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.InventoryPopup);
     }
 }

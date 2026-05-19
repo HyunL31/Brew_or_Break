@@ -119,4 +119,11 @@ public class UIManager : MonoBehaviour
 
         return ui;
     }
+
+    public UIBase OpenPopupUI(UIType type)
+    {
+        UIBase ui = OpenUI(UIRootType.Popup, type);
+
+        return ui;
+    }
 }

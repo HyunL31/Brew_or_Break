@@ -36,7 +36,7 @@ public class LobbyUI : UIBase
 
     private void OnClickInventory()
     {
-        // [TODO] 인벤토리 구현
+        UIManager.Inst.OpenInventory();
     }
 
     private void OnClickOpenStore()

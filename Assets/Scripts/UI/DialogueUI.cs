@@ -182,5 +182,9 @@ public class DialogueUI : UIBase
     private void ReturnLobby()
     {
         // [TODO] 팝업창 띄우기
+
+        UIManager.Inst.OpenLobbyUI();
+        UIManager.Inst.CloseVisualNovelUI();
+        UIManager.Inst.CloseDialogueUI();
     }
 }
