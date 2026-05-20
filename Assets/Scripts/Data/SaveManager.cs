@@ -34,10 +34,16 @@ public class SaveManager : MonoBehaviour
         }
         else
         {
-            var playerData = GetDefaultData();
-            RequestSaveData(playerData);
+            var playerData = RequestLoadDefaultData();
             return playerData;
         }
+    }
+
+    public PlayerModel RequestLoadDefaultData()
+    {
+        var playerData = GetDefaultData();
+        RequestSaveData(playerData);
+        return playerData;
     }
 
     public PlayerModel GetDefaultData()
@@ -50,11 +56,14 @@ public class SaveManager : MonoBehaviour
         newPlayerData.Gold = 0;
         newPlayerData.Reputation = 0;
         newPlayerData.Compensation = 1000;
+
         newPlayerData.Inventory.Add(AddDefaultItem("Item_01"));
         newPlayerData.Inventory.Add(AddDefaultItem("Item_02"));
         newPlayerData.Inventory.Add(AddDefaultItem("Item_04"));
         newPlayerData.Inventory.Add(AddDefaultItem("Item_06"));
         newPlayerData.Inventory.Add(AddDefaultItem("Item_08"));
+
+        Debug.Log(newPlayerData.Inventory.Count);
 
         return newPlayerData;
     }

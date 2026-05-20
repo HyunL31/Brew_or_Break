@@ -18,7 +18,7 @@ public class NamePopup : UIBase
     {
         Button_Confirm.onClick.AddListener(OnClickConfirm);
         Button_Alert.onClick.AddListener(OnClickAlert);
-        Button_Close.onClick.AddListener(OnClickClose);
+        Button_Close.onClick.AddListener(UIManager.Inst.CloseNamePopup);
     }
 
     private void OnClickConfirm()
@@ -36,11 +36,6 @@ public class NamePopup : UIBase
         UIManager.Inst.OpenDialogueUI();
         UIManager.Inst.CloseNamePopup();
         UIManager.Inst.CloseTitleUI();
-    }
-
-    private void OnClickClose()
-    {
-        UIManager.Inst.CloseNamePopup();
     }
 
     private void OnClickAlert()

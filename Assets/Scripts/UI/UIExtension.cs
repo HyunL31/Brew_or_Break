@@ -19,7 +19,8 @@ public enum UIType
     InventoryPopup,
     NamePopup,
     CluePopup,
-    LobbyPopup
+    LobbyPopup,
+    ItemDescription
 }
 
 public static class UIExtension
@@ -104,5 +105,15 @@ public static class UIExtension
     public static void CloseNamePopup(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.NamePopup);
+    }
+
+    public static UIBase OpenItemDescription(this UIManager uiManager)
+    {
+        return uiManager.OpenPopupUI(UIType.ItemDescription);
+    }
+
+    public static void CloseItemDescription(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.ItemDescription);
     }
 }

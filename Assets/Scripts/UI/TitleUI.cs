@@ -11,30 +11,26 @@ public class TitleUI : UIBase
 
     private void Awake()
     {
-        Button_NewGame.onClick.AddListener(OnClickNewGameButton);
+        Button_NewGame.onClick.AddListener(OnClickNewGame);
         Button_GameLoad.onClick.AddListener(OnClickLoadButton);
         Button_GameSetting.onClick.AddListener(OnClickSettingButton);
-        Button_Quit.onClick.AddListener(OnClickQuitButton);
+        Button_Quit.onClick.AddListener(Application.Quit);
     }
 
-    private void OnClickNewGameButton()
+    private void OnClickNewGame()
     {
+        GameManager.Inst.LoadDeafaultData();
         UIManager.Inst.OpenNamePopup();
     }
 
     private void OnClickLoadButton()
     {
         UIManager.Inst.OpenLobbyUI();
-        this.gameObject.SetActive(false);
+        UIManager.Inst.CloseTitleUI();
     }
 
     private void OnClickSettingButton()
     {
         // [TODO] 설정 팝업 구현
-    }
-
-    private void OnClickQuitButton()
-    {
-        Application.Quit();
     }
 }

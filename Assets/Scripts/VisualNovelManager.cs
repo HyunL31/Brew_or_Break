@@ -29,7 +29,7 @@ public class VisualNovelManager : MonoBehaviour
         if (nextID == "Lobby")
         {
             GameManager.Inst.SetDay();
-            GameManager.Inst.SaveData();
+            //GameManager.Inst.SaveData();
 
             UIManager.Inst.OpenLobbyUI();
             UIManager.Inst.CloseDialogueUI();

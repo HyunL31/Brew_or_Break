@@ -550,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inventory
   Button_Close: {fileID: 6628314443276186252}
+  SlotParent: {fileID: 1235750314352454364}
 --- !u!1 &8459784967334289746
 GameObject:
   m_ObjectHideFlags: 0

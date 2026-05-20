@@ -54,4 +54,27 @@ public class ResourceManager : MonoBehaviour
             }
         };
     }
+
+    public void InstantiatePrefab(string path, Transform parent, Action<GameObject> callback)
+    {
+        AsyncOperationHandle<GameObject> handle = Addressables.InstantiateAsync(path, parent);
+
+        handle.Completed += (op) =>
+        {
+            if (op.Status == AsyncOperationStatus.Succeeded)
+            {
+                _handles[path] = op;
+                callback?.Invoke(op.Result);
+            }
+        };
+    }
+
+    private void Release(string address)
+    {
+        if (_handles.TryGetValue(address, out AsyncOperationHandle handle))
+        {
+            Addressables.Release(address);
+            _handles.Remove(address);
+        }
+    }
 }

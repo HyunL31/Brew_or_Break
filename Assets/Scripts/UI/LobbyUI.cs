@@ -25,7 +25,7 @@ public class LobbyUI : UIBase
 
     private void Awake()
     {
-        Button_Inventory.onClick.AddListener(OnClickInventory);
+        Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
         Button_OpenStore.onClick.AddListener(OnClickOpenStore);
     }
 
@@ -35,11 +35,6 @@ public class LobbyUI : UIBase
 
         Text_PlayerName.text = GameManager.Inst.GetPlayerName();
         Text_StoreName.text = GameManager.Inst.GetStoreName();
-    }
-
-    private void OnClickInventory()
-    {
-        UIManager.Inst.OpenInventory();
     }
 
     private void OnClickOpenStore()

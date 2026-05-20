@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
         _playerModel = SaveManager.Inst.RequestLoadData();
     }
 
+    public void LoadDeafaultData()
+    {
+        _playerModel = SaveManager.Inst.RequestLoadDefaultData();
+    }
+
     public List<ItemModel> GetInventory()
     {
         return _playerModel.Inventory;

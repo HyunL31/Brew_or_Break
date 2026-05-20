@@ -35,6 +35,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 197416bd53cbad54f892a853a4a5a318
+    m_Address: Icon/Potion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1cd8df33c1a12a441b2c8c33c3ca1e85
     m_Address: Background/Opening_02
     m_ReadOnly: 0
@@ -175,6 +180,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ef674362646ca44b92ccbfddbb1c184
+    m_Address: Prefabs/UI/InventorySlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 908efa9f3a813884c942a94f84b38a90
     m_Address: Background/Good_Ending_01
     m_ReadOnly: 0
@@ -297,6 +307,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d5efc78f275a23d4ab4a020c53799842
     m_Address: Character/Boss_01_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbc00347b94de5b4d90d8f6d5730f8e4
+    m_Address: Icon/Item
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
