@@ -20,7 +20,9 @@ public enum UIType
     NamePopup,
     CluePopup,
     LobbyPopup,
-    ItemDescription
+    ItemDescription,
+    CraftUI,
+    RecipePopup
 }
 
 public static class UIExtension
@@ -87,6 +89,16 @@ public static class UIExtension
         uiManager.CloseUI(UIType.ChoiceUI);
     }
 
+    public static void OpenCraftUI(this UIManager uiManager)
+    {
+        uiManager.OpenContentUI(UIType.CraftUI);
+    }
+
+    public static void CloseCraftUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.CraftUI);
+    }
+
     public static void OpenInventory(this UIManager uiManager)
     {
         uiManager.OpenPopupUI(UIType.InventoryPopup);
@@ -115,5 +127,15 @@ public static class UIExtension
     public static void CloseItemDescription(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.ItemDescription);
+    }
+
+    public static void OpenRecipePopup(this UIManager uiManager)
+    {
+        uiManager.OpenPopupUI(UIType.RecipePopup);
+    }
+
+    public static void CloseRecipePopup(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.RecipePopup);
     }
 }

@@ -53,6 +53,16 @@ public class VisualNovelManager : MonoBehaviour
 
             isMoved = true;
         }
+        else if (nextID.Contains("Craft"))
+        {
+            SetCurrentDialogueID(nextID);
+
+            UIManager.Inst.CloseDialogueUI();
+            UIManager.Inst.OpenCraftUI();
+            UIManager.Inst.OpenRecipePopup();
+
+            isMoved = true;
+        }
         else
         {
             UIManager.Inst.OpenDialogueUI();

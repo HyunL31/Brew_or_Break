@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2bfbd694a50490d4b9e91f9a3469695e
+guid: db8859e678f217f4ea5c23d80f41f73d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,23 +123,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20250420manaSoul9SlicesF-Sheet_0
+      name: Smoke
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 96
-        height: 96
+        y: 231
+        width: 1213
+        height: 1255
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 35, y: 36, z: 35, w: 35}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77009c9ba9ab5294286a3417c9566203
-      internalID: 1452648015
+      spriteID: eedf7d960ad60be4a8f2f89af3686dac
+      internalID: 1538297627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_0
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 567
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0181a736c72b24da3e3fd36fdd4948
+      internalID: 582798949
       vertices: []
       indices: 
       edges: []
@@ -148,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ab857ad2d33adad44b80c46005f1b536
+    spriteID: 04cca5cc88b03e94d825578fd37af5c3
     internalID: 0
     vertices: []
     indices: 
@@ -158,7 +180,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      20250420manaSoul9SlicesF-Sheet_0: 1452648015
+      Fire_0: 582798949
+      Smoke: 1538297627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

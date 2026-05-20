@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2bfbd694a50490d4b9e91f9a3469695e
+guid: 94c4fca68ae161846879cb7d56e14250
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,23 +123,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20250420manaSoul9SlicesF-Sheet_0
+      name: Pot2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 96
+        x: 392
+        y: 214
+        width: 478
+        height: 412
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 35, y: 36, z: 35, w: 35}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77009c9ba9ab5294286a3417c9566203
-      internalID: 1452648015
+      spriteID: ae039285275f27e4cbdc81ce2c2a0e0c
+      internalID: -1197010370
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ab857ad2d33adad44b80c46005f1b536
+    spriteID: c963f7485f0c71c4c937433a99e4c6c3
     internalID: 0
     vertices: []
     indices: 
@@ -158,7 +158,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      20250420manaSoul9SlicesF-Sheet_0: 1452648015
+      Pot2_0: -1197010370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
