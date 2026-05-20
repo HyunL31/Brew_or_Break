@@ -100,8 +100,7 @@ public class DialogueUI : UIBase
 
         if (speakerName == "{Player.Name}")
         {
-            // [TODO] 진짜 플레이어 이름 받아서 수정해야 함
-            speakerName = "플레이어";
+            speakerName = GameManager.Inst.GetPlayerName();
         }
 
         Image_Speaker.gameObject.SetActive(true);

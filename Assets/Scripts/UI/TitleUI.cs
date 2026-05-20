@@ -19,10 +19,7 @@ public class TitleUI : UIBase
 
     private void OnClickNewGameButton()
     {
-        VisualNovelManager.Inst.SetCurrentDialogueID();
-        UIManager.Inst.OpenVisualNovelUI();
-        UIManager.Inst.OpenDialogueUI();
-        UIManager.Inst.CloseTitleUI();
+        UIManager.Inst.OpenNamePopup();
     }
 
     private void OnClickLoadButton()

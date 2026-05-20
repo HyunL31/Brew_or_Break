@@ -446,8 +446,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0.00071883, y: 0.000011444092}
+  m_SizeDelta: {x: 404.89, y: 77.8487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7460526665681981420
 CanvasRenderer:
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC774\uB984"
+  m_text: "10\uAE00\uC790"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a7bf3a76f38575345a05f309e88adf9d, type: 2}
   m_sharedMaterial: {fileID: -8490573324612756312, guid: a7bf3a76f38575345a05f309e88adf9d, type: 2}
@@ -584,8 +584,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141.55383, y: -0.19650269}
-  m_SizeDelta: {x: 297.39746, y: 87.88699}
+  m_AnchoredPosition: {x: 120.53967, y: -0.19650269}
+  m_SizeDelta: {x: 404.893, y: 87.887}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2859818288306942069
 CanvasRenderer:
@@ -1021,11 +1021,8 @@ MonoBehaviour:
   Button_Skip: {fileID: 408283606957453696}
   Text_Dialogue: {fileID: 7883880460724969458}
   Text_Speaker: {fileID: 781992705376565513}
-  Image_Background: {fileID: 0}
-  Image_Character: {fileID: 0}
   Image_NextArrow: {fileID: 8497632248687097517}
   Image_Speaker: {fileID: 8363472447261811043}
-  DialogueContent: {fileID: 0}
 --- !u!1 &8048525534197016843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,6 +1335,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4.199974
       objectReference: {fileID: 0}
+    - target: {fileID: 6111609956935955703, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6411347784256069323, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
       propertyPath: m_SizeDelta.x
       value: 131.88
@@ -1498,6 +1499,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4.199974
       objectReference: {fileID: 0}
+    - target: {fileID: 4759681985203822115, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+      propertyPath: Frame
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6411347784256069323, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
       propertyPath: m_SizeDelta.x
       value: 131.88
@@ -1536,6 +1541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1440719166623859118, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+    - {fileID: 4759681985203822115, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
     m_RemovedGameObjects:
     - {fileID: 3863606049088880516, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
     - {fileID: 5942702737194721002, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
@@ -1649,6 +1655,10 @@ PrefabInstance:
     - target: {fileID: 4077515205959787508, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111609956935955703, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6411347784256069323, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1809,6 +1819,10 @@ PrefabInstance:
     - target: {fileID: 4077515205959787508, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111609956935955703, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6411347784256069323, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
       propertyPath: m_SizeDelta.x

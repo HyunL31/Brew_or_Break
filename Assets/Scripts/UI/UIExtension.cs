@@ -16,7 +16,10 @@ public enum UIType
     DialogueUI,
     ChoiceUI,
     ClueUI,
-    InventoryPopup
+    InventoryPopup,
+    NamePopup,
+    CluePopup,
+    LobbyPopup
 }
 
 public static class UIExtension
@@ -91,5 +94,15 @@ public static class UIExtension
     public static void CloseInventory(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.InventoryPopup);
+    }
+
+    public static void OpenNamePopup(this UIManager uiManager)
+    {
+        uiManager.OpenPopupUI(UIType.NamePopup);
+    }
+
+    public static void CloseNamePopup(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.NamePopup);
     }
 }

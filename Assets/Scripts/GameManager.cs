@@ -1,26 +1,55 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Inst;
 
-    private int Day { get; set; }
+    private PlayerModel _playerModel = new PlayerModel();
 
     private void Awake()
     {
         Inst = this;
+    }
 
-        // [TODO] 세이브에서 처리
-        Day = 0;
+    public void SaveData()
+    {
+        SaveManager.Inst.RequestSaveData(_playerModel);
+    }
+
+    public void LoadData()
+    {
+        _playerModel = SaveManager.Inst.RequestLoadData();
+    }
+
+    public List<ItemModel> GetInventory()
+    {
+        return _playerModel.Inventory;
     }
 
     public int GetDay()
     {
-        return Day;
+        return _playerModel.Day;
     }
 
-    public void AddDay()
+    public void SetDay()
     {
-        Day++;
+        _playerModel.Day++;
+    }
+
+    public string GetPlayerName()
+    {
+        return _playerModel.PlayerName;
+    }
+
+    public string GetStoreName()
+    {
+        return _playerModel.StoreName;
+    }
+
+    public void SetName(string player, string store)
+    {
+        _playerModel.PlayerName = player;
+        _playerModel.StoreName = store;
     }
 }

@@ -602,6 +602,7 @@ GameObject:
   - component: {fileID: 1312564046}
   - component: {fileID: 1312564047}
   - component: {fileID: 1312564048}
+  - component: {fileID: 1312564049}
   m_Layer: 0
   m_Name: GameDataManager
   m_TagString: Untagged
@@ -660,6 +661,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7560579d8cc5c7043b2cae0073010567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ResourceManager
+--- !u!114 &1312564049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312564044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aa2f2654c9ff34449c5b13dba647535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveManager
 --- !u!1 &1561218476
 GameObject:
   m_ObjectHideFlags: 0

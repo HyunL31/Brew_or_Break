@@ -12,7 +12,7 @@ public class LobbyUI : UIBase
     [SerializeField] private TextMeshProUGUI Text_Gold;
     [SerializeField] private TextMeshProUGUI Text_Reputation;
     [SerializeField] private Image Image_LevelStat;
-    [SerializeField] private TextMeshProUGUI TextLevelStat;
+    [SerializeField] private TextMeshProUGUI Text_LevelStat;
     [SerializeField] private Image Image_ReputationStat;
     [SerializeField] private TextMeshProUGUI Text_ReputationStat;
     [SerializeField] private Image Image_DebtStat;
@@ -32,6 +32,9 @@ public class LobbyUI : UIBase
     private void OnEnable()
     {
         Text_Day.text = $"Day {GameManager.Inst.GetDay()}";
+
+        Text_PlayerName.text = GameManager.Inst.GetPlayerName();
+        Text_StoreName.text = GameManager.Inst.GetStoreName();
     }
 
     private void OnClickInventory()
