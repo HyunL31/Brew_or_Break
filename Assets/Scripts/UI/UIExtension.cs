@@ -22,7 +22,8 @@ public enum UIType
     LobbyPopup,
     ItemDescription,
     CraftUI,
-    RecipePopup
+    RecipePopup,
+    DrawItem
 }
 
 public static class UIExtension
@@ -137,5 +138,14 @@ public static class UIExtension
     public static void CloseRecipePopup(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.RecipePopup);
+    }
+    public static UIBase OpenDrawItem(this UIManager uiManager)
+    {
+        return uiManager.OpenUI(UIRootType.Front, UIType.DrawItem);
+    }
+
+    public static void CloseDrawItem(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.DrawItem);
     }
 }

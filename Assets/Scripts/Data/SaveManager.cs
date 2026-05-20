@@ -63,8 +63,6 @@ public class SaveManager : MonoBehaviour
         newPlayerData.Inventory.Add(AddDefaultItem("Item_06"));
         newPlayerData.Inventory.Add(AddDefaultItem("Item_08"));
 
-        Debug.Log(newPlayerData.Inventory.Count);
-
         return newPlayerData;
     }
 
