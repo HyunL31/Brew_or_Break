@@ -83,6 +83,9 @@ public class DialogueUI : UIBase
         _typingEffect = StartCoroutine(Typing(id));
 
         VisualNovelManager.Inst.OnChangeBaseUI?.Invoke(id);
+
+        SetBGM(data.BGM);
+        SetSFX(data.SFX);
     }
 
     private void MoveToNextDialogue(string id)
@@ -193,5 +196,21 @@ public class DialogueUI : UIBase
         UIManager.Inst.OpenLobbyUI();
         UIManager.Inst.CloseVisualNovelUI();
         UIManager.Inst.CloseDialogueUI();
+    }
+
+    private void SetBGM(string bgm)
+    {
+        if (bgm != string.Empty)
+        {
+            SoundManager.Inst.SetBGMAndPlay(bgm);
+        }
+    }
+
+    private void SetSFX(string sfx)
+    {
+        if (sfx != string.Empty)
+        {
+            SoundManager.Inst.SetSFXAndPlay(sfx);
+        }
     }
 }

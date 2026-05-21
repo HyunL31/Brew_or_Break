@@ -125,6 +125,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63574cb96f052e944b6f42eb40d53267
+    m_Address: Audio/Opening
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6bb4cf8ffbcc5e44cb90e17164415123
     m_Address: Audio/Success
     m_ReadOnly: 0
