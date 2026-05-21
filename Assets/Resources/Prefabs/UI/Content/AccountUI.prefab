@@ -1065,9 +1065,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fecabd2177d0cf4d8b3b0f2fcaeb21a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AccountUI
+  Text_AccountDay: {fileID: 8948426688877383467}
   Button_Confirm: {fileID: 6783648773739507080}
   Button_Level: {fileID: 2154116276907781056}
+  Text_RequestGold: {fileID: 8713089157975260218}
   Button_Compensation: {fileID: 4110634826929949934}
+  Text_RequestCompen: {fileID: 4042945734873475489}
   Text_Gold: {fileID: 8946545511998158803}
   Text_Reputation: {fileID: 3492096747911883085}
   Text_Level: {fileID: 6206122491235348150}

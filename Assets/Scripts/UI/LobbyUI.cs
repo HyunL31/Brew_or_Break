@@ -32,6 +32,7 @@ public class LobbyUI : UIBase
     private void OnEnable()
     {
         SetPlayerInfo();
+        SetStoreInfo();
 
         SetStatus();
     }
@@ -42,6 +43,12 @@ public class LobbyUI : UIBase
 
         Text_PlayerName.text = GameManager.Inst.GetPlayerName();
         Text_StoreName.text = GameManager.Inst.GetStoreName();
+    }
+
+    private void SetStoreInfo()
+    {
+        Text_Gold.text = $"{StoreManager.Inst.GetGold()} G";
+        Text_Reputation.text = $"{StoreManager.Inst.GetStoreReputation()}REP";
     }
 
     private void SetStatus()

@@ -27,6 +27,11 @@ public class StoreManager : MonoBehaviour
         _storeModel = GameManager.Inst.GetStoreModel();
     }
 
+    public void SetStoreLevel()
+    {
+        _storeModel.Level++;
+    }
+
     public int GetStoreLevel()
     {
         return _storeModel.Level;
@@ -37,23 +42,43 @@ public class StoreManager : MonoBehaviour
         return _storeModel.Reputation;
     }
 
+    public void SetReputation(int reputation)
+    {
+        _storeModel.Reputation += reputation;
+    }
+
     public int GetStoreDebt()
     {
         return _storeModel.Compensation;
     }
 
-    public int CalculatStat(StatType type)
+    public void SetStoreDebt()
+    {
+        _storeModel.Compensation -= 100;
+    }
+
+    public void SetGold(int gold)
+    {
+        _storeModel.Gold += gold;
+    }
+
+    public int GetGold()
+    {
+        return _storeModel.Gold;
+    }
+
+    public float CalculatStat(StatType type)
     {
         switch (type)
         {
             case StatType.Level:
-                return GetStoreLevel() / _maxLevel;
+                return (float)GetStoreLevel() / _maxLevel;
 
             case StatType.Reputation:
-                return GetStoreReputation() / _maxReputation;
+                return (float)GetStoreReputation() / _maxReputation;
 
             case StatType.Compensation:
-                return _maxCompensation / GetStoreDebt();
+                return (float)GetStoreDebt() / _maxCompensation;
 
             default:
                 return 0;

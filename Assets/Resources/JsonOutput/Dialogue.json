@@ -8,7 +8,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_02",
@@ -19,7 +19,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_03",
@@ -30,7 +30,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_04",
@@ -41,7 +41,7 @@
     "BGM": null,
     "SFX": "Bomb_01",
     "Background": "Opening_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_05",
@@ -52,7 +52,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_06",
@@ -63,7 +63,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_07",
@@ -74,7 +74,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_08",
@@ -85,7 +85,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_09",
@@ -96,7 +96,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_10",
@@ -107,7 +107,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_11",
@@ -118,7 +118,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_12",
@@ -129,7 +129,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_13",
@@ -140,7 +140,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_14",
@@ -151,7 +151,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_15",
@@ -162,7 +162,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_16",
@@ -173,7 +173,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_17",
@@ -184,7 +184,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_18",
@@ -195,7 +195,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_19",
@@ -206,7 +206,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_20",
@@ -217,7 +217,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_21",
@@ -228,7 +228,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_22",
@@ -239,7 +239,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_23",
@@ -250,7 +250,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_24",
@@ -261,7 +261,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_25",
@@ -272,7 +272,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_26",
@@ -283,7 +283,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_00_27",
@@ -294,7 +294,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_01",
@@ -305,7 +305,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_02",
@@ -316,7 +316,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_03",
@@ -327,7 +327,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_04",
@@ -338,7 +338,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_05",
@@ -349,7 +349,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_06",
@@ -360,7 +360,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_07",
@@ -371,7 +371,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_08",
@@ -382,7 +382,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_09",
@@ -393,7 +393,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_10",
@@ -404,7 +404,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_11",
@@ -415,7 +415,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_12",
@@ -426,7 +426,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_13",
@@ -437,7 +437,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_14",
@@ -448,7 +448,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_15",
@@ -459,7 +459,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_16",
@@ -470,7 +470,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_17",
@@ -481,7 +481,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_18",
@@ -492,7 +492,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_19",
@@ -503,7 +503,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_20",
@@ -514,7 +514,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_21",
@@ -525,7 +525,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_01_22",
@@ -536,7 +536,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_23",
@@ -547,7 +547,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_24",
@@ -558,7 +558,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_25",
@@ -569,7 +569,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": "Normal_01"
+    "ResultID": "Normal_01"
   },
   {
     "ID": "Episode_01_26",
@@ -580,7 +580,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_27",
@@ -591,7 +591,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_01_28",
@@ -602,7 +602,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_01_29",
@@ -613,7 +613,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Time",
-    "string": "Normal_02"
+    "ResultID": "Normal_02"
   },
   {
     "ID": "Episode_02_01",
@@ -624,7 +624,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_02",
@@ -635,7 +635,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_03",
@@ -646,7 +646,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_04",
@@ -657,7 +657,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_05",
@@ -668,7 +668,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_06",
@@ -679,7 +679,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_07",
@@ -690,7 +690,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_08",
@@ -701,7 +701,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_09",
@@ -712,7 +712,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_10",
@@ -723,7 +723,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_11",
@@ -734,7 +734,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_12",
@@ -745,7 +745,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_13",
@@ -756,7 +756,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_14",
@@ -767,7 +767,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_15",
@@ -778,7 +778,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_16",
@@ -789,7 +789,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_17",
@@ -800,7 +800,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_18",
@@ -811,7 +811,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_19",
@@ -822,7 +822,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_20",
@@ -833,7 +833,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_21",
@@ -844,7 +844,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_04"
+    "ResultID": "Normal_04"
   },
   {
     "ID": "Episode_02_22",
@@ -855,7 +855,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_23",
@@ -866,7 +866,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_24",
@@ -877,7 +877,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_25",
@@ -888,7 +888,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_26",
@@ -899,7 +899,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_03"
+    "ResultID": "Normal_03"
   },
   {
     "ID": "Episode_02_27",
@@ -910,7 +910,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_28",
@@ -921,7 +921,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_29",
@@ -932,7 +932,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_30",
@@ -943,7 +943,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_02_31",
@@ -954,7 +954,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_02_32",
@@ -965,7 +965,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_03_01",
@@ -976,7 +976,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_02",
@@ -987,7 +987,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_03",
@@ -998,7 +998,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_04",
@@ -1009,7 +1009,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_05",
@@ -1020,7 +1020,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_06",
@@ -1031,7 +1031,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_07",
@@ -1042,7 +1042,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_08",
@@ -1053,7 +1053,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_09",
@@ -1064,7 +1064,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_10",
@@ -1075,7 +1075,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_11",
@@ -1086,7 +1086,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_12",
@@ -1097,7 +1097,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_13",
@@ -1108,7 +1108,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_14",
@@ -1119,7 +1119,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_15",
@@ -1130,7 +1130,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_16",
@@ -1141,7 +1141,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_17",
@@ -1152,7 +1152,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_18",
@@ -1163,7 +1163,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_19",
@@ -1174,7 +1174,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_20",
@@ -1185,7 +1185,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_21",
@@ -1196,7 +1196,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_22",
@@ -1207,7 +1207,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_23",
@@ -1218,7 +1218,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_24",
@@ -1229,7 +1229,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_25",
@@ -1240,7 +1240,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_26",
@@ -1251,7 +1251,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_27",
@@ -1262,7 +1262,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_28",
@@ -1273,7 +1273,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_29",
@@ -1284,7 +1284,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_30",
@@ -1295,7 +1295,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_31",
@@ -1306,7 +1306,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_32",
@@ -1317,7 +1317,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_03"
+    "ResultID": "Normal_03"
   },
   {
     "ID": "Episode_03_33",
@@ -1328,7 +1328,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_34",
@@ -1339,7 +1339,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_35",
@@ -1350,7 +1350,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_36",
@@ -1361,7 +1361,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_37",
@@ -1372,7 +1372,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_38",
@@ -1383,7 +1383,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_03_39",
@@ -1394,7 +1394,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_03"
+    "ResultID": "Normal_03"
   },
   {
     "ID": "Episode_04_01",
@@ -1405,7 +1405,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_02",
@@ -1416,7 +1416,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_03",
@@ -1427,7 +1427,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_04",
@@ -1438,7 +1438,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_05",
@@ -1449,7 +1449,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_06",
@@ -1460,7 +1460,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_07",
@@ -1471,7 +1471,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_08",
@@ -1482,7 +1482,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_09",
@@ -1493,7 +1493,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_10",
@@ -1504,7 +1504,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_11",
@@ -1515,7 +1515,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_12",
@@ -1526,7 +1526,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_13",
@@ -1537,7 +1537,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_14",
@@ -1548,7 +1548,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_15",
@@ -1559,7 +1559,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_16",
@@ -1570,7 +1570,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_17",
@@ -1581,7 +1581,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_05"
+    "ResultID": "Normal_05"
   },
   {
     "ID": "Episode_04_18",
@@ -1592,7 +1592,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_19",
@@ -1603,7 +1603,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_20",
@@ -1614,7 +1614,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_21",
@@ -1625,7 +1625,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_22",
@@ -1636,7 +1636,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_04_23",
@@ -1647,7 +1647,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_24",
@@ -1658,7 +1658,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_25",
@@ -1669,7 +1669,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_26",
@@ -1680,7 +1680,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_27",
@@ -1691,7 +1691,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_28",
@@ -1702,7 +1702,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_04_29",
@@ -1713,7 +1713,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_05_01",
@@ -1724,7 +1724,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_02",
@@ -1735,7 +1735,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_03",
@@ -1746,7 +1746,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_04",
@@ -1757,7 +1757,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_05",
@@ -1768,7 +1768,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_06",
@@ -1779,7 +1779,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_07",
@@ -1790,7 +1790,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_08",
@@ -1801,7 +1801,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_09",
@@ -1812,7 +1812,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_10",
@@ -1823,7 +1823,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_11",
@@ -1834,7 +1834,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_12",
@@ -1845,7 +1845,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_13",
@@ -1856,7 +1856,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_14",
@@ -1867,7 +1867,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_15",
@@ -1878,7 +1878,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_16",
@@ -1889,7 +1889,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_17",
@@ -1900,7 +1900,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_18",
@@ -1911,7 +1911,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_19",
@@ -1922,7 +1922,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_20",
@@ -1933,7 +1933,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_21",
@@ -1944,7 +1944,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_05"
+    "ResultID": "Normal_05"
   },
   {
     "ID": "Episode_05_22",
@@ -1955,7 +1955,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_23",
@@ -1966,7 +1966,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_24",
@@ -1977,7 +1977,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_06"
+    "ResultID": "Normal_06"
   },
   {
     "ID": "Episode_05_25",
@@ -1988,7 +1988,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_26",
@@ -1999,7 +1999,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_27",
@@ -2010,7 +2010,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_28",
@@ -2021,7 +2021,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_29",
@@ -2032,7 +2032,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_30",
@@ -2043,7 +2043,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_31",
@@ -2054,7 +2054,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_32",
@@ -2065,7 +2065,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_33",
@@ -2076,7 +2076,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_05_34",
@@ -2087,7 +2087,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_35",
@@ -2098,7 +2098,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_05_36",
@@ -2109,7 +2109,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_06_01",
@@ -2120,7 +2120,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_02",
@@ -2131,7 +2131,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_03",
@@ -2142,7 +2142,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_04",
@@ -2153,7 +2153,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_05",
@@ -2164,7 +2164,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_06",
@@ -2175,7 +2175,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_07",
@@ -2186,7 +2186,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_08",
@@ -2197,7 +2197,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_09",
@@ -2208,7 +2208,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_10",
@@ -2219,7 +2219,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_11",
@@ -2230,7 +2230,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_12",
@@ -2241,7 +2241,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_13",
@@ -2252,7 +2252,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_14",
@@ -2263,7 +2263,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_15",
@@ -2274,7 +2274,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_16",
@@ -2285,7 +2285,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_17",
@@ -2296,7 +2296,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_18",
@@ -2307,7 +2307,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_19",
@@ -2318,7 +2318,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_20",
@@ -2329,7 +2329,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_21",
@@ -2340,7 +2340,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": "Normal_05"
+    "ResultID": "Normal_05"
   },
   {
     "ID": "Episode_06_22",
@@ -2351,7 +2351,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_23",
@@ -2362,7 +2362,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_24",
@@ -2373,7 +2373,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_25",
@@ -2384,7 +2384,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_26",
@@ -2395,7 +2395,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_27",
@@ -2406,7 +2406,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_28",
@@ -2417,7 +2417,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_29",
@@ -2428,7 +2428,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_30",
@@ -2439,7 +2439,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_31",
@@ -2450,7 +2450,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_32",
@@ -2461,7 +2461,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_33",
@@ -2472,7 +2472,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_34",
@@ -2483,7 +2483,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_35",
@@ -2494,7 +2494,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_36",
@@ -2505,7 +2505,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_37",
@@ -2516,7 +2516,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_38",
@@ -2527,7 +2527,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_39",
@@ -2538,7 +2538,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_40",
@@ -2549,7 +2549,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_06_41",
@@ -2560,7 +2560,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_42",
@@ -2571,7 +2571,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_06_43",
@@ -2582,7 +2582,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Loyal",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_07_01",
@@ -2593,7 +2593,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_02",
@@ -2604,7 +2604,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_03",
@@ -2615,7 +2615,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_04",
@@ -2626,7 +2626,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_05",
@@ -2637,7 +2637,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_06",
@@ -2648,7 +2648,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_07",
@@ -2659,7 +2659,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_08",
@@ -2670,7 +2670,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_09",
@@ -2681,7 +2681,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_10",
@@ -2692,7 +2692,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_11",
@@ -2703,7 +2703,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_12",
@@ -2714,7 +2714,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_13",
@@ -2725,7 +2725,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_14",
@@ -2736,7 +2736,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_15",
@@ -2747,7 +2747,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_16",
@@ -2758,7 +2758,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_17",
@@ -2769,7 +2769,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_18",
@@ -2780,7 +2780,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_07_19",
@@ -2791,7 +2791,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_20",
@@ -2802,7 +2802,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_21",
@@ -2813,7 +2813,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_22",
@@ -2824,7 +2824,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_23",
@@ -2835,7 +2835,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_24",
@@ -2846,7 +2846,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_25",
@@ -2857,7 +2857,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_07_26",
@@ -2868,7 +2868,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_08_01",
@@ -2879,7 +2879,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_02",
@@ -2890,7 +2890,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_03",
@@ -2901,7 +2901,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_04",
@@ -2912,7 +2912,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_05",
@@ -2923,7 +2923,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_06",
@@ -2934,7 +2934,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_07",
@@ -2945,7 +2945,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_08",
@@ -2956,7 +2956,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_09",
@@ -2967,7 +2967,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_10",
@@ -2978,7 +2978,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_11",
@@ -2989,7 +2989,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_12",
@@ -3000,7 +3000,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_13",
@@ -3011,7 +3011,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_14",
@@ -3022,7 +3022,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_15",
@@ -3033,7 +3033,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_16",
@@ -3044,7 +3044,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_17",
@@ -3055,7 +3055,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_18",
@@ -3066,7 +3066,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_19",
@@ -3077,7 +3077,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_20",
@@ -3088,7 +3088,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_21",
@@ -3099,7 +3099,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_22",
@@ -3110,7 +3110,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_23",
@@ -3121,7 +3121,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_24",
@@ -3132,7 +3132,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_25",
@@ -3143,7 +3143,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_26",
@@ -3154,7 +3154,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_27",
@@ -3165,7 +3165,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_28",
@@ -3176,7 +3176,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_29",
@@ -3187,7 +3187,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_30",
@@ -3198,7 +3198,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_31",
@@ -3209,7 +3209,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Normal_01"
+    "ResultID": "Normal_01"
   },
   {
     "ID": "Episode_08_32",
@@ -3220,7 +3220,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_33",
@@ -3231,7 +3231,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_34",
@@ -3242,7 +3242,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_35",
@@ -3253,7 +3253,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_36",
@@ -3264,7 +3264,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_37",
@@ -3275,7 +3275,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_38",
@@ -3286,7 +3286,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_39",
@@ -3297,7 +3297,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_40",
@@ -3308,7 +3308,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_08_41",
@@ -3319,7 +3319,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_42",
@@ -3330,7 +3330,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_43",
@@ -3341,7 +3341,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_08_44",
@@ -3352,7 +3352,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_09_01",
@@ -3363,7 +3363,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_02",
@@ -3374,7 +3374,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_03",
@@ -3385,7 +3385,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_04",
@@ -3396,7 +3396,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_05",
@@ -3407,7 +3407,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_06",
@@ -3418,7 +3418,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_07",
@@ -3429,7 +3429,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_08",
@@ -3440,7 +3440,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_09",
@@ -3451,7 +3451,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_10",
@@ -3462,7 +3462,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_11",
@@ -3473,7 +3473,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_12",
@@ -3484,7 +3484,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_13",
@@ -3495,7 +3495,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_14",
@@ -3506,7 +3506,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_15",
@@ -3517,7 +3517,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_16",
@@ -3528,7 +3528,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_17",
@@ -3539,7 +3539,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Good_01"
+    "ResultID": "Good_01"
   },
   {
     "ID": "Episode_09_18",
@@ -3550,7 +3550,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_19",
@@ -3561,7 +3561,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_20",
@@ -3572,7 +3572,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_21",
@@ -3583,7 +3583,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_22",
@@ -3594,7 +3594,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_09_23",
@@ -3605,7 +3605,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": "Bad_01"
+    "ResultID": "Bad_01"
   },
   {
     "ID": "Episode_10_01",
@@ -3616,7 +3616,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_02",
@@ -3627,7 +3627,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_03",
@@ -3638,7 +3638,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_04",
@@ -3649,7 +3649,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_05",
@@ -3660,7 +3660,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_06",
@@ -3671,7 +3671,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_07",
@@ -3682,7 +3682,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_08",
@@ -3693,7 +3693,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_09",
@@ -3704,7 +3704,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_10",
@@ -3715,7 +3715,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_11",
@@ -3726,7 +3726,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_12",
@@ -3737,7 +3737,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_13",
@@ -3748,7 +3748,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_14",
@@ -3759,7 +3759,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_15",
@@ -3770,7 +3770,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_16",
@@ -3781,7 +3781,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_17",
@@ -3792,7 +3792,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_18",
@@ -3803,7 +3803,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Episode_10_19",
@@ -3814,7 +3814,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_01",
@@ -3825,7 +3825,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_02",
@@ -3836,7 +3836,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_03",
@@ -3847,7 +3847,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_04",
@@ -3858,7 +3858,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_05",
@@ -3869,7 +3869,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_06",
@@ -3880,7 +3880,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_07",
@@ -3891,7 +3891,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_08",
@@ -3902,7 +3902,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_09",
@@ -3913,7 +3913,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_10",
@@ -3924,7 +3924,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_11",
@@ -3935,7 +3935,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_12",
@@ -3946,7 +3946,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_13",
@@ -3957,7 +3957,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Illegal_14",
@@ -3968,7 +3968,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_01",
@@ -3979,7 +3979,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_02",
@@ -3990,7 +3990,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_03",
@@ -4001,7 +4001,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_04",
@@ -4012,7 +4012,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_05",
@@ -4023,7 +4023,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_06",
@@ -4034,7 +4034,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_07",
@@ -4045,7 +4045,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_08",
@@ -4056,7 +4056,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_09",
@@ -4067,7 +4067,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_10",
@@ -4078,7 +4078,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_11",
@@ -4089,7 +4089,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_12",
@@ -4100,7 +4100,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_13",
@@ -4111,7 +4111,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_14",
@@ -4122,7 +4122,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_15",
@@ -4133,7 +4133,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_16",
@@ -4144,7 +4144,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_17",
@@ -4155,7 +4155,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_18",
@@ -4166,7 +4166,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_19",
@@ -4177,7 +4177,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Mouth_20",
@@ -4188,7 +4188,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_01",
@@ -4199,7 +4199,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_02",
@@ -4210,7 +4210,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_03",
@@ -4221,7 +4221,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_04",
@@ -4232,7 +4232,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_05",
@@ -4243,7 +4243,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_06",
@@ -4254,7 +4254,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_07",
@@ -4265,7 +4265,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_08",
@@ -4276,7 +4276,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_09",
@@ -4287,7 +4287,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_10",
@@ -4298,7 +4298,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_11",
@@ -4309,7 +4309,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_12",
@@ -4320,7 +4320,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_13",
@@ -4331,7 +4331,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_02",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_14",
@@ -4342,7 +4342,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_15",
@@ -4353,7 +4353,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_16",
@@ -4364,7 +4364,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_17",
@@ -4375,7 +4375,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Fraud_18",
@@ -4386,7 +4386,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_01",
@@ -4397,7 +4397,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_02",
@@ -4408,7 +4408,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_03",
@@ -4419,7 +4419,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_04",
@@ -4430,7 +4430,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_05",
@@ -4441,7 +4441,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_06",
@@ -4452,7 +4452,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_07",
@@ -4463,7 +4463,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_08",
@@ -4474,7 +4474,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_09",
@@ -4485,7 +4485,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_10",
@@ -4496,7 +4496,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_11",
@@ -4507,7 +4507,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_12",
@@ -4518,7 +4518,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_13",
@@ -4529,7 +4529,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_14",
@@ -4540,7 +4540,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_15",
@@ -4551,7 +4551,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_16",
@@ -4562,7 +4562,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_17",
@@ -4573,7 +4573,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_18",
@@ -4584,7 +4584,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_19",
@@ -4595,7 +4595,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_20",
@@ -4606,7 +4606,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_21",
@@ -4617,7 +4617,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_22",
@@ -4628,7 +4628,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_23",
@@ -4639,7 +4639,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_24",
@@ -4650,7 +4650,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_25",
@@ -4661,7 +4661,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Regular_26",
@@ -4672,7 +4672,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_01",
@@ -4683,7 +4683,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_02",
@@ -4694,7 +4694,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_03",
@@ -4705,7 +4705,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_04",
@@ -4716,7 +4716,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_05",
@@ -4727,7 +4727,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_06",
@@ -4738,7 +4738,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_07",
@@ -4749,7 +4749,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_08",
@@ -4760,7 +4760,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_09",
@@ -4771,7 +4771,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_10",
@@ -4782,7 +4782,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_11",
@@ -4793,7 +4793,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_12",
@@ -4804,7 +4804,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_13",
@@ -4815,7 +4815,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_05",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_14",
@@ -4826,7 +4826,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_15",
@@ -4837,7 +4837,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_16",
@@ -4848,7 +4848,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_17",
@@ -4859,7 +4859,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_18",
@@ -4870,7 +4870,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_19",
@@ -4881,7 +4881,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_20",
@@ -4892,7 +4892,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_21",
@@ -4903,7 +4903,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_22",
@@ -4914,7 +4914,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_23",
@@ -4925,7 +4925,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_24",
@@ -4936,7 +4936,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Boom_25",
@@ -4947,7 +4947,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_01",
@@ -4958,7 +4958,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_02",
@@ -4969,7 +4969,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_03",
@@ -4980,7 +4980,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_04",
@@ -4991,7 +4991,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_05",
@@ -5002,7 +5002,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_06",
@@ -5013,7 +5013,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_07",
@@ -5024,7 +5024,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_08",
@@ -5035,7 +5035,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_09",
@@ -5046,7 +5046,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_10",
@@ -5057,7 +5057,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_11",
@@ -5068,7 +5068,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_07",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_12",
@@ -5079,7 +5079,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_13",
@@ -5090,7 +5090,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_14",
@@ -5101,7 +5101,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_15",
@@ -5112,7 +5112,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_16",
@@ -5123,7 +5123,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_17",
@@ -5134,7 +5134,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_18",
@@ -5145,7 +5145,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_19",
@@ -5156,7 +5156,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_20",
@@ -5167,7 +5167,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_21",
@@ -5178,7 +5178,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_22",
@@ -5189,7 +5189,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_23",
@@ -5200,7 +5200,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_24",
@@ -5211,7 +5211,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_25",
@@ -5222,7 +5222,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Guard_26",
@@ -5233,7 +5233,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_01",
@@ -5244,7 +5244,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_02",
@@ -5255,7 +5255,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_03",
@@ -5266,7 +5266,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_04",
@@ -5277,7 +5277,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_05",
@@ -5288,7 +5288,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_06",
@@ -5299,7 +5299,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_07",
@@ -5310,7 +5310,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_08",
@@ -5321,7 +5321,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_09",
@@ -5332,7 +5332,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_08",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_10",
@@ -5343,7 +5343,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_11",
@@ -5354,7 +5354,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_12",
@@ -5365,7 +5365,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_13",
@@ -5376,7 +5376,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_14",
@@ -5387,7 +5387,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_15",
@@ -5398,7 +5398,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_16",
@@ -5409,7 +5409,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_17",
@@ -5420,7 +5420,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_18",
@@ -5431,7 +5431,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_19",
@@ -5442,7 +5442,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_20",
@@ -5453,7 +5453,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_21",
@@ -5464,7 +5464,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_22",
@@ -5475,7 +5475,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_23",
@@ -5486,7 +5486,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Hell_24",
@@ -5497,7 +5497,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_01",
@@ -5508,7 +5508,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_02",
@@ -5519,7 +5519,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_03",
@@ -5530,7 +5530,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_04",
@@ -5541,7 +5541,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_05",
@@ -5552,7 +5552,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_06",
@@ -5563,7 +5563,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_07",
@@ -5574,7 +5574,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_08",
@@ -5585,7 +5585,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_09",
@@ -5596,7 +5596,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_10",
@@ -5607,7 +5607,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_11",
@@ -5618,7 +5618,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_12",
@@ -5629,7 +5629,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_13",
@@ -5640,7 +5640,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_14",
@@ -5651,7 +5651,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Bad_10",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_15",
@@ -5662,7 +5662,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_16",
@@ -5673,7 +5673,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_17",
@@ -5684,7 +5684,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_18",
@@ -5695,7 +5695,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_19",
@@ -5706,7 +5706,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_20",
@@ -5717,7 +5717,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_21",
@@ -5728,7 +5728,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_22",
@@ -5739,7 +5739,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_23",
@@ -5750,7 +5750,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_24",
@@ -5761,7 +5761,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_25",
@@ -5772,7 +5772,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_26",
@@ -5783,7 +5783,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_Trap_27",
@@ -5794,7 +5794,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_01",
@@ -5805,7 +5805,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_02",
@@ -5816,7 +5816,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_03",
@@ -5827,7 +5827,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_04",
@@ -5838,7 +5838,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_05",
@@ -5849,7 +5849,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_06",
@@ -5860,7 +5860,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_07",
@@ -5871,7 +5871,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_08",
@@ -5882,7 +5882,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_09",
@@ -5893,7 +5893,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_10",
@@ -5904,7 +5904,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_11",
@@ -5915,7 +5915,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_12",
@@ -5926,7 +5926,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_13",
@@ -5937,7 +5937,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_14",
@@ -5948,7 +5948,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_15",
@@ -5959,7 +5959,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_16",
@@ -5970,7 +5970,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_17",
@@ -5981,7 +5981,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_18",
@@ -5992,7 +5992,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_19",
@@ -6003,7 +6003,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_20",
@@ -6014,7 +6014,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_21",
@@ -6025,7 +6025,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_22",
@@ -6036,7 +6036,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Normal_End_23",
@@ -6047,7 +6047,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_01",
@@ -6058,7 +6058,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_02",
@@ -6069,7 +6069,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_03",
@@ -6080,7 +6080,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_04",
@@ -6091,7 +6091,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_05",
@@ -6102,7 +6102,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_06",
@@ -6113,7 +6113,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_07",
@@ -6124,7 +6124,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_08",
@@ -6135,7 +6135,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_09",
@@ -6146,7 +6146,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_10",
@@ -6157,7 +6157,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_11",
@@ -6168,7 +6168,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_12",
@@ -6179,7 +6179,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_13",
@@ -6190,7 +6190,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_14",
@@ -6201,7 +6201,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_15",
@@ -6212,7 +6212,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_16",
@@ -6223,7 +6223,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_17",
@@ -6234,7 +6234,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Good_End_18",
@@ -6245,7 +6245,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_01",
@@ -6256,7 +6256,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_02",
@@ -6267,7 +6267,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_03",
@@ -6278,7 +6278,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_04",
@@ -6289,7 +6289,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_05",
@@ -6300,7 +6300,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_06",
@@ -6311,7 +6311,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_07",
@@ -6322,7 +6322,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_08",
@@ -6333,7 +6333,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_09",
@@ -6344,7 +6344,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_10",
@@ -6355,7 +6355,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_11",
@@ -6366,7 +6366,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_12",
@@ -6377,7 +6377,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_13",
@@ -6388,7 +6388,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_14",
@@ -6399,7 +6399,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_15",
@@ -6410,7 +6410,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_16",
@@ -6421,7 +6421,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_17",
@@ -6432,7 +6432,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_18",
@@ -6443,7 +6443,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_19",
@@ -6454,7 +6454,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_20",
@@ -6465,7 +6465,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_21",
@@ -6476,7 +6476,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_22",
@@ -6487,7 +6487,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_23",
@@ -6498,7 +6498,7 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   },
   {
     "ID": "Bad_End_24",
@@ -6509,6 +6509,6 @@
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs",
-    "string": null
+    "ResultID": null
   }
 ]

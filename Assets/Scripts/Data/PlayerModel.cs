@@ -7,7 +7,7 @@ public class PlayerModel
     public string PlayerName;
     public string StoreName;
     public int Day;
-    public StoreModel Store;
+    public StoreModel Store = new StoreModel();
     public List<ItemModel> Inventory = new List<ItemModel>();
 }
 

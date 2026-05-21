@@ -38,6 +38,8 @@ public class VisualNovelManager : MonoBehaviour
         }
         else if (nextID == "Account")
         {
+            SetResult();
+
             UIManager.Inst.OpenAccountUI();
             UIManager.Inst.CloseDialogueUI();
             UIManager.Inst.CloseVisualNovelUI();
@@ -76,6 +78,17 @@ public class VisualNovelManager : MonoBehaviour
         }
 
         return isMoved;
+    }
+
+    private void SetResult()
+    {
+        string resultID = GameDataManager.Inst.GetDialogueData(CurrentDialogueID).ResultID;
+
+        int gold = GameDataManager.Inst.GetResultData(resultID).Gold;
+        int reputation = GameDataManager.Inst.GetResultData(resultID).Reputation;
+
+        StoreManager.Inst.SetGold(gold);
+        StoreManager.Inst.SetReputation(reputation);
     }
 
     public string GetCurrentDialogueID()

@@ -133,7 +133,7 @@ public static class UIExtension
 
     public static UIBase OpenItemDescription(this UIManager uiManager)
     {
-        return uiManager.OpenPopupUI(UIType.ItemDescription);
+        return uiManager.OpenUI(UIRootType.Front, UIType.ItemDescription);
     }
 
     public static void CloseItemDescription(this UIManager uiManager)
