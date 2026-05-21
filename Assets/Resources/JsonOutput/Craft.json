@@ -1,110 +1,118 @@
 [
   {
-    "ID": "Craft_01_01",
-    "PotionID": "Potion_03",
-    "SuccessID": "Episode_01_20",
+    "ID": "Craft_01",
+    "PotionID": [
+      "Potion_03",
+      "Potion_02"
+    ],
+    "SuccessID": [
+      "Episode_01_20",
+      "Episode_01_28"
+    ],
     "FailID": "Episode_01_26"
   },
   {
-    "ID": "Craft_01_02",
-    "PotionID": "Potion_02",
-    "SuccessID": "Episode_01_28",
-    "FailID": "Episode_01_26"
-  },
-  {
-    "ID": "Craft_02_01",
-    "PotionID": "Potion_01",
-    "SuccessID": "Episode_02_18",
+    "ID": "Craft_02",
+    "PotionID": [
+      "Potion_01",
+      "Potion_02"
+    ],
+    "SuccessID": [
+      "Episode_02_18",
+      "Episode_02_27"
+    ],
     "FailID": "Episode_02_31"
   },
   {
-    "ID": "Craft_02_02",
-    "PotionID": "Potion_02",
-    "SuccessID": "Episode_02_27",
-    "FailID": "Episode_02_31"
-  },
-  {
-    "ID": "Craft_03_01",
-    "PotionID": "Potion_04",
-    "SuccessID": "Episode_03_33",
+    "ID": "Craft_03",
+    "PotionID": [
+      "Potion_04"
+    ],
+    "SuccessID": [
+      "Episode_03_33"
+    ],
     "FailID": "Episode_03_38"
   },
   {
-    "ID": "Craft_04_01",
-    "PotionID": "Potion_06",
-    "SuccessID": "Episode_04_23",
+    "ID": "Craft_04",
+    "PotionID": [
+      "Potion_06",
+      "Potion_07"
+    ],
+    "SuccessID": [
+      "Episode_04_23",
+      "Episode_04_18"
+    ],
     "FailID": "Episode_04_27"
   },
   {
-    "ID": "Craft_04_02",
-    "PotionID": "Potion_07",
-    "SuccessID": "Episode_04_18",
-    "FailID": "Episode_04_27"
-  },
-  {
-    "ID": "Craft_05_01",
-    "PotionID": "Potion_08",
-    "SuccessID": "Episode_05_22",
+    "ID": "Craft_05",
+    "PotionID": [
+      "Potion_08",
+      "Potion_09"
+    ],
+    "SuccessID": [
+      "Episode_05_22",
+      "Episode_05_25"
+    ],
     "FailID": "Episode_05_34"
   },
   {
-    "ID": "Craft_05_02",
-    "PotionID": "Potion_09",
-    "SuccessID": "Episode_05_25",
-    "FailID": "Episode_05_34"
-  },
-  {
-    "ID": "Craft_06_01",
-    "PotionID": "Potion_10",
-    "SuccessID": "Episode_06_22",
+    "ID": "Craft_06",
+    "PotionID": [
+      "Potion_10",
+      "Potion_11",
+      "Potion_02"
+    ],
+    "SuccessID": [
+      "Episode_06_22",
+      "Episode_06_27",
+      "Episode_06_33"
+    ],
     "FailID": "Episode_06_41"
   },
   {
-    "ID": "Craft_06_02",
-    "PotionID": "Potion_11",
-    "SuccessID": "Episode_06_27",
-    "FailID": "Episode_06_41"
-  },
-  {
-    "ID": "Craft_06_03",
-    "PotionID": "Potion_02",
-    "SuccessID": "Episode_06_33",
-    "FailID": "Episode_06_41"
-  },
-  {
-    "ID": "Craft_07_01",
-    "PotionID": "Potion_01",
-    "SuccessID": "Episode_07_19",
+    "ID": "Craft_07",
+    "PotionID": [
+      "Potion_01"
+    ],
+    "SuccessID": [
+      "Episode_07_19"
+    ],
     "FailID": "Episode_07_23"
   },
   {
-    "ID": "Craft_08_01",
-    "PotionID": "Potion_12",
-    "SuccessID": "Episode_08_32",
+    "ID": "Craft_08",
+    "PotionID": [
+      "Potion_12",
+      "Potion_13"
+    ],
+    "SuccessID": [
+      "Episode_08_32",
+      "Episode_08_36"
+    ],
     "FailID": "Episode_08_41"
   },
   {
-    "ID": "Craft_08_02",
-    "PotionID": "Potion_13",
-    "SuccessID": "Episode_08_36",
-    "FailID": "Episode_08_41"
-  },
-  {
-    "ID": "Craft_09_01",
-    "PotionID": "Potion_01",
-    "SuccessID": "Episode_09_18",
+    "ID": "Craft_09",
+    "PotionID": [
+      "Potion_01"
+    ],
+    "SuccessID": [
+      "Episode_09_18"
+    ],
     "FailID": "Episode_09_21"
   },
   {
-    "ID": "Craft_10_01",
-    "PotionID": "Potion_14",
-    "SuccessID": "Episode_10_13",
-    "FailID": "Bad_Hell_01"
-  },
-  {
-    "ID": "Craft_10_02",
-    "PotionID": "Potion_15",
-    "SuccessID": "Episode_10_15",
+    "ID": "Craft_10",
+    "PotionID": [
+      "Potion_14",
+      "Potion_15"
+    ],
+    "SuccessID": [
+      "Episode_10_13",
+      "Episode_10_15"
+    ],
     "FailID": "Bad_Hell_01"
   }
 ]

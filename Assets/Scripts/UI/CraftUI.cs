@@ -7,6 +7,7 @@ public class CraftUI : UIBase
 {
     [Header("냄비")]
     [SerializeField] private Button Button_Confirm;
+    [SerializeField] private Button Button_Next;
     [SerializeField] private Image Image_Fire;
     [SerializeField] private Image Image_Smoke;
     [SerializeField] private Image Image_Pot;
@@ -16,8 +17,9 @@ public class CraftUI : UIBase
     [SerializeField] private Image Image_Litmus;
     [SerializeField] private Slider Slider_Acidity;
 
-    private int _randomAcidity;
+    private int _randomAcidity = 0;
     private List<string> _addedItem = new List<string>();
+    private string _potionID = string.Empty;
 
     private void Awake()
     {
@@ -25,12 +27,15 @@ public class CraftUI : UIBase
         Slider_Acidity.maxValue = 14;
 
         Button_Confirm.onClick.AddListener(OnClickConfirm);
+        Button_Next.onClick.AddListener(OnClickNext);
         Slider_Acidity.onValueChanged.AddListener((value) => SetLitmusColor(value));
         VisualNovelManager.Inst.OnDropItem = (itemID) => AddItem(itemID);
     }
 
     private void OnEnable()
     {
+        Button_Next.gameObject.SetActive(false);
+
         Text_Acidity.text = SetRandomAcidity();
 
         Image_Litmus.color = Color.red;
@@ -61,14 +66,24 @@ public class CraftUI : UIBase
         _addedItem.Clear();
     }
 
+    private void OnClickNext()
+    {
+        UIManager.Inst.OpenDialogueUI();
+        UIManager.Inst.CloseCraftUI();
+    }
+
     private void ShowPotion()
     {
         Image_Fire.gameObject.SetActive(false);
         Image_Smoke.gameObject.SetActive(false);
 
-        string path = $"Icon/Potion[{GetMadePotionID()}]";
+        _potionID = GetMadePotionID();
+        string path = $"Icon/Potion[{_potionID}]";
 
         GameUtil.LoadSpriteAndSet(path, Image_Pot);
+        GetReturnID(_potionID);
+
+        Button_Next.gameObject.SetActive(true);
     }
 
     private bool CheckAcidityValue()
@@ -133,5 +148,29 @@ public class CraftUI : UIBase
         Image_Smoke.color = color;
 
         _addedItem.Add(id);
+    }
+
+    private void GetReturnID(string potionID)
+    {
+        string id = VisualNovelManager.Inst.GetCurrentDialogueID();
+
+        List<string> potions = GameDataManager.Inst.GetCraftData(id).PotionID;
+        string returnID = string.Empty;
+
+        for (int i = 0; i < potions.Count; i++)
+        {
+            if (potions[i] == potionID)
+            {
+                returnID = GameDataManager.Inst.GetCraftData(id).SuccessID[i];
+                break;
+            }
+        }
+
+        if (returnID == string.Empty)
+        {
+            returnID = GameDataManager.Inst.GetCraftData(id).FailID;
+        }
+
+        VisualNovelManager.Inst.SetCurrentDialogueID(returnID);
     }
 }

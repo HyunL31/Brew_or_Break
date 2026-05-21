@@ -33,8 +33,8 @@ public class Clue : GameDataBase
 [Serializable]
 public class Craft : GameDataBase
 {
-    public string PotionID;
-    public string SuccessID;
+    public List<string> PotionID;
+    public List<string> SuccessID;
     public string FailID;
 }
 

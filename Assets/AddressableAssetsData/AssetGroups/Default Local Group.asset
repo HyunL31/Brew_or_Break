@@ -195,6 +195,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94c4fca68ae161846879cb7d56e14250
+    m_Address: Icon/Pot2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95e65fac3eb2144439efcbe0b887ab5d
     m_Address: Background/Bad_07
     m_ReadOnly: 0
