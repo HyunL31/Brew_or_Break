@@ -1066,6 +1066,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level
       objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_Color.r
+      value: 0.14149547
+      objectReference: {fileID: 0}
     - target: {fileID: 8011404717826425334, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1327,6 +1339,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reputation
       objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_Color.r
+      value: 0.14117648
+      objectReference: {fileID: 0}
     - target: {fileID: 8011404717826425334, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1458,6 +1478,18 @@ PrefabInstance:
     - target: {fileID: 5775997980770102961, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
       propertyPath: m_Name
       value: Debt
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_Color.r
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7533534658630338206, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8011404717826425334, guid: d3045348f16f6da42b408ef5f280c092, type: 3}
       propertyPath: m_Pivot.x

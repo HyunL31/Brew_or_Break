@@ -31,10 +31,28 @@ public class LobbyUI : UIBase
 
     private void OnEnable()
     {
+        SetPlayerInfo();
+
+        SetStatus();
+    }
+
+    private void SetPlayerInfo()
+    {
         Text_Day.text = $"Day {GameManager.Inst.GetDay()}";
 
         Text_PlayerName.text = GameManager.Inst.GetPlayerName();
         Text_StoreName.text = GameManager.Inst.GetStoreName();
+    }
+
+    private void SetStatus()
+    {
+        Text_LevelStat.text = $"가게 레벨 : Lv.{GameManager.Inst.GetStoreLevel()}";
+        Text_ReputationStat.text = $"가게 명성 : {GameManager.Inst.GetStoreReputation()}";
+        Text_DebtStat.text = $"갚은 빚 : {GameManager.Inst.GetStoreDebt()}";
+
+        Image_LevelStat.fillAmount = GameManager.Inst.GetStoreLevel() / MaxStoreStatus.MaxLevel;
+        Image_ReputationStat.fillAmount = GameManager.Inst.GetStoreReputation() / MaxStoreStatus.MaxReputation;
+        Image_DebtStat.fillAmount = GameManager.Inst.GetStoreDebt() / MaxStoreStatus.MaxCompensation;
     }
 
     private void OnClickOpenStore()
