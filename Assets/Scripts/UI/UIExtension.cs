@@ -23,7 +23,8 @@ public enum UIType
     ItemDescription,
     CraftUI,
     RecipePopup,
-    DrawItem
+    DrawItem,
+    AccountUI
 }
 
 public static class UIExtension
@@ -98,6 +99,16 @@ public static class UIExtension
     public static void CloseCraftUI(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.CraftUI);
+    }
+
+    public static void OpenAccountUI(this UIManager uiManager)
+    {
+        uiManager.OpenContentUI(UIType.AccountUI);
+    }
+
+    public static void CloseAccountUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.AccountUI);
     }
 
     public static void OpenInventory(this UIManager uiManager)

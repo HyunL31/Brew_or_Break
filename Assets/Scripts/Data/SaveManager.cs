@@ -52,10 +52,10 @@ public class SaveManager : MonoBehaviour
         newPlayerData.PlayerName = "";
         newPlayerData.StoreName = "";
         newPlayerData.Day = 0;
-        newPlayerData.StoreLevel = 0;
-        newPlayerData.Gold = 0;
-        newPlayerData.Reputation = 0;
-        newPlayerData.Compensation = 1000;
+        newPlayerData.Store.Level = 1;
+        newPlayerData.Store.Gold = 0;
+        newPlayerData.Store.Reputation = 0;
+        newPlayerData.Store.Compensation = 1000;
 
         newPlayerData.Inventory.Add(AddDefaultItem("Item_01"));
         newPlayerData.Inventory.Add(AddDefaultItem("Item_02"));

@@ -26,13 +26,19 @@ public class VisualNovelManager : MonoBehaviour
     {
         bool isMoved = false;
 
-        // [TODO] 아마 로비가 아니라 마감정산이 되어야 할 듯
         if (nextID == "Lobby")
         {
             GameManager.Inst.SetDay();
-            //GameManager.Inst.SaveData();
 
             UIManager.Inst.OpenLobbyUI();
+            UIManager.Inst.CloseDialogueUI();
+            UIManager.Inst.CloseVisualNovelUI();
+
+            isMoved = true;
+        }
+        else if (nextID == "Account")
+        {
+            UIManager.Inst.OpenAccountUI();
             UIManager.Inst.CloseDialogueUI();
             UIManager.Inst.CloseVisualNovelUI();
 

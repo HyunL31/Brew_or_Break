@@ -38,10 +38,3 @@ public static class GameUtil
         return audioClip;
     }
 }
-
-public static class MaxStoreStatus
-{
-    public static int MaxLevel = 10;
-    public static int MaxReputation = 500;
-    public static int MaxCompensation = 10000;
-}

@@ -46,13 +46,13 @@ public class LobbyUI : UIBase
 
     private void SetStatus()
     {
-        Text_LevelStat.text = $"가게 레벨 : Lv.{GameManager.Inst.GetStoreLevel()}";
-        Text_ReputationStat.text = $"가게 명성 : {GameManager.Inst.GetStoreReputation()}";
-        Text_DebtStat.text = $"갚은 빚 : {GameManager.Inst.GetStoreDebt()}";
+        Text_LevelStat.text = $"가게 레벨 : Lv.{StoreManager.Inst.GetStoreLevel()}";
+        Text_ReputationStat.text = $"가게 명성 : {StoreManager.Inst.GetStoreReputation()}";
+        Text_DebtStat.text = $"갚은 빚 : {StoreManager.Inst.GetStoreDebt()}";
 
-        Image_LevelStat.fillAmount = GameManager.Inst.GetStoreLevel() / MaxStoreStatus.MaxLevel;
-        Image_ReputationStat.fillAmount = GameManager.Inst.GetStoreReputation() / MaxStoreStatus.MaxReputation;
-        Image_DebtStat.fillAmount = GameManager.Inst.GetStoreDebt() / MaxStoreStatus.MaxCompensation;
+        Image_LevelStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level);
+        Image_ReputationStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation);
+        Image_DebtStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation);
     }
 
     private void OnClickOpenStore()

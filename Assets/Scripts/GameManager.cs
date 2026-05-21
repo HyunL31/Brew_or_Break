@@ -58,18 +58,8 @@ public class GameManager : MonoBehaviour
         _playerModel.StoreName = store;
     }
 
-    public int GetStoreLevel()
+    public StoreModel GetStoreModel()
     {
-        return _playerModel.StoreLevel;
-    }
-
-    public int GetStoreReputation()
-    {
-        return _playerModel.Reputation;
-    }
-
-    public int GetStoreDebt()
-    {
-        return _playerModel.Compensation;
+        return _playerModel.Store;
     }
 }
