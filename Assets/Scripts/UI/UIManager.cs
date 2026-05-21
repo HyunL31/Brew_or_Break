@@ -122,6 +122,8 @@ public class UIManager : MonoBehaviour
 
     public UIBase OpenPopupUI(UIType type)
     {
+        SoundManager.Inst.SetSFXAndPlay("Popup");
+
         UIBase ui = OpenUI(UIRootType.Popup, type);
 
         return ui;

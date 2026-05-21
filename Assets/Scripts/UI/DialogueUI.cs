@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class DialogueUI : UIBase
 {
+    [Header("오디오")]
+    [SerializeField] private AudioSource AudioSource;
+
     [Header("버튼")]
     [SerializeField] private Button Button_Return;
     [SerializeField] private Button Button_Log;
@@ -49,6 +52,7 @@ public class DialogueUI : UIBase
             if (_isTyping)
             {
                 _isTyping = false;
+                SoundManager.Inst.PauseAudio(AudioSource);
             }
             else
             {
@@ -141,6 +145,9 @@ public class DialogueUI : UIBase
     private IEnumerator Typing(string id)
     {
         _isTyping = true;
+
+        SoundManager.Inst.SetTypingAndPlay(AudioSource);
+
         Text_Dialogue.text = string.Empty;
         Image_NextArrow.gameObject.SetActive(false);
 
@@ -161,6 +168,7 @@ public class DialogueUI : UIBase
         Text_Dialogue.text = content;
 
         _isTyping = false;
+        SoundManager.Inst.PauseAudio(AudioSource);
         Image_NextArrow.gameObject.SetActive(true);
 
         if (_isAuto)

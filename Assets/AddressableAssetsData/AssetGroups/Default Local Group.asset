@@ -125,6 +125,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bb4cf8ffbcc5e44cb90e17164415123
+    m_Address: Audio/Success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6d76003000565a84789ee3b5835cfe73
     m_Address: Character/Magician_01_03
     m_ReadOnly: 0
@@ -145,6 +150,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78606319d667eee4790b5580f23b6fc3
+    m_Address: Audio/Button
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7bc09c22996deee498e2f7ecb5986084
     m_Address: Character/Prophet_01_02
     m_ReadOnly: 0
@@ -157,6 +167,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 80cf189fe815b254289b3e04e4843c7c
     m_Address: Character/Master_01_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82cf1f25eeb70834cac7d850e36462bf
+    m_Address: Audio/Typing
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -202,6 +217,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95e65fac3eb2144439efcbe0b887ab5d
     m_Address: Background/Bad_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95fdbc7892bbce142aef7440bb76f9b6
+    m_Address: Audio/Fail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96065e7aeb30a2e4097c59ac0053a76a
+    m_Address: Audio/Popup
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -292,6 +317,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c7b01a15633b1364eaededfbc2588b6e
     m_Address: Background/Bad_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccc6d5381aa6d6a4eaecc43e884147e6
+    m_Address: Audio/Base
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

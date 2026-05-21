@@ -25,6 +25,7 @@ public class NamePopup : UIBase
     {
         if ((PlayerName.text == string.Empty || StoreName.text == string.Empty) || PlayerName.text.Length > 10 || StoreName.text.Length > 16)
         {
+            SoundManager.Inst.SetSFXAndPlay("Popup");
             AlertPopup.SetActive(true);
             return;
         }

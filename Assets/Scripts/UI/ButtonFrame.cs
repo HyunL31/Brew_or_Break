@@ -7,6 +7,8 @@ public class ButtonFrame : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        SoundManager.Inst.SetSFXAndPlay("Button");
+
         Frame.SetActive(true);
     }
 

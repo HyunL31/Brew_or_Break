@@ -23,4 +23,18 @@ public static class GameUtil
             imageObject.sprite = sprite;
         });
     }
+
+    public static AudioClip LoadSoundAndSet(string clipName, AudioSource audio)
+    {
+        AudioClip audioClip = null;
+
+        string path = $"Audio/{clipName}";
+        ResourceManager.Inst.LoadAsset<AudioClip>(path, (clip) =>
+        {
+            audio.clip = clip;
+            audioClip = clip;
+        });
+
+        return audioClip;
+    }
 }
