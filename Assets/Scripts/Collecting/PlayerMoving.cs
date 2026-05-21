@@ -3,15 +3,11 @@
 public class PlayerMoving : MonoBehaviour
 {
     [SerializeField] private float Speed = 5f;
-
-    private Rigidbody2D _rigidBody;
+    [SerializeField] private Rigidbody2D RigidBody;
+    [SerializeField] private AnimationController AnimController;
+    
     private float _inputX = 0;
     private float _inputY = 0;
-
-    private void Awake()
-    {
-        _rigidBody = GetComponent<Rigidbody2D>();
-    }
 
     private void Update()
     {
@@ -28,24 +24,44 @@ public class PlayerMoving : MonoBehaviour
     {
         if (inputX == 0 && inputY == 0)
         {
-            _rigidBody.linearVelocity = Vector3.zero;
+            RigidBody.linearVelocity = Vector3.zero;
+            ChangeAnimation(AnimState.Idle);
             return;
         }
 
-        _rigidBody.linearVelocity = new Vector2(inputX * Speed, inputY * Speed);
+        RigidBody.linearVelocity = new Vector2(inputX * Speed, inputY * Speed);
 
-        SetDirection(inputX);
+        SetDirection(inputX, inputY);
     }
 
-    private void SetDirection(float inputX)
+    private void SetDirection(float inputX, float inputY)
     {
         if (inputX < 0)
         {
-            _rigidBody.transform.localScale = new Vector3(-1, 1, 1);
+            RigidBody.transform.localScale = new Vector3(-1, 1, 1);
+            ChangeAnimation(AnimState.Side);
         }
         else if (inputX > 0)
         {
-            _rigidBody.transform.localScale = new Vector3(1, 1, 1);
+            RigidBody.transform.localScale = new Vector3(1, 1, 1);
+            ChangeAnimation(AnimState.Side);
         }
+        else if (inputY < 0)
+        {
+            ChangeAnimation(AnimState.Front);
+        }
+        else if (inputY > 0)
+        {
+            ChangeAnimation(AnimState.Back);
+        }
+        else
+        {
+            ChangeAnimation(AnimState.Idle);
+        }
+    }
+
+    private void ChangeAnimation(AnimState state)
+    {
+        AnimController.SetState(state);
     }
 }
