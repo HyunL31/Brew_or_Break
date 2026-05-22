@@ -10,18 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: UI
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
-  m_GroupName: Default Local Group
-  m_GUID: c40ad986f1f19014f8915708511d09f1
+  m_GroupName: UI
+  m_GUID: f3d58e2b6f54b7940995428ba3a6a7f9
   m_SerializeEntries:
-  - m_GUID: e562cc0a716d7ef4fa2ad99867cd5e9a
-    m_Address: Prefabs/Collecting/Player
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e80d2677ba76e324ea88f3cf7c59f151
-    m_Address: Prefabs/Collecting/Map
+  - m_GUID: 8ef674362646ca44b92ccbfddbb1c184
+    m_Address: Prefabs/UI/InventorySlot
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -29,5 +24,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 13b6ef65e71faa54f9ceefcb18e79e91, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 64cc6a6571a7d534b94d3c3eb24ab714, type: 2}
-    - {fileID: 11400000, guid: f664523abc1491547af7823866707be9, type: 2}
+    - {fileID: 11400000, guid: 9f9edd1a193a63c4b9355bed6b682658, type: 2}
+    - {fileID: 11400000, guid: a9b0a8597b050344a94322186252b2e6, type: 2}

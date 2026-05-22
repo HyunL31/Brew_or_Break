@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Background
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Background
+  m_GUID: 11d43bbd3752c4f48a7f8a5607dd9ae5
+  m_SerializeEntries:
+  - m_GUID: 052b5af31025a1541bb1c9dccc7908c8
+    m_Address: Background/Bad_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b008ebbd02f5c5448cb2f0c9cf3d717
+    m_Address: Background/Opening_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 139634d8c06a10b4da8afa45a29edfa9
+    m_Address: Background/Title
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cd8df33c1a12a441b2c8c33c3ca1e85
+    m_Address: Background/Opening_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c7b1bfe252e17d4796f08f6d68d050c
+    m_Address: Background/Bad_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f91e71630fd35e46a47859f59bd53df
+    m_Address: Background/Bad_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40be770df803724429b9ac78d7b23650
+    m_Address: Background/Bad_09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f7203bedc39e154c979e0d8f951ce18
+    m_Address: Background/Bad_08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 601f967e6d059b64db0ca20473d3c25d
+    m_Address: Background/Time
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 631d9743649bb1b47a9994cc03a2effb
+    m_Address: Background/Store
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7841bc57c55e4a347a00ff8066253817
+    m_Address: Background/Bad_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85b75e241a206e94088d65bac3d2e499
+    m_Address: Background/Bad_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 908efa9f3a813884c942a94f84b38a90
+    m_Address: Background/Good_Ending_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95e65fac3eb2144439efcbe0b887ab5d
+    m_Address: Background/Bad_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c2e090768c18094d871b4796d358cf4
+    m_Address: Background/Arrest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2adbddacaf0e444496c313e5742b3b8
+    m_Address: Background/Loyal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7b01a15633b1364eaededfbc2588b6e
+    m_Address: Background/Bad_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce2f630bce9f6d14ea9bc8502b22ba56
+    m_Address: Background/Bad_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dead6afbef6bdf64882d89e91494f8c4
+    m_Address: Background/Normal_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e602d8c1477fa164cb11c1ec765bd3d0
+    m_Address: Background/Opening_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7632d851f3198547825e1b7f7027ccc
+    m_Address: Background/Opening_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 13b6ef65e71faa54f9ceefcb18e79e91, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f822e281e283f5a468033739249e8742, type: 2}
+    - {fileID: 11400000, guid: 3661f0f394bd4fc468c5838dcef7e578, type: 2}
