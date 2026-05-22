@@ -59,7 +59,6 @@ public class AnimationController : MonoBehaviour
 
     private void ResetAnimation()
     {
-        Anim.SetBool("IsMoving", false);
         Anim.SetBool("Back", false);
         Anim.SetBool("Front", false);
         Anim.SetBool("Side", false);

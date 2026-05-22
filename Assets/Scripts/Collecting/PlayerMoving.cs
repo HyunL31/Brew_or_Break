@@ -29,7 +29,8 @@ public class PlayerMoving : MonoBehaviour
             return;
         }
 
-        RigidBody.linearVelocity = new Vector2(inputX * Speed, inputY * Speed);
+        Vector2 moveDirection = new Vector2(inputX, inputY);
+        RigidBody.linearVelocity = moveDirection.normalized * Speed;
 
         SetDirection(inputX, inputY);
     }
