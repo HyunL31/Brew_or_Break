@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: c40ad986f1f19014f8915708511d09f1
   m_SerializeEntries:
+  - m_GUID: 139f9a9791cbbc34e817b40984354d0f
+    m_Address: Icon/Skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e562cc0a716d7ef4fa2ad99867cd5e9a
     m_Address: Prefabs/Collecting/Player
     m_ReadOnly: 0

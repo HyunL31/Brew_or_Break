@@ -3,6 +3,7 @@
 public class CollectingManager : MonoBehaviour
 {
     [SerializeField] private CameraMoving Camera;
+    [SerializeField] public PlayerMoving Player;
 
     public static CollectingManager Inst;
 
@@ -20,6 +21,9 @@ public class CollectingManager : MonoBehaviour
         {
             player.transform.position = Vector3.zero;
             SetCameraTarget(player);
+
+            PlayerMoving playerMoving = player.GetComponent<PlayerMoving>();
+            Player = playerMoving;
         });
 
         ResourceManager.Inst.InstantiatePrefab(mapPath, null, (map) =>

@@ -14,6 +14,7 @@ public static class GameUtil
         GameDataManager.Inst.LoadMonsterData("Monster");
         GameDataManager.Inst.LoadPotionData("Potion");
         GameDataManager.Inst.LoadResultData("Result");
+        GameDataManager.Inst.LoadSkillData("Skill");
     }
 
     public static void LoadSpriteAndSet(string path, Image imageObject)

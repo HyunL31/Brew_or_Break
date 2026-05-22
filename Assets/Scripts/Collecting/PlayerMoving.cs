@@ -1,13 +1,27 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerMoving : MonoBehaviour
 {
+    [Header("이동")]
     [SerializeField] private float Speed = 5f;
     [SerializeField] private Rigidbody2D RigidBody;
     [SerializeField] private AnimationController AnimController;
+
+    [Header("스킬")]
+    [SerializeField] private Collider2D Collider_BasicSkill;
+    [SerializeField] private GameObject Prefab_ProjectileSkill;
+    [SerializeField] private Transform SkillRoot;
     
     private float _inputX = 0;
     private float _inputY = 0;
+    private bool _isSkillUsing = false;
+    private Vector2 _playerDirection = Vector2.down;
+
+    private void Awake()
+    {
+        Collider_BasicSkill.gameObject.SetActive(false);
+    }
 
     private void Update()
     {
@@ -64,5 +78,51 @@ public class PlayerMoving : MonoBehaviour
     private void ChangeAnimation(AnimState state)
     {
         AnimController.SetState(state);
+    }
+
+    public void UseBasicSkill()
+    {
+        ChangeAnimation(AnimState.Attack);
+        Collider_BasicSkill.gameObject.SetActive(true);
+        StartCoroutine(StartBasicSkill());
+    }
+
+    public void UseProjectileSkill()
+    {
+        if (!CheckSkillUsable())
+        {
+            return;
+        }
+
+        GameObject gameObject = Instantiate(Prefab_ProjectileSkill, SkillRoot);
+
+        SkillProjectile skillProjectile = gameObject.GetComponent<SkillProjectile>();
+        skillProjectile.Shoot();
+    }
+
+    public void UseOverlapSkill()
+    {
+        if (!CheckSkillUsable())
+        {
+            return;
+        }
+    }
+
+    private bool CheckSkillUsable()
+    {
+        if (_isSkillUsing)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    private IEnumerator StartBasicSkill()
+    {
+        _isSkillUsing = true;
+        yield return new WaitForSeconds(1f);
+        Collider_BasicSkill.gameObject.SetActive(false);
+        _isSkillUsing = false;
     }
 }

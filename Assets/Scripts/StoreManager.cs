@@ -22,7 +22,7 @@ public class StoreManager : MonoBehaviour
         Inst = this;
     }
 
-    private void Start()
+    public void StoreInit()
     {
         _storeModel = GameManager.Inst.GetStoreModel();
     }
@@ -78,7 +78,7 @@ public class StoreManager : MonoBehaviour
                 return (float)GetStoreReputation() / _maxReputation;
 
             case StatType.Compensation:
-                return (float)GetStoreDebt() / _maxCompensation;
+                return 1f - ((float)GetStoreDebt() / _maxCompensation);
 
             default:
                 return 0;

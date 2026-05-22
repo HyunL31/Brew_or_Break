@@ -29,6 +29,7 @@ public class GameDataManager : MonoBehaviour
     public Dictionary<string, Monster> MonsterDataList { get; private set; } = new Dictionary<string, Monster>();
     public Dictionary<string, Potion> PotionDataList { get; private set; } = new Dictionary<string, Potion>();
     public Dictionary<string, Result> ResultDataList { get; private set; } = new Dictionary<string, Result>();
+    public Dictionary<string, Skill> SkillDataList { get; private set; } = new Dictionary<string, Skill>();
 
     private Dictionary<string, T> LoadData<T>(string tableName) where T : GameDataBase
     {
@@ -106,6 +107,11 @@ public class GameDataManager : MonoBehaviour
     public void LoadResultData(string tableName)
     {
         ResultDataList = LoadData<Result>(tableName);
+    }
+
+    public void LoadSkillData(string tableName)
+    {
+        SkillDataList = LoadData<Skill>(tableName);
     }
 
     public Character GetCharacterData(string id)
@@ -196,5 +202,15 @@ public class GameDataManager : MonoBehaviour
         }
 
         return ResultDataList.TryGetValue(id, out var data) ? data : null;
+    }
+
+    public Skill GetSkillData(string id)
+    {
+        if (SkillDataList == null || string.IsNullOrEmpty(id))
+        {
+            return null;
+        }
+
+        return SkillDataList.TryGetValue(id, out var data) ? data : null;
     }
 }

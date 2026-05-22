@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         _playerModel = SaveManager.Inst.RequestLoadData();
     }
 
-    public void LoadDeafaultData()
+    public void LoadDefaultData()
     {
         _playerModel = SaveManager.Inst.RequestLoadDefaultData();
     }

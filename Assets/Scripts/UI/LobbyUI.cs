@@ -55,7 +55,7 @@ public class LobbyUI : UIBase
     {
         Text_LevelStat.text = $"가게 레벨 : Lv.{StoreManager.Inst.GetStoreLevel()}";
         Text_ReputationStat.text = $"가게 명성 : {StoreManager.Inst.GetStoreReputation()}";
-        Text_DebtStat.text = $"갚은 빚 : {StoreManager.Inst.GetStoreDebt()}";
+        Text_DebtStat.text = $"배상금 : {StoreManager.Inst.GetStoreDebt()}";
 
         Image_LevelStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level);
         Image_ReputationStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation);

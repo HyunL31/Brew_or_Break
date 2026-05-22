@@ -81,3 +81,11 @@ public class Result : GameDataBase
     public int Reputation;
     public int Gold;
 }
+
+[Serializable]
+public class Skill : GameDataBase
+{
+    public string SkillName;
+    public int Level;
+    public string Type;
+}
