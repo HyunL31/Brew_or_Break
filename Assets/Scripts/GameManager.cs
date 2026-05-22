@@ -1,11 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Inst;
 
     private PlayerModel _playerModel = new PlayerModel();
+    public Action<string> OnSetInventory;
 
     private void Awake()
     {
@@ -30,6 +33,31 @@ public class GameManager : MonoBehaviour
     public List<ItemModel> GetInventory()
     {
         return _playerModel.Inventory;
+    }
+
+    public void UseItem(string id)
+    {
+        ItemModel target = null;
+
+        foreach (ItemModel item in _playerModel.Inventory)
+        {
+            if (item.ItemID.Contains(id))
+            {
+                target = item;
+                break;
+            }
+        }
+
+        if (target != null)
+        {
+            target.ItemCount--;
+
+            if (target.ItemCount <= 0)
+            {
+                OnSetInventory?.Invoke(id);
+                _playerModel.Inventory.Remove(target);
+            }
+        }
     }
 
     public int GetDay()

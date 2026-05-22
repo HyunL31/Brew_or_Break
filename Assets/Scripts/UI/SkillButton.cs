@@ -62,7 +62,10 @@ public class SkillButton : MonoBehaviour
 
     private void OnClickProjectileSkill()
     {
-        CollectingManager.Inst.Player.UseProjectileSkill();
+        string animType = GameDataManager.Inst.GetSkillData(_skillID).Anim;
+        Enum.TryParse(animType, out ProjectileType projectileType);
+
+        CollectingManager.Inst.Player.UseProjectileSkill(projectileType);
     }
 
     private void OnClickOverlapSkill()

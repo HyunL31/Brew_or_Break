@@ -129,6 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HUD
   SkillButtonRoot: {fileID: 4340218053476428068}
   SkillButtonPrefab: {fileID: 8621705199794428506, guid: 2a78cf77d7d0d544eb4fc6ff1212f457, type: 3}
+  Button_Inventory: {fileID: 8421726082262128848}
 --- !u!1001 &7431376108363585918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -255,3 +256,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 891970368625710920, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
   m_PrefabInstance: {fileID: 7431376108363585918}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8421726082262128848 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1440719166623859118, guid: cf4e9e4f5fb01694bb0f50a605e77a78, type: 3}
+  m_PrefabInstance: {fileID: 7431376108363585918}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button

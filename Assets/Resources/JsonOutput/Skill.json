@@ -4,34 +4,39 @@
     "SkillName": "기본 공격",
     "ATK": 3,
     "Level": 1,
-    "Type": "Basic"
+    "Type": "Basic",
+    "Anim": null
   },
   {
     "ID": "Skill_02",
     "SkillName": "물",
     "ATK": 5,
     "Level": 2,
-    "Type": "Projectile"
+    "Type": "Projectile",
+    "Anim": "Water"
   },
   {
     "ID": "Skill_03",
     "SkillName": "불",
     "ATK": 8,
     "Level": 3,
-    "Type": "Projectile"
+    "Type": "Projectile",
+    "Anim": "Fire"
   },
   {
     "ID": "Skill_04",
     "SkillName": "흙",
     "ATK": 10,
     "Level": 4,
-    "Type": "Overlap"
+    "Type": "Overlap",
+    "Anim": null
   },
   {
     "ID": "Skill_05",
     "SkillName": "공기",
     "ATK": 12,
     "Level": 5,
-    "Type": "Projectile"
+    "Type": "Projectile",
+    "Anim": "Air"
   }
 ]

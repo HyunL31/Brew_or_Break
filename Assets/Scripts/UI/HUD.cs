@@ -7,8 +7,16 @@ public class HUD : UIBase
     [Header("스킬")]
     [SerializeField] private Transform SkillButtonRoot;
     [SerializeField] private Button SkillButtonPrefab;
+
+    [Header("기타")]
+    [SerializeField] private Button Button_Inventory;
     
     private List<SkillButton> _skills = new List<SkillButton>();
+
+    private void Awake()
+    {
+        Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
+    }
 
     private void Start()
     {

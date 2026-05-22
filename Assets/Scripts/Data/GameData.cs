@@ -88,4 +88,5 @@ public class Skill : GameDataBase
     public string SkillName;
     public int Level;
     public string Type;
+    public string Anim;
 }

@@ -148,6 +148,9 @@ public class CraftUI : UIBase
         Image_Smoke.color = color;
 
         _addedItem.Add(id);
+
+        GameManager.Inst.UseItem(id);
+        GameManager.Inst.OnSetInventory?.Invoke(id);
     }
 
     private void GetReturnID(string potionID)

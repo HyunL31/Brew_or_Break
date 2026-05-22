@@ -87,7 +87,7 @@ public class PlayerMoving : MonoBehaviour
         StartCoroutine(StartBasicSkill());
     }
 
-    public void UseProjectileSkill()
+    public void UseProjectileSkill(ProjectileType type)
     {
         if (!CheckSkillUsable())
         {
@@ -97,6 +97,7 @@ public class PlayerMoving : MonoBehaviour
         GameObject gameObject = Instantiate(Prefab_ProjectileSkill, SkillRoot);
 
         SkillProjectile skillProjectile = gameObject.GetComponent<SkillProjectile>();
+        skillProjectile.SetProjectileEffect(type);
         skillProjectile.Shoot();
     }
 
