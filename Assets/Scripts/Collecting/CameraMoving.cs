@@ -2,10 +2,21 @@
 
 public class CameraMoving : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+    public GameObject _player;
 
-    private void Awake()
+    private void LateUpdate()
     {
+        if (_player == null)
+        {
+            return;
+        }
 
+        Vector3 targetPos = new Vector3(_player.transform.position.x, _player.transform.position.y, -10f);
+        this.transform.position = targetPos;
+    }
+
+    private void SetTarget(GameObject player)
+    {
+        _player = player;
     }
 }
