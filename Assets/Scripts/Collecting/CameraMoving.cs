@@ -2,7 +2,7 @@
 
 public class CameraMoving : MonoBehaviour
 {
-    public GameObject _player;
+    private GameObject _player;
 
     private void LateUpdate()
     {
@@ -15,7 +15,7 @@ public class CameraMoving : MonoBehaviour
         this.transform.position = targetPos;
     }
 
-    private void SetTarget(GameObject player)
+    public void SetTarget(GameObject player)
     {
         _player = player;
     }

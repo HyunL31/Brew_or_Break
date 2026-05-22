@@ -57,7 +57,7 @@ public class AccountUI : UIBase
         GameManager.Inst.SetDay();
         GameManager.Inst.SaveData();
 
-        UIManager.Inst.OpenLobbyUI();
+        CollectingManager.Inst.SetCollectingMap();
         UIManager.Inst.CloseAccountUI();
     }
 

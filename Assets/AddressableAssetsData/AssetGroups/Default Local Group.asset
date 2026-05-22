@@ -370,6 +370,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e562cc0a716d7ef4fa2ad99867cd5e9a
+    m_Address: Prefabs/Collecting/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e602d8c1477fa164cb11c1ec765bd3d0
     m_Address: Background/Opening_04
     m_ReadOnly: 0
@@ -377,6 +382,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e7632d851f3198547825e1b7f7027ccc
     m_Address: Background/Opening_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e80d2677ba76e324ea88f3cf7c59f151
+    m_Address: Prefabs/Collecting/Map
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
