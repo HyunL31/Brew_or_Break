@@ -77,9 +77,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7375481728632038812}
-  - component: {fileID: 4450316683506062917}
+  - component: {fileID: 5515289052524821258}
   m_Layer: 0
-  m_Name: ProjectileSkill
+  m_Name: OverlapSkill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +102,7 @@ Transform:
   - {fileID: 6370868138042259846}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4450316683506062917
+--- !u!114 &5515289052524821258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,11 +111,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4380877788886262139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58a590f36efac7b4c95fe5bdbf4e7f81, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a7c2cad8dde45f41a1e39884cbdbad4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SkillProjectile
-  Anim: {fileID: 3120826207489092436}
-  Speed: 5
+  m_EditorClassIdentifier: Assembly-CSharp::SkillOverlap
 --- !u!1 &4405074959023863935
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6370868138042259846}
   - component: {fileID: 7802563246315915609}
-  - component: {fileID: 3120826207489092436}
+  - component: {fileID: 7615386075726939018}
   m_Layer: 0
   m_Name: Projectile Effect
   m_TagString: Untagged
@@ -208,7 +206,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &3120826207489092436
+--- !u!95 &7615386075726939018
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -218,7 +216,7 @@ Animator:
   m_GameObject: {fileID: 4405074959023863935}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d6aad4cd74dcae448903e0c2f1bd5117, type: 2}
+  m_Controller: {fileID: 9100000, guid: 259725e580a3f2d42907b22dccc72a4d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

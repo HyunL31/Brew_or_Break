@@ -16,7 +16,7 @@ public class PlayerMoving : MonoBehaviour
     private float _inputX = 0;
     private float _inputY = 0;
     private bool _isSkillUsing = false;
-    private Vector2 _playerDirection = Vector2.down;
+    private Vector3 _playerDirection = Vector3.down;
 
     private void Awake()
     {
@@ -53,21 +53,27 @@ public class PlayerMoving : MonoBehaviour
     {
         if (inputX < 0)
         {
-            RigidBody.transform.localScale = new Vector3(-1, 1, 1);
+            RigidBody.transform.eulerAngles = new Vector3(0, 180f, 0);
             ChangeAnimation(AnimState.Side);
+            _playerDirection = Vector3.left;
         }
         else if (inputX > 0)
         {
-            RigidBody.transform.localScale = new Vector3(1, 1, 1);
+            RigidBody.transform.eulerAngles = new Vector3(0, 0, 0);
             ChangeAnimation(AnimState.Side);
+            _playerDirection = Vector3.right;
         }
         else if (inputY < 0)
         {
+            RigidBody.transform.eulerAngles = new Vector3(0, 0, 0);
             ChangeAnimation(AnimState.Front);
+            _playerDirection = Vector3.down;
         }
         else if (inputY > 0)
         {
+            RigidBody.transform.eulerAngles = new Vector3(0, 0, 0);
             ChangeAnimation(AnimState.Back);
+            _playerDirection = Vector3.up;
         }
         else
         {
@@ -97,8 +103,12 @@ public class PlayerMoving : MonoBehaviour
         GameObject gameObject = Instantiate(Prefab_ProjectileSkill, SkillRoot);
 
         SkillProjectile skillProjectile = gameObject.GetComponent<SkillProjectile>();
-        skillProjectile.SetProjectileEffect(type);
-        skillProjectile.Shoot();
+        skillProjectile.SetProjectileEffect(type, _playerDirection);
+
+        if (type == ProjectileType.Fire || type == ProjectileType.Water)
+        {
+            skillProjectile.SetProjectileDirection(_playerDirection);
+        }
     }
 
     public void UseOverlapSkill()
@@ -107,6 +117,8 @@ public class PlayerMoving : MonoBehaviour
         {
             return;
         }
+
+
     }
 
     private bool CheckSkillUsable()

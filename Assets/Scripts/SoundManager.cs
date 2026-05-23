@@ -23,6 +23,7 @@ public class SoundManager : MonoBehaviour
         GameUtil.LoadSoundAndSet("Popup", Audio_SFX);
         GameUtil.LoadSoundAndSet("Typing", Audio_SFX);
         GameUtil.LoadSoundAndSet("Button", Audio_SFX);
+        GameUtil.LoadSoundAndSet("Bomb", Audio_SFX);
     }
 
     public void SetBGMAndPlay(string clip)

@@ -26,7 +26,6 @@ public class HUD : UIBase
     private void InitSkillButton()
     {
         int playerLevel = StoreManager.Inst.GetStoreLevel();
-        Debug.Log(playerLevel);
         var datas = GameDataManager.Inst.SkillDataList.Values;
 
         foreach (var data in datas)
