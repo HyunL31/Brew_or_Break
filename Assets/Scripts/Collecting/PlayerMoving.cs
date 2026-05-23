@@ -91,8 +91,42 @@ public class PlayerMoving : MonoBehaviour
     public void UseBasicSkill()
     {
         ChangeAnimation(AnimState.Attack);
+
+        Collider_BasicSkill.gameObject.transform.position = SetBasicSkillRange();
         Collider_BasicSkill.gameObject.SetActive(true);
+
         StartCoroutine(StartBasicSkill());
+    }
+
+    private Vector3 SetBasicSkillRange()
+    {
+        float xPos = 0;
+        float yPos = 0;
+
+        if (_playerDirection == Vector3.up)
+        {
+            xPos = 0;
+            yPos = 1f;
+        }
+        else if (_playerDirection == Vector3.down)
+        {
+            xPos = 0;
+            yPos = -1f;
+        }
+        else if (_playerDirection == Vector3.left)
+        {
+            xPos = -1f;
+            yPos = 0f;
+        }
+        else if (_playerDirection == Vector3.right)
+        {
+            xPos = 1;
+            yPos = 0f;
+        }
+
+        Vector3 targetPos = transform.position + new Vector3(xPos, yPos, 0);
+
+        return targetPos;
     }
 
     public void UseProjectileSkill(ProjectileType type)
@@ -123,9 +157,6 @@ public class PlayerMoving : MonoBehaviour
         Vector2 dir = _playerDirection.normalized;
 
         Vector3 spawnPosition = transform.position + new Vector3(dir.x * Offset.x, dir.y * Offset.x, 0);
-
-        //spawnPosition.x += Offset.y * -dir.y; // dir의 수직 벡터 반영 (필요 없다면 제외 가능)
-        //spawnPosition.y += Offset.y * dir.x;
 
         GameObject skillObj = Instantiate(Prefab_OverlapSkill, spawnPosition, Quaternion.identity, SkillRoot);
 

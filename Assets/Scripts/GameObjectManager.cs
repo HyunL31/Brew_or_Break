@@ -20,7 +20,6 @@ public class GameObjectManager : MonoBehaviour
         string path = $"Prefabs/{monsterID}";
         ResourceManager.Inst.InstantiatePrefab(path, spawnSpot, (prefab) =>
         {
-            //prefab.transform.position = spawnSpot.position;
             AddMonsterObject(prefab, monsterID);
         });
     }
