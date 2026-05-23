@@ -20,6 +20,36 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c00e2a43b5b8e8429713213e7e0af77
+    m_Address: Prefabs/Monster_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56801769d7ab5e1459af4d0e4a70291a
+    m_Address: Prefabs/Monster_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c6f7c2b910f2b34a903a9306f64e73b
+    m_Address: Prefabs/Monster_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79c5d269a3c48a446b762bb7031fc244
+    m_Address: Prefabs/Monster_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6177e006da5cec499b1cdac5b68cf1f
+    m_Address: Prefabs/Monster_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc2d014e1795d534895e06a965914fdd
+    m_Address: Prefabs/Monster_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e562cc0a716d7ef4fa2ad99867cd5e9a
     m_Address: Prefabs/Collecting/Player
     m_ReadOnly: 0

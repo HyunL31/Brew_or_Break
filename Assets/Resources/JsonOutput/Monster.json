@@ -3,6 +3,7 @@
     "ID": "Monster_01",
     "Name": "왕눈박쥐",
     "HP": 60,
+    "ATK": 10,
     "DropItem": [
       "Item_01",
       "Item_05",
@@ -13,6 +14,7 @@
     "ID": "Monster_02",
     "Name": "광기모자버섯",
     "HP": 50,
+    "ATK": 15,
     "DropItem": [
       "Item_02",
       "Item_10",
@@ -23,6 +25,7 @@
     "ID": "Monster_03",
     "Name": "해골바가지",
     "HP": 100,
+    "ATK": 30,
     "DropItem": [
       "Item_13",
       "Item_03",
@@ -33,6 +36,7 @@
     "ID": "Monster_04",
     "Name": "고블린",
     "HP": 80,
+    "ATK": 20,
     "DropItem": [
       "Item_08",
       "Item_04",
@@ -42,7 +46,8 @@
   {
     "ID": "Monster_05",
     "Name": "다크울프",
-    "HP": 90,
+    "HP": 120,
+    "ATK": 30,
     "DropItem": [
       "Item_11",
       "Item_14",
@@ -53,6 +58,7 @@
     "ID": "Monster_06",
     "Name": "진흙괴물",
     "HP": 70,
+    "ATK": 5,
     "DropItem": [
       "Item_15",
       "Item_01",

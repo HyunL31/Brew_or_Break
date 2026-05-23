@@ -64,6 +64,7 @@ public class Monster : GameDataBase
 {
     public string Name;
     public int HP;
+    public int ATK;
     public List<string> DropItem;
 }
 
