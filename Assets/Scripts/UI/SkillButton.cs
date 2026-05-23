@@ -70,6 +70,9 @@ public class SkillButton : MonoBehaviour
 
     private void OnClickOverlapSkill()
     {
-        CollectingManager.Inst.Player.UseOverlapSkill();
+        string animType = GameDataManager.Inst.GetSkillData(_skillID).Anim;
+        Enum.TryParse(animType, out OverlapType overlapType);
+        Debug.Log(animType);
+        CollectingManager.Inst.Player.UseOverlapSkill(overlapType);
     }
 }

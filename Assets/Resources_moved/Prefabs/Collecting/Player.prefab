@@ -273,7 +273,10 @@ MonoBehaviour:
   AnimController: {fileID: 1303205030420012219}
   Collider_BasicSkill: {fileID: 4106926882742434663}
   Prefab_ProjectileSkill: {fileID: 4380877788886262139, guid: 925456057f3196e4c8a393fbf3557940, type: 3}
+  Prefab_OverlapSkill: {fileID: 4380877788886262139, guid: cf2c1f9b60de519488ee05d49102087b, type: 3}
   SkillRoot: {fileID: 4670785202809461716}
+  OverlapRadius: 5
+  Offset: {x: 2.5, y: 2.5, z: 0}
 --- !u!50 &3869106738461015053
 Rigidbody2D:
   serializedVersion: 5

@@ -29,7 +29,7 @@
     "ATK": 10,
     "Level": 4,
     "Type": "Overlap",
-    "Anim": null
+    "Anim": "Earth"
   },
   {
     "ID": "Skill_05",

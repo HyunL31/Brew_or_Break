@@ -11,8 +11,11 @@ public class PlayerMoving : MonoBehaviour
     [Header("스킬")]
     [SerializeField] private Collider2D Collider_BasicSkill;
     [SerializeField] private GameObject Prefab_ProjectileSkill;
+    [SerializeField] private GameObject Prefab_OverlapSkill;
     [SerializeField] private Transform SkillRoot;
-    
+    [SerializeField] private float OverlapRadius = 5f;
+    [SerializeField] private Vector3 Offset;
+
     private float _inputX = 0;
     private float _inputY = 0;
     private bool _isSkillUsing = false;
@@ -51,6 +54,8 @@ public class PlayerMoving : MonoBehaviour
 
     private void SetDirection(float inputX, float inputY)
     {
+        RigidBody.transform.eulerAngles = new Vector3(0, 0, 0);
+
         if (inputX < 0)
         {
             RigidBody.transform.eulerAngles = new Vector3(0, 180f, 0);
@@ -59,19 +64,16 @@ public class PlayerMoving : MonoBehaviour
         }
         else if (inputX > 0)
         {
-            RigidBody.transform.eulerAngles = new Vector3(0, 0, 0);
             ChangeAnimation(AnimState.Side);
             _playerDirection = Vector3.right;
         }
         else if (inputY < 0)
         {
-            RigidBody.transform.eulerAngles = new Vector3(0, 0, 0);
             ChangeAnimation(AnimState.Front);
             _playerDirection = Vector3.down;
         }
         else if (inputY > 0)
         {
-            RigidBody.transform.eulerAngles = new Vector3(0, 0, 0);
             ChangeAnimation(AnimState.Back);
             _playerDirection = Vector3.up;
         }
@@ -111,14 +113,25 @@ public class PlayerMoving : MonoBehaviour
         }
     }
 
-    public void UseOverlapSkill()
+    public void UseOverlapSkill(OverlapType type)
     {
         if (!CheckSkillUsable())
         {
             return;
         }
 
+        Vector2 dir = _playerDirection.normalized;
 
+        Vector3 spawnPosition = transform.position + new Vector3(dir.x * Offset.x, dir.y * Offset.x, 0);
+
+        //spawnPosition.x += Offset.y * -dir.y; // dir의 수직 벡터 반영 (필요 없다면 제외 가능)
+        //spawnPosition.y += Offset.y * dir.x;
+
+        GameObject skillObj = Instantiate(Prefab_OverlapSkill, spawnPosition, Quaternion.identity, SkillRoot);
+
+        SkillOverlap skillOverlap = skillObj.GetComponent<SkillOverlap>();
+        skillOverlap.SetOverlapEffect(type, _playerDirection);
+        skillOverlap.InvokeOverlapSkill(OverlapRadius);
     }
 
     private bool CheckSkillUsable()

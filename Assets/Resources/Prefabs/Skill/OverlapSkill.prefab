@@ -114,6 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a7c2cad8dde45f41a1e39884cbdbad4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkillOverlap
+  Anim: {fileID: 7615386075726939018}
 --- !u!1 &4405074959023863935
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +127,7 @@ GameObject:
   - component: {fileID: 7802563246315915609}
   - component: {fileID: 7615386075726939018}
   m_Layer: 0
-  m_Name: Projectile Effect
+  m_Name: Overlap Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
