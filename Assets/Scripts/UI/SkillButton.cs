@@ -57,7 +57,7 @@ public class SkillButton : MonoBehaviour
 
     private void OnClickBasicSkill()
     {
-        CollectingManager.Inst.Player.UseBasicSkill();
+        CollectingManager.Inst.GetPlayer().UseBasicSkill();
     }
 
     private void OnClickProjectileSkill()
@@ -65,7 +65,7 @@ public class SkillButton : MonoBehaviour
         string animType = GameDataManager.Inst.GetSkillData(_skillID).Anim;
         Enum.TryParse(animType, out ProjectileType projectileType);
 
-        CollectingManager.Inst.Player.UseProjectileSkill(projectileType);
+        CollectingManager.Inst.GetPlayer().UseProjectileSkill(projectileType);
     }
 
     private void OnClickOverlapSkill()
@@ -73,6 +73,6 @@ public class SkillButton : MonoBehaviour
         string animType = GameDataManager.Inst.GetSkillData(_skillID).Anim;
         Enum.TryParse(animType, out OverlapType overlapType);
         Debug.Log(animType);
-        CollectingManager.Inst.Player.UseOverlapSkill(overlapType);
+        CollectingManager.Inst.GetPlayer().UseOverlapSkill(overlapType);
     }
 }

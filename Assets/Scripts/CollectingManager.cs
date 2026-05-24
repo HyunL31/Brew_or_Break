@@ -2,14 +2,24 @@
 
 public class CollectingManager : MonoBehaviour
 {
-    [SerializeField] private CameraMoving Camera;
-    [SerializeField] public PlayerMoving Player;
-
     public static CollectingManager Inst;
+
+    private CameraMoving _camera;
+    private PlayerMoving _player;
 
     private void Awake()
     {
         Inst = this;
+    }
+
+    public void SetCamera(CameraMoving camera)
+    {
+        _camera = camera;
+    }
+
+    public PlayerMoving GetPlayer()
+    {
+        return _player;
     }
 
     public void SetCollectingMap()
@@ -23,7 +33,7 @@ public class CollectingManager : MonoBehaviour
             SetCameraTarget(player);
 
             PlayerMoving playerMoving = player.GetComponent<PlayerMoving>();
-            Player = playerMoving;
+            _player = playerMoving;
         });
 
         ResourceManager.Inst.InstantiatePrefab(mapPath, null, (map) =>
@@ -34,6 +44,6 @@ public class CollectingManager : MonoBehaviour
 
     private void SetCameraTarget(GameObject player)
     {
-        Camera.SetTarget(player);
+        _camera.SetTarget(player);
     }
 }

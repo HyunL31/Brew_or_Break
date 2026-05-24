@@ -4,6 +4,11 @@ public class CameraMoving : MonoBehaviour
 {
     private GameObject _player;
 
+    private void Start()
+    {
+        CollectingManager.Inst.SetCamera(this);
+    }
+
     private void LateUpdate()
     {
         if (_player == null)
