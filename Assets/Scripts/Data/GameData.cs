@@ -88,6 +88,7 @@ public class Result : GameDataBase
 public class Skill : GameDataBase
 {
     public string SkillName;
+    public int ATK;
     public int Level;
     public string Type;
     public string Anim;

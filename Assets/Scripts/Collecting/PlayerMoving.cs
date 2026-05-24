@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using NUnit.Framework;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerMoving : MonoBehaviour
 {
@@ -9,7 +12,6 @@ public class PlayerMoving : MonoBehaviour
     [SerializeField] private AnimationController AnimController;
 
     [Header("스킬")]
-    [SerializeField] private Collider2D Collider_BasicSkill;
     [SerializeField] private GameObject Prefab_ProjectileSkill;
     [SerializeField] private GameObject Prefab_OverlapSkill;
     [SerializeField] private Transform SkillRoot;
@@ -19,12 +21,10 @@ public class PlayerMoving : MonoBehaviour
     private float _inputX = 0;
     private float _inputY = 0;
     private bool _isSkillUsing = false;
+    private bool _isAlive = true;
     private Vector3 _playerDirection = Vector3.down;
 
-    private void Awake()
-    {
-        Collider_BasicSkill.gameObject.SetActive(false);
-    }
+    private int _playerHP = 100;
 
     private void Update()
     {
@@ -34,7 +34,10 @@ public class PlayerMoving : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move(_inputX, _inputY);
+        if (_isAlive)
+        {
+            Move(_inputX, _inputY);
+        }
     }
 
     private void Move(float inputX, float inputY)
@@ -88,12 +91,21 @@ public class PlayerMoving : MonoBehaviour
         AnimController.SetState(state);
     }
 
-    public void UseBasicSkill()
+    public void UseBasicSkill(int atk)
     {
         ChangeAnimation(AnimState.Attack);
 
-        Collider_BasicSkill.gameObject.transform.position = SetBasicSkillRange();
-        Collider_BasicSkill.gameObject.SetActive(true);
+        float radius = 1.5f;
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(SetBasicSkillRange(), radius);
+
+        foreach (Collider2D col in hitColliders)
+        {
+            if (col.CompareTag("Monster"))
+            {
+                Enemy enemy = col.GetComponent<Enemy>();
+                enemy.TakeDamage(atk);
+            }
+        }
 
         StartCoroutine(StartBasicSkill());
     }
@@ -129,7 +141,7 @@ public class PlayerMoving : MonoBehaviour
         return targetPos;
     }
 
-    public void UseProjectileSkill(ProjectileType type)
+    public void UseProjectileSkill(ProjectileType type, int atk)
     {
         if (!CheckSkillUsable())
         {
@@ -139,15 +151,17 @@ public class PlayerMoving : MonoBehaviour
         GameObject gameObject = Instantiate(Prefab_ProjectileSkill, SkillRoot);
 
         SkillProjectile skillProjectile = gameObject.GetComponent<SkillProjectile>();
-        skillProjectile.SetProjectileEffect(type, _playerDirection);
-
-        if (type == ProjectileType.Fire || type == ProjectileType.Water)
-        {
-            skillProjectile.SetProjectileDirection(_playerDirection);
-        }
+        skillProjectile.InitProjectile(type, _playerDirection, atk, OnMonsterCollide);
     }
 
-    public void UseOverlapSkill(OverlapType type)
+    private void OnMonsterCollide(int instanceID, int damage)
+    {
+        Enemy enemy = CollectingManager.Inst.GetMonster(instanceID);
+
+        enemy.TakeDamage(damage);
+    }
+
+    public void UseOverlapSkill(OverlapType type, int atk)
     {
         if (!CheckSkillUsable())
         {
@@ -161,8 +175,8 @@ public class PlayerMoving : MonoBehaviour
         GameObject skillObj = Instantiate(Prefab_OverlapSkill, spawnPosition, Quaternion.identity, SkillRoot);
 
         SkillOverlap skillOverlap = skillObj.GetComponent<SkillOverlap>();
-        skillOverlap.SetOverlapEffect(type, _playerDirection);
-        skillOverlap.InvokeOverlapSkill(OverlapRadius);
+        skillOverlap.InitOverlap(type, _playerDirection, OverlapRadius, atk, OnMonsterCollide);
+
     }
 
     private bool CheckSkillUsable()
@@ -179,7 +193,30 @@ public class PlayerMoving : MonoBehaviour
     {
         _isSkillUsing = true;
         yield return new WaitForSeconds(1f);
-        Collider_BasicSkill.gameObject.SetActive(false);
         _isSkillUsing = false;
+    }
+
+    public void TakeDamage(int atk)
+    {
+        _playerHP -= atk;
+
+        if (_playerHP <= 0)
+        {
+            StartCoroutine(Die());
+        }
+    }
+
+    private IEnumerator Die()
+    {
+        AnimController.SetState(AnimState.Dead);
+
+        float delay = AnimController.GetAnimDelay();
+
+        yield return new WaitForSeconds(delay);
+
+        GameManager.Inst.SetDay();
+        UIManager.Inst.CloseHUD();
+        UIManager.Inst.OpenLobbyUI();
+        CollectingManager.Inst.DestroyPlayer();
     }
 }

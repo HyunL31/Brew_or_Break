@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using UnityEngine;
 
 public enum ProjectileType
 {
@@ -14,10 +16,24 @@ public class SkillProjectile : SkillBase
     [SerializeField] private float Speed = 5f;
 
     private Vector3 _playerDir = Vector3.down;
+    private int _damage;
 
     private void Update()
     {
         Shoot();
+    }
+
+    public void InitProjectile(ProjectileType type, Vector3 playerDir, int damage, Action<int, int> onSkillCollision)
+    {
+        SetProjectileEffect(type, playerDir);
+
+        if (type == ProjectileType.Fire || type == ProjectileType.Water)
+        {
+            SetProjectileDirection(playerDir);
+        }
+
+        CollectingManager.Inst.OnSkillCollision = onSkillCollision;
+        _damage = damage;
     }
 
     public void SetProjectileEffect(ProjectileType type, Vector3 playerDir)
@@ -38,6 +54,9 @@ public class SkillProjectile : SkillBase
         }
 
         _playerDir = playerDir;
+
+        float delay = Anim.GetCurrentAnimatorStateInfo(0).length;
+        StartCoroutine(ShootCoroutine(delay));
     }
 
     public void SetProjectileDirection(Vector3 playerDir)
@@ -63,5 +82,30 @@ public class SkillProjectile : SkillBase
     public void Shoot()
     {
         transform.position += _playerDir * Speed * Time.deltaTime;
+    }
+
+    private IEnumerator ShootCoroutine(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        Destroy(this.gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Monster"))
+        {
+            Enemy enemy = collision.GetComponent<Enemy>();
+
+            if (enemy == null)
+            {
+                return;
+            }
+
+            int id = enemy.GetInstancedID();
+
+            CollectingManager.Inst.OnSkillCollision?.Invoke(id, _damage);
+            Destroy(this.gameObject);
+        }
     }
 }

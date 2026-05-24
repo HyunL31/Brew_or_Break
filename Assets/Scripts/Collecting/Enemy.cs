@@ -50,6 +50,9 @@ public class Enemy : MonoBehaviour
     private void Attack()
     {
         Anim.SetTrigger("Attack");
+
+        PlayerMoving player = CollectingManager.Inst.GetPlayer();
+        player.TakeDamage(_ATK);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -69,11 +72,36 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player");
             _canAttack = false;
 
             StopCoroutine(attackRoutine);
             attackRoutine = null;
         }
+    }
+
+    public void TakeDamage(int atk)
+    {
+        Anim.SetTrigger("Damage");
+        _HP -= atk;
+
+        if (_HP < 0)
+        {
+            StartCoroutine(Die());
+        }
+    }
+
+    private IEnumerator Die()
+    {
+        Anim.SetTrigger("Dead");
+
+        float delay = Anim.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(delay);
+
+        CollectingManager.Inst.DestroyMonster(this.gameObject);
+    }
+
+    public int GetInstancedID()
+    {
+        return _instanceID;
     }
 }

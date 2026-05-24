@@ -63,4 +63,9 @@ public class AnimationController : MonoBehaviour
         Anim.SetBool("Front", false);
         Anim.SetBool("Side", false);
     }
+
+    public float GetAnimDelay()
+    {
+        return Anim.GetCurrentAnimatorStateInfo(0).length;
+    }
 }

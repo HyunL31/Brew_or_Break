@@ -54,7 +54,6 @@ public class AccountUI : UIBase
 
     private void OnClickConfirm()
     {
-        GameManager.Inst.SetDay();
         GameManager.Inst.SaveData();
 
         CollectingManager.Inst.SetCollectingMap();

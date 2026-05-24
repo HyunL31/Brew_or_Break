@@ -24,7 +24,7 @@ public class SpawnSpot : MonoBehaviour
         switch(SpawnType)
         {
             case SpawnType.Monster:
-                GameObjectManager.Inst.CreateMonsterObject(GetRandomMonsterID(), this.transform);
+                CollectingManager.Inst.CreateMonsterObject(GetRandomMonsterID(), this.transform);
                 break;
         }
     }

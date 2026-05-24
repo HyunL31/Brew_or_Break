@@ -11,7 +11,6 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Transform Content;
     [SerializeField] private Transform Popup;
     [SerializeField] private Transform Front;
-    [SerializeField] private Button Button_Test;
 
     private Dictionary<UIType, UIBase> _createdUI = new Dictionary<UIType, UIBase>();
     private HashSet<UIType> _openedUI = new HashSet<UIType>();
@@ -19,19 +18,6 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         Inst = this;
-        Button_Test.onClick.AddListener(Test);
-    }
-
-    private void Test()
-    {
-        StoreManager.Inst.SetStoreLevel();
-        StoreManager.Inst.SetStoreLevel();
-        StoreManager.Inst.SetStoreLevel();
-        StoreManager.Inst.SetStoreLevel();
-        StoreManager.Inst.SetStoreLevel();
-
-        CollectingManager.Inst.SetCollectingMap();
-        UIManager.Inst.OpenHUD();
     }
 
     private void Start()

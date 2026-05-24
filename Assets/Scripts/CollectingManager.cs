@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class CollectingManager : MonoBehaviour
 {
@@ -6,6 +8,11 @@ public class CollectingManager : MonoBehaviour
 
     private CameraMoving _camera;
     private PlayerMoving _player;
+    private GameObject _map;
+    private int _generatedKey = 0;
+    private Dictionary<int, Enemy> _monsters = new Dictionary<int, Enemy>();
+
+    public Action<int, int> OnSkillCollision;
 
     private void Awake()
     {
@@ -20,6 +27,13 @@ public class CollectingManager : MonoBehaviour
     public PlayerMoving GetPlayer()
     {
         return _player;
+    }
+
+    public int SetSkillATK(string skillID)
+    {
+        int atk = GameDataManager.Inst.GetSkillData(skillID).ATK;
+
+        return atk;
     }
 
     public void SetCollectingMap()
@@ -39,11 +53,54 @@ public class CollectingManager : MonoBehaviour
         ResourceManager.Inst.InstantiatePrefab(mapPath, null, (map) =>
         {
             map.transform.position = Vector3.zero;
+            _map = map;
         });
+    }
+
+    public void DestroyPlayer()
+    {
+        Destroy(_player.gameObject);
+        Destroy(_map);
+
+        _player = null;
+        _map = null;
     }
 
     private void SetCameraTarget(GameObject player)
     {
         _camera.SetTarget(player);
+    }
+
+    public void CreateMonsterObject(string monsterID, Transform spawnSpot)
+    {
+        var monsterData = GameDataManager.Inst.GetMonsterData(monsterID);
+
+        string path = $"Prefabs/{monsterID}";
+        ResourceManager.Inst.InstantiatePrefab(path, spawnSpot, (prefab) =>
+        {
+            AddMonsterObject(prefab, monsterID);
+        });
+    }
+
+    public Enemy GetMonster(int id)
+    {
+        return _monsters[id];
+    }
+
+    public void DestroyMonster(GameObject monster)
+    {
+        Destroy(monster);
+    }
+
+    private void AddMonsterObject(GameObject monster, string monsterID)
+    {
+        int instanceID = _generatedKey;
+        _generatedKey++;
+
+        Enemy enemy = monster.GetComponent<Enemy>();
+
+        _monsters.Add(instanceID, enemy);
+
+        enemy.InitMonster(instanceID, monsterID);
     }
 }
