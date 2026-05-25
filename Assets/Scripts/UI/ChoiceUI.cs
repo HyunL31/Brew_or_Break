@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ChoiceUI : UIBase
 {
-    [SerializeField] GameObject ChoiceSlotPrefab;
     [SerializeField] Transform ChoiceParent;
 
     private List<GameObject> _choiceSlots = new List<GameObject>();
@@ -15,26 +15,29 @@ public class ChoiceUI : UIBase
 
     private void OnEnable()
     {
-        SetChoiceMenu();
+        SetChoiceMenu().Forget();
     }
 
-    private void SetChoiceMenu()
+    private async UniTask SetChoiceMenu()
     {
         string currentID = VisualNovelManager.Inst.GetCurrentDialogueID();
         var data = GameDataManager.Inst.ChoiceDataList;
+
+        string slotPath = "Prefabs/UI/ChoiceSlot";
 
         foreach (string choiceID in data.Keys)
         {
             if (choiceID.Contains(currentID))
             {
-                GameObject slot = Instantiate(ChoiceSlotPrefab, ChoiceParent);
-                ChoiceSlot choiceSlot = slot.GetComponent<ChoiceSlot>();
+                GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(slotPath, ChoiceParent);
+
+                ChoiceSlot choiceSlot = prefab.GetComponent<ChoiceSlot>();
 
                 string text = data[choiceID].Content;
                 choiceSlot.SetChoiceText(text);
                 choiceSlot.SetChoiceID(choiceID);
 
-                _choiceSlots.Add(slot);
+                _choiceSlots.Add(prefab);
             }
         }
     }

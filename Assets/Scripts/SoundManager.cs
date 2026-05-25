@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
@@ -14,39 +15,30 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        LoadSoundInit();
-        SetBGMAndPlay("Base");
+        SetBGMAndPlay("Audio/Base").Forget();
     }
 
-    public void LoadSoundInit()
-    {
-        GameUtil.LoadSoundAndSet("Popup", Audio_SFX);
-        GameUtil.LoadSoundAndSet("Typing", Audio_SFX);
-        GameUtil.LoadSoundAndSet("Button", Audio_SFX);
-        GameUtil.LoadSoundAndSet("Bomb", Audio_SFX);
-    }
-
-    public void SetBGMAndPlay(string clip)
+    public async UniTask SetBGMAndPlay(string path)
     {
         PauseAudio(Audio_BGM);
 
-        GameUtil.LoadSoundAndSet(clip, Audio_BGM);
+        await GameUtil.LoadSoundAndSet(path, Audio_BGM);
 
         Audio_BGM.Play();
     }
 
-    public void SetSFXAndPlay(string clip)
+    public async UniTask SetSFXAndPlay(string clip)
     {
-        AudioClip audioClip = GameUtil.LoadSoundAndSet(clip, Audio_SFX);
+        AudioClip audioClip = await GameUtil.LoadSoundAndSet(clip, Audio_SFX);
 
         Audio_SFX.PlayOneShot(audioClip);
     }
 
-    public void SetTypingAndPlay(AudioSource audioSource)
+    public async UniTask SetTypingAndPlay(AudioSource audioSource)
     {
         PauseAudio(audioSource);
 
-        GameUtil.LoadSoundAndSet("Typing", audioSource);
+        await GameUtil.LoadSoundAndSet("Audio/Typing", audioSource);
         audioSource.Play();
     }
 

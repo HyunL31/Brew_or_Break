@@ -15,48 +15,18 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: c40ad986f1f19014f8915708511d09f1
   m_SerializeEntries:
-  - m_GUID: 00a1edc90cb033c43a2979cb5e64799e
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_06_03.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 139f9a9791cbbc34e817b40984354d0f
     m_Address: Icon/Skill
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1793cfb57ce4fd240bd54d77ef5725ee
-    m_Address: Icon/Clue_03_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 23bc796342522c6418f895a1bc384e3a
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_08_02.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 330d466d0733ba8499404b7223b27485
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_08_01.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3c879c88739b2324197f138a0176cb0a
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_06_01.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 49169b639e7c68346baecb21ea85a572
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_07_03.png
+  - m_GUID: 3133911d013a519458515c4e30cdd391
+    m_Address: Prefabs/UI/ChoiceSlot
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4c00e2a43b5b8e8429713213e7e0af77
     m_Address: Prefabs/Monster_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 51e6a46f125c0c04295d230378010631
-    m_Address: Icon/Clue_03_01
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -70,23 +40,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 609d252a905ebed428a1fd3295dc6907
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_09_10.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 677b9a8f18b946d42bd777156247d4ce
     m_Address: Prefabs/DropItem
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 68ed8227d472b4b40a2b9330f3d59646
-    m_Address: Icon/Clue_02_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7005c16b2e5674243bcc50211bb9bf88
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_07_02.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -95,13 +50,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8a2192d0c3b276d4fa2af962ea8d7041
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_06_02.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8e304870eb9b11e49b77d76052852c3a
-    m_Address: Icon/Clue_04_02
+  - m_GUID: 80e565e8d6dde44458a1989b587b4098
+    m_Address: Icon/Clue
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -110,28 +60,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a86b7f474f7bb0f479b6a7dfb9952f56
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_08_03.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b15ba2d596b91da498f820873a6b8568
-    m_Address: Icon/Clue_04_01
+  - m_GUID: aaeea4da079807348b7724466dc1c4e5
+    m_Address: Prefabs/UI/ClueSlot
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bc2d014e1795d534895e06a965914fdd
     m_Address: Prefabs/Monster_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d41385d49b67aae4b88972a94a31348b
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_05_01.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d7b291262d9198c4c98a54371a2582b0
-    m_Address: Assets/Resources_moved/Icon/Clue/Clue_10_02.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.UI;
 
 public static class GameUtil
@@ -17,24 +18,38 @@ public static class GameUtil
         GameDataManager.Inst.LoadSkillData("Skill");
     }
 
-    public static void LoadSpriteAndSet(string path, Image imageObject)
+    public static async UniTask<Sprite> LoadSpriteAndSet(string path, Image imageObject)
     {
-        ResourceManager.Inst.LoadSprite(path, (sprite) =>
+        Sprite sprite = await ResourceManager.Inst.LoadSprite(path);
+
+        if (sprite != null)
         {
             imageObject.sprite = sprite;
-        });
+        }
+
+        return sprite;
     }
 
-    public static AudioClip LoadSoundAndSet(string clipName, AudioSource audio)
+    public static async UniTask<Sprite> LoadTextureAndSet(string path, SpriteRenderer spriteRender)
     {
-        AudioClip audioClip = null;
+        Sprite sprite = await ResourceManager.Inst.LoadSprite(path);
 
-        string path = $"Audio/{clipName}";
-        ResourceManager.Inst.LoadAsset<AudioClip>(path, (clip) =>
+        if (sprite != null)
         {
-            audio.clip = clip;
-            audioClip = clip;
-        });
+            spriteRender.sprite = sprite;
+        }
+
+        return sprite;
+    }
+
+    public static async UniTask<AudioClip> LoadSoundAndSet(string path, AudioSource audio)
+    {
+        AudioClip audioClip = await ResourceManager.Inst.LoadAsset<AudioClip>(path);
+
+        if (audioClip != null)
+        {
+            audio.clip = audioClip;
+        }
 
         return audioClip;
     }

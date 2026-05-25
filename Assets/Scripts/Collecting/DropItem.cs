@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 
 public class DropItem : MonoBehaviour
 {
@@ -23,13 +24,10 @@ public class DropItem : MonoBehaviour
         return _itemID;
     }
 
-    public void SetImage()
+    public async UniTask SetImage()
     {
         string path = $"Icon/Item[{_itemID}]";
 
-        ResourceManager.Inst.LoadSprite(path, (sprite) =>
-        {
-            Sprite_Item.sprite = sprite;
-        });
+        await GameUtil.LoadTextureAndSet(path, Sprite_Item);
     }
 }

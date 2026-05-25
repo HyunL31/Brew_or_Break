@@ -1,5 +1,4 @@
-﻿using NUnit.Framework;
-using System;
+﻿using Cysharp.Threading.Tasks;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -30,7 +29,7 @@ public class RecipePopup : UIBase
         Button_Right.onClick.AddListener(OnClickRightArrow);
         Button_Confirm.onClick.AddListener(OnClickConfirm);
 
-        SetPotionInfo(_currentIndex);
+        SetPotionInfo(_currentIndex).Forget();
     }
 
     private void OnClickLeftArrow()
@@ -48,7 +47,7 @@ public class RecipePopup : UIBase
             Button_Left.gameObject.SetActive(false);
         }
 
-        SetPotionInfo(_currentIndex);
+        SetPotionInfo(_currentIndex).Forget();
     }
 
     private void OnClickRightArrow()
@@ -66,25 +65,25 @@ public class RecipePopup : UIBase
             Button_Right.gameObject.SetActive(false);
         }
 
-        SetPotionInfo(_currentIndex);
+        SetPotionInfo(_currentIndex).Forget();
     }
 
-    private void SetPotionInfo(int index)
+    private async UniTask SetPotionInfo(int index)
     {
         string potionID = GetPotionID(index);
         string path = $"Icon/Potion[{potionID}]";
 
-        GameUtil.LoadSpriteAndSet(path, Image_Potion);
+        await GameUtil.LoadSpriteAndSet(path, Image_Potion);
 
         var data = GameDataManager.Inst.GetPotionData(potionID);
         
         Text_PotionName.text = data.Name;
         Text_PotionDescription.text = data.Description;
 
-        SetPotionIngredient(index);
+        await SetPotionIngredient(index);
     }
 
-    private void SetPotionIngredient(int index)
+    private async UniTask SetPotionIngredient(int index)
     {
         foreach(GameObject slot in _itemSlots)
         {
@@ -100,13 +99,12 @@ public class RecipePopup : UIBase
 
         foreach(string item in ingredient)
         {
-            ResourceManager.Inst.InstantiatePrefab(path, ItemSlotParent, (prefab) =>
-            {
-                InventorySlot slot = prefab.GetComponent<InventorySlot>();
-                slot.SetSlotInfo(item);
+            GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, ItemSlotParent);
 
-                _itemSlots.Add(prefab);
-            });
+            InventorySlot slot = prefab.GetComponent<InventorySlot>();
+            slot.SetSlotInfo(item);
+
+            _itemSlots.Add(prefab);
         }
     }
 

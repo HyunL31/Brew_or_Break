@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,25 +38,23 @@ public class CollectingManager : MonoBehaviour
         return atk;
     }
 
-    public void SetCollectingMap()
+    public async UniTask SetCollectingMap()
     {
         string playerPath = "Prefabs/Collecting/Player";
         string mapPath = "Prefabs/Collecting/Map";
 
-        ResourceManager.Inst.InstantiatePrefab(playerPath, null, (player) =>
-        {
-            player.transform.position = Vector3.zero;
-            SetCameraTarget(player);
+        GameObject player = await ResourceManager.Inst.InstantiatePrefab(playerPath, null);
 
-            PlayerMoving playerMoving = player.GetComponent<PlayerMoving>();
-            _player = playerMoving;
-        });
+        player.transform.position = Vector3.zero;
+        SetCameraTarget(player);
 
-        ResourceManager.Inst.InstantiatePrefab(mapPath, null, (map) =>
-        {
-            map.transform.position = Vector3.zero;
-            _map = map;
-        });
+        PlayerMoving playerMoving = player.GetComponent<PlayerMoving>();
+        _player = playerMoving;
+
+        GameObject map = await ResourceManager.Inst.InstantiatePrefab(mapPath, null);
+
+        map.transform.position = Vector3.zero;
+        _map = map;
     }
 
     public void DestroyPlayer()
@@ -72,15 +71,14 @@ public class CollectingManager : MonoBehaviour
         _camera.SetTarget(player);
     }
 
-    public void CreateMonsterObject(string monsterID, Transform spawnSpot)
+    public async UniTask CreateMonsterObject(string monsterID, Transform spawnSpot)
     {
         var monsterData = GameDataManager.Inst.GetMonsterData(monsterID);
 
         string path = $"Prefabs/{monsterID}";
-        ResourceManager.Inst.InstantiatePrefab(path, spawnSpot, (prefab) =>
-        {
-            AddMonsterObject(prefab, monsterID, spawnSpot);
-        });
+
+        GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, spawnSpot);
+        AddMonsterObject(prefab, monsterID, spawnSpot);
     }
 
     public Enemy GetMonster(int id)
@@ -106,24 +104,23 @@ public class CollectingManager : MonoBehaviour
         enemy.SetParent(spawnSpot);
     }
 
-    public void DropMonsterItem(List<string> items, Transform parent)
+    public async UniTask DropMonsterItem(List<string> items, Transform parent)
     {
         string path = "Prefabs/DropItem";
 
         foreach(string item in items)
         {
-            ResourceManager.Inst.InstantiatePrefab(path, parent, (prefab) =>
-            {
-                float randomX = UnityEngine.Random.Range(0, 1.5f);
-                float randomY = UnityEngine.Random.Range(0, 1.5f);
-                prefab.transform.position = new Vector2(parent.position.x + randomX, parent.position.y + randomY);
+            GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, parent);
 
-                DropItem dropItem = prefab.GetComponent<DropItem>();
-                dropItem.SetItemID(item);
-                dropItem.SetImage();
+            float randomX = UnityEngine.Random.Range(0, 1.5f);
+            float randomY = UnityEngine.Random.Range(0, 1.5f);
+            prefab.transform.position = new Vector2(parent.position.x + randomX, parent.position.y + randomY);
 
-                _dropItems[dropItem.GetInstancedID()] = dropItem;
-            });
+            DropItem dropItem = prefab.GetComponent<DropItem>();
+            dropItem.SetItemID(item);
+            dropItem.SetImage().Forget();
+
+            _dropItems[dropItem.GetInstancedID()] = dropItem;
         }
     }
 

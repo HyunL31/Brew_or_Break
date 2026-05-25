@@ -98,14 +98,7 @@ public class VisualNovelManager : MonoBehaviour
 
     public void SetCurrentDialogueID()
     {
-        if (GetCurrentDay() >= 10)
-        {
-            CurrentDialogueID = $"Episode_{GetCurrentDay()}_01";
-        }
-        else
-        {
-            CurrentDialogueID = $"Episode_0{GetCurrentDay()}_01";
-        }
+        CurrentDialogueID = $"Episode_{GetCurrentDay()}_01";
     }
 
     public void SetCurrentDialogueID(string id)

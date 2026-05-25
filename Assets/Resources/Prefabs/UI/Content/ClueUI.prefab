@@ -437,8 +437,7 @@ MonoBehaviour:
   - {fileID: 8010028844800948724}
   - {fileID: 4220796193892247168}
   - {fileID: 2690275011553376723}
-  clueSlotPrefab: {fileID: 629780780926599037, guid: aaeea4da079807348b7724466dc1c4e5, type: 3}
-  parent: {fileID: 480937513217878139}
+  SlotParent: {fileID: 480937513217878139}
   Button_Confirm: {fileID: 2614047746397010662}
 --- !u!1 &5770036182623386204
 GameObject:

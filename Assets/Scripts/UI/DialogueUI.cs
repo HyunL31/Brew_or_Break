@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿using Cysharp.Threading.Tasks;
+using System;
+using System.Collections;
+using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,15 +27,12 @@ public class DialogueUI : UIBase
 
     private bool _isTyping = false;
     private bool _isAuto = false;
-    private WaitForSeconds _typingWaitTime;
-    private WaitForSeconds _autoWaitTime;
-    private Coroutine _typingEffect;
+    private float _typingWaitTime = 0.03f;
+    private float _autoWaitTime = 0.5f;
+    private CancellationTokenSource _typingToken;
 
     private void Awake()
     {
-        _typingWaitTime = new WaitForSeconds(0.03f);
-        _autoWaitTime = new WaitForSeconds(0.5f);
-
         Button_Skip.onClick.AddListener(SkipDialogue);
         Toggle_Auto.isOn = _isAuto;
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
@@ -43,6 +43,11 @@ public class DialogueUI : UIBase
     private void OnEnable()
     {
         ShowDialogue(GetCurrentID());
+    }
+
+    private void OnDisable()
+    {
+        CancelTypingRoutine();
     }
 
     private void Update()
@@ -75,12 +80,10 @@ public class DialogueUI : UIBase
             Image_Speaker.gameObject.SetActive(false);
         }
 
-        if (_typingEffect != null)
-        {
-            StopCoroutine(_typingEffect);
-        }
+        CancelTypingRoutine();
+        _typingToken = new CancellationTokenSource();
 
-        _typingEffect = StartCoroutine(Typing(id));
+        Typing(id, _typingToken.Token).Forget();
 
         VisualNovelManager.Inst.OnChangeBaseUI?.Invoke(id);
 
@@ -145,11 +148,11 @@ public class DialogueUI : UIBase
         }
     }
 
-    private IEnumerator Typing(string id)
+    private async UniTaskVoid Typing(string id, CancellationToken token)
     {
         _isTyping = true;
 
-        SoundManager.Inst.SetTypingAndPlay(AudioSource);
+        SoundManager.Inst.SetTypingAndPlay(AudioSource).Forget();
 
         string content = GameDataManager.Inst.GetDialogueData(id).Content;
         Text_Dialogue.maxVisibleCharacters = 0;
@@ -165,7 +168,7 @@ public class DialogueUI : UIBase
 
             Text_Dialogue.maxVisibleCharacters++;
 
-            yield return _typingWaitTime;
+            await UniTask.Delay(TimeSpan.FromSeconds(_typingWaitTime), cancellationToken: token);
         }
 
         Text_Dialogue.maxVisibleCharacters = content.Length;
@@ -176,12 +179,20 @@ public class DialogueUI : UIBase
 
         if (_isAuto)
         {
-            yield return _autoWaitTime;
+            await UniTask.Delay(TimeSpan.FromSeconds(_autoWaitTime), cancellationToken: token);
 
             MoveToNextDialogue(id);
         }
+    }
 
-        yield return null;
+    private void CancelTypingRoutine()
+    {
+        if (_typingToken != null)
+        {
+            _typingToken.Cancel();
+            _typingToken.Dispose();
+            _typingToken = null;
+        }
     }
 
     private string GetCurrentID()
@@ -205,7 +216,7 @@ public class DialogueUI : UIBase
     {
         if (bgm != string.Empty)
         {
-            SoundManager.Inst.SetBGMAndPlay(bgm);
+            SoundManager.Inst.SetBGMAndPlay($"Audio/{bgm}").Forget();
         }
     }
 
@@ -213,7 +224,7 @@ public class DialogueUI : UIBase
     {
         if (sfx != string.Empty)
         {
-            SoundManager.Inst.SetSFXAndPlay(sfx);
+            SoundManager.Inst.SetSFXAndPlay($"Audio/{sfx}").Forget();
         }
     }
 }

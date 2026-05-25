@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class VisualNovelUI : UIBase
@@ -8,19 +9,19 @@ public class VisualNovelUI : UIBase
 
     private void Awake()
     {
-        VisualNovelManager.Inst.OnChangeBaseUI += ChangeBackgroundImage;
-        VisualNovelManager.Inst.OnChangeBaseUI += ChangeSpeakerCharacter;
+        VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeBackgroundImage(id).Forget();
+        VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeSpeakerCharacter(id).Forget();
     }
 
-    private void ChangeBackgroundImage(string id)
+    private async UniTask ChangeBackgroundImage(string id)
     {
         string background = GameDataManager.Inst.GetDialogueData(id).Background;
         string path = $"Background/{background}";
 
-        GameUtil.LoadSpriteAndSet(path, Image_Background);
+        await GameUtil.LoadSpriteAndSet(path, Image_Background);
     }
 
-    private void ChangeSpeakerCharacter(string id)
+    private async UniTask ChangeSpeakerCharacter(string id)
     {
         string characterFacial = GameDataManager.Inst.GetDialogueData(id).Facial;
 
@@ -34,7 +35,7 @@ public class VisualNovelUI : UIBase
 
             string path = $"Character/{characterFacial}";
 
-            GameUtil.LoadSpriteAndSet(path, Image_Character);
+            await GameUtil.LoadSpriteAndSet(path, Image_Character);
         }
     }
 }

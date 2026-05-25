@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Cysharp.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,9 +14,9 @@ public class ClueSlot : MonoBehaviour
         var data = GameDataManager.Inst.GetClueData(id);
         string name = data.Name;
         string description = data.Description;
-        string path = $"Icon/{id}";
+        string path = $"{data.Path}";
 
-        GameUtil.LoadSpriteAndSet(path, Image_Clue);
+        GameUtil.LoadSpriteAndSet(path, Image_Clue).Forget();
         Text_Name.text = name;
         Text_Description.text = description;
     }

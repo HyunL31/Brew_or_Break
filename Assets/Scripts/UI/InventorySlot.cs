@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Cysharp.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -18,7 +19,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
         string path = $"Icon/Item[{id}]";
 
-        GameUtil.LoadSpriteAndSet(path, Image_Item);
+        GameUtil.LoadSpriteAndSet(path, Image_Item).Forget();
     }
 
     public void SetItemCount(int count)

@@ -28,6 +28,7 @@ public class Clue : GameDataBase
     public string Description;
     public int Point;
     public string ReturnID;
+    public string Path;
 }
 
 [Serializable]

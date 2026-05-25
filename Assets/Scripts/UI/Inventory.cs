@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,10 +22,10 @@ public class Inventory : UIBase
 
     private void OnEnable()
     {
-        SetInventory();
+        SetInventory().Forget();
     }
 
-    private void SetInventory()
+    private async UniTask SetInventory()
     {
         _inventory.Clear();
 
@@ -34,15 +35,14 @@ public class Inventory : UIBase
         {
             string path = "Prefabs/UI/InventorySlot";
 
-            ResourceManager.Inst.InstantiatePrefab(path, SlotParent, (prefab) =>
-            {
-                InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();
+            GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, SlotParent);
 
-                inventorySlot.SetSlotInfo(item.ItemID);
-                inventorySlot.SetItemCount(item.ItemCount);
+            InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();
 
-                _inventory.Add(item.ItemID, inventorySlot);
-            });
+            inventorySlot.SetSlotInfo(item.ItemID);
+            inventorySlot.SetItemCount(item.ItemCount);
+
+            _inventory.Add(item.ItemID, inventorySlot);
         }
     }
 

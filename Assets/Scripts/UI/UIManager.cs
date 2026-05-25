@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -122,7 +122,7 @@ public class UIManager : MonoBehaviour
 
     public UIBase OpenPopupUI(UIType type)
     {
-        SoundManager.Inst.SetSFXAndPlay("Popup");
+        SoundManager.Inst.SetSFXAndPlay("Audio/Popup").Forget();
 
         UIBase ui = OpenUI(UIRootType.Popup, type);
 

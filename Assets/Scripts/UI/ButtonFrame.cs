@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ButtonFrame : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
@@ -7,7 +8,7 @@ public class ButtonFrame : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        SoundManager.Inst.SetSFXAndPlay("Button");
+        SoundManager.Inst.SetSFXAndPlay("Audio/Button").Forget();
 
         Frame.SetActive(true);
     }

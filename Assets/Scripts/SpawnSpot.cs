@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 
 public enum SpawnType
 {
@@ -24,7 +25,7 @@ public class SpawnSpot : MonoBehaviour
         switch(SpawnType)
         {
             case SpawnType.Monster:
-                CollectingManager.Inst.CreateMonsterObject(GetRandomMonsterID(), this.transform);
+                CollectingManager.Inst.CreateMonsterObject(GetRandomMonsterID(), this.transform).Forget();
                 break;
         }
     }

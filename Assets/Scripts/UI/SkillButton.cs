@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -31,7 +32,7 @@ public class SkillButton : MonoBehaviour
         Text_Skill.text = GameDataManager.Inst.GetSkillData(id).SkillName;
 
         string path = $"Icon/Skill[{id}]";
-        GameUtil.LoadSpriteAndSet(path, Image_Skill);
+        GameUtil.LoadSpriteAndSet(path, Image_Skill).Forget();
     }
 
     private void RegistClickEvent(string id)

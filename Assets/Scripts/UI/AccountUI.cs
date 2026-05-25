@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Cysharp.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -56,7 +57,7 @@ public class AccountUI : UIBase
     {
         GameManager.Inst.SaveData();
 
-        CollectingManager.Inst.SetCollectingMap();
+        CollectingManager.Inst.SetCollectingMap().Forget();
         UIManager.Inst.OpenHUD();
         UIManager.Inst.CloseAccountUI();
     }

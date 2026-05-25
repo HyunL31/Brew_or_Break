@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,15 +7,14 @@ public class ClueUI : UIBase
 {
     [SerializeField] private List<GameObject> ClueButtons = new List<GameObject>();
 
-    [SerializeField] private GameObject clueSlotPrefab;
-    [SerializeField] private Transform parent;
+    [SerializeField] private Transform SlotParent;
     [SerializeField] private Button Button_Confirm;
 
     private List<GameObject> _clueSlots = new List<GameObject>();
 
     private void OnEnable()
     {
-        VisualNovelManager.Inst.OnClickClueButton = SetClueSlot;
+        VisualNovelManager.Inst.OnClickClueButton = (id) => SetClueSlot(id).Forget();
         Button_Confirm.onClick.AddListener(OnClickConfirm);
         ActiveClueParent(GameManager.Inst.GetDay());
     }
@@ -24,13 +24,16 @@ public class ClueUI : UIBase
         ClueButtons[day - 1].SetActive(true);
     }
 
-    private void SetClueSlot(string id)
+    private async UniTask SetClueSlot(string id)
     {
-        GameObject slot = Instantiate(clueSlotPrefab, parent);
-        ClueSlot clueSlot = slot.GetComponent<ClueSlot>();
-        clueSlot.SetClueInfo(id);
+        string slotPath = "Prefabs/UI/ClueSlot";
 
-        _clueSlots.Add(slot);
+        GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(slotPath, SlotParent);
+
+        _clueSlots.Add(prefab);
+
+        ClueSlot clueSlot = prefab.GetComponent<ClueSlot>();
+        clueSlot.SetClueInfo(id);
     }
 
     private void OnClickConfirm()
@@ -52,5 +55,11 @@ public class ClueUI : UIBase
 
         UIManager.Inst.OpenDialogueUI();
         UIManager.Inst.CloseClueUI();
+    }
+
+    private void OnDisable()
+    {
+        VisualNovelManager.Inst.OnClickClueButton = null;
+        Button_Confirm.onClick.RemoveAllListeners();
     }
 }

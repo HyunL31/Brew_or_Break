@@ -6,10 +6,10 @@
       "Potion_02"
     ],
     "SuccessID": [
-      "Episode_01_20",
-      "Episode_01_28"
+      "Episode_1_20",
+      "Episode_1_28"
     ],
-    "FailID": "Episode_01_26"
+    "FailID": "Episode_1_26"
   },
   {
     "ID": "Craft_02",
@@ -18,10 +18,10 @@
       "Potion_02"
     ],
     "SuccessID": [
-      "Episode_02_18",
-      "Episode_02_27"
+      "Episode_2_18",
+      "Episode_2_27"
     ],
-    "FailID": "Episode_02_31"
+    "FailID": "Episode_2_31"
   },
   {
     "ID": "Craft_03",
@@ -29,9 +29,9 @@
       "Potion_04"
     ],
     "SuccessID": [
-      "Episode_03_33"
+      "Episode_3_33"
     ],
-    "FailID": "Episode_03_38"
+    "FailID": "Episode_3_38"
   },
   {
     "ID": "Craft_04",
@@ -40,10 +40,10 @@
       "Potion_07"
     ],
     "SuccessID": [
-      "Episode_04_23",
-      "Episode_04_18"
+      "Episode_4_23",
+      "Episode_4_18"
     ],
-    "FailID": "Episode_04_27"
+    "FailID": "Episode_4_27"
   },
   {
     "ID": "Craft_05",
@@ -52,10 +52,10 @@
       "Potion_09"
     ],
     "SuccessID": [
-      "Episode_05_22",
-      "Episode_05_25"
+      "Episode_5_22",
+      "Episode_5_25"
     ],
-    "FailID": "Episode_05_34"
+    "FailID": "Episode_5_34"
   },
   {
     "ID": "Craft_06",
@@ -65,11 +65,11 @@
       "Potion_02"
     ],
     "SuccessID": [
-      "Episode_06_22",
-      "Episode_06_27",
+      "Episode_6_22",
+      "Episode_6_27",
       "Episode_06_33"
     ],
-    "FailID": "Episode_06_41"
+    "FailID": "Episode_6_41"
   },
   {
     "ID": "Craft_07",
@@ -77,9 +77,9 @@
       "Potion_01"
     ],
     "SuccessID": [
-      "Episode_07_19"
+      "Episode_7_19"
     ],
-    "FailID": "Episode_07_23"
+    "FailID": "Episode_7_23"
   },
   {
     "ID": "Craft_08",
@@ -88,10 +88,10 @@
       "Potion_13"
     ],
     "SuccessID": [
-      "Episode_08_32",
-      "Episode_08_36"
+      "Episode_8_32",
+      "Episode_8_36"
     ],
-    "FailID": "Episode_08_41"
+    "FailID": "Episode_8_41"
   },
   {
     "ID": "Craft_09",
@@ -99,9 +99,9 @@
       "Potion_01"
     ],
     "SuccessID": [
-      "Episode_09_18"
+      "Episode_9_18"
     ],
-    "FailID": "Episode_09_21"
+    "FailID": "Episode_9_21"
   },
   {
     "ID": "Craft_10",

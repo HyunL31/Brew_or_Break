@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -10,32 +11,31 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     private void Awake()
     {
         Button_Clue.onClick.AddListener(SetReturnID);
-        Button_Clue.onClick.AddListener(OnClickClue);
+        Button_Clue.onClick.AddListener(() => OnClickClue().Forget());
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        SetCursorImage("ClueCursor");
+        SetCursorImage("ClueCursor").Forget();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        SetCursorImage("DefaultCursor");
+        SetCursorImage("DefaultCursor").Forget();
     }
 
-    private void SetCursorImage(string path)
+    private async UniTask SetCursorImage(string path)
     {
-        ResourceManager.Inst.LoadAsset<Texture2D>(path, (cursor) =>
-        {
-            Cursor.SetCursor(cursor, Vector2.zero, CursorMode.Auto);
-        });
+        Texture2D cursor = await ResourceManager.Inst.LoadAsset<Texture2D>(path);
+
+        Cursor.SetCursor(cursor, Vector2.zero, CursorMode.Auto);
     }
 
-    private void OnClickClue()
+    private async UniTask OnClickClue()
     {
         VisualNovelManager.Inst.OnClickClueButton?.Invoke(ClueID);
 
-        SetCursorImage("DefaultCursor");
+        await SetCursorImage("DefaultCursor");
         this.gameObject.SetActive(false);
 
         // [TODO] 점수 계산

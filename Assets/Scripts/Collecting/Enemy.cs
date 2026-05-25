@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿using Cysharp.Threading.Tasks;
+using System;
+using System.Collections;
+using System.Threading;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -15,7 +18,7 @@ public class Enemy : MonoBehaviour
     private float _CoolTime;
     private bool _isAlive = true;
     private bool _canAttack = false;
-    private Coroutine attackRoutine;
+    private CancellationTokenSource _tokenSource;
 
     private void OnDisable()
     {
@@ -38,13 +41,13 @@ public class Enemy : MonoBehaviour
         _CoolTime = _monsterData.CoolTime;
     }
 
-    IEnumerator AttackRoutine()
+    private async UniTaskVoid AttackRoutine(CancellationToken token)
     {
         while (_isAlive && _canAttack)
         {
             Attack();
 
-            yield return new WaitForSeconds(_CoolTime);
+            await UniTask.Delay(TimeSpan.FromSeconds(_CoolTime), cancellationToken: token);
 
             if(!_isAlive || !_canAttack)
             {
@@ -67,9 +70,10 @@ public class Enemy : MonoBehaviour
         {
             _canAttack = true;
 
-            if (attackRoutine == null)
+            if (_tokenSource == null)
             {
-                attackRoutine = StartCoroutine(AttackRoutine());
+                _tokenSource = new CancellationTokenSource();
+                AttackRoutine(_tokenSource.Token).Forget();
             }
         }
     }
@@ -80,8 +84,7 @@ public class Enemy : MonoBehaviour
         {
             _canAttack = false;
 
-            StopCoroutine(attackRoutine);
-            attackRoutine = null;
+            CancelAttackRoutine();
         }
     }
 
@@ -92,20 +95,32 @@ public class Enemy : MonoBehaviour
 
         if (_HP < 0)
         {
-            StartCoroutine(Die());
+            _isAlive = false;
+            CancelAttackRoutine();
+            Die().Forget();
         }
     }
 
-    private IEnumerator Die()
+    private async UniTaskVoid Die()
     {
         Anim.SetTrigger("Dead");
 
         float delay = Anim.GetCurrentAnimatorStateInfo(0).length;
-        yield return new WaitForSeconds(delay);
+        await UniTask.Delay(TimeSpan.FromSeconds(delay), cancellationToken: this.GetCancellationTokenOnDestroy());
 
-        CollectingManager.Inst.DropMonsterItem(_monsterData.DropItem, _parent);
+        CollectingManager.Inst.DropMonsterItem(_monsterData.DropItem, _parent).Forget();
 
         this.gameObject.SetActive(false);
+    }
+
+    private void CancelAttackRoutine()
+    {
+        if (_tokenSource != null)
+        {
+            _tokenSource.Cancel();
+            _tokenSource.Dispose();
+            _tokenSource = null;
+        }
     }
 
     public int GetInstancedID()

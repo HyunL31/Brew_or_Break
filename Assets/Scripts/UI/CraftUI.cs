@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -41,7 +42,7 @@ public class CraftUI : UIBase
         Image_Litmus.color = Color.red;
 
         string path = "Icon/Pot2";
-        GameUtil.LoadSpriteAndSet(path, Image_Pot);
+        GameUtil.LoadSpriteAndSet(path, Image_Pot).Forget();
     }
 
     private string SetRandomAcidity()
@@ -80,7 +81,7 @@ public class CraftUI : UIBase
         _potionID = GetMadePotionID();
         string path = $"Icon/Potion[{_potionID}]";
 
-        GameUtil.LoadSpriteAndSet(path, Image_Pot);
+        GameUtil.LoadSpriteAndSet(path, Image_Pot).Forget();
         GetReturnID(_potionID);
 
         Button_Next.gameObject.SetActive(true);

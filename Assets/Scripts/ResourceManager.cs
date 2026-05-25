@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -15,61 +16,47 @@ public class ResourceManager : MonoBehaviour
         Inst = this;
     }
 
-    public void LoadAsset<T>(string path, Action<T> callback) where T : UnityEngine.Object
+    public async UniTask<T> LoadAsset<T>(string path) where T : UnityEngine.Object
     {
         if (_handles.TryGetValue(path, out AsyncOperationHandle handle))
         {
-            callback?.Invoke(handle.Result as T);
-            return;
+            return handle.Result as T;
         }
 
         AsyncOperationHandle<T> loadHandle = Addressables.LoadAssetAsync<T>(path);
 
-        loadHandle.Completed += (op) =>
-        {
-            if (op.Status == AsyncOperationStatus.Succeeded)
-            {
-                _handles[path] = op;
-                callback?.Invoke(op.Result);
-            }
-        };
+        T result = await loadHandle.ToUniTask();
+
+        _handles[path] = loadHandle;
+        return result;
     }
 
-    public void LoadSprite(string path, Action<Sprite> callback)
+    public async UniTask<Sprite> LoadSprite(string path)
     {
         if (_handles.TryGetValue(path, out AsyncOperationHandle handle))
         {
-            callback?.Invoke(handle.Result as Sprite);
-            return;
+            return handle.Result as Sprite;
         }
 
         AsyncOperationHandle<Sprite> handleOrigin = Addressables.LoadAssetAsync<Sprite>(path);
 
-        handleOrigin.Completed += (op) =>
-        {
-            if (op.Status == AsyncOperationStatus.Succeeded)
-            {
-                _handles[path] = op;
-                callback?.Invoke(op.Result);
-            }
-        };
+        Sprite result = await handleOrigin.ToUniTask();
+
+        _handles[path] = handleOrigin;
+
+        return result;
     }
 
-    public void InstantiatePrefab(string path, Transform parent, Action<GameObject> callback)
+    public async UniTask<GameObject> InstantiatePrefab(string path, Transform parent)
     {
         AsyncOperationHandle<GameObject> handle = Addressables.InstantiateAsync(path, parent);
 
-        handle.Completed += (op) =>
-        {
-            if (op.Status == AsyncOperationStatus.Succeeded)
-            {
-                _handles[path] = op;
-                callback?.Invoke(op.Result);
-            }
-        };
+        GameObject instance = await handle.ToUniTask();
+
+        return instance;
     }
 
-    private void Release(string address)
+    public void Release(string address)
     {
         if (_handles.TryGetValue(address, out AsyncOperationHandle handle))
         {

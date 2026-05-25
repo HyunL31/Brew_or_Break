@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class DrawItem : UIBase
@@ -9,6 +10,6 @@ public class DrawItem : UIBase
     {
         string path = $"Icon/Item[{id}]";
 
-        GameUtil.LoadSpriteAndSet(path, Image_Item);
+        GameUtil.LoadSpriteAndSet(path, Image_Item).Forget();
     }
 }
