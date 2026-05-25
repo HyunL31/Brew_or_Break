@@ -37,7 +37,7 @@ public class DialogueUI : UIBase
         Toggle_Auto.isOn = _isAuto;
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
 
-        Button_Return.onClick.AddListener(ReturnLobby);
+        Button_Return.onClick.AddListener(OpenLobbyPopup);
     }
 
     private void OnEnable()
@@ -151,24 +151,24 @@ public class DialogueUI : UIBase
 
         SoundManager.Inst.SetTypingAndPlay(AudioSource);
 
-        Text_Dialogue.text = string.Empty;
+        string content = GameDataManager.Inst.GetDialogueData(id).Content;
+        Text_Dialogue.maxVisibleCharacters = 0;
+        Text_Dialogue.text = content;
         Image_NextArrow.gameObject.SetActive(false);
 
-        string content = GameDataManager.Inst.GetDialogueData(id).Content;
-
-        for (int i = 0; i < content.Length; i++)
+        while (Text_Dialogue.maxVisibleCharacters < content.Length)
         {
             if (!_isTyping)
             {
                 break;
             }
 
-            Text_Dialogue.text += content[i];
+            Text_Dialogue.maxVisibleCharacters++;
 
             yield return _typingWaitTime;
         }
 
-        Text_Dialogue.text = content;
+        Text_Dialogue.maxVisibleCharacters = content.Length;
 
         _isTyping = false;
         SoundManager.Inst.PauseAudio(AudioSource);
@@ -189,10 +189,13 @@ public class DialogueUI : UIBase
         return VisualNovelManager.Inst.GetCurrentDialogueID();
     }
 
+    private void OpenLobbyPopup()
+    {
+        UIManager.Inst.OpenConfirmPopup("지금 로비로 돌아가면 저장이 되지 않습니다.\n돌아가시겠습니까?", ReturnLobby);
+    }
+
     private void ReturnLobby()
     {
-        // [TODO] 팝업창 띄우기
-
         UIManager.Inst.OpenLobbyUI();
         UIManager.Inst.CloseVisualNovelUI();
         UIManager.Inst.CloseDialogueUI();

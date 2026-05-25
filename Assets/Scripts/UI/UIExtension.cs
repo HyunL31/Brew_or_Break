@@ -1,4 +1,6 @@
-﻿public enum UIRootType
+﻿using System;
+
+public enum UIRootType
 {
     None,
     Background,
@@ -170,13 +172,13 @@ public static class UIExtension
         uiManager.CloseUI(UIType.DrawItem);
     }
 
-    public static void OpenConfirmPopup(this UIManager uiManager, string text)
+    public static void OpenConfirmPopup(this UIManager uiManager, string text, Action callback = null)
     {
         UIBase uiBase = uiManager.OpenPopupUI(UIType.ConfirmPopup);
 
         if (uiBase is ConfirmPopup confirm)
         {
-            confirm.SetText(text);
+            confirm.SetText(text, callback);
         }
     }
 
