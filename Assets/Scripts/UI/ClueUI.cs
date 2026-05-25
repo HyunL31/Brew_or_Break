@@ -35,7 +35,11 @@ public class ClueUI : UIBase
 
     private void OnClickConfirm()
     {
-        // [TODO] 팝업창 띄우기
+        if (_clueSlots.Count <= 0)
+        {
+            UIManager.Inst.OpenConfirmPopup("아직 단서를 찾지 못했습니다.\n의심되는 부분을 클릭해주세요.");
+            return;
+        }
 
         foreach (GameObject clueSlot in _clueSlots)
         {

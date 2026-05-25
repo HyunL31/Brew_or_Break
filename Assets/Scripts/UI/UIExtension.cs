@@ -18,8 +18,7 @@ public enum UIType
     ClueUI,
     InventoryPopup,
     NamePopup,
-    CluePopup,
-    LobbyPopup,
+    ConfirmPopup,
     ItemDescription,
     CraftUI,
     RecipePopup,
@@ -169,5 +168,20 @@ public static class UIExtension
     public static void CloseDrawItem(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.DrawItem);
+    }
+
+    public static void OpenConfirmPopup(this UIManager uiManager, string text)
+    {
+        UIBase uiBase = uiManager.OpenPopupUI(UIType.ConfirmPopup);
+
+        if (uiBase is ConfirmPopup confirm)
+        {
+            confirm.SetText(text);
+        }
+    }
+
+    public static void CloseConfirmPopup(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.ConfirmPopup);
     }
 }

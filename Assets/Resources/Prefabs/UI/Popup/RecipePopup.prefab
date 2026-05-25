@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 6361695593139166367}
   - component: {fileID: 1996633661485153647}
   m_Layer: 5
-  m_Name: Background
+  m_Name: Recipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

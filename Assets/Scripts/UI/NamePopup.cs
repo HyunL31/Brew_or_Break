@@ -10,14 +10,9 @@ public class NamePopup : UIBase
     [SerializeField] private Button Button_Confirm;
     [SerializeField] private Button Button_Close;
 
-    [Header("경고 팝업")]
-    [SerializeField] private GameObject AlertPopup;
-    [SerializeField] private Button Button_Alert;
-
     private void Awake()
     {
         Button_Confirm.onClick.AddListener(OnClickConfirm);
-        Button_Alert.onClick.AddListener(OnClickAlert);
         Button_Close.onClick.AddListener(UIManager.Inst.CloseNamePopup);
     }
 
@@ -25,8 +20,7 @@ public class NamePopup : UIBase
     {
         if ((PlayerName.text == string.Empty || StoreName.text == string.Empty) || PlayerName.text.Length > 10 || StoreName.text.Length > 16)
         {
-            SoundManager.Inst.SetSFXAndPlay("Popup");
-            AlertPopup.SetActive(true);
+            UIManager.Inst.OpenConfirmPopup("조건에 맞지 않는 이름입니다.\r\n\r\n플레이어 이름(최대 6글자)과\r\n가게 이름(최대 11글자)을\r\n정확히 작성해주세요.");
             return;
         }
 
@@ -37,10 +31,5 @@ public class NamePopup : UIBase
         UIManager.Inst.OpenDialogueUI();
         UIManager.Inst.CloseNamePopup();
         UIManager.Inst.CloseTitleUI();
-    }
-
-    private void OnClickAlert()
-    {
-        AlertPopup.SetActive(false);
     }
 }
