@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class GameManager : MonoBehaviour
 {
@@ -57,6 +58,20 @@ public class GameManager : MonoBehaviour
                 _playerModel.Inventory.Remove(target);
             }
         }
+    }
+
+    public void AddItem(string id)
+    {
+        foreach (ItemModel item in _playerModel.Inventory)
+        {
+            if (item.ItemID.Contains(id))
+            {
+                item.ItemCount++;
+                return;
+            }
+        }
+
+        _playerModel.Inventory.Add(SaveManager.Inst.AddDefaultItem(id));
     }
 
     public int GetDay()

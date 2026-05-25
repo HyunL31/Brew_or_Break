@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -22,14 +23,20 @@ public class PlayerMoving : MonoBehaviour
     private float _inputY = 0;
     private bool _isSkillUsing = false;
     private bool _isAlive = true;
+    private bool _canCollect = false;
     private Vector3 _playerDirection = Vector3.down;
-
     private int _playerHP = 100;
+    private DropItem _targetItem;
 
     private void Update()
     {
         _inputX = Input.GetAxisRaw("Horizontal");
         _inputY = Input.GetAxisRaw("Vertical");
+
+        if (_canCollect && Input.GetKey(KeyCode.E))
+        {
+            CollectingManager.Inst.CollectItem(_targetItem);
+        }
     }
 
     private void FixedUpdate()
@@ -176,7 +183,6 @@ public class PlayerMoving : MonoBehaviour
 
         SkillOverlap skillOverlap = skillObj.GetComponent<SkillOverlap>();
         skillOverlap.InitOverlap(type, _playerDirection, OverlapRadius, atk, OnMonsterCollide);
-
     }
 
     private bool CheckSkillUsable()
@@ -218,5 +224,23 @@ public class PlayerMoving : MonoBehaviour
         UIManager.Inst.CloseHUD();
         UIManager.Inst.OpenLobbyUI();
         CollectingManager.Inst.DestroyPlayer();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Item"))
+        {
+            _canCollect = true;
+            _targetItem = CollectingManager.Inst.GetTargetItem(collision.GetInstanceID());
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Item"))
+        {
+            _canCollect = false;
+            _targetItem = null;
+        }
     }
 }

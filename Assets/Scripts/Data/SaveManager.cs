@@ -66,7 +66,7 @@ public class SaveManager : MonoBehaviour
         return newPlayerData;
     }
 
-    private ItemModel AddDefaultItem(string itemID)
+    public ItemModel AddDefaultItem(string itemID)
     {
         var item = new ItemModel();
         item.ItemID = itemID;

@@ -11,6 +11,7 @@ public class CollectingManager : MonoBehaviour
     private GameObject _map;
     private int _generatedKey = 0;
     private Dictionary<int, Enemy> _monsters = new Dictionary<int, Enemy>();
+    private Dictionary<int, DropItem> _dropItems = new Dictionary<int, DropItem>();
 
     public Action<int, int> OnSkillCollision;
 
@@ -78,7 +79,7 @@ public class CollectingManager : MonoBehaviour
         string path = $"Prefabs/{monsterID}";
         ResourceManager.Inst.InstantiatePrefab(path, spawnSpot, (prefab) =>
         {
-            AddMonsterObject(prefab, monsterID);
+            AddMonsterObject(prefab, monsterID, spawnSpot);
         });
     }
 
@@ -92,7 +93,7 @@ public class CollectingManager : MonoBehaviour
         Destroy(monster);
     }
 
-    private void AddMonsterObject(GameObject monster, string monsterID)
+    private void AddMonsterObject(GameObject monster, string monsterID, Transform spawnSpot)
     {
         int instanceID = _generatedKey;
         _generatedKey++;
@@ -102,5 +103,38 @@ public class CollectingManager : MonoBehaviour
         _monsters.Add(instanceID, enemy);
 
         enemy.InitMonster(instanceID, monsterID);
+        enemy.SetParent(spawnSpot);
+    }
+
+    public void DropMonsterItem(List<string> items, Transform parent)
+    {
+        string path = "Prefabs/DropItem";
+
+        foreach(string item in items)
+        {
+            ResourceManager.Inst.InstantiatePrefab(path, parent, (prefab) =>
+            {
+                float randomX = UnityEngine.Random.Range(0, 1.5f);
+                float randomY = UnityEngine.Random.Range(0, 1.5f);
+                prefab.transform.position = new Vector2(parent.position.x + randomX, parent.position.y + randomY);
+
+                DropItem dropItem = prefab.GetComponent<DropItem>();
+                dropItem.SetItemID(item);
+                dropItem.SetImage();
+
+                _dropItems[dropItem.GetInstancedID()] = dropItem;
+            });
+        }
+    }
+
+    public DropItem GetTargetItem(int id)
+    {
+        return _dropItems[id];
+    }
+
+    public void CollectItem(DropItem dropItem)
+    {
+        GameManager.Inst.AddItem(dropItem.GetItemID());
+        Destroy(dropItem.gameObject);
     }
 }

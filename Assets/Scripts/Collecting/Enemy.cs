@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 
     private int _instanceID;
     private string _monsterID;
+    private Transform _parent;
 
     private Monster _monsterData;
     private int _ATK;
@@ -19,6 +20,11 @@ public class Enemy : MonoBehaviour
     private void OnDisable()
     {
         _isAlive = false;
+    }
+
+    public void SetParent(Transform parent)
+    {
+        _parent = parent;
     }
 
     public void InitMonster(int instanceID, string monsterID)
@@ -97,7 +103,9 @@ public class Enemy : MonoBehaviour
         float delay = Anim.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(delay);
 
-        CollectingManager.Inst.DestroyMonster(this.gameObject);
+        CollectingManager.Inst.DropMonsterItem(_monsterData.DropItem, _parent);
+
+        this.gameObject.SetActive(false);
     }
 
     public int GetInstancedID()
