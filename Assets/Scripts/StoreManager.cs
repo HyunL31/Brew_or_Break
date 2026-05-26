@@ -13,6 +13,7 @@ public class StoreManager : MonoBehaviour
     public static StoreManager Inst;
 
     private StoreModel _storeModel = new StoreModel();
+    private int _todayCluePoint = 0;
     private int _maxLevel = 10;
     private int _maxReputation = 500;
     private int _maxCompensation = 10000;
@@ -65,6 +66,21 @@ public class StoreManager : MonoBehaviour
     public int GetGold()
     {
         return _storeModel.Gold;
+    }
+
+    public void SetCluePoint(int point)
+    {
+        _todayCluePoint += point;
+    }
+
+    public void ResetCluePoint()
+    {
+        _todayCluePoint = 0;
+    }
+
+    public int GetCluePoint()
+    {
+        return _todayCluePoint;
     }
 
     public float CalculatStat(StatType type)

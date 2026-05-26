@@ -28,6 +28,12 @@ public class Inventory : UIBase
     private async UniTask SetInventory()
     {
         List<ItemModel> items = GameManager.Inst.GetInventory();
+
+        if (items.Count <= 0)
+        {
+            return;
+        }
+
         string path = "Prefabs/UI/InventorySlot";
 
         foreach (ItemModel item in items)

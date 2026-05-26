@@ -1,11 +1,7 @@
 ﻿using Cysharp.Threading.Tasks;
-using NUnit.Framework;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Rendering.Universal;
 
 public class PlayerMoving : MonoBehaviour
 {
@@ -29,8 +25,15 @@ public class PlayerMoving : MonoBehaviour
     private Vector3 _playerDirection = Vector3.down;
     private float _playerHP = 100;
     private float _playerStamina = 100;
+    private float _maxStamina = 100;
     private HPBar _hpBar;
     private DropItem _targetItem;
+
+    private void Awake()
+    {
+        _playerStamina = _playerStamina * StoreManager.Inst.GetCluePoint();
+        _maxStamina = _playerStamina;
+    }
 
     private void Update()
     {
@@ -106,7 +109,7 @@ public class PlayerMoving : MonoBehaviour
 
     public void UseBasicSkill(int atk, float stamina)
     {
-        if (!CheckSkillUsable())
+        if (!CheckSkillUsable(stamina))
         {
             return;
         }
@@ -127,7 +130,7 @@ public class PlayerMoving : MonoBehaviour
             }
         }
 
-        StartBasicSkill().Forget();
+        //StartBasicSkill().Forget();
     }
 
     private Vector3 SetBasicSkillRange()
@@ -163,7 +166,7 @@ public class PlayerMoving : MonoBehaviour
 
     public void UseProjectileSkill(ProjectileType type, int atk, float stamina)
     {
-        if (!CheckSkillUsable())
+        if (!CheckSkillUsable(stamina))
         {
             return;
         }
@@ -185,7 +188,7 @@ public class PlayerMoving : MonoBehaviour
 
     public void UseOverlapSkill(OverlapType type, int atk, float stamina)
     {
-        if (!CheckSkillUsable())
+        if (!CheckSkillUsable(stamina))
         {
             return;
         }
@@ -202,9 +205,9 @@ public class PlayerMoving : MonoBehaviour
         SetStamina(stamina);
     }
 
-    private bool CheckSkillUsable()
+    private bool CheckSkillUsable(float stamina)
     {
-        if (_isSkillUsing || _playerStamina <= 0)
+        if (_isSkillUsing || _playerStamina < stamina)
         {
             return false;
         }
@@ -212,14 +215,14 @@ public class PlayerMoving : MonoBehaviour
         return true;
     }
 
-    private async UniTaskVoid StartBasicSkill()
-    {
-        _isSkillUsing = true;
+    //private async UniTaskVoid StartBasicSkill()
+    //{
+    //    _isSkillUsing = true;
 
-        await UniTask.Delay(TimeSpan.FromSeconds(1f), cancellationToken: this.GetCancellationTokenOnDestroy());
+    //    await UniTask.Delay(TimeSpan.FromSeconds(1f), cancellationToken: this.GetCancellationTokenOnDestroy());
 
-        _isSkillUsing = false;
-    }
+    //    _isSkillUsing = false;
+    //}
 
     public void SetHPBar(HPBar hpBar)
     {
@@ -229,7 +232,7 @@ public class PlayerMoving : MonoBehaviour
     private void SetStamina(float stamina)
     {
         _playerStamina -= stamina;
-        CollectingManager.Inst.OnChangeStamina?.Invoke(_playerStamina);
+        CollectingManager.Inst.OnChangeStamina?.Invoke(_playerStamina, _maxStamina);
     }
 
     public void TakeDamage(float atk)

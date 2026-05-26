@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -24,6 +23,7 @@ public class HUD : UIBase
     private void OnEnable()
     {
         Image_Stamina.fillAmount = 1;
+        Image_Stamina.color = Color.green;
     }
 
     private void Start()
@@ -54,9 +54,9 @@ public class HUD : UIBase
         }
     }
 
-    private void UpdateStamina(float stamina)
+    private void UpdateStamina(float stamina, float maxStamina)
     {
-        Image_Stamina.fillAmount = stamina / 100;
+        Image_Stamina.fillAmount = stamina / maxStamina;
 
         if(Image_Stamina.fillAmount >= 0.6f)
         {

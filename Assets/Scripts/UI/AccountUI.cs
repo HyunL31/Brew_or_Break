@@ -66,6 +66,7 @@ public class AccountUI : UIBase
     {
         if (StoreManager.Inst.GetGold() < _requestLevel)
         {
+            UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestLevel}의 금화가 필요합니다.");
             return;
         }
 
@@ -81,6 +82,7 @@ public class AccountUI : UIBase
     {
         if (StoreManager.Inst.GetGold() < _requestCompen)
         {
+            UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestCompen}의 금화가 필요합니다.");
             return;
         }
 

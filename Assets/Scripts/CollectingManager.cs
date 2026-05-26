@@ -16,7 +16,7 @@ public class CollectingManager : MonoBehaviour
     private List<HPBar> _hpBars = new List<HPBar>();
 
     public Action<int, int> OnSkillCollision;
-    public Action<float> OnChangeStamina;
+    public Action<float, float> OnChangeStamina;
 
     private void Awake()
     {
@@ -64,6 +64,7 @@ public class CollectingManager : MonoBehaviour
 
     public void DestroyPlayer()
     {
+        StoreManager.Inst.ResetCluePoint();
         Destroy(_player.gameObject);
         Destroy(_map);
 

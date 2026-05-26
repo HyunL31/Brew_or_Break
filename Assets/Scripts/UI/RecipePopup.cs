@@ -32,6 +32,11 @@ public class RecipePopup : UIBase
         SetPotionInfo(_currentIndex).Forget();
     }
 
+    private void OnEnable()
+    {
+        _currentIndex = 1;
+    }
+
     private void OnClickLeftArrow()
     {
         if (_currentIndex < 1)

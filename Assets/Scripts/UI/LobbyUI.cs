@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Cysharp.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -64,6 +65,7 @@ public class LobbyUI : UIBase
 
     private void OnClickOpenStore()
     {
+        SoundManager.Inst.SetSFXAndPlay("Audio/OpenStore").Forget();
         VisualNovelManager.Inst.SetCurrentDialogueID();
         UIManager.Inst.OpenVisualNovelUI();
         UIManager.Inst.OpenDialogueUI();

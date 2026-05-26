@@ -1,6 +1,5 @@
 ﻿using Cysharp.Threading.Tasks;
 using System;
-using System.Collections;
 using System.Threading;
 using TMPro;
 using UnityEngine;
@@ -133,6 +132,7 @@ public class DialogueUI : UIBase
             nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
         }
 
+        VisualNovelManager.Inst.OnChangeBaseUI?.Invoke(GetCurrentID());
         ShowDialogue(GetCurrentID());
     }
 

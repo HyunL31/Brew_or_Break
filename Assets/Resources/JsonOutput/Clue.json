@@ -68,7 +68,7 @@
     "Name": "늑대 문양",
     "Description": "도적단의 상징인 늑대 문양을 새겨진 망토를 입고 있다.",
     "Point": 3,
-    "ReturnID": "Episode_5_08",
+    "ReturnID": "Episode_5_09",
     "Path": "Icon/Clue[Clue_09]"
   },
   {
@@ -76,7 +76,7 @@
     "Name": "팬던트",
     "Description": "마법 의회 출입용 팬던트이다.",
     "Point": 1,
-    "ReturnID": "Episode_5_08",
+    "ReturnID": "Episode_5_09",
     "Path": "Icon/Clue[Clue_08]"
   },
   {

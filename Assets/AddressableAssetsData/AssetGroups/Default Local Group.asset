@@ -30,6 +30,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 527d3b582873423469254ded4ddb20ef
+    m_Address: Audio/OpenStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 56801769d7ab5e1459af4d0e4a70291a
     m_Address: Prefabs/Monster_02
     m_ReadOnly: 0
@@ -62,6 +67,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aaeea4da079807348b7724466dc1c4e5
     m_Address: Prefabs/UI/ClueSlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2adbddacaf0e444496c313e5742b3b8
+    m_Address: Background/Loyal
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

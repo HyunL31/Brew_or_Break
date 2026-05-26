@@ -35,8 +35,12 @@ public class CraftUI : UIBase
 
     private void OnEnable()
     {
+        Slider_Acidity.value = 0;
+
         Image_Fire.gameObject.SetActive(true);
+        Image_Fire.color = Color.white;
         Image_Smoke.gameObject.SetActive(true);
+        Image_Smoke.color = Color.white;
         Button_Next.gameObject.SetActive(false);
 
         Text_Acidity.text = SetRandomAcidity();
