@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,12 +11,19 @@ public class HUD : UIBase
 
     [Header("기타")]
     [SerializeField] private Button Button_Inventory;
+    [SerializeField] private Image Image_Stamina;
     
     private List<SkillButton> _skills = new List<SkillButton>();
 
     private void Awake()
     {
         Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
+        CollectingManager.Inst.OnChangeStamina = UpdateStamina;
+    }
+
+    private void OnEnable()
+    {
+        Image_Stamina.fillAmount = 1;
     }
 
     private void Start()
@@ -43,6 +51,24 @@ public class HUD : UIBase
             {
                 break;
             }
+        }
+    }
+
+    private void UpdateStamina(float stamina)
+    {
+        Image_Stamina.fillAmount = stamina / 100;
+
+        if(Image_Stamina.fillAmount >= 0.6f)
+        {
+            Image_Stamina.color = Color.green;
+        }
+        else if (Image_Stamina.fillAmount >= 0.3f)
+        {
+            Image_Stamina.color = Color.yellow;
+        }
+        else if (Image_Stamina.fillAmount > 0)
+        {
+            Image_Stamina.color = Color.red;
         }
     }
 }

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using System.Collections;
+using System.Threading;
 using UnityEngine;
 
 public enum ProjectileType
@@ -56,7 +58,7 @@ public class SkillProjectile : SkillBase
         _playerDir = playerDir;
 
         float delay = Anim.GetCurrentAnimatorStateInfo(0).length;
-        StartCoroutine(ShootCoroutine(delay));
+        ShootCoroutine(delay, this.GetCancellationTokenOnDestroy()).Forget();
     }
 
     public void SetProjectileDirection(Vector3 playerDir)
@@ -84,9 +86,9 @@ public class SkillProjectile : SkillBase
         transform.position += _playerDir * Speed * Time.deltaTime;
     }
 
-    private IEnumerator ShootCoroutine(float delay)
+    private async UniTaskVoid ShootCoroutine(float delay, CancellationToken token)
     {
-        yield return new WaitForSeconds(delay);
+        await UniTask.Delay(TimeSpan.FromSeconds(delay), cancellationToken: token);
 
         Destroy(this.gameObject);
     }

@@ -16,6 +16,7 @@ public class CollectingManager : MonoBehaviour
     private List<HPBar> _hpBars = new List<HPBar>();
 
     public Action<int, int> OnSkillCollision;
+    public Action<float> OnChangeStamina;
 
     private void Awake()
     {

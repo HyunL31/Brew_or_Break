@@ -3,7 +3,7 @@
     "ID": "Skill_01",
     "SkillName": "기본 공격",
     "ATK": 3,
-    "Stamina": 3,
+    "Stamina": 0,
     "Level": 1,
     "Type": "Basic",
     "Anim": null
@@ -21,7 +21,7 @@
     "ID": "Skill_03",
     "SkillName": "불",
     "ATK": 8,
-    "Stamina": 10,
+    "Stamina": 15,
     "Level": 3,
     "Type": "Projectile",
     "Anim": "Fire"

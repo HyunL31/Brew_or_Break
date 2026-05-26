@@ -90,7 +90,7 @@ public class Skill : GameDataBase
 {
     public string SkillName;
     public int ATK;
-    public int Stamina;
+    public float Stamina;
     public int Level;
     public string Type;
     public string Anim;

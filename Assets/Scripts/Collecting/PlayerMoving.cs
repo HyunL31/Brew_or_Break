@@ -28,6 +28,7 @@ public class PlayerMoving : MonoBehaviour
     private bool _canCollect = false;
     private Vector3 _playerDirection = Vector3.down;
     private float _playerHP = 100;
+    private float _playerStamina = 100;
     private HPBar _hpBar;
     private DropItem _targetItem;
 
@@ -103,7 +104,7 @@ public class PlayerMoving : MonoBehaviour
         AnimController.SetState(state);
     }
 
-    public void UseBasicSkill(int atk)
+    public void UseBasicSkill(int atk, float stamina)
     {
         if (!CheckSkillUsable())
         {
@@ -111,6 +112,8 @@ public class PlayerMoving : MonoBehaviour
         }
 
         ChangeAnimation(AnimState.Attack);
+
+        SetStamina(stamina);
 
         float radius = 1.5f;
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(SetBasicSkillRange(), radius);
@@ -158,7 +161,7 @@ public class PlayerMoving : MonoBehaviour
         return targetPos;
     }
 
-    public void UseProjectileSkill(ProjectileType type, int atk)
+    public void UseProjectileSkill(ProjectileType type, int atk, float stamina)
     {
         if (!CheckSkillUsable())
         {
@@ -169,6 +172,8 @@ public class PlayerMoving : MonoBehaviour
 
         SkillProjectile skillProjectile = gameObject.GetComponent<SkillProjectile>();
         skillProjectile.InitProjectile(type, _playerDirection, atk, OnMonsterCollide);
+
+        SetStamina(stamina);
     }
 
     private void OnMonsterCollide(int instanceID, int damage)
@@ -178,7 +183,7 @@ public class PlayerMoving : MonoBehaviour
         enemy.TakeDamage(damage);
     }
 
-    public void UseOverlapSkill(OverlapType type, int atk)
+    public void UseOverlapSkill(OverlapType type, int atk, float stamina)
     {
         if (!CheckSkillUsable())
         {
@@ -193,11 +198,13 @@ public class PlayerMoving : MonoBehaviour
 
         SkillOverlap skillOverlap = skillObj.GetComponent<SkillOverlap>();
         skillOverlap.InitOverlap(type, _playerDirection, OverlapRadius, atk, OnMonsterCollide);
+        
+        SetStamina(stamina);
     }
 
     private bool CheckSkillUsable()
     {
-        if (_isSkillUsing)
+        if (_isSkillUsing || _playerStamina <= 0)
         {
             return false;
         }
@@ -217,6 +224,12 @@ public class PlayerMoving : MonoBehaviour
     public void SetHPBar(HPBar hpBar)
     {
         _hpBar = hpBar;
+    }
+
+    private void SetStamina(float stamina)
+    {
+        _playerStamina -= stamina;
+        CollectingManager.Inst.OnChangeStamina?.Invoke(_playerStamina);
     }
 
     public void TakeDamage(float atk)
