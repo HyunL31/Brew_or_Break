@@ -59,18 +59,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void AddItem(string id)
+    public int AddItem(string id)
     {
         foreach (ItemModel item in _playerModel.Inventory)
         {
             if (item.ItemID.Contains(id))
             {
                 item.ItemCount++;
-                return;
+                OnSetInventory?.Invoke(id);
+                return item.ItemCount;
             }
         }
 
         _playerModel.Inventory.Add(SaveManager.Inst.AddDefaultItem(id));
+        OnSetInventory?.Invoke(id);
+        return 1;
     }
 
     public int GetDay()

@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using Cysharp.Threading.Tasks;
+using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -36,6 +38,7 @@ public class PlayerMoving : MonoBehaviour
         if (_canCollect && Input.GetKey(KeyCode.E))
         {
             CollectingManager.Inst.CollectItem(_targetItem);
+            _targetItem = null;
         }
     }
 
@@ -100,6 +103,11 @@ public class PlayerMoving : MonoBehaviour
 
     public void UseBasicSkill(int atk)
     {
+        if (!CheckSkillUsable())
+        {
+            return;
+        }
+
         ChangeAnimation(AnimState.Attack);
 
         float radius = 1.5f;
@@ -114,7 +122,7 @@ public class PlayerMoving : MonoBehaviour
             }
         }
 
-        StartCoroutine(StartBasicSkill());
+        StartBasicSkill().Forget();
     }
 
     private Vector3 SetBasicSkillRange()
@@ -195,10 +203,12 @@ public class PlayerMoving : MonoBehaviour
         return true;
     }
 
-    private IEnumerator StartBasicSkill()
+    private async UniTaskVoid StartBasicSkill()
     {
         _isSkillUsing = true;
-        yield return new WaitForSeconds(1f);
+
+        await UniTask.Delay(TimeSpan.FromSeconds(1f), cancellationToken: this.GetCancellationTokenOnDestroy());
+
         _isSkillUsing = false;
     }
 

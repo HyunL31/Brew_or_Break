@@ -11,6 +11,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     [SerializeField] RectTransform Rect;
 
     private string _itmeID = string.Empty;
+    private int _itemCount = 0;
     private GameObject _drawItem = null;
 
     public void SetSlotInfo(string id)
@@ -24,6 +25,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void SetItemCount(int count)
     {
+        _itemCount = count;
         Text_ItemCount.text = count.ToString();
     }
 

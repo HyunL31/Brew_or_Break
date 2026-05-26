@@ -20,11 +20,6 @@ public class Enemy : MonoBehaviour
     private bool _canAttack = false;
     private CancellationTokenSource _tokenSource;
 
-    private void OnDisable()
-    {
-        _isAlive = false;
-    }
-
     public void SetParent(Transform parent)
     {
         _parent = parent;
@@ -90,12 +85,16 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int atk)
     {
+        if (!_isAlive)
+        {
+            return;
+        }
+
         Anim.SetTrigger("Damage");
         _HP -= atk;
 
-        if (_HP < 0)
+        if (_HP <= 0)
         {
-            _isAlive = false;
             CancelAttackRoutine();
             Die().Forget();
         }
@@ -103,6 +102,8 @@ public class Enemy : MonoBehaviour
 
     private async UniTaskVoid Die()
     {
+        _isAlive = false;
+
         Anim.SetTrigger("Dead");
 
         float delay = Anim.GetCurrentAnimatorStateInfo(0).length;

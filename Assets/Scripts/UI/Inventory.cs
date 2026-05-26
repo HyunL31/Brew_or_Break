@@ -28,22 +28,25 @@ public class Inventory : UIBase
     private async UniTask SetInventory()
     {
         List<ItemModel> items = GameManager.Inst.GetInventory();
+        string path = "Prefabs/UI/InventorySlot";
 
-        Debug.Log($"{items.Count}, {_inventory.Count}");
-
-        for (int i = _inventory.Count; i < items.Count; i++)
+        foreach (ItemModel item in items)
         {
-            string path = "Prefabs/UI/InventorySlot";
+            if (_inventory.ContainsKey(item.ItemID))
+            {
+                _inventory[item.ItemID].SetItemCount(item.ItemCount);
+            }
+            else
+            {
+                GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, SlotParent);
 
-            GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, SlotParent);
+                InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();
 
-            InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();
+                inventorySlot.SetSlotInfo(item.ItemID);
+                inventorySlot.SetItemCount(item.ItemCount);
 
-            inventorySlot.SetSlotInfo(items[i].ItemID);
-            inventorySlot.SetItemCount(items[i].ItemCount);
-
-            _inventory.Add(items[i].ItemID, inventorySlot);
-            Debug.Log(items[i].ItemID);
+                _inventory.Add(item.ItemID, inventorySlot);
+            }
         }
     }
 
