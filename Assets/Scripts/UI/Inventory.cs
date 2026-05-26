@@ -27,11 +27,11 @@ public class Inventory : UIBase
 
     private async UniTask SetInventory()
     {
-        _inventory.Clear();
-
         List<ItemModel> items = GameManager.Inst.GetInventory();
 
-        foreach (ItemModel item in items)
+        Debug.Log($"{items.Count}, {_inventory.Count}");
+
+        for (int i = _inventory.Count; i < items.Count; i++)
         {
             string path = "Prefabs/UI/InventorySlot";
 
@@ -39,10 +39,11 @@ public class Inventory : UIBase
 
             InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();
 
-            inventorySlot.SetSlotInfo(item.ItemID);
-            inventorySlot.SetItemCount(item.ItemCount);
+            inventorySlot.SetSlotInfo(items[i].ItemID);
+            inventorySlot.SetItemCount(items[i].ItemCount);
 
-            _inventory.Add(item.ItemID, inventorySlot);
+            _inventory.Add(items[i].ItemID, inventorySlot);
+            Debug.Log(items[i].ItemID);
         }
     }
 
@@ -62,6 +63,7 @@ public class Inventory : UIBase
         if (itemModel != null && itemModel.ItemCount <= 0)
         {
             Destroy(_inventory[id].gameObject);
+            _inventory.Remove(id);
         }
     }
 }

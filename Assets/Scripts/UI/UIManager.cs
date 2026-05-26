@@ -128,4 +128,14 @@ public class UIManager : MonoBehaviour
 
         return ui;
     }
+
+    public bool IsOpenedUI(UIType type)
+    {
+        if (_openedUI.Contains(type))
+        {
+            return true;
+        }
+        
+        return false;
+    }
 }

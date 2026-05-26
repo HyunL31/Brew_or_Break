@@ -45,6 +45,11 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (!UIManager.Inst.IsOpenedUI(UIType.CraftUI))
+        {
+            return;
+        }
+
         UIBase uiBase = UIManager.Inst.OpenDrawItem();
 
         if (uiBase is DrawItem drawItem)
@@ -58,11 +63,21 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (!UIManager.Inst.IsOpenedUI(UIType.CraftUI))
+        {
+            return;
+        }
+
         _drawItem.transform.position = eventData.position;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (!UIManager.Inst.IsOpenedUI(UIType.CraftUI))
+        {
+            return;
+        }
+
         UIManager.Inst.CloseDrawItem();
         _drawItem = null;
 
