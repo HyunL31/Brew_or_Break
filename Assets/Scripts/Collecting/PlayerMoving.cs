@@ -35,10 +35,11 @@ public class PlayerMoving : MonoBehaviour
         _inputX = Input.GetAxisRaw("Horizontal");
         _inputY = Input.GetAxisRaw("Vertical");
 
-        if (_canCollect && Input.GetKey(KeyCode.E))
+        if (_canCollect && Input.GetKeyDown(KeyCode.E))
         {
             CollectingManager.Inst.CollectItem(_targetItem);
-            _targetItem = null;
+
+            SetCollectTarget();
         }
     }
 
@@ -236,12 +237,31 @@ public class PlayerMoving : MonoBehaviour
         CollectingManager.Inst.DestroyPlayer();
     }
 
+    private void SetCollectTarget()
+    {
+        _targetItem = null;
+        _canCollect = false;
+
+        float radius = 1f;
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, radius);
+
+        foreach(Collider2D collider in hitColliders)
+        {
+            if (collider.CompareTag("Item"))
+            {
+                _targetItem = CollectingManager.Inst.GetTargetItem(collider.GetInstanceID());
+                _canCollect = true;
+
+                return;
+            }
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Item"))
         {
-            _canCollect = true;
-            _targetItem = CollectingManager.Inst.GetTargetItem(collision.GetInstanceID());
+            SetCollectTarget();
         }
     }
 
@@ -249,8 +269,13 @@ public class PlayerMoving : MonoBehaviour
     {
         if (collision.CompareTag("Item"))
         {
-            _canCollect = false;
-            _targetItem = null;
+            DropItem item = CollectingManager.Inst.GetTargetItem(collision.GetInstanceID());
+
+            if (item == _targetItem)
+            {
+                _canCollect = false;
+                _targetItem = null;
+            }
         }
     }
 }
