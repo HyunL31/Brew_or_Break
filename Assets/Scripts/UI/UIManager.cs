@@ -70,7 +70,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private Transform GetUIRootTransform(UIRootType root)
+    public Transform GetUIRootTransform(UIRootType root)
     {
         Transform tranform = Background;
 

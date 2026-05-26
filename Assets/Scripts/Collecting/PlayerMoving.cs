@@ -18,7 +18,7 @@ public class PlayerMoving : MonoBehaviour
     [SerializeField] private GameObject Prefab_ProjectileSkill;
     [SerializeField] private GameObject Prefab_OverlapSkill;
     [SerializeField] private Transform SkillRoot;
-    [SerializeField] private float OverlapRadius = 5f;
+    [SerializeField] private float OverlapRadius = 2f;
     [SerializeField] private Vector3 Offset;
 
     private float _inputX = 0;
@@ -27,7 +27,8 @@ public class PlayerMoving : MonoBehaviour
     private bool _isAlive = true;
     private bool _canCollect = false;
     private Vector3 _playerDirection = Vector3.down;
-    private int _playerHP = 100;
+    private float _playerHP = 100;
+    private HPBar _hpBar;
     private DropItem _targetItem;
 
     private void Update()
@@ -213,9 +214,19 @@ public class PlayerMoving : MonoBehaviour
         _isSkillUsing = false;
     }
 
-    public void TakeDamage(int atk)
+    public void SetHPBar(HPBar hpBar)
+    {
+        _hpBar = hpBar;
+    }
+
+    public void TakeDamage(float atk)
     {
         _playerHP -= atk;
+        
+        if (_hpBar != null)
+        {
+            _hpBar.UpdateHPBar(_playerHP, 100);
+        }
 
         if (_playerHP <= 0)
         {
@@ -231,6 +242,7 @@ public class PlayerMoving : MonoBehaviour
 
         yield return new WaitForSeconds(delay);
 
+        CollectingManager.Inst.ClearHPBar();
         GameManager.Inst.SetDay();
         UIManager.Inst.CloseHUD();
         UIManager.Inst.OpenLobbyUI();

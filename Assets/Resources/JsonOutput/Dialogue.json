@@ -16,7 +16,7 @@
     "Speaker": null,
     "Content": "사람들은 오늘도 빵을 굽고, 물건을 사고, 소소한 하루를 보내고 있었다.",
     "Facial": null,
-    "BGM": "Opening",
+    "BGM": null,
     "SFX": null,
     "Background": "Opening_01",
     "ResultID": null
@@ -291,7 +291,7 @@
     "Speaker": null,
     "Content": "이제, 마을 한구석에서 시작되는 조금은 위험한 마법약 장사가 시작된다.",
     "Facial": null,
-    "BGM": "Base",
+    "BGM": null,
     "SFX": null,
     "Background": "Store",
     "ResultID": null

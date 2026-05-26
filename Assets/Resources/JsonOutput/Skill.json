@@ -3,6 +3,7 @@
     "ID": "Skill_01",
     "SkillName": "기본 공격",
     "ATK": 3,
+    "Stamina": 3,
     "Level": 1,
     "Type": "Basic",
     "Anim": null
@@ -11,6 +12,7 @@
     "ID": "Skill_02",
     "SkillName": "물",
     "ATK": 5,
+    "Stamina": 10,
     "Level": 2,
     "Type": "Projectile",
     "Anim": "Water"
@@ -19,6 +21,7 @@
     "ID": "Skill_03",
     "SkillName": "불",
     "ATK": 8,
+    "Stamina": 10,
     "Level": 3,
     "Type": "Projectile",
     "Anim": "Fire"
@@ -27,6 +30,7 @@
     "ID": "Skill_04",
     "SkillName": "흙",
     "ATK": 10,
+    "Stamina": 15,
     "Level": 4,
     "Type": "Overlap",
     "Anim": "Earth"
@@ -35,6 +39,7 @@
     "ID": "Skill_05",
     "SkillName": "공기",
     "ATK": 12,
+    "Stamina": 20,
     "Level": 5,
     "Type": "Projectile",
     "Anim": "Air"

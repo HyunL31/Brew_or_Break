@@ -35,6 +35,8 @@ public class CraftUI : UIBase
 
     private void OnEnable()
     {
+        Image_Fire.gameObject.SetActive(true);
+        Image_Smoke.gameObject.SetActive(true);
         Button_Next.gameObject.SetActive(false);
 
         Text_Acidity.text = SetRandomAcidity();

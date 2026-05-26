@@ -65,7 +65,7 @@ public class SkillOverlap : SkillBase
 
         Vector2 center = (Vector2)transform.position + (dir * 1.5f);
 
-        Gizmos.DrawWireSphere(center, 5);
+        Gizmos.DrawWireSphere(center, 2);
     }
 
     private IEnumerator OverlapCoroutine(float delay)

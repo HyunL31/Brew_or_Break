@@ -13,8 +13,10 @@ public class Enemy : MonoBehaviour
     private Transform _parent;
 
     private Monster _monsterData;
-    private int _ATK;
-    private int _HP;
+    private HPBar _hpBar;
+    private float _ATK;
+    private float _HP;
+    private float _maxHP;
     private float _CoolTime;
     private bool _isAlive = true;
     private bool _canAttack = false;
@@ -25,6 +27,11 @@ public class Enemy : MonoBehaviour
         _parent = parent;
     }
 
+    public void SetHPBar(HPBar hpBar)
+    {
+        _hpBar = hpBar;
+    }
+
     public void InitMonster(int instanceID, string monsterID)
     {
         _instanceID = instanceID;
@@ -33,6 +40,7 @@ public class Enemy : MonoBehaviour
         _monsterData = GameDataManager.Inst.GetMonsterData(monsterID);
         _ATK = _monsterData.ATK * GameManager.Inst.GetDay();
         _HP = _monsterData.HP;
+        _maxHP = _monsterData.HP;
         _CoolTime = _monsterData.CoolTime;
     }
 
@@ -83,7 +91,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int atk)
+    public void TakeDamage(float atk)
     {
         if (!_isAlive)
         {
@@ -92,6 +100,11 @@ public class Enemy : MonoBehaviour
 
         Anim.SetTrigger("Damage");
         _HP -= atk;
+        
+        if (_hpBar != null)
+        {
+            _hpBar.UpdateHPBar(_HP, _maxHP);
+        }
 
         if (_HP <= 0)
         {

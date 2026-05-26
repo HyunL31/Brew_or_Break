@@ -13,6 +13,7 @@ public class CollectingManager : MonoBehaviour
     private int _generatedKey = 0;
     private Dictionary<int, Enemy> _monsters = new Dictionary<int, Enemy>();
     private Dictionary<int, DropItem> _dropItems = new Dictionary<int, DropItem>();
+    private List<HPBar> _hpBars = new List<HPBar>();
 
     public Action<int, int> OnSkillCollision;
 
@@ -50,6 +51,9 @@ public class CollectingManager : MonoBehaviour
 
         PlayerMoving playerMoving = player.GetComponent<PlayerMoving>();
         _player = playerMoving;
+        HPBar hpBar = await CreateHPBar(player.transform);
+        _player.SetHPBar(hpBar);
+        _hpBars.Add(hpBar);
 
         GameObject map = await ResourceManager.Inst.InstantiatePrefab(mapPath, null);
 
@@ -78,7 +82,11 @@ public class CollectingManager : MonoBehaviour
         string path = $"Prefabs/{monsterID}";
 
         GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, spawnSpot);
-        AddMonsterObject(prefab, monsterID, spawnSpot);
+        Enemy enemy = AddMonsterObject(prefab, monsterID, spawnSpot);
+
+        HPBar hpBar = await CreateHPBar(prefab.transform);
+        enemy.SetHPBar(hpBar);
+        _hpBars.Add(hpBar);
     }
 
     public Enemy GetMonster(int id)
@@ -91,7 +99,7 @@ public class CollectingManager : MonoBehaviour
         Destroy(monster);
     }
 
-    private void AddMonsterObject(GameObject monster, string monsterID, Transform spawnSpot)
+    private Enemy AddMonsterObject(GameObject monster, string monsterID, Transform spawnSpot)
     {
         int instanceID = _generatedKey;
         _generatedKey++;
@@ -102,6 +110,8 @@ public class CollectingManager : MonoBehaviour
 
         enemy.InitMonster(instanceID, monsterID);
         enemy.SetParent(spawnSpot);
+
+        return enemy;
     }
 
     public async UniTask DropMonsterItem(List<string> items, Transform parent)
@@ -133,5 +143,29 @@ public class CollectingManager : MonoBehaviour
     {
         GameManager.Inst.AddItem(dropItem.GetItemID());
         Destroy(dropItem.gameObject);
+    }
+
+    public async UniTask<HPBar> CreateHPBar(Transform target)
+    {
+        string path = "Prefabs/UI/HPBar";
+
+        GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, UIManager.Inst.GetUIRootTransform(UIRootType.Background));
+        HPBar hpBar = prefab.GetComponent<HPBar>();
+        hpBar.SetTarget(target);
+
+        return hpBar;
+    }
+
+    public void ClearHPBar()
+    {
+        foreach(HPBar hpBar in _hpBars)
+        {
+            if (hpBar.gameObject != null)
+            {
+                Destroy(hpBar.gameObject);
+            }
+        }
+
+        _hpBars.Clear();
     }
 }
