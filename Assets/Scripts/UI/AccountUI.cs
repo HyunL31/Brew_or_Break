@@ -55,6 +55,7 @@ public class AccountUI : UIBase
 
     private void OnClickConfirm()
     {
+        SoundManager.Inst.OnSFX?.Invoke("Audio/Account");
         GameManager.Inst.SaveData();
 
         if (GameManager.Inst.PlayerModel.Day == 10)

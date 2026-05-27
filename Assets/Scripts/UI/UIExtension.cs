@@ -115,6 +115,7 @@ public static class UIExtension
 
     public static void OpenHUD(this UIManager uiManager)
     {
+        SoundManager.Inst.OnBGM("Audio/Base");
         uiManager.OpenContentUI(UIType.HUD);
     }
 

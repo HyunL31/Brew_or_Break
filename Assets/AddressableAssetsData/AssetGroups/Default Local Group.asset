@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: c40ad986f1f19014f8915708511d09f1
   m_SerializeEntries:
+  - m_GUID: 0ecbda45ac91d8847a6a39dc5d1e9b2b
+    m_Address: Audio/Bad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 139f9a9791cbbc34e817b40984354d0f
     m_Address: Icon/Skill
     m_ReadOnly: 0
@@ -40,6 +45,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59125aecf2571f84b9a0b72a83c9c5db
+    m_Address: Audio/Item
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c6f7c2b910f2b34a903a9306f64e73b
     m_Address: Prefabs/Monster_04
     m_ReadOnly: 0
@@ -50,13 +60,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77c7bae0f4867b349b0b2f4769e765a7
+    m_Address: Audio/Craft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 79c5d269a3c48a446b762bb7031fc244
     m_Address: Prefabs/Monster_05
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c73d9d314029e2428b64283ec734c1b
+    m_Address: Audio/Account
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 80e565e8d6dde44458a1989b587b4098
     m_Address: Icon/Clue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a27386e40aee505468eeeeb7fbbb6594
+    m_Address: Audio/Good
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -87,6 +112,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d60e107113c570e4e8673410b5a5755c
     m_Address: Prefabs/UI/HPBar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e415546bef1d35b45967b16ee456ce83
+    m_Address: Audio/Normal
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -302,7 +302,7 @@
     "Speaker": "Scholar_01",
     "Content": "쿨럭, 쿨럭... 여기가... 용한 약사가 있다는 그곳인가?",
     "Facial": "Scholar_01_02",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Time",
     "ResultID": null
@@ -621,7 +621,7 @@
     "Speaker": "Tattoo_01",
     "Content": "이봐, 약제사! 이 마을에서 가장 독한 '진실의 정수'를 내놔. 지금 당장!",
     "Facial": "Tattoo_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -973,7 +973,7 @@
     "Speaker": "Prophet_01",
     "Content": "아아... 사방이 어둠뿐이로군.",
     "Facial": "Prophet_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -1402,7 +1402,7 @@
     "Speaker": "Magician_01",
     "Content": "약사님, 제발 저희 남편 좀 살려주세요.",
     "Facial": "Magician_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -1721,7 +1721,7 @@
     "Speaker": "Boss_01",
     "Content": "어이, 약사! 이 근방에서 네 솜씨가 제일이라며?",
     "Facial": "Boss_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -2117,7 +2117,7 @@
     "Speaker": "Loyal_01",
     "Content": "이곳의 약이 그렇게 확실하다지?",
     "Facial": "Loyal_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Loyal",
     "ResultID": null
@@ -2590,7 +2590,7 @@
     "Speaker": "Regular_01",
     "Content": "약제사! 나 왔어! 저번에 말했던 그... '진실이 정수' 말이야. 그거 완성됐어?",
     "Facial": "Regular_01_02",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -2876,7 +2876,7 @@
     "Speaker": "Alchemist_01",
     "Content": "이 눅눅한 곰팡이 냄새... 그리고 코끝을 찌르는 싸구려 약초 향기.",
     "Facial": "Alchemist_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -3360,7 +3360,7 @@
     "Speaker": "Guard_01",
     "Content": "약사 양반, 급하네! 어젯밤 영주님의 창고를 턴 고약한 도둑놈을 드디어 생포했어.",
     "Facial": "Guard_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -3613,7 +3613,7 @@
     "Speaker": "Master_01",
     "Content": "으윽... 시간이... 없다. 마력 회로가... 얼어붙고 있어.",
     "Facial": "Master_01_01",
-    "BGM": null,
+    "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -5801,7 +5801,7 @@
     "NextID": "Normal_End_02",
     "Speaker": null,
     "Content": "10일. 짧다면 짧고, 길다면 긴 시간.",
-    "Facial": null,
+    "Facial": "Normal",
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -6054,7 +6054,7 @@
     "NextID": "Good_End_02",
     "Speaker": null,
     "Content": "10일. 짧다면 짧고, 길다면 긴 시간.",
-    "Facial": null,
+    "Facial": "Good",
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -6252,7 +6252,7 @@
     "NextID": "Bad_End_02",
     "Speaker": null,
     "Content": "남은 시간, 하루.",
-    "Facial": null,
+    "Facial": "Bad",
     "BGM": null,
     "SFX": null,
     "Background": "Store",
