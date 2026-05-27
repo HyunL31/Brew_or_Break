@@ -127,8 +127,6 @@ public class PlayerMoving : MonoBehaviour
                 enemy.TakeDamage(atk);
             }
         }
-
-        //StartBasicSkill().Forget();
     }
 
     private Vector3 SetBasicSkillRange()
@@ -212,15 +210,6 @@ public class PlayerMoving : MonoBehaviour
 
         return true;
     }
-
-    //private async UniTaskVoid StartBasicSkill()
-    //{
-    //    _isSkillUsing = true;
-
-    //    await UniTask.Delay(TimeSpan.FromSeconds(1f), cancellationToken: this.GetCancellationTokenOnDestroy());
-
-    //    _isSkillUsing = false;
-    //}
 
     public void SetHPBar(HPBar hpBar)
     {

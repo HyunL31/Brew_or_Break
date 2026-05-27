@@ -10,6 +10,7 @@ public class HUD : UIBase
 
     [Header("기타")]
     [SerializeField] private Button Button_Inventory;
+    [SerializeField] private Button Button_EndCollecting;
     [SerializeField] private Image Image_Stamina;
     
     private Dictionary<string, SkillButton> _skills = new Dictionary<string, SkillButton>();
@@ -17,6 +18,7 @@ public class HUD : UIBase
     private void Awake()
     {
         Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
+        Button_EndCollecting.onClick.AddListener(EndCollecting);
         CollectingManager.Inst.OnChangeStamina = UpdateStamina;
     }
 
@@ -70,5 +72,15 @@ public class HUD : UIBase
         {
             Image_Stamina.color = Color.red;
         }
+    }
+
+    private void EndCollecting()
+    {
+        CollectingManager.Inst.ClearHPBar();
+        GameManager.Inst.SetDay();
+
+        UIManager.Inst.OpenLobbyUI();
+        CollectingManager.Inst.DestroyPlayer();
+        UIManager.Inst.CloseHUD();
     }
 }
