@@ -80,6 +80,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5f56da433a49534b93a423628d93215
+    m_Address: Background/Cuffs
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d60e107113c570e4e8673410b5a5755c
     m_Address: Prefabs/UI/HPBar
     m_ReadOnly: 0

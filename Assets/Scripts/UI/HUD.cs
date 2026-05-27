@@ -12,7 +12,7 @@ public class HUD : UIBase
     [SerializeField] private Button Button_Inventory;
     [SerializeField] private Image Image_Stamina;
     
-    private List<SkillButton> _skills = new List<SkillButton>();
+    private Dictionary<string, SkillButton> _skills = new Dictionary<string, SkillButton>();
 
     private void Awake()
     {
@@ -22,13 +22,10 @@ public class HUD : UIBase
 
     private void OnEnable()
     {
+        InitSkillButton();
+
         Image_Stamina.fillAmount = 1;
         Image_Stamina.color = Color.green;
-    }
-
-    private void Start()
-    {
-        InitSkillButton();
     }
 
     private void InitSkillButton()
@@ -40,12 +37,15 @@ public class HUD : UIBase
         {
             if (data.Level <= playerLevel)
             {
-                Button button = Instantiate(SkillButtonPrefab, SkillButtonRoot);
-                
-                SkillButton skillButton = button.GetComponent<SkillButton>();
-                skillButton.SetSkillInfo(data.ID);
+                if (!_skills.ContainsKey(data.SkillName))
+                {
+                    Button button = Instantiate(SkillButtonPrefab, SkillButtonRoot);
 
-                _skills.Add(skillButton);
+                    SkillButton skillButton = button.GetComponent<SkillButton>();
+                    skillButton.SetSkillInfo(data.ID);
+
+                    _skills.Add(data.SkillName, skillButton);
+                }
             }
             else
             {

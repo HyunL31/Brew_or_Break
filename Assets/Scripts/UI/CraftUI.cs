@@ -157,7 +157,6 @@ public class CraftUI : UIBase
         _addedItem.Add(id);
 
         GameManager.Inst.UseItem(id);
-        GameManager.Inst.OnSetInventory?.Invoke(id);
     }
 
     private void GetReturnID(string potionID)

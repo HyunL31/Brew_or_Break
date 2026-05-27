@@ -25,10 +25,13 @@ public class ChoiceUI : UIBase
 
         string slotPath = "Prefabs/UI/ChoiceSlot";
 
+        Debug.Log(currentID);
+
         foreach (string choiceID in data.Keys)
         {
             if (choiceID.Contains(currentID))
             {
+                Debug.Log(choiceID);
                 GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(slotPath, ChoiceParent);
 
                 ChoiceSlot choiceSlot = prefab.GetComponent<ChoiceSlot>();

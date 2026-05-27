@@ -1,8 +1,8 @@
 [
   {
     "ID": "Good_01",
-    "Reputation": 50,
-    "Gold": 50
+    "Reputation": 200,
+    "Gold": 1000
   },
   {
     "ID": "Normal_01",
@@ -11,23 +11,23 @@
   },
   {
     "ID": "Normal_02",
-    "Reputation": 10,
-    "Gold": 10
+    "Reputation": 200,
+    "Gold": 600
   },
   {
     "ID": "Bad_01",
     "Reputation": -30,
-    "Gold": -30
+    "Gold": -300
   },
   {
     "ID": "Normal_03",
-    "Reputation": 50,
+    "Reputation": 200,
     "Gold": 0
   },
   {
     "ID": "Normal_04",
     "Reputation": -30,
-    "Gold": 50
+    "Gold": 500
   },
   {
     "ID": "Normal_05",
@@ -37,6 +37,6 @@
   {
     "ID": "Normal_06",
     "Reputation": -10,
-    "Gold": 50
+    "Gold": 500
   }
 ]

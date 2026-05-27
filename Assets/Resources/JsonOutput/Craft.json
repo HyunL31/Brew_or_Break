@@ -2,8 +2,8 @@
   {
     "ID": "Craft_01",
     "PotionID": [
-      "Potion_03",
-      "Potion_02"
+      "Potion_3",
+      "Potion_2"
     ],
     "SuccessID": [
       "Episode_1_20",
@@ -14,8 +14,8 @@
   {
     "ID": "Craft_02",
     "PotionID": [
-      "Potion_01",
-      "Potion_02"
+      "Potion_1",
+      "Potion_2"
     ],
     "SuccessID": [
       "Episode_2_18",
@@ -26,7 +26,7 @@
   {
     "ID": "Craft_03",
     "PotionID": [
-      "Potion_04"
+      "Potion_4"
     ],
     "SuccessID": [
       "Episode_3_33"
@@ -36,8 +36,8 @@
   {
     "ID": "Craft_04",
     "PotionID": [
-      "Potion_06",
-      "Potion_07"
+      "Potion_6",
+      "Potion_7"
     ],
     "SuccessID": [
       "Episode_4_23",
@@ -48,8 +48,8 @@
   {
     "ID": "Craft_05",
     "PotionID": [
-      "Potion_08",
-      "Potion_09"
+      "Potion_8",
+      "Potion_9"
     ],
     "SuccessID": [
       "Episode_5_22",
@@ -62,19 +62,19 @@
     "PotionID": [
       "Potion_10",
       "Potion_11",
-      "Potion_02"
+      "Potion_2"
     ],
     "SuccessID": [
       "Episode_6_22",
       "Episode_6_27",
-      "Episode_06_33"
+      "Episode_6_33"
     ],
     "FailID": "Episode_6_41"
   },
   {
     "ID": "Craft_07",
     "PotionID": [
-      "Potion_01"
+      "Potion_1"
     ],
     "SuccessID": [
       "Episode_7_19"
@@ -96,7 +96,7 @@
   {
     "ID": "Craft_09",
     "PotionID": [
-      "Potion_01"
+      "Potion_1"
     ],
     "SuccessID": [
       "Episode_9_18"

@@ -14,9 +14,9 @@ public class StoreManager : MonoBehaviour
 
     private StoreModel _storeModel = new StoreModel();
     private int _todayCluePoint = 0;
-    private int _maxLevel = 10;
-    private int _maxReputation = 500;
-    private int _maxCompensation = 10000;
+    private int _maxLevel = 5;
+    private int _maxReputation = 1000;
+    private int _maxCompensation = 6000;
 
     private void Awake()
     {

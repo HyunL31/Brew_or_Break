@@ -164,7 +164,7 @@
     "Name": "다크써클",
     "Description": "눈 밑에 짙은 다크써클이 생겼다.",
     "Point": 2,
-    "ReturnID": "Episode_10_07",
+    "ReturnID": "Episode_10_08",
     "Path": "Icon/Clue[Clue_15]"
   },
   {
@@ -172,7 +172,7 @@
     "Name": "서리",
     "Description": "몸에 서리가 내렸다.",
     "Point": 3,
-    "ReturnID": "Episode_10_07",
+    "ReturnID": "Episode_10_08",
     "Path": "Icon/Clue[Clue_19]"
   }
 ]

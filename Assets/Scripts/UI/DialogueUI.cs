@@ -118,6 +118,7 @@ public class DialogueUI : UIBase
 
     private void SkipDialogue()
     {
+        var data = GameDataManager.Inst.DialogueDataList;
         string nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
 
         if (!nextID.Contains("Episode"))
@@ -125,10 +126,17 @@ public class DialogueUI : UIBase
             return;
         }
 
-        while (nextID.Contains("Episode"))
+        foreach (var d in data)
         {
+            if (!nextID.Contains("Episode"))
+            {
+                break;
+            }
+
+            // 월권
             VisualNovelManager.Inst.SetCurrentDialogueID(nextID);
 
+            // 캐싱 필요
             nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
         }
 
@@ -159,14 +167,15 @@ public class DialogueUI : UIBase
         Text_Dialogue.text = content;
         Image_NextArrow.gameObject.SetActive(false);
 
-        while (Text_Dialogue.maxVisibleCharacters < content.Length)
+        // while 권장 X (while보다는 for문으로)
+        for (int i = 0; i < content.Length; i++)
         {
             if (!_isTyping)
             {
                 break;
             }
 
-            Text_Dialogue.maxVisibleCharacters++;
+            Text_Dialogue.maxVisibleCharacters = i;
 
             await UniTask.Delay(TimeSpan.FromSeconds(_typingWaitTime), cancellationToken: token);
         }

@@ -1,7 +1,10 @@
 ﻿using Cysharp.Threading.Tasks;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class Inventory : UIBase
 {
@@ -16,13 +19,18 @@ public class Inventory : UIBase
         {
             Button_Close.onClick.AddListener(UIManager.Inst.CloseInventory);
         }
-
-        GameManager.Inst.OnSetInventory = (id) => ResetInventory(id);
     }
 
     private void OnEnable()
     {
+        GameManager.Inst.OnSetInventory = (id, count) => { UpdateInventory(id, count).Forget(); };
+
         SetInventory().Forget();
+    }
+
+    private void OnDisable()
+    {
+        GameManager.Inst.OnSetInventory = null;
     }
 
     private async UniTask SetInventory()
@@ -34,45 +42,57 @@ public class Inventory : UIBase
             return;
         }
 
-        string path = "Prefabs/UI/InventorySlot";
-
         foreach (ItemModel item in items)
         {
-            if (_inventory.ContainsKey(item.ItemID))
-            {
-                _inventory[item.ItemID].SetItemCount(item.ItemCount);
-            }
-            else
-            {
-                GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, SlotParent);
-
-                InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();
-
-                inventorySlot.SetSlotInfo(item.ItemID);
-                inventorySlot.SetItemCount(item.ItemCount);
-
-                _inventory.Add(item.ItemID, inventorySlot);
-            }
+            await CreateSlot(item.ItemID, item.ItemCount);
         }
     }
 
-    private void ResetInventory(string id)
+    private async UniTaskVoid UpdateInventory(string id, int count)
     {
-        ItemModel itemModel = null;
-
-        foreach (ItemModel item in GameManager.Inst.GetInventory())
+        if (count <= 0)
         {
-            if (item.ItemID == id)
+            if (_inventory.ContainsKey(id))
             {
-                itemModel = item;
-                break;
+                if (_inventory[id] != null)
+                {
+                    Destroy(_inventory[id].gameObject);
+                }
+
+                _inventory.Remove(id);
             }
+
+            return;
         }
 
-        if (itemModel != null && itemModel.ItemCount <= 0)
+        await CreateSlot(id, count);
+    }
+
+    private async UniTask CreateSlot(string id, int count)
+    {
+        if (_inventory.ContainsKey(id))
         {
-            Destroy(_inventory[id].gameObject);
-            _inventory.Remove(id);
+            _inventory[id].SetItemCount(count);
+        }
+        else
+        {
+            if (_inventory.ContainsKey(id) && _inventory[id] == null)
+            {
+                await UniTask.WaitUntil(() => _inventory.ContainsKey(id) && _inventory[id] != null);
+                _inventory[id].SetItemCount(count);
+                return;
+            }
+            string path = "Prefabs/UI/InventorySlot";
+
+            _inventory.Add(id, null);
+
+            GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, SlotParent);
+            InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();
+
+            inventorySlot.SetSlotInfo(id);
+            inventorySlot.SetItemCount(count);
+
+            _inventory[id] = inventorySlot;
         }
     }
 }

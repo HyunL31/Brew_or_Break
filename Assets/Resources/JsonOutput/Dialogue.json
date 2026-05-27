@@ -2083,7 +2083,7 @@
     "NextID": "Episode_5_35",
     "Speaker": "Boss_01",
     "Content": "응? 이게 뭐야! 이건 내가 원하던 약이 아니라고!!",
-    "Facial": "Player_01_02",
+    "Facial": "Boss_01_02",
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2094,7 +2094,7 @@
     "NextID": "Episode_5_36",
     "Speaker": "Boss_01",
     "Content": "형씨... 실력 완전 형편없구나...",
-    "Facial": "Player_01_03",
+    "Facial": "Boss_01_02",
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2105,7 +2105,7 @@
     "NextID": "Account",
     "Speaker": "Boss_01",
     "Content": "괜찮아... 그럴 수 있지... 형씨만큼 재능없는 사람은 처음 보지만... 힘내고, 응?",
-    "Facial": "Player_01_04",
+    "Facial": "Boss_01_02",
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2141,7 +2141,7 @@
     "Facial": "Player_01_05",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2174,7 +2174,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2185,7 +2185,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2196,7 +2196,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2240,7 +2240,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2251,7 +2251,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2273,7 +2273,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2295,7 +2295,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2306,7 +2306,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2317,7 +2317,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2350,7 +2350,7 @@
     "Facial": "Player_01_02",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2361,7 +2361,7 @@
     "Facial": "Player_01_02",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2394,7 +2394,7 @@
     "Facial": "Player_01_05",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2405,7 +2405,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2416,7 +2416,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2438,7 +2438,7 @@
     "Facial": "Player_01_04",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2471,7 +2471,7 @@
     "Facial": "Player_01_02",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2504,7 +2504,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2515,7 +2515,7 @@
     "Facial": "Player_01_02",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2526,7 +2526,7 @@
     "Facial": "Player_01_02",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -2537,7 +2537,7 @@
     "Facial": "Loyal_01_01",
     "BGM": null,
     "SFX": null,
-    "Background": "Loyal",
+    "Background": "Store",
     "ResultID": null
   },
   {
@@ -3433,7 +3433,7 @@
   },
   {
     "ID": "Episode_9_08",
-    "NextID": "Choice_09_01",
+    "NextID": "Choice_09",
     "Speaker": "Guard_01",
     "Content": "빨리 보물의 행방에 대해 알아내라고 아주 난리도 아니야.",
     "Facial": "Guard_01_01",
@@ -3730,7 +3730,7 @@
   },
   {
     "ID": "Episode_10_12",
-    "NextID": "Craft_09",
+    "NextID": "Craft_10",
     "Speaker": "Player_01",
     "Content": "일단! 잠시만 기다리세요!",
     "Facial": "Player_01_05",
@@ -3807,14 +3807,14 @@
   },
   {
     "ID": "Episode_10_19",
-    "NextID": "End",
+    "NextID": "Account",
     "Speaker": "Master_01",
     "Content": "자네가 아니었다면 나는 내 손으로 이 세계를 끝낼 뻔했네. 진정한 현자는 내가 아니라 자네였어.",
     "Facial": "Master_01_05",
     "BGM": null,
     "SFX": null,
     "Background": "Store",
-    "ResultID": null
+    "ResultID": "Good_01"
   },
   {
     "ID": "Bad_Illegal_01",

@@ -21,7 +21,7 @@ public class AccountUI : UIBase
     [SerializeField] private TextMeshProUGUI Text_Compensation;
     [SerializeField] private Image Image_Compensation;
 
-    private int _requestLevel = 5;
+    private int _requestLevel = 10;
     private int _requestCompen = 100;
 
     private void Awake()
@@ -56,6 +56,16 @@ public class AccountUI : UIBase
     private void OnClickConfirm()
     {
         GameManager.Inst.SaveData();
+
+        if (GameManager.Inst.GetDay() == 10)
+        {
+            VisualNovelManager.Inst.CheckEnding();
+            UIManager.Inst.OpenVisualNovelUI();
+            UIManager.Inst.OpenDialogueUI();
+            UIManager.Inst.CloseAccountUI();
+
+            return;
+        }
 
         CollectingManager.Inst.SetCollectingMap().Forget();
         UIManager.Inst.OpenHUD();

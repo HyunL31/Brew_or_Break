@@ -28,13 +28,13 @@ public class RecipePopup : UIBase
         Button_Left.onClick.AddListener(OnClickLeftArrow);
         Button_Right.onClick.AddListener(OnClickRightArrow);
         Button_Confirm.onClick.AddListener(OnClickConfirm);
-
-        SetPotionInfo(_currentIndex).Forget();
     }
 
     private void OnEnable()
     {
         _currentIndex = 1;
+
+        SetPotionInfo(_currentIndex).Forget();
     }
 
     private void OnClickLeftArrow()
@@ -81,7 +81,7 @@ public class RecipePopup : UIBase
         await GameUtil.LoadSpriteAndSet(path, Image_Potion);
 
         var data = GameDataManager.Inst.GetPotionData(potionID);
-        
+
         Text_PotionName.text = data.Name;
         Text_PotionDescription.text = data.Description;
 
@@ -120,16 +120,7 @@ public class RecipePopup : UIBase
 
     private string GetPotionID(int index)
     {
-        string potionID = string.Empty;
-
-        if (index < 10)
-        {
-            potionID = $"Potion_0{index}";
-        }
-        else
-        {
-            potionID = $"Potion_{index}";
-        }
+        string potionID = $"Potion_{index}";
 
         return potionID;
     }

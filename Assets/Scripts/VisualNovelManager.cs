@@ -72,6 +72,11 @@ public class VisualNovelManager : MonoBehaviour
 
             isMoved = true;
         }
+        else if (nextID == "0")
+        {
+            UIManager.Inst.CloseDialogueUI();
+            UIManager.Inst.InitStart();
+        }
         else
         {
             UIManager.Inst.OpenDialogueUI();
@@ -109,5 +114,25 @@ public class VisualNovelManager : MonoBehaviour
     private int GetCurrentDay()
     {
         return GameManager.Inst.GetDay();
+    }
+
+    public void CheckEnding()
+    {
+        string end = string.Empty;
+
+        if (StoreManager.Inst.GetStoreDebt() >= 0)
+        {
+            end = "Bad";
+        }
+        else if (StoreManager.Inst.GetStoreReputation() < 500)
+        {
+            end = "Normal";
+        }
+        else
+        {
+            end = "Good";
+        }
+
+        CurrentDialogueID = $"{end}_End_01";
     }
 }

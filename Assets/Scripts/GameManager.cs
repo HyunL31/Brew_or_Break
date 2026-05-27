@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Inst;
 
     private PlayerModel _playerModel = new PlayerModel();
-    public Action<string> OnSetInventory;
+    public Action<string, int> OnSetInventory;
 
     private void Awake()
     {
@@ -53,8 +53,12 @@ public class GameManager : MonoBehaviour
 
             if (target.ItemCount <= 0)
             {
-                OnSetInventory?.Invoke(id);
                 _playerModel.Inventory.Remove(target);
+                OnSetInventory?.Invoke(id, 0);
+            }
+            else
+            {
+                OnSetInventory?.Invoke(id, target.ItemCount);
             }
         }
     }
@@ -66,13 +70,13 @@ public class GameManager : MonoBehaviour
             if (item.ItemID.Contains(id))
             {
                 item.ItemCount++;
-                OnSetInventory?.Invoke(id);
+                OnSetInventory?.Invoke(id, item.ItemCount);
                 return item.ItemCount;
             }
         }
 
         _playerModel.Inventory.Add(SaveManager.Inst.AddDefaultItem(id));
-        OnSetInventory?.Invoke(id);
+        OnSetInventory?.Invoke(id, 1);
         return 1;
     }
 
