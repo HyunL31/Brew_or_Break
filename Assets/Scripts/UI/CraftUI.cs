@@ -21,6 +21,9 @@ public class CraftUI : UIBase
     private int _randomAcidity = 0;
     private List<string> _addedItem = new List<string>();
     private string _potionID = string.Empty;
+    private Dictionary<string, Potion> _potionData;
+    private Dictionary<string, Craft> _craftData;
+    private Dictionary<string, Ingredient> _ingredientData;
 
     private void Awake()
     {
@@ -49,6 +52,13 @@ public class CraftUI : UIBase
 
         string path = "Icon/Pot2";
         GameUtil.LoadSpriteAndSet(path, Image_Pot).Forget();
+    }
+
+    private void Start()
+    {
+        _potionData = GameDataManager.Inst.PotionDataList;
+        _craftData = GameDataManager.Inst.CraftDataList;
+        _ingredientData = GameDataManager.Inst.IngredientDataList;
     }
 
     private string SetRandomAcidity()
@@ -110,10 +120,9 @@ public class CraftUI : UIBase
             return "Mess";
         }
 
-        var data = GameDataManager.Inst.PotionDataList.Values;
         bool isRight = false;
 
-        foreach (var item in data)
+        foreach (var item in _potionData.Values)
         {
             List<string> items = item.Ingredient;
 
@@ -147,7 +156,7 @@ public class CraftUI : UIBase
 
     private void AddItem(string id)
     {
-        List<float> RGB = GameDataManager.Inst.GetIngredientData(id).RGB;
+        List<float> RGB = _ingredientData[id].RGB;
 
         Color color = new Color(RGB[0], RGB[1], RGB[2]);
 
@@ -161,25 +170,25 @@ public class CraftUI : UIBase
 
     private void GetReturnID(string potionID)
     {
-        string id = VisualNovelManager.Inst.GetCurrentDialogueID();
+        string id = VisualNovelManager.Inst.CurrentDialogueID;
 
-        List<string> potions = GameDataManager.Inst.GetCraftData(id).PotionID;
+        List<string> potions = _craftData[id].PotionID;
         string returnID = string.Empty;
 
         for (int i = 0; i < potions.Count; i++)
         {
             if (potions[i] == potionID)
             {
-                returnID = GameDataManager.Inst.GetCraftData(id).SuccessID[i];
+                returnID = _craftData[id].SuccessID[i];
                 break;
             }
         }
 
         if (returnID == string.Empty)
         {
-            returnID = GameDataManager.Inst.GetCraftData(id).FailID;
+            returnID = _craftData[id].FailID;
         }
 
-        VisualNovelManager.Inst.SetCurrentDialogueID(returnID);
+        VisualNovelManager.Inst.OnSetDialogueID(returnID);
     }
 }

@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,10 +9,16 @@ public class ChoiceSlot : MonoBehaviour
     [SerializeField] private Button Button_Choice;
 
     private string _choiceID;
+    private Dictionary<string, Choice> _data;
 
     private void Awake()
     {
         Button_Choice.onClick.AddListener(OnClickChoice);
+    }
+
+    private void Start()
+    {
+        _data = GameDataManager.Inst.ChoiceDataList;
     }
 
     public void SetChoiceText(string choice)
@@ -26,8 +33,7 @@ public class ChoiceSlot : MonoBehaviour
 
     private void OnClickChoice()
     {
-        VisualNovelManager.Inst.SetCurrentDialogueID(SetReturnID());
-
+        VisualNovelManager.Inst.OnSetDialogueID(SetReturnID());
         VisualNovelManager.Inst.OnClickChoiceButton?.Invoke();
 
         UIManager.Inst.OpenDialogueUI();
@@ -36,7 +42,7 @@ public class ChoiceSlot : MonoBehaviour
 
     private string SetReturnID()
     {
-        string returnID = GameDataManager.Inst.GetChoiceData(_choiceID).ReturnID;
+        string returnID = _data[_choiceID].ReturnID;
 
         return returnID;
     }

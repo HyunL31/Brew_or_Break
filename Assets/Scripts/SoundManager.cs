@@ -1,4 +1,5 @@
 ﻿using Cysharp.Threading.Tasks;
+using System;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour
@@ -8,9 +9,19 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource Audio_BGM;
     [SerializeField] private AudioSource Audio_SFX;
 
+    public Action<string> OnBGM;
+    public Action<string> OnSFX;
+    public Action<AudioSource> OnPause;
+    public Action<AudioSource> OnTyping;
+
     private void Awake()
     {
         Inst = this;
+
+        OnBGM = (path) => SetBGMAndPlay(path).Forget();
+        OnSFX = (clip) => SetSFXAndPlay(clip).Forget();
+        OnPause = (audioSource) => PauseAudio(audioSource);
+        OnTyping = (audioSource) => SetTypingAndPlay(audioSource).Forget();
     }
 
     private void Start()

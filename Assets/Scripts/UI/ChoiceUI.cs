@@ -6,6 +6,7 @@ public class ChoiceUI : UIBase
 {
     [SerializeField] Transform ChoiceParent;
 
+    private Dictionary<string, Choice> _data;
     private List<GameObject> _choiceSlots = new List<GameObject>();
 
     private void Awake()
@@ -15,28 +16,25 @@ public class ChoiceUI : UIBase
 
     private void OnEnable()
     {
+        _data = GameDataManager.Inst.ChoiceDataList;
+
         SetChoiceMenu().Forget();
     }
 
     private async UniTask SetChoiceMenu()
     {
-        string currentID = VisualNovelManager.Inst.GetCurrentDialogueID();
-        var data = GameDataManager.Inst.ChoiceDataList;
-
+        string currentID = VisualNovelManager.Inst.CurrentDialogueID;
         string slotPath = "Prefabs/UI/ChoiceSlot";
 
-        Debug.Log(currentID);
-
-        foreach (string choiceID in data.Keys)
+        foreach (string choiceID in _data.Keys)
         {
             if (choiceID.Contains(currentID))
             {
-                Debug.Log(choiceID);
                 GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(slotPath, ChoiceParent);
 
                 ChoiceSlot choiceSlot = prefab.GetComponent<ChoiceSlot>();
 
-                string text = data[choiceID].Content;
+                string text = _data[choiceID].Content;
                 choiceSlot.SetChoiceText(text);
                 choiceSlot.SetChoiceID(choiceID);
 

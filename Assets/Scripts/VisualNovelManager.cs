@@ -1,24 +1,36 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class VisualNovelManager : MonoBehaviour
 {
     public static VisualNovelManager Inst;
 
-    private string CurrentDialogueID { get; set; }
+    public string CurrentDialogueID { get; private set; }
 
     public Action<string> OnChangeBaseUI;
     public Action<string> OnClickClueButton;
     public Action OnClickChoiceButton;
     public Action<string> OnDropItem;
+    public Action<string> OnSetDialogueID;
+    public Func<string, bool> OnMoveNextContent;
+
+    private Dictionary<string, Dialogue> _dialogues;
+    private Dictionary<string, Result> _results;
 
     private void Awake()
     {
         Inst = this;
+
+        OnSetDialogueID = SetCurrentDialogueID;
+        OnMoveNextContent =  MoveToContent;
     }
 
     private void Start()
     {
+        _dialogues = GameDataManager.Inst.DialogueDataList;
+        _results = GameDataManager.Inst.ResultDataList;
+
         SetCurrentDialogueID();
     }
 
@@ -87,18 +99,13 @@ public class VisualNovelManager : MonoBehaviour
 
     private void SetResult()
     {
-        string resultID = GameDataManager.Inst.GetDialogueData(CurrentDialogueID).ResultID;
+        string resultID = _dialogues[CurrentDialogueID].ResultID;
 
-        int gold = GameDataManager.Inst.GetResultData(resultID).Gold;
-        int reputation = GameDataManager.Inst.GetResultData(resultID).Reputation;
+        int gold = _results[resultID].Gold;
+        int reputation = _results[resultID].Reputation;
 
         StoreManager.Inst.SetGold(gold);
         StoreManager.Inst.SetReputation(reputation);
-    }
-
-    public string GetCurrentDialogueID()
-    {
-        return CurrentDialogueID;
     }
 
     public void SetCurrentDialogueID()
@@ -106,25 +113,25 @@ public class VisualNovelManager : MonoBehaviour
         CurrentDialogueID = $"Episode_{GetCurrentDay()}_01";
     }
 
-    public void SetCurrentDialogueID(string id)
+    private void SetCurrentDialogueID(string id)
     {
         CurrentDialogueID = id;
     }
 
     private int GetCurrentDay()
     {
-        return GameManager.Inst.GetDay();
+        return GameManager.Inst.PlayerModel.Day;
     }
 
     public void CheckEnding()
     {
         string end = string.Empty;
 
-        if (StoreManager.Inst.GetStoreDebt() >= 0)
+        if (StoreManager.Inst.StoreModel.Compensation >= 0)
         {
             end = "Bad";
         }
-        else if (StoreManager.Inst.GetStoreReputation() < 500)
+        else if (StoreManager.Inst.StoreModel.Reputation < 1000)
         {
             end = "Normal";
         }

@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
         _monsterID = monsterID;
 
         _monsterData = GameDataManager.Inst.GetMonsterData(monsterID);
-        _ATK = _monsterData.ATK * GameManager.Inst.GetDay();
+        _ATK = _monsterData.ATK * GameManager.Inst.PlayerModel.Day;
         _HP = _monsterData.HP;
         _maxHP = _monsterData.HP;
         _CoolTime = _monsterData.CoolTime;

@@ -1,5 +1,6 @@
 ﻿using Cysharp.Threading.Tasks;
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using TMPro;
 using UnityEngine;
@@ -29,6 +30,8 @@ public class DialogueUI : UIBase
     private float _typingWaitTime = 0.03f;
     private float _autoWaitTime = 0.5f;
     private CancellationTokenSource _typingToken;
+    private Dictionary<string, Dialogue> _dialogues;
+    private Dictionary<string, Character> _characters;
 
     private void Awake()
     {
@@ -37,6 +40,9 @@ public class DialogueUI : UIBase
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
 
         Button_Return.onClick.AddListener(OpenLobbyPopup);
+
+        _dialogues = GameDataManager.Inst.DialogueDataList;
+        _characters = GameDataManager.Inst.CharacterDataList;
     }
 
     private void OnEnable()
@@ -56,7 +62,7 @@ public class DialogueUI : UIBase
             if (_isTyping)
             {
                 _isTyping = false;
-                SoundManager.Inst.PauseAudio(AudioSource);
+                SoundManager.Inst.OnPause?.Invoke(AudioSource);
             }
             else
             {
@@ -67,16 +73,18 @@ public class DialogueUI : UIBase
 
     private void ShowDialogue(string id)
     {
-        var data = GameDataManager.Inst.GetDialogueData(id);
-        string speaker = data.Speaker;
-
-        if (speaker != string.Empty)
+        if (string.IsNullOrEmpty(_dialogues[id].Speaker))
         {
-            SetCharacterName(speaker);
+            Image_Speaker.gameObject.SetActive(false);
         }
         else
         {
-            Image_Speaker.gameObject.SetActive(false);
+            string speaker = _dialogues[id].Speaker;
+
+            if (speaker != string.Empty)
+            {
+                SetCharacterName(speaker);
+            }
         }
 
         CancelTypingRoutine();
@@ -86,30 +94,30 @@ public class DialogueUI : UIBase
 
         VisualNovelManager.Inst.OnChangeBaseUI?.Invoke(id);
 
-        SetBGM(data.BGM);
-        SetSFX(data.SFX);
+        SetBGM(_dialogues[id].BGM);
+        SetSFX(_dialogues[id].SFX);
     }
 
     private void MoveToNextDialogue(string id)
     {
-        string nextID = GameDataManager.Inst.GetDialogueData(id).NextID;
+        string nextID = _dialogues[id].NextID;
 
-        bool isMoved = VisualNovelManager.Inst.MoveToContent(nextID);
+        bool isMoved = VisualNovelManager.Inst.OnMoveNextContent(nextID);
 
         if (!isMoved)
         {
-            VisualNovelManager.Inst.SetCurrentDialogueID(nextID);
+            VisualNovelManager.Inst.OnSetDialogueID(nextID);
             ShowDialogue(GetCurrentID());
         }
     }
 
     private void SetCharacterName(string speakerID)
     {
-        string speakerName = GameDataManager.Inst.GetCharacterData(speakerID).Name;
+        string speakerName = _characters[speakerID].Name;
 
         if (speakerName == "{Player.Name}")
         {
-            speakerName = GameManager.Inst.GetPlayerName();
+            speakerName = GameManager.Inst.PlayerModel.PlayerName;
         }
 
         Image_Speaker.gameObject.SetActive(true);
@@ -118,26 +126,23 @@ public class DialogueUI : UIBase
 
     private void SkipDialogue()
     {
-        var data = GameDataManager.Inst.DialogueDataList;
-        string nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
+        string nextID = _dialogues[GetCurrentID()].NextID;
 
         if (!nextID.Contains("Episode"))
         {
             return;
         }
 
-        foreach (var d in data)
+        foreach (var data in _dialogues)
         {
             if (!nextID.Contains("Episode"))
             {
                 break;
             }
 
-            // 월권
-            VisualNovelManager.Inst.SetCurrentDialogueID(nextID);
+            VisualNovelManager.Inst.OnSetDialogueID(nextID);
 
-            // 캐싱 필요
-            nextID = GameDataManager.Inst.GetDialogueData(GetCurrentID()).NextID;
+            nextID = _dialogues[GetCurrentID()].NextID;
         }
 
         VisualNovelManager.Inst.OnChangeBaseUI?.Invoke(GetCurrentID());
@@ -160,14 +165,13 @@ public class DialogueUI : UIBase
     {
         _isTyping = true;
 
-        SoundManager.Inst.SetTypingAndPlay(AudioSource).Forget();
+        SoundManager.Inst.OnTyping?.Invoke(AudioSource);
 
-        string content = GameDataManager.Inst.GetDialogueData(id).Content;
+        string content = _dialogues[id].Content;
         Text_Dialogue.maxVisibleCharacters = 0;
         Text_Dialogue.text = content;
         Image_NextArrow.gameObject.SetActive(false);
 
-        // while 권장 X (while보다는 for문으로)
         for (int i = 0; i < content.Length; i++)
         {
             if (!_isTyping)
@@ -183,7 +187,7 @@ public class DialogueUI : UIBase
         Text_Dialogue.maxVisibleCharacters = content.Length;
 
         _isTyping = false;
-        SoundManager.Inst.PauseAudio(AudioSource);
+        SoundManager.Inst.OnPause?.Invoke(AudioSource);
         Image_NextArrow.gameObject.SetActive(true);
 
         if (_isAuto)
@@ -206,7 +210,7 @@ public class DialogueUI : UIBase
 
     private string GetCurrentID()
     {
-        return VisualNovelManager.Inst.GetCurrentDialogueID();
+        return VisualNovelManager.Inst.CurrentDialogueID;
     }
 
     private void OpenLobbyPopup()
@@ -225,7 +229,7 @@ public class DialogueUI : UIBase
     {
         if (bgm != string.Empty)
         {
-            SoundManager.Inst.SetBGMAndPlay($"Audio/{bgm}").Forget();
+            SoundManager.Inst.OnBGM?.Invoke($"Audio/{bgm}");
         }
     }
 
@@ -233,7 +237,7 @@ public class DialogueUI : UIBase
     {
         if (sfx != string.Empty)
         {
-            SoundManager.Inst.SetSFXAndPlay($"Audio/{sfx}").Forget();
+            SoundManager.Inst.OnSFX?.Invoke($"Audio/{sfx}");
         }
     }
 }

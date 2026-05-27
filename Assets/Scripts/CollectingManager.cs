@@ -17,10 +17,17 @@ public class CollectingManager : MonoBehaviour
 
     public Action<int, int> OnSkillCollision;
     public Action<float, float> OnChangeStamina;
+    public Action OnEndCollecting;
+    public Action OnStartCollecting;
 
     private void Awake()
     {
         Inst = this;
+
+        OnEndCollecting += ClearHPBar;
+        OnEndCollecting += DestroyPlayer;
+
+        OnStartCollecting += () => { SetCollectingMap().Forget(); };
     }
 
     public void SetCamera(CameraMoving camera)
@@ -33,13 +40,6 @@ public class CollectingManager : MonoBehaviour
         return _player;
     }
 
-    public int SetSkillATK(string skillID)
-    {
-        int atk = GameDataManager.Inst.GetSkillData(skillID).ATK;
-
-        return atk;
-    }
-
     public async UniTask SetCollectingMap()
     {
         string playerPath = "Prefabs/Collecting/Player";
@@ -49,6 +49,11 @@ public class CollectingManager : MonoBehaviour
 
         player.transform.position = Vector3.zero;
         SetCameraTarget(player);
+
+        if (_camera != null)
+        {
+            SetCameraTarget(player);
+        }
 
         PlayerMoving playerMoving = player.GetComponent<PlayerMoving>();
         _player = playerMoving;
@@ -64,7 +69,7 @@ public class CollectingManager : MonoBehaviour
 
     public void DestroyPlayer()
     {
-        StoreManager.Inst.ResetCluePoint();
+        StoreManager.Inst.OnResetPoint?.Invoke();
         Destroy(_player.gameObject);
         Destroy(_map);
 

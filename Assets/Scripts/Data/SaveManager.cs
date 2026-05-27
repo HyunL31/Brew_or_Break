@@ -55,7 +55,7 @@ public class SaveManager : MonoBehaviour
         newPlayerData.Store.Level = 1;
         newPlayerData.Store.Gold = 0;
         newPlayerData.Store.Reputation = 0;
-        newPlayerData.Store.Compensation = 10000;
+        newPlayerData.Store.Compensation = 6000;
 
         newPlayerData.Inventory.Add(AddDefaultItem("Item_01"));
         newPlayerData.Inventory.Add(AddDefaultItem("Item_02"));

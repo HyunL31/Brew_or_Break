@@ -1,4 +1,5 @@
 ﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,12 +10,18 @@ public class ClueSlot : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Text_Name;
     [SerializeField] private TextMeshProUGUI Text_Description;
 
+    private Dictionary<string, Clue> _data;
+
+    private void Awake()
+    {
+        _data = GameDataManager.Inst.ClueDataList;
+    }
+
     public void SetClueInfo(string id)
     {
-        var data = GameDataManager.Inst.GetClueData(id);
-        string name = data.Name;
-        string description = data.Description;
-        string path = $"{data.Path}";
+        string name = _data[id].Name;
+        string description = _data[id].Description;
+        string path = $"{_data[id].Path}";
 
         GameUtil.LoadSpriteAndSet(path, Image_Clue).Forget();
         Text_Name.text = name;

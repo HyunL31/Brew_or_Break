@@ -1,10 +1,7 @@
 ﻿using Cysharp.Threading.Tasks;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
 
 public class Inventory : UIBase
 {
@@ -35,7 +32,7 @@ public class Inventory : UIBase
 
     private async UniTask SetInventory()
     {
-        List<ItemModel> items = GameManager.Inst.GetInventory();
+        List<ItemModel> items = GameManager.Inst.PlayerModel.Inventory;
 
         if (items.Count <= 0)
         {

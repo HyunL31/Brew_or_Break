@@ -1,4 +1,5 @@
 ﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,10 +9,17 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     [SerializeField] private string ClueID;
     [SerializeField] private Button Button_Clue;
 
+    private Dictionary<string, Clue> _data;
+
     private void Awake()
     {
         Button_Clue.onClick.AddListener(SetReturnID);
         Button_Clue.onClick.AddListener(() => OnClickClue().Forget());
+    }
+
+    private void Start()
+    {
+        _data = GameDataManager.Inst.ClueDataList;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -37,7 +45,7 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
         await SetCursorImage("DefaultCursor");
 
-        int point = GameDataManager.Inst.GetClueData(ClueID).Point;
+        int point = _data[ClueID].Point;
         StoreManager.Inst.SetCluePoint(point);
 
         this.gameObject.SetActive(false);
@@ -45,8 +53,8 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
     private void SetReturnID()
     {
-        string returnID = GameDataManager.Inst.GetClueData(ClueID).ReturnID;
+        string returnID = _data[ClueID].ReturnID;
 
-        VisualNovelManager.Inst.SetCurrentDialogueID(returnID);
+        VisualNovelManager.Inst.OnSetDialogueID(returnID);
     }
 }

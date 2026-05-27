@@ -245,11 +245,11 @@ public class PlayerMoving : MonoBehaviour
 
         yield return new WaitForSeconds(delay);
 
-        CollectingManager.Inst.ClearHPBar();
         GameManager.Inst.SetDay();
         UIManager.Inst.CloseHUD();
         UIManager.Inst.OpenLobbyUI();
-        CollectingManager.Inst.DestroyPlayer();
+
+        CollectingManager.Inst.OnEndCollecting?.Invoke();
     }
 
     private void SetCollectTarget()

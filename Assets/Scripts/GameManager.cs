@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Inst;
 
-    private PlayerModel _playerModel = new PlayerModel();
+    public PlayerModel PlayerModel { get; private set; } = new PlayerModel();
+
     public Action<string, int> OnSetInventory;
 
     private void Awake()
@@ -16,29 +16,24 @@ public class GameManager : MonoBehaviour
 
     public void SaveData()
     {
-        SaveManager.Inst.RequestSaveData(_playerModel);
+        SaveManager.Inst.RequestSaveData(PlayerModel);
     }
 
     public void LoadData()
     {
-        _playerModel = SaveManager.Inst.RequestLoadData();
+        PlayerModel = SaveManager.Inst.RequestLoadData();
     }
 
     public void LoadDefaultData()
     {
-        _playerModel = SaveManager.Inst.RequestLoadDefaultData();
-    }
-
-    public List<ItemModel> GetInventory()
-    {
-        return _playerModel.Inventory;
+        PlayerModel = SaveManager.Inst.RequestLoadDefaultData();
     }
 
     public void UseItem(string id)
     {
         ItemModel target = null;
 
-        foreach (ItemModel item in _playerModel.Inventory)
+        foreach (ItemModel item in PlayerModel.Inventory)
         {
             if (item.ItemID.Contains(id))
             {
@@ -53,7 +48,7 @@ public class GameManager : MonoBehaviour
 
             if (target.ItemCount <= 0)
             {
-                _playerModel.Inventory.Remove(target);
+                PlayerModel.Inventory.Remove(target);
                 OnSetInventory?.Invoke(id, 0);
             }
             else
@@ -65,7 +60,7 @@ public class GameManager : MonoBehaviour
 
     public int AddItem(string id)
     {
-        foreach (ItemModel item in _playerModel.Inventory)
+        foreach (ItemModel item in PlayerModel.Inventory)
         {
             if (item.ItemID.Contains(id))
             {
@@ -75,39 +70,19 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        _playerModel.Inventory.Add(SaveManager.Inst.AddDefaultItem(id));
+        PlayerModel.Inventory.Add(SaveManager.Inst.AddDefaultItem(id));
         OnSetInventory?.Invoke(id, 1);
         return 1;
     }
 
-    public int GetDay()
-    {
-        return _playerModel.Day;
-    }
-
     public void SetDay()
     {
-        _playerModel.Day++;
-    }
-
-    public string GetPlayerName()
-    {
-        return _playerModel.PlayerName;
-    }
-
-    public string GetStoreName()
-    {
-        return _playerModel.StoreName;
+        PlayerModel.Day++;
     }
 
     public void SetName(string player, string store)
     {
-        _playerModel.PlayerName = player;
-        _playerModel.StoreName = store;
-    }
-
-    public StoreModel GetStoreModel()
-    {
-        return _playerModel.Store;
+        PlayerModel.PlayerName = player;
+        PlayerModel.StoreName = store;
     }
 }

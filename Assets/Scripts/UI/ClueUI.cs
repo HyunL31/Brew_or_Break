@@ -16,7 +16,7 @@ public class ClueUI : UIBase
     {
         VisualNovelManager.Inst.OnClickClueButton = (id) => SetClueSlot(id).Forget();
         Button_Confirm.onClick.AddListener(OnClickConfirm);
-        ActiveClueParent(GameManager.Inst.GetDay());
+        ActiveClueParent(GameManager.Inst.PlayerModel.Day);
     }
 
     private void ActiveClueParent(int day)
@@ -51,7 +51,7 @@ public class ClueUI : UIBase
 
         _clueSlots.Clear();
 
-        ClueButtons[GameManager.Inst.GetDay() - 1].SetActive(false);
+        ClueButtons[GameManager.Inst.PlayerModel.Day - 1].SetActive(false);
 
         UIManager.Inst.OpenDialogueUI();
         UIManager.Inst.CloseClueUI();

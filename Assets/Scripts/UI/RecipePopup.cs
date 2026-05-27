@@ -20,10 +20,12 @@ public class RecipePopup : UIBase
     private int _currentIndex = 1;
     private int _maxPotionCount;
     private List<GameObject> _itemSlots = new List<GameObject>();
+    private Dictionary<string, Potion> _data;
 
     private void Awake()
     {
-        _maxPotionCount = GameDataManager.Inst.PotionDataList.Count;
+        _data = GameDataManager.Inst.PotionDataList;
+        _maxPotionCount = _data.Count;
 
         Button_Left.onClick.AddListener(OnClickLeftArrow);
         Button_Right.onClick.AddListener(OnClickRightArrow);
@@ -80,10 +82,8 @@ public class RecipePopup : UIBase
 
         await GameUtil.LoadSpriteAndSet(path, Image_Potion);
 
-        var data = GameDataManager.Inst.GetPotionData(potionID);
-
-        Text_PotionName.text = data.Name;
-        Text_PotionDescription.text = data.Description;
+        Text_PotionName.text = _data[potionID].Name;
+        Text_PotionDescription.text = _data[potionID].Description;
 
         await SetPotionIngredient(index);
     }
@@ -100,7 +100,7 @@ public class RecipePopup : UIBase
         string potionID = GetPotionID(index);
         string path = "Prefabs/UI/InventorySlot";
 
-        List<string> ingredient = GameDataManager.Inst.GetPotionData(potionID).Ingredient;
+        List<string> ingredient = _data[potionID].Ingredient;
 
         foreach(string item in ingredient)
         {

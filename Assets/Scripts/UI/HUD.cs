@@ -32,7 +32,7 @@ public class HUD : UIBase
 
     private void InitSkillButton()
     {
-        int playerLevel = StoreManager.Inst.GetStoreLevel();
+        int playerLevel = StoreManager.Inst.StoreModel.Level;
         var datas = GameDataManager.Inst.SkillDataList.Values;
 
         foreach (var data in datas)
@@ -76,11 +76,11 @@ public class HUD : UIBase
 
     private void EndCollecting()
     {
-        CollectingManager.Inst.ClearHPBar();
+        CollectingManager.Inst.OnEndCollecting?.Invoke();
+
         GameManager.Inst.SetDay();
 
         UIManager.Inst.OpenLobbyUI();
-        CollectingManager.Inst.DestroyPlayer();
         UIManager.Inst.CloseHUD();
     }
 }

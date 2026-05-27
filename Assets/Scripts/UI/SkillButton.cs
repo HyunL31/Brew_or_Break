@@ -1,5 +1,6 @@
 ﻿using Cysharp.Threading.Tasks;
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,20 +22,26 @@ public class SkillButton : MonoBehaviour
     private string _skillID;
     private int _ATK;
     private float _stamina;
+    private Dictionary<string, Skill> _data;
+
+    private void Awake()
+    {
+        _data = GameDataManager.Inst.SkillDataList;
+    }
 
     private void Start()
     {
         RegistClickEvent(_skillID);
 
-        _ATK = CollectingManager.Inst.SetSkillATK(_skillID);
-        _stamina = GameDataManager.Inst.GetSkillData(_skillID).Stamina;
+        _ATK = _data[_skillID].ATK;
+        _stamina = _data[_skillID].Stamina;
     }
 
     public void SetSkillInfo(string id)
     {
         _skillID = id;
 
-        Text_Skill.text = GameDataManager.Inst.GetSkillData(id).SkillName;
+        Text_Skill.text = _data[id].SkillName;
 
         string path = $"Icon/Skill[{id}]";
         GameUtil.LoadSpriteAndSet(path, Image_Skill).Forget();
@@ -42,7 +49,7 @@ public class SkillButton : MonoBehaviour
 
     private void RegistClickEvent(string id)
     {
-        string skillType = GameDataManager.Inst.GetSkillData(id).Type;
+        string skillType = _data[id].Type;
         SkillType type = Enum.Parse<SkillType>(skillType);
 
         switch (type)
@@ -68,7 +75,7 @@ public class SkillButton : MonoBehaviour
 
     private void OnClickProjectileSkill()
     {
-        string animType = GameDataManager.Inst.GetSkillData(_skillID).Anim;
+        string animType = _data[_skillID].Anim;
         Enum.TryParse(animType, out ProjectileType projectileType);
 
         CollectingManager.Inst.GetPlayer().UseProjectileSkill(projectileType, _ATK, _stamina);
@@ -76,7 +83,7 @@ public class SkillButton : MonoBehaviour
 
     private void OnClickOverlapSkill()
     {
-        string animType = GameDataManager.Inst.GetSkillData(_skillID).Anim;
+        string animType = _data[_skillID].Anim;
         Enum.TryParse(animType, out OverlapType overlapType);
 
         CollectingManager.Inst.GetPlayer().UseOverlapSkill(overlapType, _ATK, _stamina);

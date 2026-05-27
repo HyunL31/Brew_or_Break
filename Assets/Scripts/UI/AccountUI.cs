@@ -33,31 +33,31 @@ public class AccountUI : UIBase
 
     private void OnEnable()
     {
-        Text_AccountDay.text = $"마감 정산 (Day {GameManager.Inst.GetDay()})";
+        Text_AccountDay.text = $"마감 정산 (Day {GameManager.Inst.PlayerModel.Day})";
 
         SetState();
     }
 
     private void SetState()
     {
-        Text_Gold.text = $"{StoreManager.Inst.GetGold()} G";
-        Text_Reputation.text = $"{StoreManager.Inst.GetStoreReputation()} REP";
+        Text_Gold.text = $"{StoreManager.Inst.StoreModel.Gold} G";
+        Text_Reputation.text = $"{StoreManager.Inst.StoreModel.Reputation} REP";
 
-        Text_Level.text = $"가게 레벨 : Lv.{StoreManager.Inst.GetStoreLevel()}";
+        Text_Level.text = $"가게 레벨 : Lv.{StoreManager.Inst.StoreModel.Level}";
         Image_Level.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level);
 
-        Text_Compensation.text = $"배상금 : {StoreManager.Inst.GetStoreDebt()}G";
+        Text_Compensation.text = $"배상금 : {StoreManager.Inst.StoreModel.Gold}G";
         Image_Compensation.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation);
 
         Text_RequestGold.text = $"다음 레벨까지 {_requestLevel} G";
-        Text_RequestCompen.text = $"청산까지 {StoreManager.Inst.GetStoreDebt()} G";
+        Text_RequestCompen.text = $"청산까지 {StoreManager.Inst.StoreModel.Gold} G";
     }
 
     private void OnClickConfirm()
     {
         GameManager.Inst.SaveData();
 
-        if (GameManager.Inst.GetDay() == 10)
+        if (GameManager.Inst.PlayerModel.Day == 10)
         {
             VisualNovelManager.Inst.CheckEnding();
             UIManager.Inst.OpenVisualNovelUI();
@@ -67,14 +67,14 @@ public class AccountUI : UIBase
             return;
         }
 
-        CollectingManager.Inst.SetCollectingMap().Forget();
+        CollectingManager.Inst.OnStartCollecting?.Invoke();
         UIManager.Inst.OpenHUD();
         UIManager.Inst.CloseAccountUI();
     }
 
     private void OnClickLevel()
     {
-        if (StoreManager.Inst.GetGold() < _requestLevel)
+        if (StoreManager.Inst.StoreModel.Gold < _requestLevel)
         {
             UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestLevel}의 금화가 필요합니다.");
             return;
@@ -90,7 +90,7 @@ public class AccountUI : UIBase
 
     private void OnClickCompensation()
     {
-        if (StoreManager.Inst.GetGold() < _requestCompen)
+        if (StoreManager.Inst.StoreModel.Gold < _requestCompen)
         {
             UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestCompen}의 금화가 필요합니다.");
             return;

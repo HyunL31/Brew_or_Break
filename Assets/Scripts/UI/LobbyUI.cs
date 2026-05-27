@@ -40,23 +40,23 @@ public class LobbyUI : UIBase
 
     private void SetPlayerInfo()
     {
-        Text_Day.text = $"Day {GameManager.Inst.GetDay()}";
+        Text_Day.text = $"Day {GameManager.Inst.PlayerModel.Day}";
 
-        Text_PlayerName.text = GameManager.Inst.GetPlayerName();
-        Text_StoreName.text = GameManager.Inst.GetStoreName();
+        Text_PlayerName.text = GameManager.Inst.PlayerModel.PlayerName;
+        Text_StoreName.text = GameManager.Inst.PlayerModel.StoreName;
     }
 
     private void SetStoreInfo()
     {
-        Text_Gold.text = $"{StoreManager.Inst.GetGold()} G";
-        Text_Reputation.text = $"{StoreManager.Inst.GetStoreReputation()}REP";
+        Text_Gold.text = $"{StoreManager.Inst.StoreModel.Gold} G";
+        Text_Reputation.text = $"{StoreManager.Inst.StoreModel.Reputation}REP";
     }
 
     private void SetStatus()
     {
-        Text_LevelStat.text = $"가게 레벨 : Lv.{StoreManager.Inst.GetStoreLevel()}";
-        Text_ReputationStat.text = $"가게 명성 : {StoreManager.Inst.GetStoreReputation()}";
-        Text_DebtStat.text = $"배상금 : {StoreManager.Inst.GetStoreDebt()}";
+        Text_LevelStat.text = $"가게 레벨 : Lv.{StoreManager.Inst.StoreModel.Level}";
+        Text_ReputationStat.text = $"가게 명성 : {StoreManager.Inst.StoreModel.Reputation}";
+        Text_DebtStat.text = $"배상금 : {StoreManager.Inst.StoreModel.Gold}";
 
         Image_LevelStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level);
         Image_ReputationStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation);

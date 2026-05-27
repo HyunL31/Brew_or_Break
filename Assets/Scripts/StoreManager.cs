@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public enum StatType
 {
@@ -12,60 +13,45 @@ public class StoreManager : MonoBehaviour
 {
     public static StoreManager Inst;
 
-    private StoreModel _storeModel = new StoreModel();
+    public StoreModel StoreModel { get; private set; } = new StoreModel();
     private int _todayCluePoint = 0;
     private int _maxLevel = 5;
     private int _maxReputation = 1000;
     private int _maxCompensation = 6000;
 
+    public Action OnResetPoint;
+
     private void Awake()
     {
         Inst = this;
+
+        OnResetPoint = ResetCluePoint;
     }
 
     public void StoreInit()
     {
-        _storeModel = GameManager.Inst.GetStoreModel();
+        StoreModel = GameManager.Inst.PlayerModel.Store;
     }
 
     public void SetStoreLevel()
     {
-        _storeModel.Level++;
-    }
-
-    public int GetStoreLevel()
-    {
-        return _storeModel.Level;
-    }
-
-    public int GetStoreReputation()
-    {
-        return _storeModel.Reputation;
+        StoreModel.Level++;
     }
 
     public void SetReputation(int reputation)
     {
-        _storeModel.Reputation += reputation;
+        StoreModel.Reputation += reputation;
     }
 
-    public int GetStoreDebt()
-    {
-        return _storeModel.Compensation;
-    }
 
     public void SetStoreDebt()
     {
-        _storeModel.Compensation -= 100;
+        StoreModel.Compensation -= 100;
     }
 
     public void SetGold(int gold)
     {
-        _storeModel.Gold += gold;
-    }
-
-    public int GetGold()
-    {
-        return _storeModel.Gold;
+        StoreModel.Gold += gold;
     }
 
     public void SetCluePoint(int point)
@@ -88,13 +74,13 @@ public class StoreManager : MonoBehaviour
         switch (type)
         {
             case StatType.Level:
-                return (float)GetStoreLevel() / _maxLevel;
+                return (float)StoreModel.Level / _maxLevel;
 
             case StatType.Reputation:
-                return (float)GetStoreReputation() / _maxReputation;
+                return (float)StoreModel.Reputation / _maxReputation;
 
             case StatType.Compensation:
-                return 1f - ((float)GetStoreDebt() / _maxCompensation);
+                return 1f - ((float)StoreModel.Compensation / _maxCompensation);
 
             default:
                 return 0;
