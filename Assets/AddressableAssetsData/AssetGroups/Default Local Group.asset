@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: c40ad986f1f19014f8915708511d09f1
   m_SerializeEntries:
+  - m_GUID: 0b0f3318c6deb4f4abdaab95ba77f59b
+    m_Address: Portrait/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0ecbda45ac91d8847a6a39dc5d1e9b2b
     m_Address: Audio/Bad
     m_ReadOnly: 0
@@ -67,6 +72,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77c7bae0f4867b349b0b2f4769e765a7
     m_Address: Audio/Craft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77e26f63915bd2b47bd72897188cf407
+    m_Address: Prefabs/CharacterLogSlot
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -137,6 +147,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e80d2677ba76e324ea88f3cf7c59f151
     m_Address: Prefabs/Collecting/Map
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea20c0d7f943bc847b3a84b3d442963c
+    m_Address: Prefabs/UI/PlayerLogSlot
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

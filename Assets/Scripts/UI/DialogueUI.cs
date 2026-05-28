@@ -32,6 +32,7 @@ public class DialogueUI : UIBase
     private CancellationTokenSource _typingToken;
     private Dictionary<string, Dialogue> _dialogues;
     private Dictionary<string, Character> _characters;
+    private string _lastLogID = string.Empty;
 
     private void Awake()
     {
@@ -40,14 +41,27 @@ public class DialogueUI : UIBase
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
 
         Button_Return.onClick.AddListener(OpenLobbyPopup);
+        Button_Log.onClick.AddListener(UIManager.Inst.OpenDialogueLog);
 
         _dialogues = GameDataManager.Inst.DialogueDataList;
         _characters = GameDataManager.Inst.CharacterDataList;
+
+        UIManager.Inst.OpenDialogueLog();
+        UIManager.Inst.CloseDialogueLog();
     }
 
     private void OnEnable()
     {
         ShowDialogue(GetCurrentID());
+
+        if (GameManager.Inst.PlayerModel.Day == 0)
+        {
+            Button_Return.gameObject.SetActive(false);
+        }
+        else
+        {
+            Button_Return.gameObject.SetActive(true);
+        }
     }
 
     private void OnDisable()
@@ -59,7 +73,11 @@ public class DialogueUI : UIBase
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (_isTyping)
+            if (UIManager.Inst.IsOpenedUI(UIType.DialogueLog))
+            {
+                return;
+            }
+            else if (_isTyping)
             {
                 _isTyping = false;
                 SoundManager.Inst.OnPause?.Invoke(AudioSource);
@@ -96,6 +114,8 @@ public class DialogueUI : UIBase
 
         SetBGM(_dialogues[id].BGM);
         SetSFX(_dialogues[id].SFX);
+
+        SetDialogueLog(_dialogues[id].Facial, id);
     }
 
     private void MoveToNextDialogue(string id)
@@ -124,24 +144,38 @@ public class DialogueUI : UIBase
         Text_Speaker.text = speakerName;
     }
 
-    private void SkipDialogue()
+    private void SetDialogueLog(string speakerID, string currentID)
     {
-        string nextID = _dialogues[GetCurrentID()].NextID;
-
-        if (!nextID.Contains("Episode"))
+        if (_lastLogID == currentID)
         {
             return;
         }
 
+        if (string.IsNullOrEmpty(speakerID))
+        {
+            speakerID = "Narr";
+        }
+
+        _lastLogID = currentID;
+        VisualNovelManager.Inst.OnAddLog?.Invoke(currentID, speakerID);
+    }
+
+    private void SkipDialogue()
+    {
+        CancelTypingRoutine();
+
+        string nextID = _dialogues[GetCurrentID()].NextID;
+
         foreach (var data in _dialogues)
         {
-            if (!nextID.Contains("Episode"))
+            if (nextID == "Lobby" || nextID == "Account" || nextID.Contains("Clue") || nextID.Contains("Choice") || nextID.Contains("Craft") || nextID == "0")
             {
                 break;
             }
 
-            VisualNovelManager.Inst.OnSetDialogueID(nextID);
+            SetDialogueLog(_dialogues[nextID].Facial, nextID);
 
+            VisualNovelManager.Inst.OnSetDialogueID(nextID);
             nextID = _dialogues[GetCurrentID()].NextID;
         }
 

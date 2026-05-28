@@ -26,7 +26,8 @@ public enum UIType
     RecipePopup,
     DrawItem,
     AccountUI,
-    HUD
+    HUD,
+    DialogueLog
 }
 
 public static class UIExtension
@@ -186,5 +187,15 @@ public static class UIExtension
     public static void CloseConfirmPopup(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.ConfirmPopup);
+    }
+
+    public static void OpenDialogueLog(this UIManager uiManager)
+    {
+        UIBase uiBase = uiManager.OpenPopupUI(UIType.DialogueLog);
+    }
+
+    public static void CloseDialogueLog(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.DialogueLog);
     }
 }

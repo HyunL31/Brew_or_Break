@@ -14,9 +14,12 @@ public class VisualNovelManager : MonoBehaviour
     public Action<string> OnDropItem;
     public Action<string> OnSetDialogueID;
     public Func<string, bool> OnMoveNextContent;
+    public Action<string, string> OnAddLog;
+    public Action OnExitDialogue;
 
     private Dictionary<string, Dialogue> _dialogues;
     private Dictionary<string, Result> _results;
+    public List<KeyValuePair<string, string>> DialogueLogs { get; private set; } = new List<KeyValuePair<string, string>>();
 
     private void Awake()
     {
@@ -24,6 +27,8 @@ public class VisualNovelManager : MonoBehaviour
 
         OnSetDialogueID = SetCurrentDialogueID;
         OnMoveNextContent =  MoveToContent;
+        OnAddLog = AddLog;
+        OnExitDialogue += ClearLog;
     }
 
     private void Start()
@@ -40,6 +45,8 @@ public class VisualNovelManager : MonoBehaviour
 
         if (nextID == "Lobby")
         {
+            OnExitDialogue?.Invoke();
+
             GameManager.Inst.SetDay();
 
             UIManager.Inst.OpenLobbyUI();
@@ -50,6 +57,8 @@ public class VisualNovelManager : MonoBehaviour
         }
         else if (nextID == "Account")
         {
+            OnExitDialogue?.Invoke();
+
             SetResult();
 
             UIManager.Inst.OpenAccountUI();
@@ -141,5 +150,15 @@ public class VisualNovelManager : MonoBehaviour
         }
 
         CurrentDialogueID = $"{end}_End_01";
+    }
+
+    private void AddLog(string content, string characterID)
+    {
+        DialogueLogs.Add(new KeyValuePair<string, string>(content, characterID));
+    }
+
+    private void ClearLog()
+    {
+        DialogueLogs.Clear();
     }
 }
