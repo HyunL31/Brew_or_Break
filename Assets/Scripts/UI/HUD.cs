@@ -12,6 +12,7 @@ public class HUD : UIBase
     [SerializeField] private Button Button_Inventory;
     [SerializeField] private Button Button_EndCollecting;
     [SerializeField] private Image Image_Stamina;
+    [SerializeField] private GameObject ItemKeyInfo;
     
     private Dictionary<string, SkillButton> _skills = new Dictionary<string, SkillButton>();
 
@@ -20,6 +21,9 @@ public class HUD : UIBase
         Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
         Button_EndCollecting.onClick.AddListener(EndCollecting);
         CollectingManager.Inst.OnChangeStamina = UpdateStamina;
+        CollectingManager.Inst.OnEnterItem = (value) => ItemKeyInfo.SetActive(value);
+
+        ItemKeyInfo.SetActive(false);
     }
 
     private void OnEnable()

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using NUnit.Framework;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMoving : MonoBehaviour
@@ -26,6 +28,8 @@ public class PlayerMoving : MonoBehaviour
     private float _maxStamina = 100;
     private HPBar _hpBar;
     private DropItem _targetItem;
+
+    private List<DropItem> _items = new List<DropItem>();
 
     private void Awake()
     {
@@ -254,21 +258,26 @@ public class PlayerMoving : MonoBehaviour
 
     private void SetCollectTarget()
     {
-        _targetItem = null;
-        _canCollect = false;
-
-        float radius = 1f;
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, radius);
-
-        foreach(Collider2D collider in hitColliders)
+        if (_items.Count == 0)
         {
-            if (collider.CompareTag("Item"))
+            if (_canCollect)
             {
-                _targetItem = CollectingManager.Inst.GetTargetItem(collider.GetInstanceID());
-                _canCollect = true;
-
-                return;
+                CollectingManager.Inst.OnEnterItem?.Invoke(false);
             }
+
+            _targetItem = null;
+            _canCollect = false;
+
+            return;
+        }
+
+        DropItem newTarget = _items[0];
+
+        if (_targetItem != newTarget)
+        {
+            _targetItem = newTarget;
+            _canCollect = true;
+            CollectingManager.Inst.OnEnterItem?.Invoke(true);
         }
     }
 
@@ -276,7 +285,13 @@ public class PlayerMoving : MonoBehaviour
     {
         if (collision.CompareTag("Item"))
         {
-            SetCollectTarget();
+            DropItem item = CollectingManager.Inst.GetTargetItem(collision.GetInstanceID());
+
+            if (item != null && !_items.Contains(item))
+            {
+                _items.Add(item);
+                SetCollectTarget();
+            }
         }
     }
 
@@ -286,10 +301,10 @@ public class PlayerMoving : MonoBehaviour
         {
             DropItem item = CollectingManager.Inst.GetTargetItem(collision.GetInstanceID());
 
-            if (item == _targetItem)
+            if (item != null && _items.Contains(item))
             {
-                _canCollect = false;
-                _targetItem = null;
+                _items.Remove(item);
+                SetCollectTarget();
             }
         }
     }

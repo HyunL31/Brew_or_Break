@@ -20,11 +20,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6bb4cf8ffbcc5e44cb90e17164415123
-    m_Address: Audio/Success
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 78606319d667eee4790b5580f23b6fc3
     m_Address: Audio/Button
     m_ReadOnly: 0
@@ -32,11 +27,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 82cf1f25eeb70834cac7d850e36462bf
     m_Address: Audio/Typing
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 95fdbc7892bbce142aef7440bb76f9b6
-    m_Address: Audio/Fail
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

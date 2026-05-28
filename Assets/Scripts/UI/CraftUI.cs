@@ -117,6 +117,7 @@ public class CraftUI : UIBase
     {
         if (!CheckAcidityValue())
         {
+            SoundManager.Inst.OnSFX?.Invoke("Audio/Fail");
             return "Mess";
         }
 
@@ -147,10 +148,12 @@ public class CraftUI : UIBase
 
             if (isRight)
             {
+                SoundManager.Inst.OnSFX?.Invoke("Audio/Success");
                 return item.ID;
             }
         }
 
+        SoundManager.Inst.OnSFX?.Invoke("Audio/Fail");
         return "Mess";
     }
 

@@ -19,6 +19,7 @@ public class CollectingManager : MonoBehaviour
     public Action<float, float> OnChangeStamina;
     public Action OnEndCollecting;
     public Action OnStartCollecting;
+    public Action<bool> OnEnterItem;
 
     private void Awake()
     {
