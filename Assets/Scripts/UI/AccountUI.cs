@@ -46,11 +46,11 @@ public class AccountUI : UIBase
         Text_Level.text = $"가게 레벨 : Lv.{StoreManager.Inst.StoreModel.Level}";
         Image_Level.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level);
 
-        Text_Compensation.text = $"배상금 : {StoreManager.Inst.StoreModel.Gold}G";
+        Text_Compensation.text = $"배상금 : {StoreManager.Inst.StoreModel.Compensation}G";
         Image_Compensation.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation);
 
         Text_RequestGold.text = $"다음 레벨까지 {_requestLevel} G";
-        Text_RequestCompen.text = $"청산까지 {StoreManager.Inst.StoreModel.Gold} G";
+        Text_RequestCompen.text = $"청산까지 {StoreManager.Inst.StoreModel.Compensation} G";
     }
 
     private void OnClickConfirm()

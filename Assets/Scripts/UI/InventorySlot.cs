@@ -80,6 +80,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             return;
         }
 
+        SoundManager.Inst.OnSFX?.Invoke("Audio/Plop");
         UIManager.Inst.CloseDrawItem();
         _drawItem = null;
 

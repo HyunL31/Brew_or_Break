@@ -149,6 +149,7 @@ public class CollectingManager : MonoBehaviour
 
     public void CollectItem(DropItem dropItem)
     {
+        SoundManager.Inst.OnSFX?.Invoke("Audio/Item");
         GameManager.Inst.AddItem(dropItem.GetItemID());
         Destroy(dropItem.gameObject);
     }
