@@ -27,7 +27,8 @@ public enum UIType
     DrawItem,
     AccountUI,
     HUD,
-    DialogueLog
+    DialogueLog,
+    SettingPopup
 }
 
 public static class UIExtension
@@ -37,6 +38,7 @@ public static class UIExtension
         uiManager.OpenMainUI(UIType.TitleUI);
         uiManager.OpenMainUI(UIType.LobbyUI, false);
         uiManager.OpenMainUI(UIType.VisualNovelUI, false);
+        uiManager.OpenPopupUI(UIType.SettingPopup, false);
     }
 
     public static void CloseTitleUI(this UIManager uiManager)
@@ -197,5 +199,15 @@ public static class UIExtension
     public static void CloseDialogueLog(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.DialogueLog);
+    }
+
+    public static void OpenSettingPopup(this UIManager uiManager)
+    {
+        UIBase uiBase = uiManager.OpenPopupUI(UIType.SettingPopup);
+    }
+
+    public static void CloseSettingPopup(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.SettingPopup);
     }
 }

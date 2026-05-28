@@ -27,7 +27,7 @@ public class DialogueUI : UIBase
 
     private bool _isTyping = false;
     private bool _isAuto = false;
-    private float _typingWaitTime = 0.03f;
+    private float _typingWaitTime;
     private float _autoWaitTime = 0.5f;
     private CancellationTokenSource _typingToken;
     private Dictionary<string, Dialogue> _dialogues;
@@ -52,6 +52,8 @@ public class DialogueUI : UIBase
 
     private void OnEnable()
     {
+        _typingWaitTime = PlayerPrefs.GetFloat("TextSpeed", 0.03f);
+
         ShowDialogue(GetCurrentID());
 
         if (GameManager.Inst.PlayerModel.Day == 0)
@@ -206,16 +208,19 @@ public class DialogueUI : UIBase
         Text_Dialogue.text = content;
         Image_NextArrow.gameObject.SetActive(false);
 
-        for (int i = 0; i < content.Length; i++)
+        if (_typingWaitTime > 0)
         {
-            if (!_isTyping)
+            for (int i = 0; i < content.Length; i++)
             {
-                break;
+                if (!_isTyping)
+                {
+                    break;
+                }
+
+                Text_Dialogue.maxVisibleCharacters = i;
+
+                await UniTask.Delay(TimeSpan.FromSeconds(_typingWaitTime), cancellationToken: token);
             }
-
-            Text_Dialogue.maxVisibleCharacters = i;
-
-            await UniTask.Delay(TimeSpan.FromSeconds(_typingWaitTime), cancellationToken: token);
         }
 
         Text_Dialogue.maxVisibleCharacters = content.Length;

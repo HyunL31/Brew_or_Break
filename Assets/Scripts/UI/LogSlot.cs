@@ -10,10 +10,10 @@ public class LogSlot : MonoBehaviour
 
     public void InitSlot(string characterID, string currentID, bool isSameSpeaker)
     {
-        Image_Character.gameObject.SetActive(!isSameSpeaker);
-
         if (Image_Character != null)
         {
+            Image_Character.gameObject.SetActive(!isSameSpeaker);
+
             string path = $"Icon/Portrait[{characterID}]";
             GameUtil.LoadSpriteAndSet(path, Image_Character).Forget();
         }

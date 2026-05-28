@@ -106,8 +106,7 @@ public class UIManager : MonoBehaviour
 
         if (!isActive)
         {
-            _openedUI.Remove(type);
-            ui.gameObject.SetActive(false);
+            CloseUI(type);
         }
 
         return ui;
@@ -120,11 +119,18 @@ public class UIManager : MonoBehaviour
         return ui;
     }
 
-    public UIBase OpenPopupUI(UIType type)
+    public UIBase OpenPopupUI(UIType type, bool isActive = true)
     {
-        SoundManager.Inst.SetSFXAndPlay("Audio/Popup").Forget();
-
         UIBase ui = OpenUI(UIRootType.Popup, type);
+
+        if (!isActive)
+        {
+            CloseUI(type);
+        }
+        else
+        {
+            SoundManager.Inst.SetSFXAndPlay("Audio/Popup").Forget();
+        }
 
         return ui;
     }

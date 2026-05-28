@@ -33,6 +33,6 @@ public class TitleUI : UIBase
 
     private void OnClickSettingButton()
     {
-        // [TODO] 설정 팝업 구현
+        UIManager.Inst.OpenSettingPopup();
     }
 }

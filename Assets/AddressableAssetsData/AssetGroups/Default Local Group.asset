@@ -15,11 +15,6 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: c40ad986f1f19014f8915708511d09f1
   m_SerializeEntries:
-  - m_GUID: 0b0f3318c6deb4f4abdaab95ba77f59b
-    m_Address: Portrait/Player
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0ecbda45ac91d8847a6a39dc5d1e9b2b
     m_Address: Audio/Bad
     m_ReadOnly: 0
@@ -27,6 +22,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 139f9a9791cbbc34e817b40984354d0f
     m_Address: Icon/Skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b69ddc25e129164881fec82e7e1a973
+    m_Address: Prefabs/UI/NarrationLog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25da55fd8f236e043a76d7d2fb177655
+    m_Address: Icon/Portrait
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -76,7 +81,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77e26f63915bd2b47bd72897188cf407
-    m_Address: Prefabs/CharacterLogSlot
+    m_Address: Prefabs/UI/CharacterLogSlot
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

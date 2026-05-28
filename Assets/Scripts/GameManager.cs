@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public PlayerModel PlayerModel { get; private set; } = new PlayerModel();
 
     public Action<string, int> OnSetInventory;
+    public Action<float> OnChangeBrightness;
 
     private void Awake()
     {
