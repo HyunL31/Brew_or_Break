@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -6,28 +8,51 @@ public class GameManager : MonoBehaviour
     public static GameManager Inst;
 
     public PlayerModel PlayerModel { get; private set; } = new PlayerModel();
+    public int CurrentSlotIndex { get; private set; } = 0;
+    public HashSet<int> SlotIndex { get; private set; } = new HashSet<int>();
 
     public Action<string, int> OnSetInventory;
     public Action<float> OnChangeBrightness;
+    public Action<int> OnStartGame;
 
     private void Awake()
     {
         Inst = this;
+
+        OnStartGame += (index) =>
+        {
+            SetCurrentSaveIndex(index);
+            
+            if (SaveManager.Inst.HasSaveFile(index))
+            {
+                LoadData(index);
+            }
+            else
+            {
+                LoadDefaultData();
+                SaveData();
+            }
+
+            StoreManager.Inst.StoreInit();
+        };
+
+
     }
 
     public void SaveData()
     {
-        SaveManager.Inst.RequestSaveData(PlayerModel);
+        SaveManager.Inst.RequestSaveData(CurrentSlotIndex, PlayerModel);
+        SlotIndex.Add(CurrentSlotIndex);
     }
 
-    public void LoadData()
+    public void LoadData(int index)
     {
-        PlayerModel = SaveManager.Inst.RequestLoadData();
+        PlayerModel = SaveManager.Inst.RequestLoadData(index);
     }
 
     public void LoadDefaultData()
     {
-        PlayerModel = SaveManager.Inst.RequestLoadDefaultData();
+        PlayerModel = SaveManager.Inst.GetDefaultData();
     }
 
     public void UseItem(string id)
@@ -79,11 +104,29 @@ public class GameManager : MonoBehaviour
     public void SetDay()
     {
         PlayerModel.Day++;
+        SaveData();
     }
 
     public void SetName(string player, string store)
     {
         PlayerModel.PlayerName = player;
         PlayerModel.StoreName = store;
+    }
+
+    public void SetCurrentSaveIndex(int index)
+    {
+        CurrentSlotIndex = index;
+    }
+
+    public int GetEmptySlotIndex()
+    {
+        for (int i = 0; i < 100; i++)
+        {
+            if (!SlotIndex.Contains(i))
+            {
+                return i;
+            }
+        }
+        return 0;
     }
 }

@@ -1,5 +1,4 @@
-﻿using Cysharp.Threading.Tasks;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -44,10 +43,10 @@ public class AccountUI : UIBase
         Text_Reputation.text = $"{StoreManager.Inst.StoreModel.Reputation} REP";
 
         Text_Level.text = $"가게 레벨 : Lv.{StoreManager.Inst.StoreModel.Level}";
-        Image_Level.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level);
+        Image_Level.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level, StoreManager.Inst.StoreModel);
 
         Text_Compensation.text = $"배상금 : {StoreManager.Inst.StoreModel.Compensation}G";
-        Image_Compensation.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation);
+        Image_Compensation.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation, StoreManager.Inst.StoreModel);
 
         Text_RequestGold.text = $"다음 레벨까지 {_requestLevel} G";
         Text_RequestCompen.text = $"청산까지 {StoreManager.Inst.StoreModel.Compensation} G";
@@ -56,7 +55,6 @@ public class AccountUI : UIBase
     private void OnClickConfirm()
     {
         SoundManager.Inst.OnSFX?.Invoke("Audio/Account");
-        GameManager.Inst.SaveData();
 
         if (GameManager.Inst.PlayerModel.Day == 10)
         {

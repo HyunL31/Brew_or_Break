@@ -19,16 +19,12 @@ public class TitleUI : UIBase
 
     private void OnClickNewGame()
     {
-        GameManager.Inst.LoadDefaultData();
-        StoreManager.Inst.StoreInit();
         UIManager.Inst.OpenNamePopup();
     }
 
     private void OnClickLoadButton()
     {
-        StoreManager.Inst.StoreInit();
-        UIManager.Inst.OpenLobbyUI();
-        UIManager.Inst.CloseTitleUI();
+        UIManager.Inst.OpenSaveUI();
     }
 
     private void OnClickSettingButton()

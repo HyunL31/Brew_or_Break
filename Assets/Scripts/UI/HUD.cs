@@ -83,7 +83,6 @@ public class HUD : UIBase
         CollectingManager.Inst.OnEndCollecting?.Invoke();
 
         GameManager.Inst.SetDay();
-
         UIManager.Inst.OpenLobbyUI();
         UIManager.Inst.CloseHUD();
     }

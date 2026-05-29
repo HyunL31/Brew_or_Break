@@ -28,7 +28,8 @@ public enum UIType
     AccountUI,
     HUD,
     DialogueLog,
-    SettingPopup
+    SettingPopup,
+    SaveUI
 }
 
 public static class UIExtension
@@ -209,5 +210,15 @@ public static class UIExtension
     public static void CloseSettingPopup(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.SettingPopup);
+    }
+
+    public static void OpenSaveUI(this UIManager uiManager)
+    {
+        UIBase uiBase = uiManager.OpenPopupUI(UIType.SaveUI);
+    }
+
+    public static void CloseSaveUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.SaveUI);
     }
 }

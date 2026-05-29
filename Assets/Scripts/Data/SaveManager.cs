@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class SaveManager : MonoBehaviour
@@ -10,20 +11,20 @@ public class SaveManager : MonoBehaviour
         Inst = this;
     }
 
-    private string GetPath()
+    private string GetPath(int slotIndex)
     {
-        return Path.Combine(Application.persistentDataPath, "BrewOrBreak.json");
+        return Path.Combine(Application.persistentDataPath, $"BrewOrBreak{slotIndex}.json");
     }
 
-    public void RequestSaveData(PlayerModel data)
+    public void RequestSaveData(int slotIndex, PlayerModel data)
     {
         string json = JsonUtility.ToJson(data, true);
-        File.WriteAllText(GetPath(), json);
+        File.WriteAllText(GetPath(slotIndex), json);
     }
 
-    public PlayerModel RequestLoadData()
+    public PlayerModel RequestLoadData(int slotIndex)
     {
-        string path = GetPath();
+        string path = GetPath(slotIndex);
 
         if (File.Exists(path))
         {
@@ -34,16 +35,9 @@ public class SaveManager : MonoBehaviour
         }
         else
         {
-            var playerData = RequestLoadDefaultData();
+            var playerData = GetDefaultData();
             return playerData;
         }
-    }
-
-    public PlayerModel RequestLoadDefaultData()
-    {
-        var playerData = GetDefaultData();
-        RequestSaveData(playerData);
-        return playerData;
     }
 
     public PlayerModel GetDefaultData()
@@ -52,6 +46,7 @@ public class SaveManager : MonoBehaviour
         newPlayerData.PlayerName = "";
         newPlayerData.StoreName = "";
         newPlayerData.Day = 0;
+
         newPlayerData.Store.Level = 1;
         newPlayerData.Store.Gold = 0;
         newPlayerData.Store.Reputation = 0;
@@ -73,5 +68,10 @@ public class SaveManager : MonoBehaviour
         item.ItemCount = 1;
 
         return item;
+    }
+
+    public bool HasSaveFile(int slotIndex)
+    {
+        return File.Exists(GetPath(slotIndex));
     }
 }

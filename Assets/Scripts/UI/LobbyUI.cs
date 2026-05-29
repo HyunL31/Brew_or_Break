@@ -58,9 +58,9 @@ public class LobbyUI : UIBase
         Text_ReputationStat.text = $"가게 명성 : {StoreManager.Inst.StoreModel.Reputation}";
         Text_DebtStat.text = $"배상금 : {StoreManager.Inst.StoreModel.Gold}";
 
-        Image_LevelStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level);
-        Image_ReputationStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation);
-        Image_DebtStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation);
+        Image_LevelStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level, StoreManager.Inst.StoreModel);
+        Image_ReputationStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation, StoreManager.Inst.StoreModel);
+        Image_DebtStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation, StoreManager.Inst.StoreModel);
     }
 
     private void OnClickOpenStore()

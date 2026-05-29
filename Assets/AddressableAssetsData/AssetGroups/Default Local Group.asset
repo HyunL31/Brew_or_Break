@@ -130,6 +130,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce51caba5d0254f40a2c4d7a91841ae3
+    m_Address: Prefabs/UI/SaveSlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d5f56da433a49534b93a423628d93215
     m_Address: Background/Cuffs
     m_ReadOnly: 0
@@ -147,6 +152,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e562cc0a716d7ef4fa2ad99867cd5e9a
     m_Address: Prefabs/Collecting/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e675ee73c1e7aa8489ac3d5a9cae3ec7
+    m_Address: Audio/Plop
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

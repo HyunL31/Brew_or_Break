@@ -69,18 +69,18 @@ public class StoreManager : MonoBehaviour
         return _todayCluePoint;
     }
 
-    public float CalculatStat(StatType type)
+    public float CalculatStat(StatType type, StoreModel targetModel)
     {
         switch (type)
         {
             case StatType.Level:
-                return (float)StoreModel.Level / _maxLevel;
+                return (float)targetModel.Level / _maxLevel;
 
             case StatType.Reputation:
-                return (float)StoreModel.Reputation / _maxReputation;
+                return (float)targetModel.Reputation / _maxReputation;
 
             case StatType.Compensation:
-                return 1f - ((float)StoreModel.Compensation / _maxCompensation);
+                return 1f - ((float)targetModel.Compensation / _maxCompensation);
 
             default:
                 return 0;
