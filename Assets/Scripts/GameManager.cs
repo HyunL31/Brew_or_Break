@@ -19,6 +19,14 @@ public class GameManager : MonoBehaviour
     {
         Inst = this;
 
+        for (int i = 0; i < 100; i++)
+        {
+            if (SaveManager.Inst.HasSaveFile(i))
+            {
+                SlotIndex.Add(i);
+            }
+        }
+
         OnStartGame += (index) =>
         {
             SetCurrentSaveIndex(index);
@@ -35,8 +43,6 @@ public class GameManager : MonoBehaviour
 
             StoreManager.Inst.StoreInit();
         };
-
-
     }
 
     public void SaveData()

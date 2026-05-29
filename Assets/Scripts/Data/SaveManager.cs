@@ -46,6 +46,7 @@ public class SaveManager : MonoBehaviour
         newPlayerData.PlayerName = "";
         newPlayerData.StoreName = "";
         newPlayerData.Day = 0;
+        newPlayerData.IsComplete = false;
 
         newPlayerData.Store.Level = 1;
         newPlayerData.Store.Gold = 0;

@@ -3961,7 +3961,7 @@
   },
   {
     "ID": "Bad_Illegal_14",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "그렇게 마법약 장사는 조용히, 그리고 확실하게 막을 내렸다.",
     "Facial": null,
@@ -4181,7 +4181,7 @@
   },
   {
     "ID": "Bad_Mouth_20",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "그리고 마법약 상점의 빛이 꺼졌다.",
     "Facial": null,
@@ -4379,7 +4379,7 @@
   },
   {
     "ID": "Bad_Fraud_18",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "그리고 마법약 상점의 빛이 꺼졌다.",
     "Facial": null,
@@ -4665,7 +4665,7 @@
   },
   {
     "ID": "Bad_Regular_26",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "그리고 사람들은 말한다. 가장 익숙한 손님이 가장 위험할 수도 있다고.",
     "Facial": null,
@@ -4940,7 +4940,7 @@
   },
   {
     "ID": "Bad_Boom_25",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "사람들은 말한다. 연금술사의 몸조차 가장 위험한 재료가 될 수 있다고.",
     "Facial": null,
@@ -5226,7 +5226,7 @@
   },
   {
     "ID": "Bad_Guard_26",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "겉모습이 진실을 보장해주진 않는다고. 믿음은 때로 가장 쉬운 함정이 된다고.",
     "Facial": null,
@@ -5490,7 +5490,7 @@
   },
   {
     "ID": "Bad_Hell_24",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "연금술에서 가장 위험한 건 실력이 아니라 판단이라고.",
     "Facial": null,
@@ -5787,7 +5787,7 @@
   },
   {
     "ID": "Bad_Trap_27",
-    "NextID": "Again",
+    "NextID": "0",
     "Speaker": null,
     "Content": "가장 설득력 있는 거짓말은 진심처럼 들린다고.",
     "Facial": null,

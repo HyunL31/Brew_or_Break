@@ -51,7 +51,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveUI
   Button_Close: {fileID: 6086762558494670700}
-  Button_AddSlot: {fileID: 0}
   SlotParent: {fileID: 5694983780781229211}
 --- !u!1 &4675265924309462432
 GameObject:
@@ -346,7 +345,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 4
   m_Viewport: {fileID: 7478933013919439999}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}

@@ -23,11 +23,13 @@ public class LobbyUI : UIBase
     [Header("버튼")]
     [SerializeField] private Button Button_Inventory;
     [SerializeField] private Button Button_OpenStore;
+    [SerializeField] private Button Button_Return;
 
     private void Awake()
     {
         Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
         Button_OpenStore.onClick.AddListener(OnClickOpenStore);
+        Button_Return.onClick.AddListener(OnClickReturn);
     }
 
     private void OnEnable()
@@ -61,6 +63,12 @@ public class LobbyUI : UIBase
         Image_LevelStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level, StoreManager.Inst.StoreModel);
         Image_ReputationStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation, StoreManager.Inst.StoreModel);
         Image_DebtStat.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation, StoreManager.Inst.StoreModel);
+    }
+
+    private void OnClickReturn()
+    {
+        UIManager.Inst.InitStart();
+        UIManager.Inst.CloseLobbyUI();
     }
 
     private void OnClickOpenStore()

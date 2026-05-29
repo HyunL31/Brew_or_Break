@@ -95,8 +95,13 @@ public class VisualNovelManager : MonoBehaviour
         }
         else if (nextID == "0")
         {
+            GameManager.Inst.PlayerModel.IsComplete = true;
+            GameManager.Inst.SaveData();
             UIManager.Inst.CloseDialogueUI();
+            UIManager.Inst.CloseVisualNovelUI();
             UIManager.Inst.InitStart();
+
+            isMoved = true;
         }
         else
         {

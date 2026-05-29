@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -38,7 +39,16 @@ public class SaveSlot : MonoBehaviour
 
         Text_PlayerName.text = $"이름 : {slotModel.PlayerName}";
         Text_StoreName.text = $"상호명 : {slotModel.StoreName}";
-        Text_Day.text = $"Day {slotModel.Day}";
+
+        if (slotModel.IsComplete)
+        {
+            Text_Day.text = "완결";
+            Button_Confirm.interactable = false;
+        }
+        else
+        {
+            Text_Day.text = $"Day {slotModel.Day}";
+        }
 
         Text_Reputation.text = $"가게 명성 : {slotModel.Store.Reputation}";
         Text_Compen.text = $"변상금 : {slotModel.Store.Compensation}";
@@ -53,6 +63,7 @@ public class SaveSlot : MonoBehaviour
     {
         GameManager.Inst.OnStartGame?.Invoke(_slotID);
         UIManager.Inst.OpenLobbyUI();
+        UIManager.Inst.CloseTitleUI();
         UIManager.Inst.CloseSaveUI();
     }
 
