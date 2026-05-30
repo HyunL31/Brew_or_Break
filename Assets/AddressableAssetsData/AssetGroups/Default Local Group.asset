@@ -30,11 +30,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 25da55fd8f236e043a76d7d2fb177655
-    m_Address: Icon/Portrait
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3133911d013a519458515c4e30cdd391
     m_Address: Prefabs/UI/ChoiceSlot
     m_ReadOnly: 0
@@ -42,6 +37,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4c00e2a43b5b8e8429713213e7e0af77
     m_Address: Prefabs/Monster_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c5f45808ec21c84ebd883d445843e93
+    m_Address: Character/Boy/Player_01_06
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -60,6 +60,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a250dbb3f939db4aa6146b4a5386260
+    m_Address: Prefabs/Collecting/Boy/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c6f7c2b910f2b34a903a9306f64e73b
     m_Address: Prefabs/Monster_04
     m_ReadOnly: 0
@@ -67,6 +72,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 677b9a8f18b946d42bd777156247d4ce
     m_Address: Prefabs/DropItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e2fae4d4b78464bbee4ed6b44a2739
+    m_Address: Character/Boy/Player_01_03
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -100,6 +110,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e2c4b1e6cc0dcd4ba59ab37c9a2b5b4
+    m_Address: Character/Boy/Player_01_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f16540849f50804b9b86a59f48c7716
+    m_Address: Character/Boy/Player_01_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a27386e40aee505468eeeeb7fbbb6594
     m_Address: Audio/Good
     m_ReadOnly: 0
@@ -107,6 +127,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a6177e006da5cec499b1cdac5b68cf1f
     m_Address: Prefabs/Monster_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6e2486ed81dc6248a30a98619b0fc58
+    m_Address: Character/Boy/Player_01_04
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -127,6 +152,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bc2d014e1795d534895e06a965914fdd
     m_Address: Prefabs/Monster_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c415fead99021124e95d2c16d7d7a7a0
+    m_Address: Character/Boy/Player_01_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9693af35f72a65408dbc3317b4f7007
+    m_Address: Icon/Portrait
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -151,7 +186,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e562cc0a716d7ef4fa2ad99867cd5e9a
-    m_Address: Prefabs/Collecting/Player
+    m_Address: Prefabs/Collecting/Girl/Player
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Cysharp.Threading.Tasks;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ public class HUD : UIBase
     [Header("기타")]
     [SerializeField] private Button Button_Inventory;
     [SerializeField] private Button Button_EndCollecting;
+    [SerializeField] private Image Image_Player;
     [SerializeField] private Image Image_Stamina;
     [SerializeField] private GameObject ItemKeyInfo;
     
@@ -29,9 +31,7 @@ public class HUD : UIBase
     private void OnEnable()
     {
         InitSkillButton();
-
-        Image_Stamina.fillAmount = 1;
-        Image_Stamina.color = Color.green;
+        SetHUDImage();
     }
 
     private void InitSkillButton()
@@ -58,6 +58,21 @@ public class HUD : UIBase
                 break;
             }
         }
+    }
+
+    private void SetHUDImage()
+    {
+        Image_Stamina.fillAmount = 1;
+        Image_Stamina.color = Color.green;
+
+        string path = "Icon/Portrait[Girl_Player_01_04]";
+
+        if (GameManager.Inst.PlayerModel.Gender == "Boy")
+        {
+            path = "Icon/Portrait[Boy_Player_01_04]";
+        }
+
+        GameUtil.LoadSpriteAndSet(path, Image_Player).Forget();
     }
 
     private void UpdateStamina(float stamina, float maxStamina)

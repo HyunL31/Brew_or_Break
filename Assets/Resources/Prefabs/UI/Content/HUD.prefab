@@ -608,6 +608,7 @@ MonoBehaviour:
   SkillButtonPrefab: {fileID: 8621705199794428506, guid: 2a78cf77d7d0d544eb4fc6ff1212f457, type: 3}
   Button_Inventory: {fileID: 8421726082262128848}
   Button_EndCollecting: {fileID: 1122464985910032404}
+  Image_Player: {fileID: 7630160735487746587}
   Image_Stamina: {fileID: 7077451355908384400}
   ItemKeyInfo: {fileID: 4360672322209819548}
 --- !u!1 &8050592151083579006

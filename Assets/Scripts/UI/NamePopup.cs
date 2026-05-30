@@ -27,16 +27,15 @@ public class NamePopup : UIBase
         int emptySlot = GameManager.Inst.GetEmptySlotIndex();
         GameManager.Inst.SetCurrentSaveIndex(emptySlot);
 
-        GameManager.Inst.LoadDefaultData();
         GameManager.Inst.SetName(PlayerName.text, StoreName.text);
-        StoreManager.Inst.StoreInit();
 
         GameManager.Inst.SaveData();
 
         VisualNovelManager.Inst.SetCurrentDialogueID();
+        UIManager.Inst.CloseTitleUI();
         UIManager.Inst.OpenVisualNovelUI();
         UIManager.Inst.OpenDialogueUI();
+        UIManager.Inst.CloseGenderUI();
         UIManager.Inst.CloseNamePopup();
-        UIManager.Inst.CloseTitleUI();
     }
 }

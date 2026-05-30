@@ -10,11 +10,17 @@ public class ButtonFrame : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     {
         SoundManager.Inst.SetSFXAndPlay("Audio/Button").Forget();
 
-        Frame.SetActive(true);
+        if (Frame != null )
+        {
+            Frame.SetActive(true);
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Frame.SetActive(false);
+        if (Frame != null )
+        {
+            Frame.SetActive(false);
+        }
     }
 }

@@ -44,6 +44,7 @@ public class Dialogue : GameDataBase
 {
     public string NextID;
     public string Speaker;
+    public string SecondSpeaker;
     public string Content;
     public string Facial;
     public string BGM;

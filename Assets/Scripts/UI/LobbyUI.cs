@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class LobbyUI : UIBase
 {
     [Header("플레이어 정보")]
+    [SerializeField] private Image Image_Player;
     [SerializeField] private TextMeshProUGUI Text_PlayerName;
     [SerializeField] private TextMeshProUGUI Text_StoreName;
 
@@ -42,8 +43,16 @@ public class LobbyUI : UIBase
 
     private void SetPlayerInfo()
     {
-        Text_Day.text = $"Day {GameManager.Inst.PlayerModel.Day}";
+        string path = "Character/Girl/Player_01_04";
 
+        if (GameManager.Inst.PlayerModel.Gender == "Boy")
+        {
+            path = "Character/Boy/Player_01_04";
+        }
+
+        GameUtil.LoadSpriteAndSet(path, Image_Player).Forget();
+
+        Text_Day.text = $"Day {GameManager.Inst.PlayerModel.Day}";
         Text_PlayerName.text = GameManager.Inst.PlayerModel.PlayerName;
         Text_StoreName.text = GameManager.Inst.PlayerModel.StoreName;
     }

@@ -6,6 +6,7 @@ public class PlayerModel
 {
     public string PlayerName;
     public string StoreName;
+    public string Gender;
     public int Day;
     public bool IsComplete;
     public StoreModel Store = new StoreModel();

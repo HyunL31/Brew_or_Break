@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25da55fd8f236e043a76d7d2fb177655
+guid: c9693af35f72a65408dbc3317b4f7007
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,12 +123,100 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_01_01
+      name: Girl_Player_01_01
       rect:
         serializedVersion: 2
-        x: 208
-        y: 9596
-        width: 880
+        x: 220
+        y: 11091
+        width: 858
+        height: 1310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9717f2311be1b8e45afc49e15f834a32
+      internalID: 1186540376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Player_01_02
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 11094
+        width: 868
+        height: 1307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa1900906f49744480c15d2bb6e8ab4
+      internalID: 493532922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Player_01_03
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 11096
+        width: 868
+        height: 1305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833bfee9f6aaa46438b4e82a6d460825
+      internalID: 1821191294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Player_01_04
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 11088
+        width: 865
+        height: 1313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0a365d9419da646a828374c6ba07c1
+      internalID: 2025375831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Player_01_05
+      rect:
+        serializedVersion: 2
+        x: 4616
+        y: 11090
+        width: 877
         height: 1311
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -138,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d419e3c4ecb4874686585bf861e9049
-      internalID: 783432297
+      spriteID: 955878b1477a6d34692d760dfb90e496
+      internalID: 1719740304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_01_02
+      name: Girl_Player_01_06
       rect:
         serializedVersion: 2
-        x: 1291
-        y: 9592
-        width: 884
-        height: 1315
+        x: 5756
+        y: 11090
+        width: 862
+        height: 1311
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,96 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8d8f0a78ee3b9469972d9cc5674030
-      internalID: -2095299536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_01_03
-      rect:
-        serializedVersion: 2
-        x: 2380
-        y: 9603
-        width: 879
-        height: 1304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e43250d833322d347baf8f4736bb3648
-      internalID: 692139485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_01_04
-      rect:
-        serializedVersion: 2
-        x: 3601
-        y: 9598
-        width: 873
-        height: 1309
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35299bedd3ab6604f949f195b74135d9
-      internalID: -214128382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_01_06
-      rect:
-        serializedVersion: 2
-        x: 4626
-        y: 9593
-        width: 869
-        height: 1314
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 365595e89e375994f94d27be3aab7cde
-      internalID: 1086895702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_01_05
-      rect:
-        serializedVersion: 2
-        x: 5747
-        y: 9598
-        width: 879
-        height: 1309
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dea51344028f9a941954d8805eafbc6e
-      internalID: 604870737
+      spriteID: 928f838ff4be74c4f88a1859bcbd2400
+      internalID: 183282354
       vertices: []
       indices: 
       edges: []
@@ -258,10 +258,10 @@ TextureImporter:
       name: Tattoo_01_04
       rect:
         serializedVersion: 2
-        x: 155
-        y: 8263
-        width: 917
-        height: 1156
+        x: 154
+        y: 9763
+        width: 930
+        height: 1157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,8 +270,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c79a62cb1f07f245aeb287cd0f8ebe2
-      internalID: -1922548993
+      spriteID: e69aedcfe10a37a4aacbe7295d3728e4
+      internalID: 1551964303
       vertices: []
       indices: 
       edges: []
@@ -280,383 +280,9 @@ TextureImporter:
       name: Tattoo_01_01
       rect:
         serializedVersion: 2
-        x: 1217
-        y: 8263
-        width: 913
-        height: 1139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d22f15bee1aa5b543867985f9b46fcca
-      internalID: -936821903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tattoo_01_02
-      rect:
-        serializedVersion: 2
-        x: 2296
-        y: 8267
-        width: 934
-        height: 1139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3dd7bc2188bfdd48aec493842c1f584
-      internalID: 1969647988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tattoo_01_03
-      rect:
-        serializedVersion: 2
-        x: 3375
-        y: 8267
-        width: 926
-        height: 1126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df8a4e6d52ff6da4583a3b87dd53b282
-      internalID: -1126317464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Prophet_01_01
-      rect:
-        serializedVersion: 2
-        x: 4553
-        y: 8216
-        width: 925
-        height: 1173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28e69b5fd4bc66c4ea3e2ab37c0dacff
-      internalID: 1872128838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Prophet_01_02
-      rect:
-        serializedVersion: 2
-        x: 5700
-        y: 8216
-        width: 939
-        height: 1177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28e567ec480ab5345939c5372690d5f5
-      internalID: -77545963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scholar_01_01
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 6779
-        width: 821
-        height: 1251
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ba7b32ecf1df794e90cb022e8c20493
-      internalID: 1448050848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scholar_01_02
-      rect:
-        serializedVersion: 2
-        x: 1293
-        y: 6788
-        width: 821
-        height: 1225
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43ec9e2d60b3c78419a45c543224bf8f
-      internalID: 222874892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scholar_01_03
-      rect:
-        serializedVersion: 2
-        x: 2371
-        y: 6779
-        width: 830
-        height: 1247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f340aa95d9d55de498968bc0b422ad3b
-      internalID: -888175208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scholar_01_04
-      rect:
-        serializedVersion: 2
-        x: 3466
-        y: 6788
-        width: 808
-        height: 1242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3dac307f62c066d43b04d146203c4832
-      internalID: 1347130132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scholar_01_05
-      rect:
-        serializedVersion: 2
-        x: 4535
-        y: 6788
-        width: 813
-        height: 1238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ca1143af98f139409fc9c6665dac8c1
-      internalID: 815094334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knight_01_01
-      rect:
-        serializedVersion: 2
-        x: 5651
-        y: 6750
-        width: 1078
-        height: 1225
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4639146212ca0de4fbcb8da2873e7d2f
-      internalID: -266980530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boss_01_01
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 5433
-        width: 1181
-        height: 1226
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7d29c71679eae146bea98f67e4a6fdd
-      internalID: -1404031168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boss_01_02
-      rect:
-        serializedVersion: 2
-        x: 1395
-        y: 5448
-        width: 1138
-        height: 1223
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0eba88e0f45d8f34d8c753e725cff647
-      internalID: 459872708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Regular_01_02
-      rect:
-        serializedVersion: 2
-        x: 2852
-        y: 5519
-        width: 858
-        height: 1010
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65d74b71d9007cf458905cdbfb261d81
-      internalID: 862639557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Regular_01_01
-      rect:
-        serializedVersion: 2
-        x: 3974
-        y: 5534
-        width: 838
-        height: 960
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe600d54d6e0f7b41b270456db832187
-      internalID: 829486886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Regular_01_03
-      rect:
-        serializedVersion: 2
-        x: 5102
-        y: 5575
-        width: 868
-        height: 1046
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccbe152fb39c40542adc66f68b5a0dcf
-      internalID: -1956982915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Loyal_01_01
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 4090
-        width: 1203
-        height: 1103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b833f66e8664d3544b6bf7390888af24
-      internalID: 980344131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Loyal_01_02
-      rect:
-        serializedVersion: 2
-        x: 1406
-        y: 4090
-        width: 1118
+        x: 1213
+        y: 9757
+        width: 920
         height: 1142
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -666,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fadaf3a407c87694fb94a18df88480b2
-      internalID: -150800729
+      spriteID: 46304045b9728564486a43730a5e589d
+      internalID: 1290830779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Loyal_01_03
+      name: Tattoo_01_02
       rect:
         serializedVersion: 2
-        x: 2698
-        y: 4121
-        width: 1138
-        height: 1177
+        x: 2288
+        y: 9763
+        width: 938
+        height: 1123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,20 +314,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c71271cbe6a2a174eb0f73ae08ddd98f
-      internalID: 1609131188
+      spriteID: eebbf83874ca18b4aa5babed11b88392
+      internalID: 368396890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_01_02
+      name: Tattoo_01_03
       rect:
         serializedVersion: 2
-        x: 4084
-        y: 4141
-        width: 1060
-        height: 1203
+        x: 3368
+        y: 9746
+        width: 933
+        height: 1145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,152 +336,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e69d5bfcb65f14e8bff60fca752a29
-      internalID: 57102495
+      spriteID: 8f58b8899447d7445b91b899527f718a
+      internalID: -808847443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard_01_01
+      name: Prophet_01_01
       rect:
         serializedVersion: 2
-        x: 5314
-        y: 4214
-        width: 1107
-        height: 1149
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07e0b7bfd76750d40a8f0f2d5bcde0d2
-      internalID: -399510656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magician_01_01
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 2624
-        width: 1185
-        height: 1254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46246ffc00c40664f847fe394841331d
-      internalID: -729181429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magician_01_02
-      rect:
-        serializedVersion: 2
-        x: 1494
-        y: 2628
-        width: 1192
-        height: 1258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de421d7339fbc964e9f4fab4c7757239
-      internalID: 1744399392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magician_01_03
-      rect:
-        serializedVersion: 2
-        x: 2941
-        y: 2624
-        width: 1169
-        height: 1258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f22e08e424e94304ebb9bd6ab5bb4dae
-      internalID: -388564948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alchemist_01_03
-      rect:
-        serializedVersion: 2
-        x: 4486
-        y: 2818
-        width: 954
-        height: 1096
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c97a6ab35316d74a8205f57e8ba3cd1
-      internalID: -1703766510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alchemist_01_04
-      rect:
-        serializedVersion: 2
-        x: 5822
-        y: 2819
-        width: 923
-        height: 1102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed1a18547877d0f49bd59cf823e80477
-      internalID: 1178963030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alchemist_01_01
-      rect:
-        serializedVersion: 2
-        x: 4504
-        y: 1523
+        x: 4540
+        y: 9697
         width: 946
-        height: 1100
+        height: 1181
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,20 +358,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c2319481387410468da04c493f19267
-      internalID: 485711586
+      spriteID: 156c96acef80cb6439d6062826262727
+      internalID: -37942682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alchemist_01_02
+      name: Prophet_01_02
       rect:
         serializedVersion: 2
-        x: 5677
-        y: 1523
-        width: 1104
-        height: 1091
+        x: 5698
+        y: 9706
+        width: 942
+        height: 1172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,19 +380,261 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c0dfd508d002c4d8582ee59ffe3185
-      internalID: 1232741238
+      spriteID: 7a7ef25793867f44a8ba365e124c9282
+      internalID: 1262624305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Master_01_02
+      name: Scholar_01_01
       rect:
         serializedVersion: 2
-        x: 292
-        y: 1302
-        width: 997
+        x: 181
+        y: 8284
+        width: 801
+        height: 1235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420dda39eb1dc124f82b2db8f64a8121
+      internalID: -598033434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scholar_01_02
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 8281
+        width: 815
+        height: 1214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0499903fd2f8fda4cbe7346b8ba066b1
+      internalID: 1778098185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scholar_01_03
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 8284
+        width: 798
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c53ba31ebfbdc469ba6f138081133b
+      internalID: 1371997607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scholar_01_04
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 8281
+        width: 809
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e9e277851ee514fbbbb928df766d72
+      internalID: 37911834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scholar_01_05
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 8276
+        width: 819
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6eb8b453dca4449a65029ce8a67fbc
+      internalID: -1715000980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_01_01
+      rect:
+        serializedVersion: 2
+        x: 5643
+        y: 8249
+        width: 1077
+        height: 1204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92782b42afecdb4781237055b6fe46b
+      internalID: 1579015298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_01_01
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 6951
+        width: 1155
+        height: 1179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184bc409ade9dd34d8d047e619fbcc99
+      internalID: 1656293695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_01_02
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 6955
+        width: 1138
+        height: 1209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0815041687b1fbd46986e202568d14c5
+      internalID: -488399405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regular_01_02
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 7038
+        width: 825
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f11cb971726a34c803676d8b3ba35a
+      internalID: 1880795284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regular_01_01
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 7035
+        width: 833
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195a81bf07b067241be946e440ead03a
+      internalID: 562413212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Regular_01_03
+      rect:
+        serializedVersion: 2
+        x: 5114
+        y: 7080
+        width: 847
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de40a83a838bd7b4dba98441d2e6c378
+      internalID: -1140230419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loyal_01_01
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5578
+        width: 1204
         height: 1107
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -908,8 +644,272 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27783f45c8868d4478413fb162fd22ad
-      internalID: -404383789
+      spriteID: 2a8a41b2a8fba3b47b762c321049efbb
+      internalID: 125090074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loyal_01_02
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 5582
+        width: 1115
+        height: 1132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0b26115af72274fb058088ae0c138e
+      internalID: 218707350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loyal_01_03
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 5612
+        width: 1137
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d32252b71b7dc46b5710d1207c47ff
+      internalID: 1368330163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_01_02
+      rect:
+        serializedVersion: 2
+        x: 4090
+        y: 5646
+        width: 1048
+        height: 1192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd585cc7ce5222499a5ba46d8cb6bff
+      internalID: 1907091154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_01_01
+      rect:
+        serializedVersion: 2
+        x: 5319
+        y: 5718
+        width: 1100
+        height: 1146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ad70f999890b24d9ac5b325e485fe0
+      internalID: 1913446079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magician_01_01
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 4108
+        width: 1182
+        height: 1272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36d2df861a3af34e9f1e23115321884
+      internalID: 987608226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magician_01_02
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4111
+        width: 1184
+        height: 1250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29a5a3eaca3e2e41819e06fbafa2f83
+      internalID: -182320059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magician_01_03
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 4113
+        width: 1182
+        height: 1273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ade6b05023f6a14387bd11932db927f
+      internalID: -816311255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alchemist_01_01
+      rect:
+        serializedVersion: 2
+        x: 4538
+        y: 4313
+        width: 911
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116b0c0f9cbfcbc429ac7fbadc05be16
+      internalID: 304152787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alchemist_01_04
+      rect:
+        serializedVersion: 2
+        x: 5825
+        y: 4313
+        width: 916
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535f0e5efc26a7e4999c352aca2c7796
+      internalID: -2114620065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alchemist_01_03
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3026
+        width: 939
+        height: 1087
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c89766e9ad3eba42aef34e65efdb89f
+      internalID: 49492371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alchemist_01_02
+      rect:
+        serializedVersion: 2
+        x: 5673
+        y: 3021
+        width: 1100
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7c550f2edf68e498292bfddca0b9f3
+      internalID: -194412798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_01_02
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2793
+        width: 1005
+        height: 1110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e0b23b8b5861748ac4e936e30f65fa
+      internalID: 1744374637
       vertices: []
       indices: 
       edges: []
@@ -918,10 +918,10 @@ TextureImporter:
       name: Master_01_01
       rect:
         serializedVersion: 2
-        x: 1667
-        y: 1305
-        width: 976
-        height: 1062
+        x: 1658
+        y: 2792
+        width: 981
+        height: 1070
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,8 +930,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 234fe7f75b42ade4a97cfc5889cf8382
-      internalID: -49411059
+      spriteID: 4f1722706988a0840b41212239dfa8d9
+      internalID: -42707935
       vertices: []
       indices: 
       edges: []
@@ -940,10 +940,10 @@ TextureImporter:
       name: Master_01_03
       rect:
         serializedVersion: 2
-        x: 3145
-        y: 1373
-        width: 951
-        height: 983
+        x: 3146
+        y: 2861
+        width: 957
+        height: 992
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -952,8 +952,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39cce319736a70c4b8098eebd8c3ad21
-      internalID: 1991665346
+      spriteID: 8360c763f63c9424781ac55ec1b7eaec
+      internalID: -77104192
       vertices: []
       indices: 
       edges: []
@@ -962,10 +962,10 @@ TextureImporter:
       name: Master_01_04
       rect:
         serializedVersion: 2
-        x: 210
-        y: 0
-        width: 991
-        height: 1058
+        x: 206
+        y: 1486
+        width: 997
+        height: 1074
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,8 +974,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7937af56fb7a3374e8bc153677718f99
-      internalID: 1879740661
+      spriteID: 53d1570e4c6414e4ba4c034108cd35e6
+      internalID: -1512130798
       vertices: []
       indices: 
       edges: []
@@ -984,10 +984,10 @@ TextureImporter:
       name: Master_01_05
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 0
-        width: 1003
-        height: 1108
+        x: 1696
+        y: 1483
+        width: 1004
+        height: 1118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,8 +996,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94d282116bfb2f54182ae1a009cdbe5a
-      internalID: -370930690
+      spriteID: 0bc43e00299de3940941ed2e27ec801d
+      internalID: -1416094192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Player_01_01
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 1478
+        width: 927
+        height: 1262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163893e5c2979d141be47615c9d51977
+      internalID: -1139964976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Player_01_06
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 964
+        height: 1191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c1fa1bb515ac45a29a2e2bc94c1e2
+      internalID: -1888208539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Player_01_05
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 0
+        width: 961
+        height: 1213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87cfc75a98794f4ea1a063b65471cec
+      internalID: 1801348028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Player_01_04
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 906
+        height: 1204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f62fa8e2e0a56d448d18a6b5da64279
+      internalID: 1361776898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Player_01_02
+      rect:
+        serializedVersion: 2
+        x: 4419
+        y: 1488
+        width: 934
+        height: 1246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c699bf61e12394a9c43305adc96e3a
+      internalID: 120043006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy_Player_01_03
+      rect:
+        serializedVersion: 2
+        x: 5802
+        y: 1482
+        width: 936
+        height: 1257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa523678678b1d4380c1098aacc8bcf
+      internalID: -1516248969
       vertices: []
       indices: 
       edges: []
@@ -1006,7 +1138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 469c24b7c82f2cc4aa7e4a4b3ed5e4cb
+    spriteID: 796968e2efe59f74f96a42d557ead1ae
     internalID: 0
     vertices: []
     indices: 
@@ -1016,46 +1148,52 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Alchemist_01_01: 485711586
-      Alchemist_01_02: 1232741238
-      Alchemist_01_03: -1703766510
-      Alchemist_01_04: 1178963030
-      Boss_01_01: -1404031168
-      Boss_01_02: 459872708
-      Guard_01_01: -399510656
-      Guard_01_02: 57102495
-      Knight_01_01: -266980530
-      Loyal_01_01: 980344131
-      Loyal_01_02: -150800729
-      Loyal_01_03: 1609131188
-      Magician_01_01: -729181429
-      Magician_01_02: 1744399392
-      Magician_01_03: -388564948
-      Master_01_01: -49411059
-      Master_01_02: -404383789
-      Master_01_03: 1991665346
-      Master_01_04: 1879740661
-      Master_01_05: -370930690
-      Player_01_01: 783432297
-      Player_01_02: -2095299536
-      Player_01_03: 692139485
-      Player_01_04: -214128382
-      Player_01_05: 604870737
-      Player_01_06: 1086895702
-      Prophet_01_01: 1872128838
-      Prophet_01_02: -77545963
-      Regular_01_01: 829486886
-      Regular_01_02: 862639557
-      Regular_01_03: -1956982915
-      Scholar_01_01: 1448050848
-      Scholar_01_02: 222874892
-      Scholar_01_03: -888175208
-      Scholar_01_04: 1347130132
-      Scholar_01_05: 815094334
-      Tattoo_01_01: -936821903
-      Tattoo_01_02: 1969647988
-      Tattoo_01_03: -1126317464
-      Tattoo_01_04: -1922548993
+      Alchemist_01_01: 304152787
+      Alchemist_01_02: -194412798
+      Alchemist_01_03: 49492371
+      Alchemist_01_04: -2114620065
+      Boss_01_01: 1656293695
+      Boss_01_02: -488399405
+      Boy_Player_01_01: -1139964976
+      Boy_Player_01_02: 120043006
+      Boy_Player_01_03: -1516248969
+      Boy_Player_01_04: 1361776898
+      Boy_Player_01_05: 1801348028
+      Boy_Player_01_06: -1888208539
+      Girl_Player_01_01: 1186540376
+      Girl_Player_01_02: 493532922
+      Girl_Player_01_03: 1821191294
+      Girl_Player_01_04: 2025375831
+      Girl_Player_01_05: 1719740304
+      Girl_Player_01_06: 183282354
+      Guard_01_01: 1913446079
+      Guard_01_02: 1907091154
+      Knight_01_01: 1579015298
+      Loyal_01_01: 125090074
+      Loyal_01_02: 218707350
+      Loyal_01_03: 1368330163
+      Magician_01_01: 987608226
+      Magician_01_02: -182320059
+      Magician_01_03: -816311255
+      Master_01_01: -42707935
+      Master_01_02: 1744374637
+      Master_01_03: -77104192
+      Master_01_04: -1512130798
+      Master_01_05: -1416094192
+      Prophet_01_01: -37942682
+      Prophet_01_02: 1262624305
+      Regular_01_01: 562413212
+      Regular_01_02: 1880795284
+      Regular_01_03: -1140230419
+      Scholar_01_01: -598033434
+      Scholar_01_02: 1778098185
+      Scholar_01_03: 1371997607
+      Scholar_01_04: 37911834
+      Scholar_01_05: -1715000980
+      Tattoo_01_01: 1290830779
+      Tattoo_01_02: 368396890
+      Tattoo_01_03: -808847443
+      Tattoo_01_04: 1551964303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

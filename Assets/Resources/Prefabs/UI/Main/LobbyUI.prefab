@@ -341,6 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4114f7d06aec3c0449326222b3abc18f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LobbyUI
+  Image_Player: {fileID: 2952040513775389171}
   Text_PlayerName: {fileID: 8641733132876883571}
   Text_StoreName: {fileID: 9011135950004240103}
   Text_Gold: {fileID: 5980792843611917248}

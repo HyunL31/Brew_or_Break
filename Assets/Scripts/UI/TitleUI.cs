@@ -19,7 +19,10 @@ public class TitleUI : UIBase
 
     private void OnClickNewGame()
     {
-        UIManager.Inst.OpenNamePopup();
+        GameManager.Inst.LoadDefaultData();
+        StoreManager.Inst.StoreInit();
+
+        UIManager.Inst.OpenGenderUI();
     }
 
     private void OnClickLoadButton()

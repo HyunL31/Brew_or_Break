@@ -43,8 +43,13 @@ public class CollectingManager : MonoBehaviour
 
     public async UniTask SetCollectingMap()
     {
-        string playerPath = "Prefabs/Collecting/Player";
         string mapPath = "Prefabs/Collecting/Map";
+        string playerPath = "Prefabs/Collecting/Girl/Player";
+
+        if (GameManager.Inst.PlayerModel.Gender == "Boy")
+        {
+            playerPath = "Prefabs/Collecting/Boy/Player";
+        }
 
         GameObject player = await ResourceManager.Inst.InstantiatePrefab(playerPath, null);
 

@@ -8,11 +8,13 @@ public class VisualNovelUI : UIBase
 {
     [SerializeField] private Image Image_Background;
     [SerializeField] private Image Image_Character;
+    [SerializeField] private Image Image_SecondSpeaker;
 
     private Dictionary<string, Dialogue> _data;
 
     private CancellationTokenSource _backgroundToken;
     private CancellationTokenSource _characterToken;
+    private CancellationTokenSource _secondSpeakerToken;
 
     private void Awake()
     {
@@ -20,6 +22,7 @@ public class VisualNovelUI : UIBase
 
         VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeBackgroundImage(id).Forget();
         VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeSpeakerCharacter(id).Forget();
+        VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeSecondSpeaker(id).Forget();
     }
 
     private async UniTask ChangeBackgroundImage(string id)
@@ -50,7 +53,52 @@ public class VisualNovelUI : UIBase
 
             string path = $"Character/{characterFacial}";
 
+            if (characterFacial.Contains("Player"))
+            {
+                if (GameManager.Inst.PlayerModel.Gender == "Girl")
+                {
+                    path = $"Character/Girl/{characterFacial}";
+                }
+                else
+                {
+                    path = $"Character/Boy/{characterFacial}";
+                }
+            }
+
             await GameUtil.LoadSpriteAndSet(path, Image_Character).AttachExternalCancellation(_characterToken.Token);
+        }
+    }
+
+    private async UniTask ChangeSecondSpeaker(string id)
+    {
+        CancelSecondSpeaker();
+        _secondSpeakerToken = new CancellationTokenSource();
+
+        string characterFacial = _data[id].SecondSpeaker;
+
+        if (characterFacial == string.Empty)
+        {
+            Image_SecondSpeaker.gameObject.SetActive(false);
+        }
+        else
+        {
+            Image_SecondSpeaker.gameObject.SetActive(true);
+
+            string path = $"Character/{characterFacial}";
+
+            if (characterFacial.Contains("Player"))
+            {
+                if (GameManager.Inst.PlayerModel.Gender == "Girl")
+                {
+                    path = $"Character/Girl/{characterFacial}";
+                }
+                else
+                {
+                    path = $"Character/Boy/{characterFacial}";
+                }
+            }
+
+            await GameUtil.LoadSpriteAndSet(path, Image_SecondSpeaker).AttachExternalCancellation(_secondSpeakerToken.Token);
         }
     }
 
@@ -71,6 +119,16 @@ public class VisualNovelUI : UIBase
             _characterToken.Cancel();
             _characterToken.Dispose();
             _characterToken = null;
+        }
+    }
+
+    private void CancelSecondSpeaker()
+    {
+        if (_secondSpeakerToken != null)
+        {
+            _secondSpeakerToken.Cancel();
+            _secondSpeakerToken.Dispose();
+            _secondSpeakerToken = null;
         }
     }
 }

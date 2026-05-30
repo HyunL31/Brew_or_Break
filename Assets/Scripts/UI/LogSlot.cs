@@ -15,6 +15,19 @@ public class LogSlot : MonoBehaviour
             Image_Character.gameObject.SetActive(!isSameSpeaker);
 
             string path = $"Icon/Portrait[{characterID}]";
+
+            if (characterID.Contains("Player"))
+            {
+                if (GameManager.Inst.PlayerModel.Gender == "Girl")
+                {
+                    path = $"Icon/Portrait[Girl_{characterID}]";
+                }
+                else
+                {
+                    path = $"Icon/Portrait[Boy_{characterID}]";
+                }
+            }
+
             GameUtil.LoadSpriteAndSet(path, Image_Character).Forget();
         }
 

@@ -29,7 +29,8 @@ public enum UIType
     HUD,
     DialogueLog,
     SettingPopup,
-    SaveUI
+    SaveUI,
+    GenderUI
 }
 
 public static class UIExtension
@@ -220,5 +221,15 @@ public static class UIExtension
     public static void CloseSaveUI(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.SaveUI);
+    }
+
+    public static void OpenGenderUI(this UIManager uiManager)
+    {
+        UIBase uiBase = uiManager.OpenPopupUI(UIType.GenderUI);
+    }
+
+    public static void CloseGenderUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.GenderUI);
     }
 }

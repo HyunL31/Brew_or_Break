@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using UnityEngine;
 
 public class SaveManager : MonoBehaviour
@@ -46,6 +45,7 @@ public class SaveManager : MonoBehaviour
         newPlayerData.PlayerName = "";
         newPlayerData.StoreName = "";
         newPlayerData.Day = 0;
+        newPlayerData.Gender = "Girl";
         newPlayerData.IsComplete = false;
 
         newPlayerData.Store.Level = 1;
