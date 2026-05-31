@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 508d7cd692640774abf822c5b6cc96d1
+guid: 328a3f1ca6cefed4e9eb6055785d3657
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,177 +123,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk_Back_0
+      name: Girl_Walk_Back_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 618
-        width: 215
-        height: 462
+        x: 23
+        y: 0
+        width: 188
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 634ffec5fb80d2a4791e6c9fbb757124
-      internalID: -1794691351
+      spriteID: 5bae4ed8910d87f478067a2122e9e821
+      internalID: 1473264481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Back_1
+      name: Girl_Walk_Back_1
       rect:
         serializedVersion: 2
-        x: 434
-        y: 615
-        width: 212
-        height: 466
+        x: 243
+        y: 0
+        width: 183
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa981e6ca4ee1fa46b7b650c3b45643d
-      internalID: 686620916
+      spriteID: dff31ad5327f1b14d9d1e39da3199bc0
+      internalID: 1299370585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Back_2
+      name: Girl_Walk_Back_2
       rect:
         serializedVersion: 2
-        x: 750
-        y: 623
-        width: 216
-        height: 460
+        x: 462
+        y: 0
+        width: 179
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b530005f51367c4796d193e11d33877
-      internalID: -1054248331
+      spriteID: 83d8e5ddf2d83b7498862a9e161eced8
+      internalID: 53352443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Back_3
+      name: Girl_Walk_Back_3
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 617
-        width: 210
-        height: 464
+        x: 669
+        y: 0
+        width: 179
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0eff571432d824d9595e5ad8e7ec41
-      internalID: -625302167
+      spriteID: 77a078dd5d9b6b84f84cdb1152c6670b
+      internalID: 1230229776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Back_4
+      name: Girl_Walk_Back_4
       rect:
         serializedVersion: 2
-        x: 108
-        y: 84
-        width: 214
-        height: 468
+        x: 869
+        y: 0
+        width: 177
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b3ed4fe9981b0a49aa3464060ae105a
-      internalID: 989448351
+      spriteID: 7ee44e4e55634ee4aa0e7fa15e46cb76
+      internalID: 1403141609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Back_5
+      name: Girl_Walk_Back_5
       rect:
         serializedVersion: 2
-        x: 433
-        y: 80
-        width: 208
-        height: 470
+        x: 1064
+        y: 0
+        width: 178
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab60e908be652da4c9121a78668b4cfc
-      internalID: 1417043171
+      spriteID: e21e725389113794685a4660e650eb15
+      internalID: -7589794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Back_6
+      name: Girl_Walk_Back_6
       rect:
         serializedVersion: 2
-        x: 751
-        y: 79
-        width: 211
-        height: 470
+        x: 1266
+        y: 0
+        width: 178
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2660363153b1cfc48a0b3b786c1574ea
-      internalID: 1816684009
+      spriteID: 83d69a6414eb4194cab4f107b5fdca93
+      internalID: -521234162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Back_7
+      name: Girl_Walk_Back_7
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 81
-        width: 210
-        height: 469
+        x: 1479
+        y: 0
+        width: 180
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96694e0641c72ce48b6020572373acfc
-      internalID: -1366405181
+      spriteID: 8bef3b98f64223b45a503cfae6f25a42
+      internalID: 99347832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Walk_Back_8
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 0
+        width: 183
+        height: 612
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18537184460d0f949b6a4651bb855c30
+      internalID: 399498439
       vertices: []
       indices: 
       edges: []
@@ -302,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bcfa402d72ce91a439b394b3aed41eb4
+    spriteID: 64349c81332f52e47b8c76741a8b5534
     internalID: 0
     vertices: []
     indices: 
@@ -310,16 +332,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":211.0,"y":612.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Walk_Back_0: -1794691351
-      Walk_Back_1: 686620916
-      Walk_Back_2: -1054248331
-      Walk_Back_3: -625302167
-      Walk_Back_4: 989448351
-      Walk_Back_5: 1417043171
-      Walk_Back_6: 1816684009
-      Walk_Back_7: -1366405181
+      Girl_Walk_Back_0: 1473264481
+      Girl_Walk_Back_1: 1299370585
+      Girl_Walk_Back_2: 53352443
+      Girl_Walk_Back_3: 1230229776
+      Girl_Walk_Back_4: 1403141609
+      Girl_Walk_Back_5: -7589794
+      Girl_Walk_Back_6: -521234162
+      Girl_Walk_Back_7: 99347832
+      Girl_Walk_Back_8: 399498439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

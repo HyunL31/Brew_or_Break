@@ -37,7 +37,9 @@ public class SaveUI : UIBase
             }
 
             GameObject prefab = await ResourceManager.Inst.InstantiatePrefab("Prefabs/UI/SaveSlot", SlotParent);
-            prefab.GetComponent<SaveSlot>().InitSlot(i);
+            SaveSlot saveSlot = prefab.GetComponent<SaveSlot>();
+            saveSlot.InitSlot(i);
+
             _slotID.Add(i);
         }
     }

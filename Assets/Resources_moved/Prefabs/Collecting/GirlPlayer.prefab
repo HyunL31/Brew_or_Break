@@ -83,12 +83,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1063658386, guid: 19e849a79e0460e4cbce1602f07033ae, type: 3}
+  m_Sprite: {fileID: 1473264481, guid: 328a3f1ca6cefed4e9eb6055785d3657, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.88, y: 6.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -149,8 +149,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2.3399997, y: 4.7299995}
+  m_Offset: {x: 0.010546446, y: 0.07382591}
+  m_Size: {x: 2.1501608, y: 6.058877}
   m_Direction: 0
 --- !u!1 &4373078474492085812
 GameObject:
@@ -202,7 +202,6 @@ MonoBehaviour:
   Speed: 7
   RigidBody: {fileID: 3869106738461015053}
   AnimController: {fileID: 1303205030420012219}
-  Collider_BasicSkill: {fileID: 0}
   Prefab_ProjectileSkill: {fileID: 4380877788886262139, guid: 925456057f3196e4c8a393fbf3557940, type: 3}
   Prefab_OverlapSkill: {fileID: 4380877788886262139, guid: cf2c1f9b60de519488ee05d49102087b, type: 3}
   SkillRoot: {fileID: 4670785202809461716}

@@ -15,8 +15,18 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: c40ad986f1f19014f8915708511d09f1
   m_SerializeEntries:
+  - m_GUID: 0cd6ec4425839ae47b65762eb99d4391
+    m_Address: Character/Boy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0ecbda45ac91d8847a6a39dc5d1e9b2b
     m_Address: Audio/Bad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f4247b4b82f34f4fb03e7757fec5646
+    m_Address: Character/Boy_Selected
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -50,6 +60,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55b41394102a66049ba0fcd60bf35af3
+    m_Address: Character/Girl_Selected
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 56801769d7ab5e1459af4d0e4a70291a
     m_Address: Prefabs/Monster_02
     m_ReadOnly: 0
@@ -67,6 +82,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c6f7c2b910f2b34a903a9306f64e73b
     m_Address: Prefabs/Monster_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65ed31328e033d048808621825e6b2b9
+    m_Address: Character/Girl
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

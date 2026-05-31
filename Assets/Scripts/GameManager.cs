@@ -133,6 +133,7 @@ public class GameManager : MonoBehaviour
                 return i;
             }
         }
+
         return 0;
     }
 }
