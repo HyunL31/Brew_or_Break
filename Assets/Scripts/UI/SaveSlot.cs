@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using Cysharp.Threading.Tasks;
+using System.IO;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class SaveSlot : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Text_PlayerName;
     [SerializeField] private TextMeshProUGUI Text_StoreName;
     [SerializeField] private TextMeshProUGUI Text_Day;
+    [SerializeField] private Image Image_Character;
 
     [Header("상태바")]
     [SerializeField] private TextMeshProUGUI Text_Reputation;
@@ -39,6 +41,9 @@ public class SaveSlot : MonoBehaviour
 
         Text_PlayerName.text = $"이름 : {slotModel.PlayerName}";
         Text_StoreName.text = $"상호명 : {slotModel.StoreName}";
+
+        string path = $"Icon/Portrait[{slotModel.Gender}_Player_01_04]";
+        GameUtil.LoadSpriteAndSet(path, Image_Character).Forget();
 
         if (slotModel.IsComplete)
         {

@@ -19,6 +19,12 @@ public class GenderUI : UIBase
         Button_Confirm.onClick.AddListener(SetName);
     }
 
+    private void OnEnable()
+    {
+        GameUtil.LoadSpriteAndSet("Character/Girl", Image_Girl).Forget();
+        GameUtil.LoadSpriteAndSet("Character/Boy", Image_Boy).Forget();
+    }
+
     private void OnClickClose()
     {
         UIManager.Inst.CloseGenderUI();

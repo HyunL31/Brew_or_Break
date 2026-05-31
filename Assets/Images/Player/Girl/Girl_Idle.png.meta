@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aea7171863e24a54887afcb8bb4a6147
+guid: db793b17a6a258f468f1cda3228a90b6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,145 +123,145 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk_Front_0
+      name: Girl_Idle_0
       rect:
         serializedVersion: 2
-        x: 101
-        y: 603
-        width: 235
-        height: 486
+        x: 516
+        y: 1809
+        width: 307
+        height: 786
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37dc2183de479f241812319e68f2a2c5
-      internalID: -1381180079
+      spriteID: 0c99cd5150434ef42861b34dc5489025
+      internalID: -763964933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Front_1
+      name: Girl_Idle_1
       rect:
         serializedVersion: 2
-        x: 426
-        y: 600
-        width: 238
-        height: 490
+        x: 511
+        y: 920
+        width: 306
+        height: 782
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab90d58b0a01f4642b50d87cac7e4c03
-      internalID: 756886514
+      spriteID: e289ae9aab4f6164ca56e05c85f7f3b1
+      internalID: 1734688328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Front_2
+      name: Girl_Idle_2
       rect:
         serializedVersion: 2
-        x: 766
-        y: 603
-        width: 234
-        height: 489
+        x: 515
+        y: 32
+        width: 305
+        height: 783
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 804c2b33d4d81b648b3f778cd82b4b38
-      internalID: -82501880
+      spriteID: 63f7f273d09f13f45905aabc7b0dce25
+      internalID: -319427667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Front_3
+      name: Girl_Idle_3
       rect:
         serializedVersion: 2
-        x: 1110
-        y: 602
-        width: 239
-        height: 488
+        x: 1831
+        y: 1812
+        width: 309
+        height: 780
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21648a80d4fbda642a8cfc83c918f8dc
-      internalID: 640471961
+      spriteID: 3efe4c907e656c146a5c8cea0bfad19c
+      internalID: 1769744318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Front_4
+      name: Girl_Idle_4
       rect:
         serializedVersion: 2
-        x: 1108
-        y: 55
-        width: 233
-        height: 492
+        x: 1825
+        y: 923
+        width: 314
+        height: 781
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b47593f44864804fa5d1a303237f985
-      internalID: -1711459424
+      spriteID: 25b1d7a50d26ea24a892fbaa27f93cb6
+      internalID: -839230550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Front_5
+      name: Girl_Idle_5
       rect:
         serializedVersion: 2
-        x: 768
-        y: 56
-        width: 236
-        height: 491
+        x: 1827
+        y: 35
+        width: 310
+        height: 782
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36cc545b94c70274aa0a8a1cb79a1430
-      internalID: 118485079
+      spriteID: 8f9bf9749d701054d954f6c74102c865
+      internalID: 866089732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Front_6
+      name: Girl_Idle_6
       rect:
         serializedVersion: 2
-        x: 423
-        y: 54
-        width: 237
-        height: 493
+        x: 3147
+        y: 1814
+        width: 307
+        height: 778
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b31d0a3a50a4cf43ba7ce35e32fe474
-      internalID: -268939989
+      spriteID: 09c41be96daca274285211b97a61c4fd
+      internalID: 878189691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_Front_7
+      name: Girl_Idle_7
       rect:
         serializedVersion: 2
-        x: 95
-        y: 56
-        width: 242
-        height: 490
+        x: 3138
+        y: 920
+        width: 309
+        height: 785
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aa19968c43810645b1b1aee12e610c7
-      internalID: 1994874951
+      spriteID: 2f3cb72036869b94abec5b7f449039bb
+      internalID: 1318508199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 34
+        width: 303
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255de8d1752250547a2e4f4ea5a2a907
+      internalID: 1112093244
       vertices: []
       indices: 
       edges: []
@@ -302,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fe268cd8498ce6d45b5b182e8a9b832f
+    spriteID: f3084a3a3b8a6424b97eea8d2b0909d3
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +334,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Walk_Front_0: -1381180079
-      Walk_Front_1: 756886514
-      Walk_Front_2: -82501880
-      Walk_Front_3: 640471961
-      Walk_Front_4: -1711459424
-      Walk_Front_5: 118485079
-      Walk_Front_6: -268939989
-      Walk_Front_7: 1994874951
+      Girl_Idle_0: -763964933
+      Girl_Idle_1: 1734688328
+      Girl_Idle_2: -319427667
+      Girl_Idle_3: 1769744318
+      Girl_Idle_4: -839230550
+      Girl_Idle_5: 866089732
+      Girl_Idle_6: 878189691
+      Girl_Idle_7: 1318508199
+      Girl_Idle_8: 1112093244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

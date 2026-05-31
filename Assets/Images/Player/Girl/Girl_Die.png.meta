@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e5e809700386b054b8eb177abbe2f381
+guid: 988f4b3a4f1a1754b94ae56ae159edcb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,199 +123,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Girl_Walk_Front_0
+      name: Girl_Die_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 178
-        width: 168
-        height: 602
+        x: 290
+        y: 1258
+        width: 267
+        height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a34624da635e9254e919fb26db3cda88
-      internalID: 867086815
+      spriteID: b0fb60e6da676544bab624019225681c
+      internalID: -1666472716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_1
+      name: Girl_Die_0
       rect:
         serializedVersion: 2
-        x: 199
-        y: 178
-        width: 167
-        height: 602
+        x: 1181
+        y: 1265
+        width: 382
+        height: 504
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 434b016627fbab440ab76a08676c96d7
-      internalID: -492308976
+      spriteID: e5ba6e9ce660c6c45ba93b8a0a730475
+      internalID: -1326223047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_2
+      name: Girl_Die_2
       rect:
         serializedVersion: 2
-        x: 383
-        y: 178
-        width: 169
-        height: 602
+        x: 2092
+        y: 1266
+        width: 398
+        height: 427
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ba1a9abdeec97f43b6d90d45662d3a3
-      internalID: 1452588711
+      spriteID: 7b4a125a87e452643a99f4209f3deef8
+      internalID: -1251001251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_3
+      name: Girl_Die_3
       rect:
         serializedVersion: 2
-        x: 571
-        y: 178
-        width: 164
-        height: 602
+        x: 217
+        y: 692
+        width: 433
+        height: 368
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f164e2b9ac84234dafc154a1425b2a3
-      internalID: -747363787
+      spriteID: 995610bf0364ecc40a4dad9725c96005
+      internalID: 853124431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_4
+      name: Girl_Die_4
       rect:
         serializedVersion: 2
-        x: 752
-        y: 177
-        width: 165
-        height: 603
+        x: 76
+        y: 110
+        width: 792
+        height: 191
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a58be429f28e9c24d993a83fd599e657
-      internalID: 1367633129
+      spriteID: 12548fef69741c84dba61abf51b86ea3
+      internalID: -1983980721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_5
+      name: Girl_Die_5
       rect:
         serializedVersion: 2
-        x: 930
-        y: 177
-        width: 167
-        height: 603
+        x: 1060
+        y: 693
+        width: 573
+        height: 251
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1439b297a9b3d4f4da3e564f959b2a7f
-      internalID: -707390249
+      spriteID: 52333e65f99b599469c8a726a5dc3e87
+      internalID: -112387350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_6
+      name: Girl_Die_6
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 177
-        width: 168
-        height: 603
+        x: 1972
+        y: 706
+        width: 746
+        height: 186
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35ee59b98b8ed944da8e6163b4f9159c
-      internalID: -554099363
+      spriteID: b704dffe02f837744b36a513c84b32ed
+      internalID: 1542650103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_7
+      name: Girl_Die_7
       rect:
         serializedVersion: 2
-        x: 1297
-        y: 177
-        width: 169
-        height: 603
+        x: 1020
+        y: 103
+        width: 800
+        height: 163
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df2596bc618ab6b4bb908f874677b231
-      internalID: 658809020
+      spriteID: 70af89f5a6bb2fb4a82d42eb79ef3900
+      internalID: -110834532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Girl_Walk_Front_8
+      name: Girl_Die_8
       rect:
         serializedVersion: 2
-        x: 1482
-        y: 177
-        width: 169
-        height: 603
+        x: 1946
+        y: 93
+        width: 819
+        height: 167
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad1033e441f08f24bb859108b96680e9
-      internalID: -1478316438
+      spriteID: ec0e1256875fc064a86be1b3f9ed618b
+      internalID: -730041197
       vertices: []
       indices: 
       edges: []
@@ -324,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e070339cdaad55a4194ac455c4405206
+    spriteID: c8bbb470d19845546bf1f389c350ddc5
     internalID: 0
     vertices: []
     indices: 
@@ -332,19 +332,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":185.0,"y":941.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Girl_Walk_Front_0: 867086815
-      Girl_Walk_Front_1: -492308976
-      Girl_Walk_Front_2: 1452588711
-      Girl_Walk_Front_3: -747363787
-      Girl_Walk_Front_4: 1367633129
-      Girl_Walk_Front_5: -707390249
-      Girl_Walk_Front_6: -554099363
-      Girl_Walk_Front_7: 658809020
-      Girl_Walk_Front_8: -1478316438
+      Girl_Die_0: -1326223047
+      Girl_Die_1: -1666472716
+      Girl_Die_2: -1251001251
+      Girl_Die_3: 853124431
+      Girl_Die_4: -1983980721
+      Girl_Die_5: -112387350
+      Girl_Die_6: 1542650103
+      Girl_Die_7: -110834532
+      Girl_Die_8: -730041197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

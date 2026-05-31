@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7400d7448e167cd4a9d29739f33ca8d6
+guid: 24c4d210c525e0b4aa403736de67a842
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Die_0
+      name: Boy_Idle_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 501
-        width: 244
-        height: 455
+        x: 39
+        y: 64
+        width: 240
+        height: 729
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78b0b8c479d9cb5448eaf577003ac1ba
-      internalID: -858788104
+      spriteID: 3bfe0fdca2bcfce4dbb20e0733a3bddc
+      internalID: 1683084135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_1
+      name: Boy_Idle_1
       rect:
         serializedVersion: 2
-        x: 449
-        y: 517
-        width: 331
-        height: 444
+        x: 349
+        y: 64
+        width: 240
+        height: 731
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e740b48c56628e441883f368610bd49b
-      internalID: -378712072
+      spriteID: 6eeaf0d3b3643ee4e9e54760477fa746
+      internalID: -1760489033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_2
+      name: Boy_Idle_2
       rect:
         serializedVersion: 2
-        x: 874
-        y: 548
-        width: 384
-        height: 343
+        x: 659
+        y: 65
+        width: 238
+        height: 730
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e22f046f614ac04b98b9acde01d4e51
-      internalID: 1205376477
+      spriteID: 402754bf803b30d44b4a259889fb7d9f
+      internalID: 2113331904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_3
+      name: Boy_Idle_3
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 513
-        width: 395
-        height: 310
+        x: 966
+        y: 63
+        width: 241
+        height: 730
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0025fb5de028152489558dcb2890c098
-      internalID: 2103535316
+      spriteID: 3c0b2fc847012254f991233cf6fe599d
+      internalID: 1627014823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_4
+      name: Boy_Idle_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 82
-        width: 334
-        height: 314
+        x: 1275
+        y: 64
+        width: 235
+        height: 730
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd10a3bac5f122429211f24ab35e34d
-      internalID: -727598475
+      spriteID: 41a0ad33de8167e4c9748c9a55366042
+      internalID: -193966112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_5
+      name: Boy_Idle_5
       rect:
         serializedVersion: 2
-        x: 457
-        y: 88
-        width: 344
-        height: 218
+        x: 1583
+        y: 65
+        width: 238
+        height: 730
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996698bf16471a945975aef8d6a579d4
-      internalID: -1723279456
+      spriteID: 851cad94249a43740ad6755aab4f10e3
+      internalID: -1112452208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_6
+      name: Boy_Idle_6
       rect:
         serializedVersion: 2
-        x: 924
-        y: 124
-        width: 330
-        height: 174
+        x: 1891
+        y: 63
+        width: 238
+        height: 731
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b8f33a87c48f2b4f84f5f5d0e905c06
-      internalID: 1346573006
+      spriteID: 6617255b02a7be942bcdbfcda9a1d72f
+      internalID: 1866176174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Die_7
+      name: Boy_Idle_7
       rect:
         serializedVersion: 2
-        x: 1298
-        y: 118
-        width: 399
-        height: 136
+        x: 2199
+        y: 64
+        width: 236
+        height: 731
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf250014c2315b24199eafd4a4dffd9c
-      internalID: -1554859529
+      spriteID: 40fa602b44cf88f42a2f9b517c133d08
+      internalID: 995214893
       vertices: []
       indices: 
       edges: []
@@ -302,7 +302,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d370c5bf1cc07414baa3aa5bd4f2ec4a
+    spriteID: df59d110c4918aa47814b3a34bf4f8ff
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +312,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Die_0: -858788104
-      Die_1: -378712072
-      Die_2: 1205376477
-      Die_3: 2103535316
-      Die_4: -727598475
-      Die_5: -1723279456
-      Die_6: 1346573006
-      Die_7: -1554859529
+      Boy_Idle_0: 1683084135
+      Boy_Idle_1: -1760489033
+      Boy_Idle_2: 2113331904
+      Boy_Idle_3: 1627014823
+      Boy_Idle_4: -193966112
+      Boy_Idle_5: -1112452208
+      Boy_Idle_6: 1866176174
+      Boy_Idle_7: 995214893
+      Boy_Idle_8: 1017842928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

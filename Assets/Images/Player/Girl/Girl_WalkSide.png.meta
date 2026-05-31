@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19e849a79e0460e4cbce1602f07033ae
+guid: a997c8bfdb343fb4f964889bc3d9aacd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,101 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: Girl_WalkSide_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 616
-        width: 234
-        height: 473
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c198e00b76beac5498577bcdc534ead9
-      internalID: 1063658386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_1
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 616
-        width: 237
-        height: 473
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ead75334069b2d4da7148783327d2e6
-      internalID: 2023419790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_2
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 617
-        width: 235
-        height: 471
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5611fc9147c6a7448c1f579bbf41afd
-      internalID: 1859005740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_3
-      rect:
-        serializedVersion: 2
-        x: 1109
-        y: 616
-        width: 235
-        height: 473
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77c30b01ef84343489db2b780862e24d
-      internalID: 510641109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_4
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 76
-        width: 235
-        height: 470
+        x: 73
+        y: 190
+        width: 345
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 403fea83aa241ec489955f21849d4dc9
-      internalID: 1165806414
+      spriteID: bbffe818cc7b05645b352c737c5c44cd
+      internalID: 1919465981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_5
+      name: Girl_WalkSide_1
       rect:
         serializedVersion: 2
-        x: 426
-        y: 74
-        width: 235
-        height: 472
+        x: 461
+        y: 197
+        width: 373
+        height: 713
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a113730e99dd0a4a8c0d8bba4372755
-      internalID: -338998922
+      spriteID: 69d86a58bd946734092d3406e3285c89
+      internalID: -1809457181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_6
+      name: Girl_WalkSide_2
       rect:
         serializedVersion: 2
-        x: 768
-        y: 76
-        width: 234
-        height: 472
+        x: 927
+        y: 195
+        width: 281
+        height: 714
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0596303a306a01041a5a2cdc22f89cf9
-      internalID: -1009026052
+      spriteID: e649b371176214f44a0bf93a06cc565a
+      internalID: -1253076749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_7
+      name: Girl_WalkSide_3
       rect:
         serializedVersion: 2
-        x: 1108
-        y: 76
-        width: 232
-        height: 470
+        x: 1329
+        y: 187
+        width: 306
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +204,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f1c0ae6e1e7fd64b9e4120350dec0e5
-      internalID: -1497960688
+      spriteID: 3bbe4784342a2c2469d96105752b0719
+      internalID: -1541792643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_WalkSide_4
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 187
+        width: 334
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2829a3af23a81ef48a1b7f5b675bab31
+      internalID: -376038186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_WalkSide_5
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 187
+        width: 372
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9dc2a0ad23da7428c6c1624bd5d604
+      internalID: -884442101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_WalkSide_6
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 185
+        width: 342
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f2312d164f294da39b83670ff96a5
+      internalID: -1436996205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_WalkSide_7
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 176
+        width: 275
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4274139ae8db4a4587af7ebea28321a
+      internalID: 1352169979
       vertices: []
       indices: 
       edges: []
@@ -302,7 +302,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8f1f4c8792c745b4ab10b910f3f7aa5e
+    spriteID: 8575e514f92f2fe4580b2eb10daba8e8
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +312,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle_0: 1063658386
-      Idle_1: 2023419790
-      Idle_2: 1859005740
-      Idle_3: 510641109
-      Idle_4: 1165806414
-      Idle_5: -338998922
-      Idle_6: -1009026052
-      Idle_7: -1497960688
+      Girl_WalkSide_0: 1919465981
+      Girl_WalkSide_1: -1809457181
+      Girl_WalkSide_2: -1253076749
+      Girl_WalkSide_3: -1541792643
+      Girl_WalkSide_4: -376038186
+      Girl_WalkSide_5: -884442101
+      Girl_WalkSide_6: -1436996205
+      Girl_WalkSide_7: 1352169979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

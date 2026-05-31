@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b986ceb168bded64aa3e24c9edd68ce1
+guid: 48f45378a0522744293bda9b377bb872
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_0
+      name: Girl_Attack_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 553
-        width: 218
-        height: 417
+        x: 351
+        y: 1716
+        width: 491
+        height: 679
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c65390e910a2cb344acccde18db1c90a
-      internalID: 1790461697
+      spriteID: fc5130bebdb665b40a7eb2b85a56c3f4
+      internalID: 1498294749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_1
+      name: Girl_Attack_1
       rect:
         serializedVersion: 2
-        x: 378
-        y: 562
-        width: 297
-        height: 393
+        x: 1513
+        y: 1717
+        width: 498
+        height: 725
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3276aa33fd28fce43bb0949f834c852c
-      internalID: -1161199049
+      spriteID: d6a48b41f328c29409d7c82589ecf77b
+      internalID: 791500494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_2
+      name: Girl_Attack_2
       rect:
         serializedVersion: 2
-        x: 722
-        y: 562
-        width: 317
-        height: 430
+        x: 2751
+        y: 1717
+        width: 441
+        height: 712
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfcd103e451a53d448abc2fdf651753a
-      internalID: -2037642714
+      spriteID: 519e0e8d9aa48114f82d024515239a07
+      internalID: -787605574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_3
+      name: Girl_Attack_3
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 561
-        width: 434
-        height: 390
+        x: 256
+        y: 892
+        width: 655
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4637f978233d65941a6f5e535ea60575
-      internalID: 1731476838
+      spriteID: 4758473295415a74c8f186a74a57f01f
+      internalID: -1927426891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4
+      name: Girl_Attack_4
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 84
-        width: 214
-        height: 396
+        x: 372
+        y: 82
+        width: 674
+        height: 687
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39a8dc69b0068404eaa56c2756eaf64c
-      internalID: 890224287
+      spriteID: 4db8b7127c8e4274db9f10ebbcc0faec
+      internalID: -97447271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_5
+      name: Girl_Attack_5
       rect:
         serializedVersion: 2
-        x: 800
-        y: 94
-        width: 372
-        height: 377
+        x: 1465
+        y: 890
+        width: 830
+        height: 608
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ca578e16f72d174994638182fea2d34
-      internalID: -263851386
+      spriteID: 3000346f08231ad4fafb27dc03ba0b0a
+      internalID: -371989772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_6
+      name: Girl_Attack_6
       rect:
         serializedVersion: 2
-        x: 357
-        y: 83
-        width: 421
-        height: 350
+        x: 1642
+        y: 62
+        width: 380
+        height: 724
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b363920c1cde945b3506bac8ce93d1
-      internalID: -986122032
+      spriteID: 34b0519e824facc4888231b562ae8ac0
+      internalID: -1548860247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_7
+      name: Girl_Attack_7
       rect:
         serializedVersion: 2
-        x: 39
-        y: 103
-        width: 279
-        height: 342
+        x: 2713
+        y: 890
+        width: 735
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0d5a971dd215f47b3bdeb17c04d134
-      internalID: -1542027309
+      spriteID: d40c998dafee388428d21d77ff4abef9
+      internalID: -474213746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Girl_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 72
+        width: 491
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653ab378fc433964cb6ad9e42e88278f
+      internalID: 1746982031
       vertices: []
       indices: 
       edges: []
@@ -302,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 23cbad0ffac2e134b88642b88fbf30e3
+    spriteID: a8a023ff7057f994db1197f692a37657
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +334,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack_0: 1790461697
-      Attack_1: -1161199049
-      Attack_2: -2037642714
-      Attack_3: 1731476838
-      Attack_4: 890224287
-      Attack_5: -263851386
-      Attack_6: -986122032
-      Attack_7: -1542027309
+      Girl_Attack_0: 1498294749
+      Girl_Attack_1: 791500494
+      Girl_Attack_2: -787605574
+      Girl_Attack_3: -1927426891
+      Girl_Attack_4: -97447271
+      Girl_Attack_5: -371989772
+      Girl_Attack_6: -1548860247
+      Girl_Attack_7: -474213746
+      Girl_Attack_8: 1746982031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
