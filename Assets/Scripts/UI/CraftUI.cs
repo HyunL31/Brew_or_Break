@@ -1,4 +1,5 @@
 ﻿using Cysharp.Threading.Tasks;
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -16,6 +17,7 @@ public class CraftUI : UIBase
     [SerializeField] private Image Image_Fire;
     [SerializeField] private Image Image_Smoke;
     [SerializeField] private Image Image_Pot;
+    [SerializeField] private Animator Anim;
 
     [Header("산도")]
     [SerializeField] private TextMeshProUGUI Text_Acidity;
@@ -56,6 +58,8 @@ public class CraftUI : UIBase
 
         string path = "Icon/Pot2";
         GameUtil.LoadSpriteAndSet(path, Image_Pot).Forget();
+
+        Anim.gameObject.SetActive(false);
     }
 
     private void Start()
@@ -67,7 +71,7 @@ public class CraftUI : UIBase
 
     private string SetRandomAcidity()
     {
-        int random = Random.Range(0, 15);
+        int random = UnityEngine.Random.Range(0, 15);
         _randomAcidity = random;
 
         return $"pH {random}";
@@ -101,6 +105,20 @@ public class CraftUI : UIBase
 
         _potionID = GetMadePotionID();
         string path = $"Icon/Potion[{_potionID}]";
+
+        Anim.gameObject.SetActive(true);
+
+        string effect = string.Empty;
+        if (_potionID == "Mess")
+        {
+            effect = "Fail";
+        }
+        else
+        {
+            effect = "Success";
+        }
+
+        PlayPotionEffect(effect).Forget();
 
         GameUtil.LoadSpriteAndSet(path, Image_Pot).Forget();
         GetReturnID(_potionID);
@@ -200,5 +218,15 @@ public class CraftUI : UIBase
         }
 
         VisualNovelManager.Inst.OnSetDialogueID(returnID);
+    }
+
+    // 마법약 이펙트
+    private async UniTask PlayPotionEffect(string effect)
+    {
+        Anim.SetTrigger(effect);
+
+        await UniTask.Delay(TimeSpan.FromSeconds(0.5f), cancellationToken: this.GetCancellationTokenOnDestroy());
+
+        Anim.gameObject.SetActive(false);
     }
 }

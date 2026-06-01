@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 선택지 UI
+/// </summary>
+
 public class ChoiceUI : UIBase
 {
     [SerializeField] Transform ChoiceParent;

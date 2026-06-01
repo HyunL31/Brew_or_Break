@@ -3,6 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 선택지 버튼 슬롯
+/// </summary>
+
 public class ChoiceSlot : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI Text_Choice;

@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+/// <summary>
+/// 단서 버튼
+/// </summary>
+
 public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private string ClueID;
@@ -22,6 +26,7 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         _data = GameDataManager.Inst.ClueDataList;
     }
 
+    // 마우스 커서 이미지 변경
     public void OnPointerEnter(PointerEventData eventData)
     {
         SetCursorImage("ClueCursor").Forget();

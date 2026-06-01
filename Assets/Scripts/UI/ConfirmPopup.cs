@@ -3,6 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 경고 팝업 UI
+/// </summary>
+
 public class ConfirmPopup : UIBase
 {
     [SerializeField] Button Button_Confirm;
