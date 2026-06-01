@@ -13,6 +13,7 @@ public class SaveSlot : MonoBehaviour
     [Header("버튼")]
     [SerializeField] private Button Button_Discard;
     [SerializeField] private Button Button_Confirm;
+    [SerializeField] private Button Button_Ending;
 
     [Header("이름")]
     [SerializeField] private TextMeshProUGUI Text_PlayerName;
@@ -29,42 +30,45 @@ public class SaveSlot : MonoBehaviour
     [SerializeField] private Image Image_Level;
 
     private int _slotID;
+    private PlayerModel _slotModel;
 
     private void Awake()
     {
         Button_Discard.onClick.AddListener(OnClickDiscard);
         Button_Confirm.onClick.AddListener(OnClickConfirm);
+        Button_Ending.onClick.AddListener(OnClickEnding);
     }
 
     public void InitSlot(int slotID)
     {
         _slotID = slotID;
 
-        PlayerModel slotModel = SaveManager.Inst.RequestLoadData(slotID);
+        _slotModel = SaveManager.Inst.RequestLoadData(slotID);
 
-        Text_PlayerName.text = $"이름 : {slotModel.PlayerName}";
-        Text_StoreName.text = $"상호명 : {slotModel.StoreName}";
+        Text_PlayerName.text = $"이름 : {_slotModel.PlayerName}";
+        Text_StoreName.text = $"상호명 : {_slotModel.StoreName}";
 
-        string path = $"Icon/Portrait[{slotModel.Gender}_Player_01_04]";
+        string path = $"Icon/Portrait[{_slotModel.Gender}_Player_01_04]";
         GameUtil.LoadSpriteAndSet(path, Image_Character).Forget();
 
-        if (slotModel.IsComplete)
+        if (_slotModel.IsComplete)
         {
             Text_Day.text = "완결";
             Button_Confirm.interactable = false;
+            Button_Ending.gameObject.SetActive(true);
         }
         else
         {
-            Text_Day.text = $"Day {slotModel.Day}";
+            Text_Day.text = $"Day {_slotModel.Day}";
         }
 
-        Text_Reputation.text = $"가게 명성 : {slotModel.Store.Reputation}";
-        Text_Compen.text = $"변상금 : {slotModel.Store.Compensation}";
-        Text_Level.text = $"가게 레벨 : {slotModel.Store.Level}";
+        Text_Reputation.text = $"가게 명성 : {_slotModel.Store.Reputation}";
+        Text_Compen.text = $"변상금 : {_slotModel.Store.Compensation}";
+        Text_Level.text = $"가게 레벨 : {_slotModel.Store.Level}";
 
-        Image_Reputation.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation, slotModel.Store);
-        Image_Compen.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation, slotModel.Store);
-        Image_Level.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level, slotModel.Store);
+        Image_Reputation.fillAmount = StoreManager.Inst.CalculatStat(StatType.Reputation, _slotModel.Store);
+        Image_Compen.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation, _slotModel.Store);
+        Image_Level.fillAmount = StoreManager.Inst.CalculatStat(StatType.Level, _slotModel.Store);
     }
 
     private void OnClickConfirm()
@@ -87,5 +91,15 @@ public class SaveSlot : MonoBehaviour
 
         GameManager.Inst.SlotIndex.Remove(_slotID);
         Destroy(this.gameObject);
+    }
+
+    private void OnClickEnding()
+    {
+        VisualNovelManager.Inst.OnSetDialogueID(_slotModel.EndingID);
+
+        UIManager.Inst.OpenVisualNovelUI();
+        UIManager.Inst.OpenDialogueUI();
+        UIManager.Inst.CloseTitleUI();
+        UIManager.Inst.CloseSaveUI();
     }
 }

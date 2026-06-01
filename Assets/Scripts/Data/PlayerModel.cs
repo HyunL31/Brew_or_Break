@@ -9,6 +9,7 @@ public class PlayerModel
     public string Gender;
     public int Day;
     public bool IsComplete;
+    public string EndingID;
     public StoreModel Store = new StoreModel();
     public List<ItemModel> Inventory = new List<ItemModel>();
 }

@@ -47,6 +47,7 @@ public class SaveManager : MonoBehaviour
         newPlayerData.Day = 0;
         newPlayerData.Gender = "Girl";
         newPlayerData.IsComplete = false;
+        newPlayerData.EndingID = "";
 
         newPlayerData.Store.Level = 1;
         newPlayerData.Store.Gold = 0;

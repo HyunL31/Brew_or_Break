@@ -98,6 +98,10 @@ public class VisualNovelManager : MonoBehaviour
 
             isMoved = true;
         }
+        else if (nextID.Contains("End") && nextID.Contains("01"))
+        {
+            GameManager.Inst.PlayerModel.EndingID = nextID;
+        }
         else if (nextID == "0")
         {
             GameManager.Inst.PlayerModel.IsComplete = true;

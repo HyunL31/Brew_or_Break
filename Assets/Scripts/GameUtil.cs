@@ -53,4 +53,10 @@ public static class GameUtil
 
         return audioClip;
     }
+
+    // 스프라이트를 로드만 하는 메서드
+    public static async UniTask<Sprite> LoadSpriteOnly(string path)
+    {
+        return await ResourceManager.Inst.LoadSprite(path);
+    }
 }

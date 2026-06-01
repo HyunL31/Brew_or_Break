@@ -1454,7 +1454,7 @@
   {
     "ID": "Episode_3_34",
     "NextID": "Episode_3_35",
-    "Speaker": "Player_02",
+    "Speaker": "Player_01",
     "SecondSpeaker": null,
     "Content": "부디 통증이 나아지셨으면 좋겠어요.",
     "Facial": "Player_01_02",
@@ -1489,7 +1489,7 @@
   },
   {
     "ID": "Episode_3_37",
-    "NextID": "Bad_Illegal_01",
+    "NextID": "End_Illegal_01",
     "Speaker": "Player_01",
     "SecondSpeaker": null,
     "Content": "엥...? 방금 뭐라고...",
@@ -1825,7 +1825,7 @@
   },
   {
     "ID": "Episode_4_26",
-    "NextID": "Bad_Trap_01",
+    "NextID": "End_Trap_01",
     "Speaker": "Player_01",
     "SecondSpeaker": null,
     "Content": "네? 그게 무슨... 잠시만요...!",
@@ -2605,7 +2605,7 @@
   },
   {
     "ID": "Episode_6_26",
-    "NextID": "Bad_Mouth_01",
+    "NextID": "End_Mouth_01",
     "Speaker": "Player_01",
     "SecondSpeaker": null,
     "Content": "네...? 그게 무슨 소리...",
@@ -2677,7 +2677,7 @@
   },
   {
     "ID": "Episode_6_32",
-    "NextID": "Bad_Fraud_01",
+    "NextID": "End_Fraud_01",
     "Speaker": "Loyal_01",
     "SecondSpeaker": "Knight_01_01",
     "Content": "이건 시장 바닥에서도 파는 싸구려 수면제 아닌가? 감히 나를 속여?",
@@ -3073,7 +3073,7 @@
   },
   {
     "ID": "Episode_7_22",
-    "NextID": "Bad_Regular_01",
+    "NextID": "End_Regular_01",
     "Speaker": "Regular_01",
     "SecondSpeaker": null,
     "Content": "뭐? 갑자기 왜?",
@@ -3541,7 +3541,7 @@
   },
   {
     "ID": "Episode_8_35",
-    "NextID": "Bad_Boom_01",
+    "NextID": "End_Boom_01",
     "Speaker": "Alchemist_01",
     "SecondSpeaker": null,
     "Content": "너는 그런 날 도운거고.",
@@ -3889,7 +3889,7 @@
   },
   {
     "ID": "Episode_9_20",
-    "NextID": "Bad_Guard_01",
+    "NextID": "End_Guard_01",
     "Speaker": "Guard_01",
     "SecondSpeaker": null,
     "Content": "여기, 약속한 돈이네.",
@@ -4164,8 +4164,8 @@
     "ResultID": "Good_01"
   },
   {
-    "ID": "Bad_Illegal_01",
-    "NextID": "Bad_Illegal_02",
+    "ID": "End_Illegal_01",
+    "NextID": "End_Illegal_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그날 밤, 가게 문을 두드리는 소리가 울렸다.",
@@ -4176,8 +4176,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_02",
-    "NextID": "Bad_Illegal_03",
+    "ID": "End_Illegal_02",
+    "NextID": "End_Illegal_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "쾅. 쾅. 쾅.",
@@ -4188,8 +4188,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_03",
-    "NextID": "Bad_Illegal_04",
+    "ID": "End_Illegal_03",
+    "NextID": "End_Illegal_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "문을 열자마자 보인 건 무표정한 마법 의회 집행관들.",
@@ -4200,8 +4200,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_04",
-    "NextID": "Bad_Illegal_05",
+    "ID": "End_Illegal_04",
+    "NextID": "End_Illegal_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“약제사.”",
@@ -4212,8 +4212,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_05",
-    "NextID": "Bad_Illegal_06",
+    "ID": "End_Illegal_05",
+    "NextID": "End_Illegal_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "차가운 목소리가 내려앉았다.",
@@ -4224,8 +4224,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_06",
-    "NextID": "Bad_Illegal_07",
+    "ID": "End_Illegal_06",
+    "NextID": "End_Illegal_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“불법 독약 제조 및 유통 혐의로 당신을 체포한다.”",
@@ -4236,8 +4236,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_07",
-    "NextID": "Bad_Illegal_08",
+    "ID": "End_Illegal_07",
+    "NextID": "End_Illegal_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“아, 잠깐...! 그건 독약이 아니라...!”",
@@ -4248,8 +4248,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_08",
-    "NextID": "Bad_Illegal_09",
+    "ID": "End_Illegal_08",
+    "NextID": "End_Illegal_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "변명은 끝까지 이어지지 못했다.",
@@ -4260,8 +4260,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_09",
-    "NextID": "Bad_Illegal_10",
+    "ID": "End_Illegal_09",
+    "NextID": "End_Illegal_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "이미 증거는 충분했고, 피해자는 넘쳐났으며, 너무 멀리 와버렸다.",
@@ -4272,8 +4272,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_10",
-    "NextID": "Bad_Illegal_11",
+    "ID": "End_Illegal_10",
+    "NextID": "End_Illegal_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "철컹, 손목에 차가운 금속이 채워진다.",
@@ -4284,8 +4284,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_11",
-    "NextID": "Bad_Illegal_12",
+    "ID": "End_Illegal_11",
+    "NextID": "End_Illegal_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "익숙하던 가게는 멀어지고, 어둠이 점점 가까워진다.",
@@ -4296,8 +4296,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_12",
-    "NextID": "Bad_Illegal_13",
+    "ID": "End_Illegal_12",
+    "NextID": "End_Illegal_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“10일 안에 갚으라 했지.”",
@@ -4308,8 +4308,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_13",
-    "NextID": "Bad_Illegal_14",
+    "ID": "End_Illegal_13",
+    "NextID": "End_Illegal_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“그 전에, 선을 넘었군.”",
@@ -4320,7 +4320,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Illegal_14",
+    "ID": "End_Illegal_14",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,
@@ -4332,8 +4332,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_01",
-    "NextID": "Bad_Mouth_02",
+    "ID": "End_Mouth_01",
+    "NextID": "End_Mouth_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 아무 말 없이, 병을 받아들었다.",
@@ -4344,8 +4344,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_02",
-    "NextID": "Bad_Mouth_03",
+    "ID": "End_Mouth_02",
+    "NextID": "End_Mouth_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "빛을 비추듯 천천히 들어 올려, 내용물을 한 번 확인한다.",
@@ -4356,8 +4356,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_03",
-    "NextID": "Bad_Mouth_04",
+    "ID": "End_Mouth_03",
+    "NextID": "End_Mouth_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그리고 희미하게 웃었다.",
@@ -4368,8 +4368,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_04",
-    "NextID": "Bad_Mouth_05",
+    "ID": "End_Mouth_04",
+    "NextID": "End_Mouth_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“잘 만들었군.”",
@@ -4380,8 +4380,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_05",
-    "NextID": "Bad_Mouth_06",
+    "ID": "End_Mouth_05",
+    "NextID": "End_Mouth_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그 한마디는 분명 칭찬이었다.",
@@ -4392,8 +4392,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_06",
-    "NextID": "Bad_Mouth_07",
+    "ID": "End_Mouth_06",
+    "NextID": "End_Mouth_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "하지만 그는 병을 내려놓으며 조용히 말을 이었다.",
@@ -4404,8 +4404,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_07",
-    "NextID": "Bad_Mouth_08",
+    "ID": "End_Mouth_07",
+    "NextID": "End_Mouth_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“너무 사람을 잘 믿는군.”",
@@ -4416,8 +4416,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_08",
-    "NextID": "Bad_Mouth_09",
+    "ID": "End_Mouth_08",
+    "NextID": "End_Mouth_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "공기가 순간 식어버린다.",
@@ -4428,8 +4428,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_09",
-    "NextID": "Bad_Mouth_10",
+    "ID": "End_Mouth_09",
+    "NextID": "End_Mouth_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“당신의 입은 믿는다.”",
@@ -4440,8 +4440,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_10",
-    "NextID": "Bad_Mouth_11",
+    "ID": "End_Mouth_10",
+    "NextID": "End_Mouth_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "짧은 침묵.",
@@ -4452,8 +4452,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_11",
-    "NextID": "Bad_Mouth_12",
+    "ID": "End_Mouth_11",
+    "NextID": "End_Mouth_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“하지만 혹시 모를 위험은... 미리 제거해 두는 게 좋지.”",
@@ -4464,8 +4464,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_12",
-    "NextID": "Bad_Mouth_13",
+    "ID": "End_Mouth_12",
+    "NextID": "End_Mouth_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "이상하리만큼 차분한 목소리였다.",
@@ -4476,8 +4476,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_13",
-    "NextID": "Bad_Mouth_14",
+    "ID": "End_Mouth_13",
+    "NextID": "End_Mouth_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그래서 더 늦게 깨달았다.",
@@ -4488,8 +4488,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_14",
-    "NextID": "Bad_Mouth_15",
+    "ID": "End_Mouth_14",
+    "NextID": "End_Mouth_15",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "이건 거래의 끝이 아니라 정리의 순간이라는 걸.",
@@ -4500,8 +4500,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_15",
-    "NextID": "Bad_Mouth_16",
+    "ID": "End_Mouth_15",
+    "NextID": "End_Mouth_16",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "뒤에서 발소리가 들린다.",
@@ -4512,8 +4512,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_16",
-    "NextID": "Bad_Mouth_17",
+    "ID": "End_Mouth_16",
+    "NextID": "End_Mouth_17",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "도망칠 틈도, 변명할 시간도 없었다.",
@@ -4524,8 +4524,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_17",
-    "NextID": "Bad_Mouth_18",
+    "ID": "End_Mouth_17",
+    "NextID": "End_Mouth_18",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "손이 움직이기도 전에 시야가 크게 흔들린다.",
@@ -4536,8 +4536,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_18",
-    "NextID": "Bad_Mouth_19",
+    "ID": "End_Mouth_18",
+    "NextID": "End_Mouth_19",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "무언가가 바닥에 떨어지는 소리.",
@@ -4548,8 +4548,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_19",
-    "NextID": "Bad_Mouth_20",
+    "ID": "End_Mouth_19",
+    "NextID": "End_Mouth_20",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "네가 만든 약이, 바닥에 흩어진다.",
@@ -4560,7 +4560,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Mouth_20",
+    "ID": "End_Mouth_20",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,
@@ -4572,8 +4572,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_01",
-    "NextID": "Bad_Fraud_02",
+    "ID": "End_Fraud_01",
+    "NextID": "End_Fraud_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 아무 말 없이 네가 내민 병을 받아들었다.",
@@ -4584,8 +4584,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_02",
-    "NextID": "Bad_Fraud_03",
+    "ID": "End_Fraud_02",
+    "NextID": "End_Fraud_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "익숙한 듯 병을 기울여 빛에 비춰본다.",
@@ -4596,8 +4596,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_03",
-    "NextID": "Bad_Fraud_04",
+    "ID": "End_Fraud_03",
+    "NextID": "End_Fraud_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그리고 망설임 없이 뚜껑을 열었다. ",
@@ -4608,8 +4608,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_04",
-    "NextID": "Bad_Fraud_05",
+    "ID": "End_Fraud_04",
+    "NextID": "End_Fraud_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "한 방울, 조심스럽게 혀끝에 올린다.",
@@ -4620,8 +4620,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_05",
-    "NextID": "Bad_Fraud_06",
+    "ID": "End_Fraud_05",
+    "NextID": "End_Fraud_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "짧은 침묵과 함께 그의 손이 멈췄다.",
@@ -4632,8 +4632,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_06",
-    "NextID": "Bad_Fraud_07",
+    "ID": "End_Fraud_06",
+    "NextID": "End_Fraud_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "공기가 식는다.",
@@ -4644,8 +4644,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_07",
-    "NextID": "Bad_Fraud_08",
+    "ID": "End_Fraud_07",
+    "NextID": "End_Fraud_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "아주 천천히 고개가 기울어지며 입꼬리가 비틀린다.",
@@ -4656,8 +4656,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_08",
-    "NextID": "Bad_Fraud_09",
+    "ID": "End_Fraud_08",
+    "NextID": "End_Fraud_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“이건... 독이 아니군. 수면제인가.”",
@@ -4668,8 +4668,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_09",
-    "NextID": "Bad_Fraud_10",
+    "ID": "End_Fraud_09",
+    "NextID": "End_Fraud_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "조용한 목소리. 하지만 그 안에 담긴 건 분명한 분노였다.",
@@ -4680,8 +4680,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_10",
-    "NextID": "Bad_Fraud_11",
+    "ID": "End_Fraud_10",
+    "NextID": "End_Fraud_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“감히... 날 속여?”",
@@ -4692,8 +4692,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_11",
-    "NextID": "Bad_Fraud_12",
+    "ID": "End_Fraud_11",
+    "NextID": "End_Fraud_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "한 걸음. 또 한 걸음. 뒷걸음질 칠 틈도 없다.",
@@ -4704,8 +4704,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_12",
-    "NextID": "Bad_Fraud_13",
+    "ID": "End_Fraud_12",
+    "NextID": "End_Fraud_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“거래를 어기고, 나를 시험해?”",
@@ -4716,8 +4716,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_13",
-    "NextID": "Bad_Fraud_14",
+    "ID": "End_Fraud_13",
+    "NextID": "End_Fraud_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“그 대가는... 네가 직접 치르게 될 거다.”",
@@ -4728,8 +4728,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_14",
-    "NextID": "Bad_Fraud_15",
+    "ID": "End_Fraud_14",
+    "NextID": "End_Fraud_15",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "뒤에서 발소리가 들린다. 이미 늦었다.",
@@ -4740,8 +4740,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_15",
-    "NextID": "Bad_Fraud_16",
+    "ID": "End_Fraud_15",
+    "NextID": "End_Fraud_16",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "손이 움직이기도 전에 시야가 크게 흔들린다.",
@@ -4752,8 +4752,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_16",
-    "NextID": "Bad_Fraud_17",
+    "ID": "End_Fraud_16",
+    "NextID": "End_Fraud_17",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "무언가가 바닥에 떨어지는 소리.",
@@ -4764,8 +4764,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_17",
-    "NextID": "Bad_Fraud_18",
+    "ID": "End_Fraud_17",
+    "NextID": "End_Fraud_18",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "네가 만든 약이, 바닥에 흩어진다.",
@@ -4776,7 +4776,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Fraud_18",
+    "ID": "End_Fraud_18",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,
@@ -4788,8 +4788,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_01",
-    "NextID": "Bad_Regular_02",
+    "ID": "End_Regular_01",
+    "NextID": "End_Regular_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "너무나도 익숙한 소년의 얼굴이었다.",
@@ -4800,8 +4800,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_02",
-    "NextID": "Bad_Regular_03",
+    "ID": "End_Regular_02",
+    "NextID": "End_Regular_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "문을 열고 들어오는 순간, 굳이 경계할 필요도 없을 만큼.",
@@ -4812,8 +4812,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_03",
-    "NextID": "Bad_Regular_04",
+    "ID": "End_Regular_03",
+    "NextID": "End_Regular_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "늘 그랬듯, 가볍게 웃으며 말을 건넨다.",
@@ -4824,8 +4824,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_04",
-    "NextID": "Bad_Regular_05",
+    "ID": "End_Regular_04",
+    "NextID": "End_Regular_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“오랜만이네.”",
@@ -4836,8 +4836,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_05",
-    "NextID": "Bad_Regular_06",
+    "ID": "End_Regular_05",
+    "NextID": "End_Regular_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "평소보다 조금 낮은 목소리. 하지만 그 차이를 눈치채지 못했다.",
@@ -4848,8 +4848,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_06",
-    "NextID": "Bad_Regular_07",
+    "ID": "End_Regular_06",
+    "NextID": "End_Regular_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "소년은 완성된 마법약을 받아들고, 가볍게 흔들어본다.",
@@ -4860,8 +4860,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_07",
-    "NextID": "Bad_Regular_08",
+    "ID": "End_Regular_07",
+    "NextID": "End_Regular_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“역시, 믿고 맡길 만하다니까.”",
@@ -4872,8 +4872,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_08",
-    "NextID": "Bad_Regular_09",
+    "ID": "End_Regular_08",
+    "NextID": "End_Regular_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그 말은 익숙했고, 그래서 의심하지 않았다.",
@@ -4884,8 +4884,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_09",
-    "NextID": "Bad_Regular_10",
+    "ID": "End_Regular_09",
+    "NextID": "End_Regular_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그가 병을 내려놓는다. 그리고 가볍게 손을 들어올렸다.",
@@ -4896,8 +4896,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_10",
-    "NextID": "Bad_Regular_11",
+    "ID": "End_Regular_10",
+    "NextID": "End_Regular_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그 순간, 문이 열렸다.",
@@ -4908,8 +4908,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_11",
-    "NextID": "Bad_Regular_12",
+    "ID": "End_Regular_11",
+    "NextID": "End_Regular_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "여러 개의 발소리. 무거운 장비가 부딪히는 소리. 익숙하지 않은 공기.",
@@ -4920,8 +4920,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_12",
-    "NextID": "Bad_Regular_13",
+    "ID": "End_Regular_12",
+    "NextID": "End_Regular_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“움직이지 마라.” 낮고 단단한 목소리.",
@@ -4932,8 +4932,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_13",
-    "NextID": "Bad_Regular_14",
+    "ID": "End_Regular_13",
+    "NextID": "End_Regular_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "순식간에 낯선 사람들로 가게 안이 가득 찬다.",
@@ -4944,8 +4944,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_14",
-    "NextID": "Bad_Regular_15",
+    "ID": "End_Regular_14",
+    "NextID": "End_Regular_15",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "하지만 그들의 복장은, 낯설지 않았다.",
@@ -4956,8 +4956,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_15",
-    "NextID": "Bad_Regular_16",
+    "ID": "End_Regular_15",
+    "NextID": "End_Regular_16",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그제야 소년의 표정이 보인다.",
@@ -4968,8 +4968,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_16",
-    "NextID": "Bad_Regular_17",
+    "ID": "End_Regular_16",
+    "NextID": "End_Regular_17",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "더 이상, 익숙한 ‘손님’의 얼굴이 아니다.",
@@ -4980,8 +4980,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_17",
-    "NextID": "Bad_Regular_18",
+    "ID": "End_Regular_17",
+    "NextID": "End_Regular_18",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“수고했다.” 낯선 사람이 짧게 말한다.",
@@ -4992,8 +4992,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_18",
-    "NextID": "Bad_Regular_19",
+    "ID": "End_Regular_18",
+    "NextID": "End_Regular_19",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "누구에게 하는 말인지 이제는 알 것 같았다.",
@@ -5004,8 +5004,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_19",
-    "NextID": "Bad_Regular_20",
+    "ID": "End_Regular_19",
+    "NextID": "End_Regular_20",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“약제사.” 차갑게 식은 목소리가 들려온다.",
@@ -5016,8 +5016,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_20",
-    "NextID": "Bad_Regular_21",
+    "ID": "End_Regular_20",
+    "NextID": "End_Regular_21",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“불법 약물 제조 및 유통 혐의로 당신을 체포한다.”",
@@ -5028,8 +5028,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_21",
-    "NextID": "Bad_Regular_22",
+    "ID": "End_Regular_21",
+    "NextID": "End_Regular_22",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“잠깐...! 그건...!”",
@@ -5040,8 +5040,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_22",
-    "NextID": "Bad_Regular_23",
+    "ID": "End_Regular_22",
+    "NextID": "End_Regular_23",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "이미 늦었다. 너의 손에 남아 있던 건 선택의 결과뿐이었다.",
@@ -5052,8 +5052,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_23",
-    "NextID": "Bad_Regular_24",
+    "ID": "End_Regular_23",
+    "NextID": "End_Regular_24",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "철컹. 손목이 묶이고 익숙했던 공간이 순식간에 낯설어진다.",
@@ -5064,8 +5064,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_24",
-    "NextID": "Bad_Regular_25",
+    "ID": "End_Regular_24",
+    "NextID": "End_Regular_25",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그 소년은 문을 나서기 전 처음보는 표정을 했다.",
@@ -5076,8 +5076,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_25",
-    "NextID": "Bad_Regular_26",
+    "ID": "End_Regular_25",
+    "NextID": "End_Regular_26",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그날 이후, 그 가게는 다시 열리지 않았다.",
@@ -5088,7 +5088,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Regular_26",
+    "ID": "End_Regular_26",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,
@@ -5100,8 +5100,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_01",
-    "NextID": "Bad_Boom_02",
+    "ID": "End_Boom_01",
+    "NextID": "End_Boom_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "익숙한 냄새, 익숙한 손놀림. 오래 전부터 봐왔던 모습이었다.",
@@ -5112,8 +5112,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_02",
-    "NextID": "Bad_Boom_03",
+    "ID": "End_Boom_02",
+    "NextID": "End_Boom_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "하지만 처음 본 어딘가 정상적이지 않은 눈.",
@@ -5124,8 +5124,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_03",
-    "NextID": "Bad_Boom_04",
+    "ID": "End_Boom_03",
+    "NextID": "End_Boom_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“도움이 좀 필요해서 왔어.”",
@@ -5136,8 +5136,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_04",
-    "NextID": "Bad_Boom_05",
+    "ID": "End_Boom_04",
+    "NextID": "End_Boom_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 웃었지만, 그 표정은 어딘가 어긋나 있었다.",
@@ -5148,8 +5148,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_05",
-    "NextID": "Bad_Boom_06",
+    "ID": "End_Boom_05",
+    "NextID": "End_Boom_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "숨긴 손이 미세하게 떨리고, 호흡이 일정하지 않다.",
@@ -5160,8 +5160,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_06",
-    "NextID": "Bad_Boom_07",
+    "ID": "End_Boom_06",
+    "NextID": "End_Boom_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“조금... 무리한 실험을 하고 있어서.”",
@@ -5172,8 +5172,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_07",
-    "NextID": "Bad_Boom_08",
+    "ID": "End_Boom_07",
+    "NextID": "End_Boom_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "가볍게 말했지만 그 말이 가볍게 들리지는 않았다.",
@@ -5184,8 +5184,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_08",
-    "NextID": "Bad_Boom_09",
+    "ID": "End_Boom_08",
+    "NextID": "End_Boom_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“그 실험을 안성시킬 약. 너라면 만들 수 있잖아.”",
@@ -5196,8 +5196,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_09",
-    "NextID": "Bad_Boom_10",
+    "ID": "End_Boom_09",
+    "NextID": "End_Boom_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "완성된 병을 그에게 넘겼다.",
@@ -5208,8 +5208,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_10",
-    "NextID": "Bad_Boom_11",
+    "ID": "End_Boom_10",
+    "NextID": "End_Boom_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 기다렸다는 듯이 뚜껑을 열어 망설임 없이 바로 들이켰다.",
@@ -5220,8 +5220,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_11",
-    "NextID": "Bad_Boom_12",
+    "ID": "End_Boom_11",
+    "NextID": "End_Boom_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그리고 짧은 숨과 함께 몸이 멈춘다.",
@@ -5232,8 +5232,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_12",
-    "NextID": "Bad_Boom_13",
+    "ID": "End_Boom_12",
+    "NextID": "End_Boom_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“이거... 이상한데...”",
@@ -5244,8 +5244,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_13",
-    "NextID": "Bad_Boom_14",
+    "ID": "End_Boom_13",
+    "NextID": "End_Boom_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "쿵. 무릎이 바닥에 부딪힌다.",
@@ -5256,8 +5256,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_14",
-    "NextID": "Bad_Boom_15",
+    "ID": "End_Boom_14",
+    "NextID": "End_Boom_15",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "공기가 뒤틀리며 보이지 않는 무언가가 주변을 짓누른다.",
@@ -5268,8 +5268,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_15",
-    "NextID": "Bad_Boom_16",
+    "ID": "End_Boom_15",
+    "NextID": "End_Boom_16",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“아... 아아...” 그의 목소리가 갈라진다.",
@@ -5280,8 +5280,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_16",
-    "NextID": "Bad_Boom_17",
+    "ID": "End_Boom_16",
+    "NextID": "End_Boom_17",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "몸에서 새어나오는 통제되지 않은 마력. 그의 몸에서 빛이 번진다.",
@@ -5292,8 +5292,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_17",
-    "NextID": "Bad_Boom_18",
+    "ID": "End_Boom_17",
+    "NextID": "End_Boom_18",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“멈춰! 그만...!” 이미 늦었다.",
@@ -5304,8 +5304,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_18",
-    "NextID": "Bad_Boom_19",
+    "ID": "End_Boom_18",
+    "NextID": "End_Boom_19",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "폭발음과 함께 벽이 갈라지고, 유리가 산산이 부서진다.",
@@ -5316,8 +5316,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_19",
-    "NextID": "Bad_Boom_20",
+    "ID": "End_Boom_19",
+    "NextID": "End_Boom_20",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "약병들이 쏟아지고 마력이 뒤섞이며 가게가 무너진다.",
@@ -5328,8 +5328,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_20",
-    "NextID": "Bad_Boom_21",
+    "ID": "End_Boom_20",
+    "NextID": "End_Boom_21",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "연기가 가라앉았을 때, 남아 있던 건 형태를 알아볼 수 없는 잔해와 침묵뿐이었다.",
@@ -5340,8 +5340,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_21",
-    "NextID": "Bad_Boom_22",
+    "ID": "End_Boom_21",
+    "NextID": "End_Boom_22",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그날 이후, 가게는 다시 열리지 않았다.",
@@ -5352,8 +5352,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_22",
-    "NextID": "Bad_Boom_23",
+    "ID": "End_Boom_22",
+    "NextID": "End_Boom_23",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“변상금 지급 기한, 10일.”",
@@ -5364,8 +5364,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_23",
-    "NextID": "Bad_Boom_24",
+    "ID": "End_Boom_23",
+    "NextID": "End_Boom_24",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“미이행.” 판결은 간단했다.",
@@ -5376,8 +5376,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_24",
-    "NextID": "Bad_Boom_25",
+    "ID": "End_Boom_24",
+    "NextID": "End_Boom_25",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그렇게 {Store.Name}은 빚과 함께 끝을 맞았다.",
@@ -5388,7 +5388,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Boom_25",
+    "ID": "End_Boom_25",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,
@@ -5400,8 +5400,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_01",
-    "NextID": "Bad_Guard_02",
+    "ID": "End_Guard_01",
+    "NextID": "End_Guard_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "단정하게 정리된 옷, 흔들림 없는 자세. 누가 봐도 의심할 이유가 없는 사람.",
@@ -5412,8 +5412,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_02",
-    "NextID": "Bad_Guard_03",
+    "ID": "End_Guard_02",
+    "NextID": "End_Guard_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“약제사. 협조 요청이다.” ",
@@ -5424,8 +5424,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_03",
-    "NextID": "Bad_Guard_04",
+    "ID": "End_Guard_03",
+    "NextID": "End_Guard_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 주변을 한 번 살피고, 조용히 말을 이었다.",
@@ -5436,8 +5436,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_04",
-    "NextID": "Bad_Guard_05",
+    "ID": "End_Guard_04",
+    "NextID": "End_Guard_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“체포한 범죄자가 있다. 입을 열지 않아서 말이지.”",
@@ -5448,8 +5448,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_05",
-    "NextID": "Bad_Guard_06",
+    "ID": "End_Guard_05",
+    "NextID": "End_Guard_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“자백제를 하나 만들어라.”",
@@ -5460,8 +5460,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_06",
-    "NextID": "Bad_Guard_07",
+    "ID": "End_Guard_06",
+    "NextID": "End_Guard_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "합법적인 요청. 정당한 이유. 그래서 의심하지 않았다.",
@@ -5472,8 +5472,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_07",
-    "NextID": "Bad_Guard_08",
+    "ID": "End_Guard_07",
+    "NextID": "End_Guard_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "완성된 마법약을 그의 손에 넘긴다.",
@@ -5484,8 +5484,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_08",
-    "NextID": "Bad_Guard_09",
+    "ID": "End_Guard_08",
+    "NextID": "End_Guard_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그의 손에 넘긴다.",
@@ -5496,8 +5496,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_09",
-    "NextID": "Bad_Guard_10",
+    "ID": "End_Guard_09",
+    "NextID": "End_Guard_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 그것을 받아들고, 천천히 고개를 끄덕인다.",
@@ -5508,8 +5508,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_10",
-    "NextID": "Bad_Guard_11",
+    "ID": "End_Guard_10",
+    "NextID": "End_Guard_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "천천히 고개를 끄덕인다.",
@@ -5520,8 +5520,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_11",
-    "NextID": "Bad_Guard_12",
+    "ID": "End_Guard_11",
+    "NextID": "End_Guard_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“수고했다.” 짧은 말을 남기고 돌아섰다.",
@@ -5532,8 +5532,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_12",
-    "NextID": "Bad_Guard_13",
+    "ID": "End_Guard_12",
+    "NextID": "End_Guard_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그날 밤, 문을 두드리는 소리가 울린다.",
@@ -5544,8 +5544,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_13",
-    "NextID": "Bad_Guard_14",
+    "ID": "End_Guard_13",
+    "NextID": "End_Guard_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "문을 열자마자 보인 건 여러 명의 경비대원들.",
@@ -5556,8 +5556,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_14",
-    "NextID": "Bad_Guard_15",
+    "ID": "End_Guard_14",
+    "NextID": "End_Guard_15",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "하지만 아까 그 사람은 없었다.",
@@ -5568,8 +5568,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_15",
-    "NextID": "Bad_Guard_16",
+    "ID": "End_Guard_15",
+    "NextID": "End_Guard_16",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“약제사. 불법 약물 제조 및 반역 혐의로 당신을 체포한다.”",
@@ -5580,8 +5580,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_16",
-    "NextID": "Bad_Guard_17",
+    "ID": "End_Guard_16",
+    "NextID": "End_Guard_17",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“잠깐... 방금 경비대장이...!”",
@@ -5592,8 +5592,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_17",
-    "NextID": "Bad_Guard_18",
+    "ID": "End_Guard_17",
+    "NextID": "End_Guard_18",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“경비대장이라니. 우리는 오늘 이곳에 온 적 없다.”",
@@ -5604,8 +5604,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_18",
-    "NextID": "Bad_Guard_19",
+    "ID": "End_Guard_18",
+    "NextID": "End_Guard_19",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "머릿속이 멈춘다. 그제야 깨닫는다.",
@@ -5616,8 +5616,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_19",
-    "NextID": "Bad_Guard_20",
+    "ID": "End_Guard_19",
+    "NextID": "End_Guard_20",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그가 남긴 건 의뢰가 아니라 증거였다는 걸.",
@@ -5628,8 +5628,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_20",
-    "NextID": "Bad_Guard_21",
+    "ID": "End_Guard_20",
+    "NextID": "End_Guard_21",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "철컹. 손목에 차가운 금속이 채워진다.",
@@ -5640,8 +5640,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_21",
-    "NextID": "Bad_Guard_22",
+    "ID": "End_Guard_21",
+    "NextID": "End_Guard_22",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“범죄자에게 협조하고, 수사에 혼선을 준 혐의.”",
@@ -5652,8 +5652,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_22",
-    "NextID": "Bad_Guard_23",
+    "ID": "End_Guard_22",
+    "NextID": "End_Guard_23",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "끌려 나가는 순간 가게가 눈에 들어온다.",
@@ -5664,8 +5664,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_23",
-    "NextID": "Bad_Guard_24",
+    "ID": "End_Guard_23",
+    "NextID": "End_Guard_24",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "익숙했던 공간. 하지만 이제는 돌아올 수 없다.",
@@ -5676,8 +5676,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_24",
-    "NextID": "Bad_Guard_25",
+    "ID": "End_Guard_24",
+    "NextID": "End_Guard_25",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그렇게 누군가의 속임수 속에서 끝을 맞았다.",
@@ -5688,8 +5688,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_25",
-    "NextID": "Bad_Guard_26",
+    "ID": "End_Guard_25",
+    "NextID": "End_Guard_26",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "사람들은 말한다.",
@@ -5700,7 +5700,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Guard_26",
+    "ID": "End_Guard_26",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,
@@ -5712,8 +5712,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_01",
-    "NextID": "Bad_Hell_02",
+    "ID": "End_Hell_01",
+    "NextID": "End_Hell_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 문을 부수듯 들어왔다.",
@@ -5724,8 +5724,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_02",
-    "NextID": "Bad_Hell_03",
+    "ID": "End_Hell_02",
+    "NextID": "End_Hell_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "순식간에 온도가 떨어진다. 그리고 그 중심에 그가 서 있었다.",
@@ -5736,8 +5736,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_03",
-    "NextID": "Bad_Hell_04",
+    "ID": "End_Hell_03",
+    "NextID": "End_Hell_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "마탑주. 이름만으로도 설명이 필요 없는 존재.",
@@ -5748,8 +5748,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_04",
-    "NextID": "Bad_Hell_05",
+    "ID": "End_Hell_04",
+    "NextID": "End_Hell_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "하지만 지금의 그는 달랐다. 몸 곳곳이 얼어붙어 있었다.",
@@ -5760,8 +5760,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_05",
-    "NextID": "Bad_Hell_06",
+    "ID": "End_Hell_05",
+    "NextID": "End_Hell_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "피부 위로 번지는 서리, 갈라진 숨과 목소리, 떨리는 눈동자.",
@@ -5772,8 +5772,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_06",
-    "NextID": "Bad_Hell_07",
+    "ID": "End_Hell_06",
+    "NextID": "End_Hell_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그의 요구대로 완성된 빙결 마법약을 넘긴다.",
@@ -5784,8 +5784,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_07",
-    "NextID": "Bad_Hell_08",
+    "ID": "End_Hell_07",
+    "NextID": "End_Hell_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "투명하게 빛나는 액체. 차갑게 식어 있는 색.",
@@ -5796,8 +5796,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_08",
-    "NextID": "Bad_Hell_09",
+    "ID": "End_Hell_08",
+    "NextID": "End_Hell_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그는 망설이지 않고 곧바로 들이켰다.",
@@ -5808,8 +5808,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_09",
-    "NextID": "Bad_Hell_10",
+    "ID": "End_Hell_09",
+    "NextID": "End_Hell_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "쿵. 무릎이 떨어진다. 바닥이 얼어붙는다.",
@@ -5820,8 +5820,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_10",
-    "NextID": "Bad_Hell_11",
+    "ID": "End_Hell_10",
+    "NextID": "End_Hell_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“아... 아아...” 몸 전체가 급격히 얼어붙는다.",
@@ -5832,8 +5832,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_11",
-    "NextID": "Bad_Hell_12",
+    "ID": "End_Hell_11",
+    "NextID": "End_Hell_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그리고 그 다음 순간, 억제되던 마력이 폭주하기 시작했다.",
@@ -5844,8 +5844,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_12",
-    "NextID": "Bad_Hell_13",
+    "ID": "End_Hell_12",
+    "NextID": "End_Hell_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그제서야 깨닫는다. 마탑주는 빙결 마법약이 아닌 다른 약이 필요했다고.",
@@ -5856,8 +5856,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_13",
-    "NextID": "Bad_Hell_14",
+    "ID": "End_Hell_13",
+    "NextID": "End_Hell_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "눈부신 빛과 함께, 차가운 파동이 사방으로 터져 나간다.",
@@ -5868,8 +5868,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_14",
-    "NextID": "Bad_Hell_15",
+    "ID": "End_Hell_14",
+    "NextID": "End_Hell_15",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "가게가 얼어붙고 벽이 갈라진다.",
@@ -5880,8 +5880,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_15",
-    "NextID": "Bad_Hell_16",
+    "ID": "End_Hell_15",
+    "NextID": "End_Hell_16",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "거리까지 순식간에 하얗게 뒤덮이며 모든 사람들이 얼어붙는다.",
@@ -5892,8 +5892,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_16",
-    "NextID": "Bad_Hell_17",
+    "ID": "End_Hell_16",
+    "NextID": "End_Hell_17",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "모든 것이 부서지며 연기와 서리가 뒤섞인다.",
@@ -5904,8 +5904,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_17",
-    "NextID": "Bad_Hell_18",
+    "ID": "End_Hell_17",
+    "NextID": "End_Hell_18",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "마을이 버티지 못했다.",
@@ -5916,8 +5916,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_18",
-    "NextID": "Bad_Hell_19",
+    "ID": "End_Hell_18",
+    "NextID": "End_Hell_19",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "버티지 못한다.",
@@ -5928,8 +5928,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_19",
-    "NextID": "Bad_Hell_20",
+    "ID": "End_Hell_19",
+    "NextID": "End_Hell_20",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그날 이후, 그 마을은 지도에서 사라졌다.",
@@ -5940,8 +5940,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_20",
-    "NextID": "Bad_Hell_21",
+    "ID": "End_Hell_20",
+    "NextID": "End_Hell_21",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "마법 의회 기록에는 한 줄이 추가되었다.",
@@ -5952,8 +5952,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_21",
-    "NextID": "Bad_Hell_22",
+    "ID": "End_Hell_21",
+    "NextID": "End_Hell_22",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“마력 폭주로 인한 전면 붕괴.”",
@@ -5964,8 +5964,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_22",
-    "NextID": "Bad_Hell_23",
+    "ID": "End_Hell_22",
+    "NextID": "End_Hell_23",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그렇게 세상과 함께 끝을 맞이했다.",
@@ -5976,8 +5976,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_23",
-    "NextID": "Bad_Hell_24",
+    "ID": "End_Hell_23",
+    "NextID": "End_Hell_24",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "사람들은 말한다.",
@@ -5988,7 +5988,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Hell_24",
+    "ID": "End_Hell_24",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,
@@ -6000,8 +6000,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_01",
-    "NextID": "Bad_Trap_02",
+    "ID": "End_Trap_01",
+    "NextID": "End_Trap_02",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“남편이... 너무 아파서... 어떤 약도 듣질 않아요...”",
@@ -6012,8 +6012,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_02",
-    "NextID": "Bad_Trap_03",
+    "ID": "End_Trap_02",
+    "NextID": "End_Trap_03",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그녀의 손이 탁자 위를 꽉 붙잡는다.",
@@ -6024,8 +6024,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_03",
-    "NextID": "Bad_Trap_04",
+    "ID": "End_Trap_03",
+    "NextID": "End_Trap_04",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“강한 진통제... 있죠? 조금... 불법이어도 괜찮아요.”",
@@ -6036,8 +6036,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_04",
-    "NextID": "Bad_Trap_05",
+    "ID": "End_Trap_04",
+    "NextID": "End_Trap_05",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그 말은 조용했지만 무게는 충분했다.",
@@ -6048,8 +6048,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_05",
-    "NextID": "Bad_Trap_06",
+    "ID": "End_Trap_05",
+    "NextID": "End_Trap_06",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "망설임. 짧지만, 분명한 순간.",
@@ -6060,8 +6060,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_06",
-    "NextID": "Bad_Trap_07",
+    "ID": "End_Trap_06",
+    "NextID": "End_Trap_07",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "짧지만, 분명한 순간.",
@@ -6072,8 +6072,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_07",
-    "NextID": "Bad_Trap_08",
+    "ID": "End_Trap_07",
+    "NextID": "End_Trap_08",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그녀는 그 망설임을 알아차렸다.",
@@ -6084,8 +6084,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_08",
-    "NextID": "Bad_Trap_09",
+    "ID": "End_Trap_08",
+    "NextID": "End_Trap_09",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "며칠 뒤, 완성된 병을 그녀에게 넘겼다.",
@@ -6096,8 +6096,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_09",
-    "NextID": "Bad_Trap_10",
+    "ID": "End_Trap_09",
+    "NextID": "End_Trap_10",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그녀는 담담히 마약에 가까운 그 마법약을 받아들었다.",
@@ -6108,8 +6108,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_10",
-    "NextID": "Bad_Trap_11",
+    "ID": "End_Trap_10",
+    "NextID": "End_Trap_11",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "잠깐이지만 그 모습에 기이한 예감이 들었다.",
@@ -6120,8 +6120,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_11",
-    "NextID": "Bad_Trap_12",
+    "ID": "End_Trap_11",
+    "NextID": "End_Trap_12",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“...확인이 필요하겠군요.”",
@@ -6132,8 +6132,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_12",
-    "NextID": "Bad_Trap_13",
+    "ID": "End_Trap_12",
+    "NextID": "End_Trap_13",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "목소리가 바뀌어 있었다. 등골이 서늘해진다.",
@@ -6144,8 +6144,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_13",
-    "NextID": "Bad_Trap_14",
+    "ID": "End_Trap_13",
+    "NextID": "End_Trap_14",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "천천히 그녀의 목에 걸리 팬던트를 바라본다.",
@@ -6156,8 +6156,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_14",
-    "NextID": "Bad_Trap_15",
+    "ID": "End_Trap_14",
+    "NextID": "End_Trap_15",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "마법 의회의 인장. 그녀를 동정하느라 눈치채지 못했다.",
@@ -6168,8 +6168,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_15",
-    "NextID": "Bad_Trap_16",
+    "ID": "End_Trap_15",
+    "NextID": "End_Trap_16",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그 순간 문이 열리고 여러 명의 인원이 가게 안으로 들이닥쳤다.",
@@ -6180,8 +6180,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_16",
-    "NextID": "Bad_Trap_17",
+    "ID": "End_Trap_16",
+    "NextID": "End_Trap_17",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“현장 확인 완료. 불법 약물 제조 및 유통 적발.”",
@@ -6192,8 +6192,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_17",
-    "NextID": "Bad_Trap_18",
+    "ID": "End_Trap_17",
+    "NextID": "End_Trap_18",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“약제사. 즉시 영업을 중단한다.”",
@@ -6204,8 +6204,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_18",
-    "NextID": "Bad_Trap_19",
+    "ID": "End_Trap_18",
+    "NextID": "End_Trap_19",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "\"...잠깐, 이게 무슨...!\"",
@@ -6216,8 +6216,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_19",
-    "NextID": "Bad_Trap_20",
+    "ID": "End_Trap_19",
+    "NextID": "End_Trap_20",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“변명은 의회에서 듣겠다.”",
@@ -6228,8 +6228,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_20",
-    "NextID": "Bad_Trap_21",
+    "ID": "End_Trap_20",
+    "NextID": "End_Trap_21",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "익숙한 가게 안에 낯선 공기가 가득 찬다.",
@@ -6240,8 +6240,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_21",
-    "NextID": "Bad_Trap_22",
+    "ID": "End_Trap_21",
+    "NextID": "End_Trap_22",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그 ‘공무원’은 돌아선다.",
@@ -6252,8 +6252,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_22",
-    "NextID": "Bad_Trap_23",
+    "ID": "End_Trap_22",
+    "NextID": "End_Trap_23",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“환자도, 남편도 없습니다. 단지, 확인이 필요했을 뿐이죠.”",
@@ -6264,8 +6264,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_23",
-    "NextID": "Bad_Trap_24",
+    "ID": "End_Trap_23",
+    "NextID": "End_Trap_24",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "문이 닫히는 소리가 이상하리만큼 크게 울린다.",
@@ -6276,8 +6276,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_24",
-    "NextID": "Bad_Trap_25",
+    "ID": "End_Trap_24",
+    "NextID": "End_Trap_25",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "“불법 약물 제조 적발. 영업 정지를 선고한다.”",
@@ -6288,8 +6288,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_25",
-    "NextID": "Bad_Trap_26",
+    "ID": "End_Trap_25",
+    "NextID": "End_Trap_26",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "그렇게 가게는 선택 하나로 멈춰버렸다.",
@@ -6300,8 +6300,8 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_26",
-    "NextID": "Bad_Trap_27",
+    "ID": "End_Trap_26",
+    "NextID": "End_Trap_27",
     "Speaker": null,
     "SecondSpeaker": null,
     "Content": "사람들은 말한다.",
@@ -6312,7 +6312,7 @@
     "ResultID": null
   },
   {
-    "ID": "Bad_Trap_27",
+    "ID": "End_Trap_27",
     "NextID": "0",
     "Speaker": null,
     "SecondSpeaker": null,

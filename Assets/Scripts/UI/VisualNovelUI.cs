@@ -38,12 +38,11 @@ public class VisualNovelUI : UIBase
         string background = _data[id].Background;
         string path = $"Background/{background}";
 
-        await GameUtil.LoadSpriteAndSet(path, Image_Background).AttachExternalCancellation(_backgroundToken.Token);
+        Sprite downloadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_backgroundToken.Token);
 
-        // 늦게 도착하는 배경 리소스는 무시
-        if (VisualNovelManager.Inst.CurrentDialogueID != id)
+        if (VisualNovelManager.Inst.CurrentDialogueID == id && downloadedSprite != null)
         {
-            return;
+            Image_Background.sprite = downloadedSprite;
         }
     }
 
@@ -77,12 +76,11 @@ public class VisualNovelUI : UIBase
                 }
             }
 
-            await GameUtil.LoadSpriteAndSet(path, Image_Character).AttachExternalCancellation(_characterToken.Token);
+            Sprite downloadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_characterToken.Token);
 
-            // 늦게 도착하는 캐릭터 리소스는 무시
-            if (VisualNovelManager.Inst.CurrentDialogueID != id)
+            if (VisualNovelManager.Inst.CurrentDialogueID == id && downloadedSprite != null)
             {
-                return;
+                Image_Character.sprite = downloadedSprite;
             }
         }
     }
@@ -117,12 +115,11 @@ public class VisualNovelUI : UIBase
                 }
             }
 
-            await GameUtil.LoadSpriteAndSet(path, Image_SecondSpeaker).AttachExternalCancellation(_secondSpeakerToken.Token);
+            Sprite downloadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_secondSpeakerToken.Token);
 
-            // 늦게 도착하는 캐릭터 리소스는 무시
-            if (VisualNovelManager.Inst.CurrentDialogueID != id)
+            if (VisualNovelManager.Inst.CurrentDialogueID == id && downloadedSprite != null)
             {
-                return;
+                Image_SecondSpeaker.sprite = downloadedSprite;
             }
         }
     }
