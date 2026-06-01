@@ -1,9 +1,12 @@
 ﻿using Cysharp.Threading.Tasks;
 using System.IO;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+
+/// <summary>
+/// 저장 슬롯
+/// </summary>
 
 public class SaveSlot : MonoBehaviour
 {
@@ -72,6 +75,7 @@ public class SaveSlot : MonoBehaviour
         UIManager.Inst.CloseSaveUI();
     }
 
+    // 저장 파일 삭제
     private void OnClickDiscard()
     {
         string path = Path.Combine(Application.persistentDataPath, $"BrewOrBreak{_slotID}.json");

@@ -3,6 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 메인 로비 UI
+/// </summary>
+
 public class LobbyUI : UIBase
 {
     [Header("플레이어 정보")]

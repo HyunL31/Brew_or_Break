@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// 비주얼 노벨 대사 UI
+/// 대사 로그 팝업 UI
 /// </summary>
 
 public class DialogueLogUI : UIBase
@@ -32,7 +32,6 @@ public class DialogueLogUI : UIBase
         for (int i = _logs.Count; i < dialogueLogs.Count; i++)
         {
             string currentSpeaker = dialogueLogs[i].Value;
-            string currentContent = dialogueLogs[i].Key;
             bool isSameSpeaker = (i != 0) && (currentSpeaker == dialogueLogs[i - 1].Value);
 
             string path = SetSlotPath(currentSpeaker);
@@ -45,6 +44,7 @@ public class DialogueLogUI : UIBase
         }
     }
 
+    // 캐릭터 유형 별 슬롯 path 설정
     private string SetSlotPath(string characterID)
     {
         if (characterID.Contains("Narr"))

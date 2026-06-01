@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 타이틀 메인 UI
+/// </summary>
+
 public class TitleUI : UIBase
 {
     [Header("버튼")]

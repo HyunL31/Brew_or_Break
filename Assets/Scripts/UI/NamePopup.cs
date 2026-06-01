@@ -2,6 +2,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 이름 설정 UI
+/// </summary>
+
 public class NamePopup : UIBase
 {
     [Header("이름 입력")]
@@ -24,11 +28,10 @@ public class NamePopup : UIBase
             return;
         }
 
+        // 저장 파일 생성 및 이름 저장
         int emptySlot = GameManager.Inst.GetEmptySlotIndex();
         GameManager.Inst.SetCurrentSaveIndex(emptySlot);
-
         GameManager.Inst.SetName(PlayerName.text, StoreName.text);
-
         GameManager.Inst.SaveData();
 
         VisualNovelManager.Inst.SetCurrentDialogueID();

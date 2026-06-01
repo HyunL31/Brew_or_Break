@@ -9,6 +9,10 @@ public enum StatType
     Compensation
 }
 
+/// <summary>
+/// 가게 정보 매니저
+/// </summary>
+
 public class StoreManager : MonoBehaviour
 {
     public static StoreManager Inst;
@@ -79,6 +83,7 @@ public class StoreManager : MonoBehaviour
         return _todayCluePoint;
     }
 
+    // 상태바 값 계산
     public float CalculatStat(StatType type, StoreModel targetModel)
     {
         switch (type)

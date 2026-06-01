@@ -6,6 +6,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 비주얼 노벨 대화창 UI
+/// </summary>
+
 public class DialogueUI : UIBase
 {
     [Header("오디오")]
@@ -91,6 +95,7 @@ public class DialogueUI : UIBase
         }
     }
 
+    // 대사 보여주기
     private void ShowDialogue(string id)
     {
         if (string.IsNullOrEmpty(_dialogues[id].Speaker))
@@ -120,6 +125,7 @@ public class DialogueUI : UIBase
         SetDialogueLog(_dialogues[id].Facial, id);
     }
 
+    // 다음 대사로 이동
     private void MoveToNextDialogue(string id)
     {
         string nextID = _dialogues[id].NextID;
@@ -146,6 +152,7 @@ public class DialogueUI : UIBase
         Text_Speaker.text = speakerName;
     }
 
+    // 대사 로그 설정
     private void SetDialogueLog(string speakerID, string currentID)
     {
         if (_lastLogID == currentID)
@@ -162,6 +169,7 @@ public class DialogueUI : UIBase
         VisualNovelManager.Inst.OnAddLog?.Invoke(currentID, speakerID);
     }
 
+    // 대사 스킵 (다음 컨텐츠까지)
     private void SkipDialogue()
     {
         CancelTypingRoutine();
@@ -185,6 +193,7 @@ public class DialogueUI : UIBase
         ShowDialogue(GetCurrentID());
     }
 
+    // 자동 진행
     private void OnClickAuto(bool isOn)
     {
         if (isOn)
@@ -197,6 +206,7 @@ public class DialogueUI : UIBase
         }
     }
 
+    // 타이핑 효과
     private async UniTaskVoid Typing(string id, CancellationToken token)
     {
         _isTyping = true;
@@ -264,6 +274,7 @@ public class DialogueUI : UIBase
         UIManager.Inst.CloseDialogueUI();
     }
 
+    // 사운드 설정
     private void SetBGM(string bgm)
     {
         if (bgm != string.Empty)

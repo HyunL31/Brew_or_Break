@@ -4,6 +4,10 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 비주얼 노벨 기본 (캐릭터, 배경) UI
+/// </summary>
+
 public class VisualNovelUI : UIBase
 {
     [SerializeField] private Image Image_Background;
@@ -25,6 +29,7 @@ public class VisualNovelUI : UIBase
         VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeSecondSpeaker(id).Forget();
     }
 
+    // 배경 스프라이트 변경
     private async UniTask ChangeBackgroundImage(string id)
     {
         CancelBackground();
@@ -34,8 +39,15 @@ public class VisualNovelUI : UIBase
         string path = $"Background/{background}";
 
         await GameUtil.LoadSpriteAndSet(path, Image_Background).AttachExternalCancellation(_backgroundToken.Token);
+
+        // 늦게 도착하는 배경 리소스는 무시
+        if (VisualNovelManager.Inst.CurrentDialogueID != id)
+        {
+            return;
+        }
     }
 
+    // 캐릭터 스프라이트 변경
     private async UniTask ChangeSpeakerCharacter(string id)
     {
         CancelCharacter();
@@ -66,9 +78,16 @@ public class VisualNovelUI : UIBase
             }
 
             await GameUtil.LoadSpriteAndSet(path, Image_Character).AttachExternalCancellation(_characterToken.Token);
+
+            // 늦게 도착하는 캐릭터 리소스는 무시
+            if (VisualNovelManager.Inst.CurrentDialogueID != id)
+            {
+                return;
+            }
         }
     }
 
+    // 두 번째 캐릭터 스프라이트 변경
     private async UniTask ChangeSecondSpeaker(string id)
     {
         CancelSecondSpeaker();
@@ -99,9 +118,16 @@ public class VisualNovelUI : UIBase
             }
 
             await GameUtil.LoadSpriteAndSet(path, Image_SecondSpeaker).AttachExternalCancellation(_secondSpeakerToken.Token);
+
+            // 늦게 도착하는 캐릭터 리소스는 무시
+            if (VisualNovelManager.Inst.CurrentDialogueID != id)
+            {
+                return;
+            }
         }
     }
 
+    // UniTask 토큰 취소
     private void CancelBackground()
     {
         if (_backgroundToken != null)

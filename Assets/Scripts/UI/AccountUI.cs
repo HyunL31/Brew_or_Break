@@ -2,6 +2,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 마감 정산 UI
+/// </summary>
+
 public class AccountUI : UIBase
 {
     [Header("버튼")]

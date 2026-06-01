@@ -1,7 +1,10 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+
+/// <summary>
+/// 게임 매니저
+/// </summary>
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +22,7 @@ public class GameManager : MonoBehaviour
     {
         Inst = this;
 
+        // 모든 저장 파일 로드
         for (int i = 0; i < 100; i++)
         {
             if (SaveManager.Inst.HasSaveFile(i))

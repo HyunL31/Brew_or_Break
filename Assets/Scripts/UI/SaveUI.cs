@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 저장 파일 로드 UI
+/// </summary>
+
 public class SaveUI : UIBase
 {
     [SerializeField] private Button Button_Close;
