@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 비주얼 노벨 대사 UI
+/// </summary>
+
 public class DialogueLogUI : UIBase
 {
     [SerializeField] private Button Button_Close;

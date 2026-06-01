@@ -2,6 +2,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 성별 선택 UI
+/// </summary>
+
 public class GenderUI : UIBase
 {
     [SerializeField] private Button Button_Close;
@@ -23,6 +27,9 @@ public class GenderUI : UIBase
     {
         GameUtil.LoadSpriteAndSet("Character/Girl", Image_Girl).Forget();
         GameUtil.LoadSpriteAndSet("Character/Boy", Image_Boy).Forget();
+
+        Button_Girl.interactable = true;
+        Button_Boy.interactable = true;
     }
 
     private void OnClickClose()
@@ -35,6 +42,9 @@ public class GenderUI : UIBase
         GameManager.Inst.PlayerModel.Gender = "Girl";
         Button_Confirm.gameObject.SetActive(true);
 
+        Button_Girl.interactable = false;
+        Button_Boy.interactable = true;
+
         SetButtonImage("Boy", Image_Boy, "Girl", Image_Girl);
     }
 
@@ -42,6 +52,9 @@ public class GenderUI : UIBase
     {
         GameManager.Inst.PlayerModel.Gender = "Boy";
         Button_Confirm.gameObject.SetActive(true);
+
+        Button_Girl.interactable = true;
+        Button_Boy.interactable = false;
 
         SetButtonImage("Girl", Image_Girl, "Boy", Image_Boy);
     }

@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 사냥 콘텐츠 UI
+/// </summary>
+
 public class HUD : UIBase
 {
     [Header("스킬")]
@@ -34,6 +38,7 @@ public class HUD : UIBase
         SetHUDImage();
     }
 
+    // 플레이어 레벨에 따른 스킬 버튼 생성
     private void InitSkillButton()
     {
         int playerLevel = StoreManager.Inst.StoreModel.Level;
@@ -60,6 +65,7 @@ public class HUD : UIBase
         }
     }
 
+    // 플레이어 캐릭터 이미지 적용
     private void SetHUDImage()
     {
         Image_Stamina.fillAmount = 1;
@@ -75,6 +81,7 @@ public class HUD : UIBase
         GameUtil.LoadSpriteAndSet(path, Image_Player).Forget();
     }
 
+    // 스태미나 UI 색상 변경
     private void UpdateStamina(float stamina, float maxStamina)
     {
         Image_Stamina.fillAmount = stamina / maxStamina;

@@ -3,6 +3,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 사냥 콘텐츠 매니저
+/// </summary>
+
 public class CollectingManager : MonoBehaviour
 {
     public static CollectingManager Inst;
@@ -41,6 +45,17 @@ public class CollectingManager : MonoBehaviour
         return _player;
     }
 
+    private void SetCameraTarget(GameObject player)
+    {
+        _camera.SetTarget(player);
+    }
+
+    public Enemy GetMonster(int id)
+    {
+        return _monsters[id];
+    }
+
+    // 플레이어 및 맵 초기화
     public async UniTask SetCollectingMap()
     {
         string mapPath = "Prefabs/Collecting/Map";
@@ -73,21 +88,6 @@ public class CollectingManager : MonoBehaviour
         _map = map;
     }
 
-    public void DestroyPlayer()
-    {
-        StoreManager.Inst.OnResetPoint?.Invoke();
-        Destroy(_player.gameObject);
-        Destroy(_map);
-
-        _player = null;
-        _map = null;
-    }
-
-    private void SetCameraTarget(GameObject player)
-    {
-        _camera.SetTarget(player);
-    }
-
     public async UniTask CreateMonsterObject(string monsterID, Transform spawnSpot)
     {
         var monsterData = GameDataManager.Inst.GetMonsterData(monsterID);
@@ -102,14 +102,15 @@ public class CollectingManager : MonoBehaviour
         _hpBars.Add(hpBar);
     }
 
-    public Enemy GetMonster(int id)
+    // 맵 정리
+    public void DestroyPlayer()
     {
-        return _monsters[id];
-    }
+        StoreManager.Inst.OnResetPoint?.Invoke();
+        Destroy(_player.gameObject);
+        Destroy(_map);
 
-    public void DestroyMonster(GameObject monster)
-    {
-        Destroy(monster);
+        _player = null;
+        _map = null;
     }
 
     private Enemy AddMonsterObject(GameObject monster, string monsterID, Transform spawnSpot)
@@ -127,7 +128,8 @@ public class CollectingManager : MonoBehaviour
         return enemy;
     }
 
-    public async UniTask DropMonsterItem(List<string> items, Transform parent)
+    // 드랍 아이템 설정
+    public async UniTask DropMonsterItem(List<string> items, Transform parent, Transform dropPos)
     {
         string path = "Prefabs/DropItem";
 
@@ -137,7 +139,7 @@ public class CollectingManager : MonoBehaviour
 
             float randomX = UnityEngine.Random.Range(0, 1.5f);
             float randomY = UnityEngine.Random.Range(0, 1.5f);
-            prefab.transform.position = new Vector2(parent.position.x + randomX, parent.position.y + randomY);
+            prefab.transform.position = new Vector2(dropPos.position.x + randomX, dropPos.position.y + randomY);
 
             DropItem dropItem = prefab.GetComponent<DropItem>();
             dropItem.SetItemID(item);
@@ -159,6 +161,7 @@ public class CollectingManager : MonoBehaviour
         Destroy(dropItem.gameObject);
     }
 
+    // HP 바 설정
     public async UniTask<HPBar> CreateHPBar(Transform target)
     {
         string path = "Prefabs/UI/HPBar";

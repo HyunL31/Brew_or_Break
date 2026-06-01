@@ -3,6 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 대화 로그 슬롯
+/// </summary>
+
 public class LogSlot : MonoBehaviour
 {
     [SerializeField] private Image Image_Character;
