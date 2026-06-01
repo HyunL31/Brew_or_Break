@@ -137,8 +137,8 @@ public class CollectingManager : MonoBehaviour
         {
             GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, parent);
 
-            float randomX = UnityEngine.Random.Range(0, 1.5f);
-            float randomY = UnityEngine.Random.Range(0, 1.5f);
+            float randomX = UnityEngine.Random.Range(0, 0.8f);
+            float randomY = UnityEngine.Random.Range(0, 0.8f);
             prefab.transform.position = new Vector2(dropPos.position.x + randomX, dropPos.position.y + randomY);
 
             DropItem dropItem = prefab.GetComponent<DropItem>();

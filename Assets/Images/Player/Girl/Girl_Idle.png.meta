@@ -126,10 +126,10 @@ TextureImporter:
       name: Girl_Idle_0
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1809
-        width: 307
-        height: 786
+        x: 461
+        y: 1610
+        width: 270
+        height: 698
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,8 +138,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c99cd5150434ef42861b34dc5489025
-      internalID: -763964933
+      spriteID: 05aa9156c8eabef4fb32256a0e6493cc
+      internalID: -1320215465
       vertices: []
       indices: 
       edges: []
@@ -148,10 +148,10 @@ TextureImporter:
       name: Girl_Idle_1
       rect:
         serializedVersion: 2
-        x: 511
-        y: 920
-        width: 306
-        height: 782
+        x: 1625
+        y: 1611
+        width: 278
+        height: 695
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e289ae9aab4f6164ca56e05c85f7f3b1
-      internalID: 1734688328
+      spriteID: 7ca12accf9ce67e41a8f5134e305ec7d
+      internalID: -1001494737
       vertices: []
       indices: 
       edges: []
@@ -170,10 +170,10 @@ TextureImporter:
       name: Girl_Idle_2
       rect:
         serializedVersion: 2
-        x: 515
-        y: 32
-        width: 305
-        height: 783
+        x: 2800
+        y: 1611
+        width: 273
+        height: 693
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63f7f273d09f13f45905aabc7b0dce25
-      internalID: -319427667
+      spriteID: 1411680ba0fbfda4eaa76c37c51e598b
+      internalID: 1703236461
       vertices: []
       indices: 
       edges: []
@@ -192,20 +192,20 @@ TextureImporter:
       name: Girl_Idle_3
       rect:
         serializedVersion: 2
-        x: 1831
-        y: 1812
-        width: 309
-        height: 780
+        x: 457
+        y: 821
+        width: 271
+        height: 694
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3efe4c907e656c146a5c8cea0bfad19c
-      internalID: 1769744318
+      spriteID: 1514a5113b020f5449abc5d9b54787c9
+      internalID: 1998444417
       vertices: []
       indices: 
       edges: []
@@ -214,20 +214,20 @@ TextureImporter:
       name: Girl_Idle_4
       rect:
         serializedVersion: 2
-        x: 1825
-        y: 923
-        width: 314
-        height: 781
+        x: 1626
+        y: 820
+        width: 276
+        height: 694
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25b1d7a50d26ea24a892fbaa27f93cb6
-      internalID: -839230550
+      spriteID: 2abefd63927c67d4494c650b5307b821
+      internalID: -396105166
       vertices: []
       indices: 
       edges: []
@@ -236,20 +236,20 @@ TextureImporter:
       name: Girl_Idle_5
       rect:
         serializedVersion: 2
-        x: 1827
-        y: 35
-        width: 310
-        height: 782
+        x: 2794
+        y: 818
+        width: 273
+        height: 697
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f9bf9749d701054d954f6c74102c865
-      internalID: 866089732
+      spriteID: 99ac4698549622d438912608c956e592
+      internalID: 615683003
       vertices: []
       indices: 
       edges: []
@@ -258,10 +258,10 @@ TextureImporter:
       name: Girl_Idle_6
       rect:
         serializedVersion: 2
-        x: 3147
-        y: 1814
-        width: 307
-        height: 778
+        x: 2793
+        y: 29
+        width: 271
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,8 +270,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c41be96daca274285211b97a61c4fd
-      internalID: 878189691
+      spriteID: 96ba6d0ba86281e48bcd3e4467d4fced
+      internalID: -636777703
       vertices: []
       indices: 
       edges: []
@@ -280,10 +280,10 @@ TextureImporter:
       name: Girl_Idle_7
       rect:
         serializedVersion: 2
-        x: 3138
-        y: 920
-        width: 309
-        height: 785
+        x: 1626
+        y: 27
+        width: 276
+        height: 696
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3cb72036869b94abec5b7f449039bb
-      internalID: 1318508199
+      spriteID: e392a0958fb2a8f468295dc87a30c002
+      internalID: -639580569
       vertices: []
       indices: 
       edges: []
@@ -302,10 +302,10 @@ TextureImporter:
       name: Girl_Idle_8
       rect:
         serializedVersion: 2
-        x: 3142
-        y: 34
-        width: 303
-        height: 781
+        x: 457
+        y: 28
+        width: 274
+        height: 699
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,8 +314,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 255de8d1752250547a2e4f4ea5a2a907
-      internalID: 1112093244
+      spriteID: c6dfb7cc4a21ff1449ee935283ffe130
+      internalID: -2122876348
       vertices: []
       indices: 
       edges: []
@@ -324,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f3084a3a3b8a6424b97eea8d2b0909d3
+    spriteID: 23a176fdaf84a07449164fdd64a6c8e9
     internalID: 0
     vertices: []
     indices: 
@@ -334,15 +334,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Girl_Idle_0: -763964933
-      Girl_Idle_1: 1734688328
-      Girl_Idle_2: -319427667
-      Girl_Idle_3: 1769744318
-      Girl_Idle_4: -839230550
-      Girl_Idle_5: 866089732
-      Girl_Idle_6: 878189691
-      Girl_Idle_7: 1318508199
-      Girl_Idle_8: 1112093244
+      Girl_Idle_0: -1320215465
+      Girl_Idle_1: -1001494737
+      Girl_Idle_2: 1703236461
+      Girl_Idle_3: 1998444417
+      Girl_Idle_4: -396105166
+      Girl_Idle_5: 615683003
+      Girl_Idle_6: -636777703
+      Girl_Idle_7: -639580569
+      Girl_Idle_8: -2122876348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

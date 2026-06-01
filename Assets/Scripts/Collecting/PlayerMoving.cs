@@ -171,7 +171,7 @@ public class PlayerMoving : MonoBehaviour
             return;
         }
 
-        GameObject gameObject = Instantiate(Prefab_ProjectileSkill, SkillRoot);
+        GameObject gameObject = Instantiate(Prefab_ProjectileSkill, SkillRoot.position, Quaternion.identity, null);
 
         SkillProjectile skillProjectile = gameObject.GetComponent<SkillProjectile>();
         skillProjectile.InitProjectile(type, _playerDirection, atk, OnMonsterCollide);
@@ -194,10 +194,9 @@ public class PlayerMoving : MonoBehaviour
         }
 
         Vector2 dir = _playerDirection.normalized;
-
         Vector3 spawnPosition = transform.position + new Vector3(dir.x * Offset.x, dir.y * Offset.x, 0);
 
-        GameObject skillObj = Instantiate(Prefab_OverlapSkill, spawnPosition, Quaternion.identity, SkillRoot);
+        GameObject skillObj = Instantiate(Prefab_OverlapSkill, spawnPosition, Quaternion.identity, null);
 
         SkillOverlap skillOverlap = skillObj.GetComponent<SkillOverlap>();
         skillOverlap.InitOverlap(type, _playerDirection, OverlapRadius, atk, OnMonsterCollide);
@@ -228,6 +227,11 @@ public class PlayerMoving : MonoBehaviour
 
     public void TakeDamage(float atk)
     {
+        if (!_isAlive)
+        {
+            return;
+        }
+
         _playerHP -= atk;
         
         if (_hpBar != null)
@@ -237,6 +241,7 @@ public class PlayerMoving : MonoBehaviour
 
         if (_playerHP <= 0)
         {
+            _isAlive = false;
             StartCoroutine(Die());
         }
     }
