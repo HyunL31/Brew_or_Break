@@ -2,16 +2,21 @@
 using System;
 using System.Collections;
 using System.Threading;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private Animator Anim;
+    [SerializeField] private float Speed = 2f;
+    [SerializeField] private float MoveRange = 5f;
 
     private int _instanceID;
-    private string _monsterID;
+
     private Transform _parent;
 
+    private Vector2 _startPos;
+    private Vector2 _targetPos;
     private Monster _monsterData;
     private HPBar _hpBar;
     private float _ATK;
@@ -20,7 +25,27 @@ public class Enemy : MonoBehaviour
     private float _CoolTime;
     private bool _isAlive = true;
     private bool _canAttack = false;
+    private bool _isMoving = false;
     private CancellationTokenSource _tokenSource;
+    private CancellationTokenSource _moveToken;
+
+    private void Awake()
+    {
+        _startPos = transform.position;
+    }
+
+    private void Start()
+    {
+        if (_isAlive && !_canAttack)
+        {
+            MoveRoutine().Forget();
+        }
+    }
+
+    private void Update()
+    {
+        Move();
+    }
 
     public void SetParent(Transform parent)
     {
@@ -35,7 +60,6 @@ public class Enemy : MonoBehaviour
     public void InitMonster(int instanceID, string monsterID)
     {
         _instanceID = instanceID;
-        _monsterID = monsterID;
 
         _monsterData = GameDataManager.Inst.GetMonsterData(monsterID);
         _ATK = _monsterData.ATK * GameManager.Inst.PlayerModel.Day;
@@ -56,6 +80,25 @@ public class Enemy : MonoBehaviour
             {
                 break;
             }
+        }
+    }
+
+    private void Move()
+    {
+        Anim.SetBool("Move", _isMoving);
+
+        if (!_isMoving || _canAttack || !_isAlive)
+        {
+            return;
+        }
+
+        transform.position = Vector2.MoveTowards(transform.position, _targetPos, Speed * Time.deltaTime);
+
+        if (Vector2.Distance(transform.position, _targetPos) < 0.05f)
+        {
+            _isMoving = false;
+
+            MoveRoutine().Forget();
         }
     }
 
@@ -91,6 +134,17 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            _isMoving = false;
+
+            SetMoveTargetPos();
+            _isMoving = true;
+        }
+    }
+
     public void TakeDamage(float atk)
     {
         if (!_isAlive)
@@ -113,7 +167,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private async UniTaskVoid Die()
+    private async UniTask Die()
     {
         _isAlive = false;
 
@@ -127,6 +181,30 @@ public class Enemy : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
+    private void SetMoveTargetPos()
+    {
+        float xPos = UnityEngine.Random.Range(_startPos.x - MoveRange, _startPos.x + MoveRange);
+        float yPos = UnityEngine.Random.Range(_startPos.y - MoveRange, _startPos.y + MoveRange);
+
+        _targetPos = new Vector2(xPos, yPos);
+    }
+
+    private async UniTaskVoid MoveRoutine()
+    {
+        CancelMoveRoutine();
+        _moveToken = new CancellationTokenSource();
+
+        float waitTime = UnityEngine.Random.Range(1f, 3f);
+
+        await UniTask.Delay(TimeSpan.FromSeconds(waitTime), cancellationToken: _moveToken.Token);
+
+        if (_isAlive && !_canAttack)
+        {
+            SetMoveTargetPos();
+            _isMoving = true;
+        }
+    }
+
     private void CancelAttackRoutine()
     {
         if (_tokenSource != null)
@@ -134,6 +212,16 @@ public class Enemy : MonoBehaviour
             _tokenSource.Cancel();
             _tokenSource.Dispose();
             _tokenSource = null;
+        }
+    }
+
+    private void CancelMoveRoutine()
+    {
+        if (_moveToken != null)
+        {
+            _moveToken.Cancel();
+            _moveToken.Dispose();
+            _moveToken = null;
         }
     }
 
