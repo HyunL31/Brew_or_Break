@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 인벤토리 UI
+/// </summary>
+
 public class Inventory : UIBase
 {
     [SerializeField] Button Button_Close;
@@ -44,7 +48,8 @@ public class Inventory : UIBase
             await CreateSlot(item.ItemID, item.ItemCount);
         }
     }
-
+    
+    // 아이템 개수 변화 시 삭제 및 생성
     private async UniTaskVoid UpdateInventory(string id, int count)
     {
         if (count <= 0)
@@ -65,6 +70,7 @@ public class Inventory : UIBase
         await CreateSlot(id, count);
     }
 
+    // 슬롯 생성
     private async UniTask CreateSlot(string id, int count)
     {
         if (_inventory.ContainsKey(id))

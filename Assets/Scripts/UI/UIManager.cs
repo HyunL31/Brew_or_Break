@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// UI 생성 관리 매니저
+/// </summary>
+
 public class UIManager : MonoBehaviour
 {
     public static UIManager Inst;

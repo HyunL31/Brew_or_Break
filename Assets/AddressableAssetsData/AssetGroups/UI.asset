@@ -15,8 +15,58 @@ MonoBehaviour:
   m_GroupName: UI
   m_GUID: f3d58e2b6f54b7940995428ba3a6a7f9
   m_SerializeEntries:
+  - m_GUID: 1b69ddc25e129164881fec82e7e1a973
+    m_Address: Prefabs/UI/NarrationLog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3133911d013a519458515c4e30cdd391
+    m_Address: Prefabs/UI/ChoiceSlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 677b9a8f18b946d42bd777156247d4ce
+    m_Address: Prefabs/DropItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77e26f63915bd2b47bd72897188cf407
+    m_Address: Prefabs/UI/CharacterLogSlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ef674362646ca44b92ccbfddbb1c184
     m_Address: Prefabs/UI/InventorySlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a27386e40aee505468eeeeb7fbbb6594
+    m_Address: Audio/Good
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaeea4da079807348b7724466dc1c4e5
+    m_Address: Prefabs/UI/ClueSlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b994aaa38be5bc543b2a76d677b172f5
+    m_Address: Audio/Fail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce51caba5d0254f40a2c4d7a91841ae3
+    m_Address: Prefabs/UI/SaveSlot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d60e107113c570e4e8673410b5a5755c
+    m_Address: Prefabs/UI/HPBar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea20c0d7f943bc847b3a84b3d442963c
+    m_Address: Prefabs/UI/PlayerLogSlot
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

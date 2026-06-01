@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
+/// <summary>
+/// 게임 설정 팝업 UI
+/// </summary>
+
 public class SettingPopup : UIBase
 {
     [Header("버튼")]
@@ -37,6 +41,7 @@ public class SettingPopup : UIBase
         InitScreen();
     }
 
+    // 사운드 설정 초기화
     private void InitSound()
     {
         Slider_BGM.value = PlayerPrefs.GetFloat("BGM", InitialVolume);
@@ -49,6 +54,7 @@ public class SettingPopup : UIBase
         Slider_SFX.onValueChanged.AddListener(SetSFXVolume);
     }
 
+    // 화면 설정 초기화
     private void InitScreen()
     {
         Toggle_FullScreen.isOn = PlayerPrefs.GetInt("FullScreen", 1) == 1;
@@ -67,6 +73,7 @@ public class SettingPopup : UIBase
         SetBrightness(Slider_Bright.value);
     }
 
+    // 사운드 볼륨 설정
     private void SetBGMVolume(float value)
     {
         AudioMixer.SetFloat("BGM", Mathf.Log10(Mathf.Max(value, 0.0001f)) * 20);   // 슬라이더 값을 데시벨 단위로 변환
@@ -79,6 +86,7 @@ public class SettingPopup : UIBase
         PlayerPrefs.SetFloat("SFX", value);
     }
 
+    // 전체 화면 설정
     private void SetFullScreen(bool isFull)
     {
         Screen.fullScreen = isFull;
@@ -87,6 +95,7 @@ public class SettingPopup : UIBase
         PlayerPrefs.SetInt("FullScreen", full);
     }
 
+    // 대화창 타이핑 속도 설정
     private void GetTextSpeed()
     {
         Dropdown_TextSpeed.ClearOptions();
@@ -101,6 +110,7 @@ public class SettingPopup : UIBase
         PlayerPrefs.SetFloat("TextSpeed", cps);
     }
 
+    // 화면 밝기 설정
     private void SetBrightness(float value)
     {
         GameManager.Inst.OnChangeBrightness?.Invoke(value);

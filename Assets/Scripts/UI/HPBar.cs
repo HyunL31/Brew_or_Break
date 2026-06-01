@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 사냥 콘텐츠 HP 바
+/// </summary>
+
 public class HPBar : MonoBehaviour
 {
     [SerializeField] private Image Image_HP;
@@ -25,6 +29,7 @@ public class HPBar : MonoBehaviour
         _target = target;
     }
 
+    // 게임 오브젝트 위치 따라가기
     private void SetPosition()
     {
         if (_target == null || _main == null)
@@ -38,6 +43,7 @@ public class HPBar : MonoBehaviour
         _rect.transform.position = screenPos;
     }
 
+    // 남은 HP에 따라 이미지 색 변경
     public void UpdateHPBar(float currentHP, float maxHP)
     {
         if (Image_HP != null)

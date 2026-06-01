@@ -2,6 +2,10 @@
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// 아이템 설명창 UI
+/// </summary>
+
 public class ItemDescription : UIBase
 {
     [SerializeField] TextMeshProUGUI Text_ItemName;
@@ -14,6 +18,7 @@ public class ItemDescription : UIBase
         _data = GameDataManager.Inst.IngredientDataList;
     }
 
+    // 아이템 슬롯 바로 옆으로 이동
     public void SetPosition(RectTransform rect)
     {
         Vector3 targetPos = rect.position + new Vector3(rect.rect.width + 100f, 0, 0);

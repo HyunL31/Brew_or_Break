@@ -29,12 +29,14 @@ public class LobbyUI : UIBase
     [SerializeField] private Button Button_Inventory;
     [SerializeField] private Button Button_OpenStore;
     [SerializeField] private Button Button_Return;
+    [SerializeField] private Button Button_Setting;
 
     private void Awake()
     {
         Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
         Button_OpenStore.onClick.AddListener(OnClickOpenStore);
         Button_Return.onClick.AddListener(OnClickReturn);
+        Button_Setting.onClick.AddListener(OnClickSetting);
     }
 
     private void OnEnable()
@@ -91,5 +93,10 @@ public class LobbyUI : UIBase
         UIManager.Inst.OpenVisualNovelUI();
         UIManager.Inst.OpenDialogueUI();
         UIManager.Inst.CloseLobbyUI();
+    }
+
+    private void OnClickSetting()
+    {
+        UIManager.Inst.OpenSettingPopup();
     }
 }

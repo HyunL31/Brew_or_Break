@@ -13,6 +13,10 @@ public enum SkillType
     Overlap
 }
 
+/// <summary>
+/// 스킬 유형별 버튼
+/// </summary>
+
 public class SkillButton : MonoBehaviour
 {
     [SerializeField] private Button Button_Skill;
@@ -47,6 +51,7 @@ public class SkillButton : MonoBehaviour
         GameUtil.LoadSpriteAndSet(path, Image_Skill).Forget();
     }
 
+    // 버튼 이벤트 등록
     private void RegistClickEvent(string id)
     {
         string skillType = _data[id].Type;
@@ -68,6 +73,7 @@ public class SkillButton : MonoBehaviour
         }
     }
 
+    // 스킬 사용
     private void OnClickBasicSkill()
     {
         CollectingManager.Inst.GetPlayer().UseBasicSkill(_ATK, _stamina);

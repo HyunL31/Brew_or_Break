@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 비주얼 노벨 콘텐츠 관리 매니저
+/// </summary>
+
 public class VisualNovelManager : MonoBehaviour
 {
     public static VisualNovelManager Inst;
@@ -39,6 +43,7 @@ public class VisualNovelManager : MonoBehaviour
         SetCurrentDialogueID();
     }
 
+    // 다음 콘텐츠로 이동
     public bool MoveToContent(string nextID)
     {
         bool isMoved = false;
@@ -111,6 +116,7 @@ public class VisualNovelManager : MonoBehaviour
         return isMoved;
     }
 
+    // 결과 적용
     private void SetResult()
     {
         string resultID = _dialogues[CurrentDialogueID].ResultID;
@@ -157,6 +163,7 @@ public class VisualNovelManager : MonoBehaviour
         CurrentDialogueID = $"{end}_End_01";
     }
 
+    // 대화 로그 추가
     private void AddLog(string content, string characterID)
     {
         DialogueLogs.Add(new KeyValuePair<string, string>(content, characterID));

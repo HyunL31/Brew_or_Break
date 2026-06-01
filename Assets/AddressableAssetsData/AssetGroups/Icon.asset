@@ -15,8 +15,18 @@ MonoBehaviour:
   m_GroupName: Icon
   m_GUID: 9832cadcb2aaf85449457991e1503215
   m_SerializeEntries:
+  - m_GUID: 139f9a9791cbbc34e817b40984354d0f
+    m_Address: Icon/Skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 197416bd53cbad54f892a853a4a5a318
     m_Address: Icon/Potion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80e565e8d6dde44458a1989b587b4098
+    m_Address: Icon/Clue
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -32,6 +42,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a52c829909109dd4eb0db7a8eedc08f0
     m_Address: ClueCursor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9693af35f72a65408dbc3317b4f7007
+    m_Address: Icon/Portrait
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

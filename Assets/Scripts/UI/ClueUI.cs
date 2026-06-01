@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 단서 콘텐츠 UI
+/// </summary>
+
 public class ClueUI : UIBase
 {
     [SerializeField] private List<GameObject> ClueButtons = new List<GameObject>();

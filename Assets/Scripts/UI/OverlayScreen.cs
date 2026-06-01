@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 화면 밝기 조절용 오버레이 이미지
+/// </summary>
+
 public class OverlayScreen : MonoBehaviour
 {
     [SerializeField] private Image Image_Overlay;

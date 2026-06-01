@@ -1,9 +1,12 @@
 ﻿using Cysharp.Threading.Tasks;
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+
+/// <summary>
+/// 리소스 로드 매니저 (어드레서블)
+/// </summary>
 
 public class ResourceManager : MonoBehaviour
 {

@@ -15,13 +15,43 @@ MonoBehaviour:
   m_GroupName: Audio
   m_GUID: d207654ac89e6184498f631ae5853f6e
   m_SerializeEntries:
+  - m_GUID: 0ecbda45ac91d8847a6a39dc5d1e9b2b
+    m_Address: Audio/Bad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 527d3b582873423469254ded4ddb20ef
+    m_Address: Audio/OpenStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59125aecf2571f84b9a0b72a83c9c5db
+    m_Address: Audio/Item
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 63574cb96f052e944b6f42eb40d53267
     m_Address: Audio/Opening
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7795e1553953a974cbc44b36edeea2ff
+    m_Address: Audio/Success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77c7bae0f4867b349b0b2f4769e765a7
+    m_Address: Audio/Craft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 78606319d667eee4790b5580f23b6fc3
     m_Address: Audio/Button
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c73d9d314029e2428b64283ec734c1b
+    m_Address: Audio/Account
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -42,6 +72,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ccc6d5381aa6d6a4eaecc43e884147e6
     m_Address: Audio/Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e415546bef1d35b45967b16ee456ce83
+    m_Address: Audio/Normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e675ee73c1e7aa8489ac3d5a9cae3ec7
+    m_Address: Audio/Plop
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

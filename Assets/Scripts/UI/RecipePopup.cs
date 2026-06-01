@@ -4,6 +4,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 마법약 제작 콘텐츠 레시피 UI
+/// </summary>
+
 public class RecipePopup : UIBase
 {
     [Header("버튼")]
@@ -39,6 +43,7 @@ public class RecipePopup : UIBase
         SetPotionInfo(_currentIndex).Forget();
     }
 
+    // 화살표 버튼 관리
     private void OnClickLeftArrow()
     {
         if (_currentIndex < 1)
@@ -75,6 +80,7 @@ public class RecipePopup : UIBase
         SetPotionInfo(_currentIndex).Forget();
     }
 
+    // 마법약 레시피 설정
     private async UniTask SetPotionInfo(int index)
     {
         string potionID = GetPotionID(index);

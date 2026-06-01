@@ -2,6 +2,10 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// 사운드 관리 매니저
+/// </summary>
+
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager Inst;
