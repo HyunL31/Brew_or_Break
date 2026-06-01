@@ -4,6 +4,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 마법약 제작 UI 컴포넌트
+/// </summary>
+
 public class CraftUI : UIBase
 {
     [Header("냄비")]
@@ -71,6 +75,7 @@ public class CraftUI : UIBase
 
     private void SetLitmusColor(float value)
     {
+        // 빨강 -> 파랑이 슬라이더 값에 따라 균일하게 분포하도록 만드는 정규화 공식
         float normalValue = (value - Slider_Acidity.minValue) / (Slider_Acidity.maxValue - Slider_Acidity.minValue);
 
         Color color = Color.Lerp(Color.red, Color.blue, normalValue);
@@ -105,7 +110,8 @@ public class CraftUI : UIBase
 
     private bool CheckAcidityValue()
     {
-        if (Slider_Acidity.value <= _randomAcidity + 1f && Slider_Acidity.value >= _randomAcidity - 1f)
+        // -1 ~ +1까지의 범위 체크
+        if (Mathf.Abs(Slider_Acidity.value - _randomAcidity) <= 1f)
         {
             return true;
         }
@@ -157,6 +163,7 @@ public class CraftUI : UIBase
         return "Mess";
     }
 
+    // 아이템 추가 시 마법약 색 변화
     private void AddItem(string id)
     {
         List<float> RGB = _ingredientData[id].RGB;

@@ -1,7 +1,10 @@
 ﻿using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
+
+/// <summary>
+/// 버튼 호버 사운드 & 프레임 활성화
+/// </summary>
 
 public class ButtonFrame : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {

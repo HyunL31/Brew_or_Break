@@ -4,19 +4,22 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+/// <summary>
+/// 인벤토리 슬롯 전용 컴포넌트
+/// </summary>
+
 public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    [SerializeField] Image Image_Item;
-    [SerializeField] TextMeshProUGUI Text_ItemCount;
-    [SerializeField] RectTransform Rect;
+    [SerializeField] private Image Image_Item;
+    [SerializeField] private TextMeshProUGUI Text_ItemCount;
+    [SerializeField] private RectTransform Rect;
 
-    private string _itmeID = string.Empty;
-    private int _itemCount = 0;
+    public string ItemID {  get; private set; } = string.Empty;
     private GameObject _drawItem = null;
 
     public void SetSlotInfo(string id)
     {
-        _itmeID = id;
+        ItemID = id;
 
         string path = $"Icon/Item[{id}]";
 
@@ -25,10 +28,10 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public void SetItemCount(int count)
     {
-        _itemCount = count;
         Text_ItemCount.text = count.ToString();
     }
 
+    // 마우스 호버 시 아이템 설명창 열기
     public void OnPointerEnter(PointerEventData eventData)
     {
         UIBase uiBase = UIManager.Inst.OpenItemDescription();
@@ -36,7 +39,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         if (uiBase is ItemDescription itemDescription)
         {
             itemDescription.SetPosition(Rect);
-            itemDescription.SetItemInfo(_itmeID);
+            itemDescription.SetItemInfo(ItemID);
         }
     }
 
@@ -45,6 +48,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         UIManager.Inst.CloseItemDescription();
     }
 
+    // 아이템 추가할 때 드래그 (Craft Content 진행 시에만)
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (!UIManager.Inst.IsOpenedUI(UIType.CraftUI))
@@ -56,7 +60,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
         if (uiBase is DrawItem drawItem)
         {
-            drawItem.SetItemImage(_itmeID);
+            drawItem.SetItemImage(ItemID);
         }
 
         _drawItem = uiBase.gameObject;
@@ -80,10 +84,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
             return;
         }
 
-        SoundManager.Inst.OnSFX?.Invoke("Audio/Plop");
         UIManager.Inst.CloseDrawItem();
         _drawItem = null;
-
-        VisualNovelManager.Inst.OnDropItem?.Invoke(_itmeID);
     }
 }

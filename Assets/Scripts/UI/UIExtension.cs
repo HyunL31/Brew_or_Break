@@ -1,5 +1,9 @@
 ﻿using System;
 
+/// <summary>
+/// UI 열고 닫기 전용 메서드 모음
+/// </summary>
+
 public enum UIRootType
 {
     None,
