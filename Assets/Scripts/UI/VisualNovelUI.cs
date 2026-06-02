@@ -11,14 +11,15 @@ using UnityEngine.UI;
 public class VisualNovelUI : UIBase
 {
     [SerializeField] private Image Image_Background;
-    [SerializeField] private Image Image_Character;
-    [SerializeField] private Image Image_SecondSpeaker;
+    [SerializeField] private GameObject CharacterContainer;
+    [SerializeField] private Image Image_Left;
+    [SerializeField] private Image Image_Center;
+    [SerializeField] private Image Image_Right;
 
     private Dictionary<string, Dialogue> _data;
 
     private CancellationTokenSource _backgroundToken;
     private CancellationTokenSource _characterToken;
-    private CancellationTokenSource _secondSpeakerToken;
 
     private void Awake()
     {
@@ -26,7 +27,6 @@ public class VisualNovelUI : UIBase
 
         VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeBackgroundImage(id).Forget();
         VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeSpeakerCharacter(id).Forget();
-        VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeSecondSpeaker(id).Forget();
     }
 
     // 배경 스프라이트 변경
@@ -43,11 +43,11 @@ public class VisualNovelUI : UIBase
             path = path.Replace("{gender}", GameManager.Inst.PlayerModel.Gender);
         }
 
-        Sprite downloadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_backgroundToken.Token);
+        Sprite loadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_backgroundToken.Token);
 
-        if (VisualNovelManager.Inst.CurrentDialogueID == id && downloadedSprite != null)
+        if (VisualNovelManager.Inst.CurrentDialogueID == id && loadedSprite != null)
         {
-            Image_Background.sprite = downloadedSprite;
+            Image_Background.sprite = loadedSprite;
         }
     }
 
@@ -57,76 +57,95 @@ public class VisualNovelUI : UIBase
         CancelCharacter();
         _characterToken = new CancellationTokenSource();
 
-        string characterFacial = _data[id].Facial;
+        List<string> characters = _data[id].Speakers;
+        List<string> slots = _data[id].Slots;
 
-        if (characterFacial == string.Empty)
+        if (characters == null || characters.Count == 0)
         {
-            Image_Character.gameObject.SetActive(false);
+            CharacterContainer.gameObject.SetActive(false);
         }
         else
         {
-            Image_Character.gameObject.SetActive(true);
+            CharacterContainer.gameObject.SetActive(true);
 
-            string path = $"Character/{characterFacial}";
+            List<Sprite> loadSprites = new List<Sprite>();
 
-            if (characterFacial.Contains("Player"))
+            // 해당 캐릭터 스프라이트 저장
+            for (int i = 0; i < characters.Count; i++)
             {
-                if (GameManager.Inst.PlayerModel.Gender == "Girl")
+                string path = $"Character/{characters[i]}";
+
+                if (characters[i].Contains("Player"))
                 {
-                    path = $"Character/Girl/{characterFacial}";
+                    if (GameManager.Inst.PlayerModel.Gender == "Girl")
+                    {
+                        path = $"Character/Girl/{characters[i]}";
+                    }
+                    else
+                    {
+                        path = $"Character/Boy/{characters[i]}";
+                    }
                 }
-                else
-                {
-                    path = $"Character/Boy/{characterFacial}";
-                }
+
+                Sprite loadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_characterToken.Token);
+                loadSprites.Add(loadedSprite);
             }
 
-            Sprite downloadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_characterToken.Token);
-
-            if (VisualNovelManager.Inst.CurrentDialogueID == id && downloadedSprite != null)
+            // 해당 슬롯에 이미지 저장
+            if (VisualNovelManager.Inst.CurrentDialogueID == id)
             {
-                Image_Character.sprite = downloadedSprite;
+                InitImageSlot();
+
+                for (int i = 0; i < loadSprites.Count; i++)
+                {
+                    Image targetSlot = GetTargetSlot(slots[i]);
+                    targetSlot.gameObject.SetActive(true);
+
+                    if (i != 0)
+                    {
+                        SetLowlight(targetSlot);
+                    }
+
+                    targetSlot.sprite = loadSprites[i];
+                }
             }
         }
     }
 
-    // 두 번째 캐릭터 스프라이트 변경
-    private async UniTask ChangeSecondSpeaker(string id)
+    private Image GetTargetSlot(string slot)
     {
-        CancelSecondSpeaker();
-        _secondSpeakerToken = new CancellationTokenSource();
-
-        string characterFacial = _data[id].SecondSpeaker;
-
-        if (characterFacial == string.Empty)
+        if (slot == "C")
         {
-            Image_SecondSpeaker.gameObject.SetActive(false);
+            return Image_Center;
         }
-        else
+        else if (slot == "R")
         {
-            Image_SecondSpeaker.gameObject.SetActive(true);
-
-            string path = $"Character/{characterFacial}";
-
-            if (characterFacial.Contains("Player"))
-            {
-                if (GameManager.Inst.PlayerModel.Gender == "Girl")
-                {
-                    path = $"Character/Girl/{characterFacial}";
-                }
-                else
-                {
-                    path = $"Character/Boy/{characterFacial}";
-                }
-            }
-
-            Sprite downloadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_secondSpeakerToken.Token);
-
-            if (VisualNovelManager.Inst.CurrentDialogueID == id && downloadedSprite != null)
-            {
-                Image_SecondSpeaker.sprite = downloadedSprite;
-            }
+            return Image_Right;
         }
+        else if (slot == "L")
+        {
+            return Image_Left;
+        }
+
+        return null;
+    }
+
+    // 이미지 어둡게
+    private void SetLowlight(Image targetImage)
+    {
+        targetImage.color = new Color(0.35f, 0.35f, 0.35f);
+    }
+
+    // 이미지 컴포넌트 초기화
+    private void InitImageSlot()
+    {
+        Image_Center.gameObject.SetActive(false);
+        Image_Right.gameObject.SetActive(false);
+        Image_Left.gameObject.SetActive(false);
+
+        Image_Center.color = Color.white;
+        Image_Right.color = Color.white;
+        Image_Left.color = Color.white;
     }
 
     // UniTask 토큰 취소
@@ -147,16 +166,6 @@ public class VisualNovelUI : UIBase
             _characterToken.Cancel();
             _characterToken.Dispose();
             _characterToken = null;
-        }
-    }
-
-    private void CancelSecondSpeaker()
-    {
-        if (_secondSpeakerToken != null)
-        {
-            _secondSpeakerToken.Cancel();
-            _secondSpeakerToken.Dispose();
-            _secondSpeakerToken = null;
         }
     }
 }

@@ -187,6 +187,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             _canAttack = false;
+            _isMoving = true;
 
             CancelAttackRoutine();
         }

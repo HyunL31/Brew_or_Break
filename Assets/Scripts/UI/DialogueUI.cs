@@ -98,13 +98,13 @@ public class DialogueUI : UIBase
     // 대사 보여주기
     private void ShowDialogue(string id)
     {
-        if (string.IsNullOrEmpty(_dialogues[id].Speaker))
+        if (_dialogues[id].Speakers.Count == 0)
         {
             Image_Speaker.gameObject.SetActive(false);
         }
         else
         {
-            string speaker = _dialogues[id].Speaker;
+            string speaker = _dialogues[id].Speakers[0];
 
             if (speaker != string.Empty)
             {
@@ -141,7 +141,8 @@ public class DialogueUI : UIBase
 
     private void SetCharacterName(string speakerID)
     {
-        string speakerName = _characters[speakerID].Name;
+        string characterID = GetCharacterID(speakerID);
+        string speakerName = _characters[characterID].Name;
 
         if (speakerName == "{Player.Name}")
         {
@@ -289,5 +290,13 @@ public class DialogueUI : UIBase
         {
             SoundManager.Inst.OnSFX?.Invoke($"Audio/{sfx}");
         }
+    }
+
+    private string GetCharacterID(string character)
+    {
+        string[] results = character.Split('_');
+        string characterID = $"{results[0]}_{results[1]}";
+
+        return characterID;
     }
 }
