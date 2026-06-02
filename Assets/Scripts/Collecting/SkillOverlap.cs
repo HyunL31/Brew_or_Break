@@ -20,6 +20,7 @@ public class SkillOverlap : SkillBase
     private int _damage;
     private float _radius = 1f;
 
+    // 오버랩 스킬 초기화
     public void InitOverlap(OverlapType type, Vector3 playerDir, int damage, Action<int, int> onSkillCollision)
     {
         _damage = damage;
@@ -30,6 +31,7 @@ public class SkillOverlap : SkillBase
         CollectingManager.Inst.OnSkillCollision = onSkillCollision;
     }
 
+    // 오버랩 스킬 시각 효과 적용
     private void SetOverlapEffect(OverlapType type, Vector3 playerDir)
     {
         switch (type)
@@ -45,6 +47,7 @@ public class SkillOverlap : SkillBase
         OverlapRoutine(delay).Forget();
     }
 
+    // 스킬 사용
     private void InvokeOverlapSkill()
     {
         Vector2 dir = _playerDir.normalized;
@@ -63,6 +66,13 @@ public class SkillOverlap : SkillBase
         }
     }
 
+    private async UniTaskVoid OverlapRoutine(float delay)
+    {
+        await UniTask.Delay(TimeSpan.FromSeconds(delay), cancellationToken: destroyCancellationToken);
+        Destroy(gameObject);
+    }
+
+    // 디버깅용 기즈모
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
@@ -70,11 +80,5 @@ public class SkillOverlap : SkillBase
         Vector2 center = (Vector2)transform.position + (dir * 1.5f);
 
         Gizmos.DrawWireSphere(center, _radius);
-    }
-
-    private async UniTaskVoid OverlapRoutine(float delay)
-    {
-        await UniTask.Delay(TimeSpan.FromSeconds(delay), cancellationToken: destroyCancellationToken);
-        Destroy(gameObject);
     }
 }

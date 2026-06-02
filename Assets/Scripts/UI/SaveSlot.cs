@@ -79,6 +79,18 @@ public class SaveSlot : MonoBehaviour
         UIManager.Inst.CloseSaveUI();
     }
 
+    // 완결 파일 다시보기
+    private void OnClickEnding()
+    {
+        GameManager.Inst.OnStartGame?.Invoke(_slotID);
+        VisualNovelManager.Inst.OnSetDialogueID(_slotModel.EndingID);
+
+        UIManager.Inst.OpenVisualNovelUI();
+        UIManager.Inst.OpenDialogueUI();
+        UIManager.Inst.CloseTitleUI();
+        UIManager.Inst.CloseSaveUI();
+    }
+
     // 저장 파일 삭제
     private void OnClickDiscard()
     {
@@ -91,16 +103,5 @@ public class SaveSlot : MonoBehaviour
 
         GameManager.Inst.SlotIndex.Remove(_slotID);
         Destroy(this.gameObject);
-    }
-
-    private void OnClickEnding()
-    {
-        GameManager.Inst.OnStartGame?.Invoke(_slotID);
-        VisualNovelManager.Inst.OnSetDialogueID(_slotModel.EndingID);
-
-        UIManager.Inst.OpenVisualNovelUI();
-        UIManager.Inst.OpenDialogueUI();
-        UIManager.Inst.CloseTitleUI();
-        UIManager.Inst.CloseSaveUI();
     }
 }
