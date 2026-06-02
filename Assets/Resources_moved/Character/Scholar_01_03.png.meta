@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6fee745832d639643a9e5a8c80376815
+guid: c11fa22b74df1e64fa4d79e83b553d05
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -126,10 +126,10 @@ TextureImporter:
       name: Scholar_01_03_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 0
-        width: 842
-        height: 1264
+        width: 1526
+        height: 1908
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,8 +138,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 927556fed54d83e43944e3d7cc5ac5c0
-      internalID: -361350093
+      spriteID: d4dc8d01d0cc55840bbe11aa48dcf012
+      internalID: 1430538192
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 296a6f31ec748264cbca70502d3ade0a
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -158,7 +158,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scholar_01_03_0: -361350093
+      Scholar_01_03_0: 1430538192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
