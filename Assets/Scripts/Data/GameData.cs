@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
+/// <summary>
+/// 데이터 드리븐 클래스
+/// </summary>
+
 [Serializable]
 public class GameDataBase
 {

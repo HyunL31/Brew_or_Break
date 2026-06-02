@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57dcc76792aac724683bd07ded43abbd
+    m_Address: Background/Cuffs_Boy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5a250dbb3f939db4aa6146b4a5386260
     m_Address: Prefabs/Collecting/Boy/Player
     m_ReadOnly: 0
@@ -32,6 +37,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c6f7c2b910f2b34a903a9306f64e73b
     m_Address: Prefabs/Monster_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7042a76b5f6b44a41a91cdc3c30d7b02
+    m_Address: Background/Normal_01_Boy
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

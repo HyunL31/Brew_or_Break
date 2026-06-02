@@ -38,6 +38,11 @@ public class VisualNovelUI : UIBase
         string background = _data[id].Background;
         string path = $"Background/{background}";
 
+        if (background.Contains("gender"))
+        {
+            path = path.Replace("{gender}", GameManager.Inst.PlayerModel.Gender);
+        }
+
         Sprite downloadedSprite = await GameUtil.LoadSpriteOnly(path).AttachExternalCancellation(_backgroundToken.Token);
 
         if (VisualNovelManager.Inst.CurrentDialogueID == id && downloadedSprite != null)

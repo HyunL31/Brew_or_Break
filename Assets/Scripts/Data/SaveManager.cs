@@ -1,6 +1,10 @@
 ﻿using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// 저장 매니저
+/// </summary>
+
 public class SaveManager : MonoBehaviour
 {
     public static SaveManager Inst;

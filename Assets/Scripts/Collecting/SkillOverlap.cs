@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using UnityEngine;
 
 public enum OverlapType
@@ -8,19 +8,24 @@ public enum OverlapType
     Earth
 }
 
+/// <summary>
+/// 광역 범위 스킬
+/// </summary>
+
 public class SkillOverlap : SkillBase
 {
     [SerializeField] private Animator Anim;
 
     private Vector3 _playerDir = Vector3.down;
     private int _damage;
+    private float _radius = 1f;
 
-    public void InitOverlap(OverlapType type, Vector3 playerDir, float radius, int damage, Action<int, int> onSkillCollision)
+    public void InitOverlap(OverlapType type, Vector3 playerDir, int damage, Action<int, int> onSkillCollision)
     {
         _damage = damage;
 
         SetOverlapEffect(type, playerDir);
-        InvokeOverlapSkill(radius);
+        InvokeOverlapSkill();
 
         CollectingManager.Inst.OnSkillCollision = onSkillCollision;
     }
@@ -37,15 +42,15 @@ public class SkillOverlap : SkillBase
         _playerDir = playerDir;
 
         float delay = Anim.GetCurrentAnimatorStateInfo(0).length;
-        StartCoroutine(OverlapCoroutine(delay));
+        OverlapRoutine(delay).Forget();
     }
 
-    private void InvokeOverlapSkill(float radius)
+    private void InvokeOverlapSkill()
     {
         Vector2 dir = _playerDir.normalized;
         Vector2 center = (Vector2)transform.position + (dir * 1.5f);
 
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(center, radius);
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(center, _radius);
 
         foreach (Collider2D col in hitColliders)
         {
@@ -62,15 +67,14 @@ public class SkillOverlap : SkillBase
     {
         Gizmos.color = Color.red;
         Vector2 dir = _playerDir.normalized;
-
         Vector2 center = (Vector2)transform.position + (dir * 1.5f);
 
-        Gizmos.DrawWireSphere(center, 2);
+        Gizmos.DrawWireSphere(center, _radius);
     }
 
-    private IEnumerator OverlapCoroutine(float delay)
+    private async UniTaskVoid OverlapRoutine(float delay)
     {
-        yield return new WaitForSeconds(delay);
+        await UniTask.Delay(TimeSpan.FromSeconds(delay), cancellationToken: destroyCancellationToken);
         Destroy(gameObject);
     }
 }

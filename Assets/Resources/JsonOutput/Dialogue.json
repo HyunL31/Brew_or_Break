@@ -4280,7 +4280,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -4292,7 +4292,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -4304,7 +4304,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -4316,7 +4316,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -4328,7 +4328,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5012,7 +5012,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5024,7 +5024,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5036,7 +5036,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5048,7 +5048,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5060,7 +5060,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5072,7 +5072,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5084,7 +5084,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5096,7 +5096,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5636,7 +5636,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5648,7 +5648,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5660,7 +5660,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5672,7 +5672,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5684,7 +5684,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5696,7 +5696,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -5708,7 +5708,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -6500,7 +6500,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6512,7 +6512,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6524,7 +6524,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6536,7 +6536,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6548,7 +6548,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6560,7 +6560,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6572,7 +6572,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6584,7 +6584,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -6596,7 +6596,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Normal_01",
+    "Background": "Normal_01_{gender}",
     "ResultID": null
   },
   {
@@ -7004,7 +7004,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7016,7 +7016,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7028,7 +7028,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7040,7 +7040,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7052,7 +7052,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7064,7 +7064,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7076,7 +7076,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7088,7 +7088,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   },
   {
@@ -7100,7 +7100,7 @@
     "Facial": null,
     "BGM": null,
     "SFX": null,
-    "Background": "Cuffs",
+    "Background": "Cuffs_{gender}",
     "ResultID": null
   }
 ]

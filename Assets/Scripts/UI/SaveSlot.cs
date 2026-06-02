@@ -95,6 +95,7 @@ public class SaveSlot : MonoBehaviour
 
     private void OnClickEnding()
     {
+        GameManager.Inst.OnStartGame?.Invoke(_slotID);
         VisualNovelManager.Inst.OnSetDialogueID(_slotModel.EndingID);
 
         UIManager.Inst.OpenVisualNovelUI();

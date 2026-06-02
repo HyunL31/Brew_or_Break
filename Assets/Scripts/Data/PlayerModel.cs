@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
+/// <summary>
+/// 플레이어 정보 저장 클래스
+/// </summary>
+
 [Serializable]
 public class PlayerModel
 {

@@ -1,7 +1,10 @@
-﻿using NUnit.Framework;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+/// <summary>
+/// 사냥 콘텐츠 플레이어 컨트롤러
+/// </summary>
 
 public class PlayerMoving : MonoBehaviour
 {
@@ -14,8 +17,6 @@ public class PlayerMoving : MonoBehaviour
     [SerializeField] private GameObject Prefab_ProjectileSkill;
     [SerializeField] private GameObject Prefab_OverlapSkill;
     [SerializeField] private Transform SkillRoot;
-    [SerializeField] private float OverlapRadius = 2f;
-    [SerializeField] private Vector3 Offset;
 
     private float _inputX = 0;
     private float _inputY = 0;
@@ -58,6 +59,7 @@ public class PlayerMoving : MonoBehaviour
         }
     }
 
+    // 이동 및 애니메이션
     private void Move(float inputX, float inputY)
     {
         if (inputX == 0 && inputY == 0)
@@ -109,6 +111,7 @@ public class PlayerMoving : MonoBehaviour
         AnimController.SetState(state);
     }
 
+    // 스킬 사용
     public void UseBasicSkill(int atk, float stamina)
     {
         if (!CheckSkillUsable(stamina))
@@ -182,7 +185,6 @@ public class PlayerMoving : MonoBehaviour
     private void OnMonsterCollide(int instanceID, int damage)
     {
         Enemy enemy = CollectingManager.Inst.GetMonster(instanceID);
-
         enemy.TakeDamage(damage);
     }
 
@@ -194,19 +196,18 @@ public class PlayerMoving : MonoBehaviour
         }
 
         Vector2 dir = _playerDirection.normalized;
-        Vector3 spawnPosition = transform.position + new Vector3(dir.x * Offset.x, dir.y * Offset.x, 0);
-
+        Vector3 spawnPosition = transform.position + new Vector3(dir.x * 1.5f, dir.y * 1.5f, 0);
         GameObject skillObj = Instantiate(Prefab_OverlapSkill, spawnPosition, Quaternion.identity, null);
 
         SkillOverlap skillOverlap = skillObj.GetComponent<SkillOverlap>();
-        skillOverlap.InitOverlap(type, _playerDirection, OverlapRadius, atk, OnMonsterCollide);
+        skillOverlap.InitOverlap(type, _playerDirection, atk, OnMonsterCollide);
         
         SetStamina(stamina);
     }
 
     private bool CheckSkillUsable(float stamina)
     {
-        if (_isSkillUsing || _playerStamina < stamina)
+        if (_isSkillUsing || _playerStamina < stamina || !_isAlive)
         {
             return false;
         }
@@ -214,6 +215,7 @@ public class PlayerMoving : MonoBehaviour
         return true;
     }
 
+    // 플레이어 상태 관리
     public void SetHPBar(HPBar hpBar)
     {
         _hpBar = hpBar;
@@ -261,6 +263,7 @@ public class PlayerMoving : MonoBehaviour
         CollectingManager.Inst.OnEndCollecting?.Invoke();
     }
 
+    // 아이템 줍기
     private void SetCollectTarget()
     {
         if (_items.Count == 0)
