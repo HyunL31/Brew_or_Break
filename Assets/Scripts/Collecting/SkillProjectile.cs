@@ -1,6 +1,5 @@
 ﻿using Cysharp.Threading.Tasks;
 using System;
-using System.Collections;
 using System.Threading;
 using UnityEngine;
 
@@ -11,6 +10,10 @@ public enum ProjectileType
     Fire,
     Air
 }
+
+/// <summary>
+/// 투사체 스킬
+/// </summary>
 
 public class SkillProjectile : SkillBase
 {
@@ -25,6 +28,7 @@ public class SkillProjectile : SkillBase
         Shoot();
     }
 
+    // 투사체 스킬 초기화
     public void InitProjectile(ProjectileType type, Vector3 playerDir, int damage, Action<int, int> onSkillCollision)
     {
         SetProjectileEffect(type, playerDir);
@@ -38,6 +42,7 @@ public class SkillProjectile : SkillBase
         _damage = damage;
     }
 
+    // 스킬 타입별 투사체 이펙트
     public void SetProjectileEffect(ProjectileType type, Vector3 playerDir)
     {
         switch (type)
@@ -61,6 +66,7 @@ public class SkillProjectile : SkillBase
         ShootCoroutine(delay, this.GetCancellationTokenOnDestroy()).Forget();
     }
 
+    // 날아가는 방향 설정
     public void SetProjectileDirection(Vector3 playerDir)
     {
         if (playerDir == Vector3.up)
@@ -81,6 +87,7 @@ public class SkillProjectile : SkillBase
         }
     }
 
+    // 투사체 이동
     public void Shoot()
     {
         transform.position += _playerDir * Speed * Time.deltaTime;
@@ -93,6 +100,7 @@ public class SkillProjectile : SkillBase
         Destroy(this.gameObject);
     }
 
+    // 데미지 적용
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Monster"))

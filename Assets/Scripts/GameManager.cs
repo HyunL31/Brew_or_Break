@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
         };
     }
 
+    // 저장
     public void SaveData()
     {
         SaveManager.Inst.RequestSaveData(CurrentSlotIndex, PlayerModel);
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
         PlayerModel = SaveManager.Inst.GetDefaultData();
     }
 
+    // 아이템 사용 및 획득
     public void UseItem(string id)
     {
         ItemModel target = null;
@@ -111,6 +113,7 @@ public class GameManager : MonoBehaviour
         return 1;
     }
 
+    // 플레이어 정보 설정
     public void SetDay()
     {
         PlayerModel.Day++;
@@ -123,6 +126,7 @@ public class GameManager : MonoBehaviour
         PlayerModel.StoreName = store;
     }
 
+    // 저장 파일 인덱스 설정
     public void SetCurrentSaveIndex(int index)
     {
         CurrentSlotIndex = index;

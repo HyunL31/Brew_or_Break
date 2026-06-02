@@ -11,6 +11,10 @@ public enum AnimState
     Dead
 }
 
+/// <summary>
+/// 플레이어 애니메이션 컨트롤러 (방향 전환)
+/// </summary>
+
 public class AnimationController : MonoBehaviour
 {
     [SerializeField] private Animator Anim;

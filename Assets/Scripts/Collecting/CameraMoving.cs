@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// 사냥 콘텐츠 카메라 (플레이어 따라가기)
+/// </summary>
+
 public class CameraMoving : MonoBehaviour
 {
     private GameObject _player;

@@ -1,6 +1,10 @@
 ﻿using Cysharp.Threading.Tasks;
 using UnityEngine;
 
+/// <summary>
+/// 사냥 콘텐츠 드랍 아이템
+/// </summary>
+
 public class DropItem : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer Sprite_Item;
