@@ -32,6 +32,7 @@ public class LogSlot : MonoBehaviour
                 }
             }
 
+            Debug.Log(path);
             GameUtil.LoadSpriteAndSet(path, Image_Character).Forget();
         }
 

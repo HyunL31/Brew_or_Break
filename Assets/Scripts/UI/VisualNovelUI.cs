@@ -15,11 +15,14 @@ public class VisualNovelUI : UIBase
     [SerializeField] private Image Image_Left;
     [SerializeField] private Image Image_Center;
     [SerializeField] private Image Image_Right;
+    [SerializeField] private RectTransform Rect;
 
     private Dictionary<string, Dialogue> _data;
 
     private CancellationTokenSource _backgroundToken;
     private CancellationTokenSource _characterToken;
+    private CancellationTokenSource _cameraShakeToken;
+    private float _totalShakeTime = 1f;
 
     private void Awake()
     {
@@ -27,6 +30,7 @@ public class VisualNovelUI : UIBase
 
         VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeBackgroundImage(id).Forget();
         VisualNovelManager.Inst.OnChangeBaseUI += (id) => ChangeSpeakerCharacter(id).Forget();
+        VisualNovelManager.Inst.OnDialogueCommand += (id) => ApplyCommand(id);
     }
 
     // 배경 스프라이트 변경
@@ -148,6 +152,40 @@ public class VisualNovelUI : UIBase
         Image_Left.color = Color.white;
     }
 
+    // 다이얼로그 연출 커맨드
+    // 카메라 흔들림
+    private async UniTask ShakeCamera()
+    {
+        CancelShaking();
+        _cameraShakeToken = new CancellationTokenSource();
+        CancellationToken token = _cameraShakeToken.Token;
+
+        float shakeTime = _totalShakeTime;
+        Vector2 originPos = Rect.anchoredPosition;
+
+        while (shakeTime > 0)
+        {
+            shakeTime -= Time.deltaTime;
+
+            float progress = shakeTime / _totalShakeTime;
+            Vector2 randomOffset = Random.insideUnitCircle * 30f * progress;
+
+            Rect.anchoredPosition = originPos + randomOffset;
+
+            await UniTask.Yield(token);
+        }
+
+        Rect.anchoredPosition = originPos;
+    }
+
+    private void ApplyCommand(string id)
+    {
+        if (_data[id].Command == "CameraShake")
+        {
+            ShakeCamera().Forget();
+        }
+    }
+
     // UniTask 토큰 취소
     private void CancelBackground()
     {
@@ -166,6 +204,16 @@ public class VisualNovelUI : UIBase
             _characterToken.Cancel();
             _characterToken.Dispose();
             _characterToken = null;
+        }
+    }
+
+    private void CancelShaking()
+    {
+        if (_cameraShakeToken != null)
+        {
+            _cameraShakeToken.Cancel();
+            _cameraShakeToken.Dispose();
+            _cameraShakeToken = null;
         }
     }
 }

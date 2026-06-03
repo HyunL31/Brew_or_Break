@@ -50,7 +50,7 @@ public class Dialogue : GameDataBase
     public List<string> Speakers;
     public List<string> Slots;
     public string Content;
-    public string Facial;
+    public string Command;
     public string BGM;
     public string SFX;
     public string Background;

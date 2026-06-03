@@ -190,6 +190,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 988faaf11bf8ddf44974e409f77de328
+    m_Address: Audio/Glass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a85f8a6151027e4e870e4ca24deea6f
     m_Address: Character/Tattoo_01_02
     m_ReadOnly: 0
@@ -262,6 +267,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d1f06f1a11778954d8b01207d9087791
     m_Address: Character/Boy/Player_01_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4d89ba70cdd81b438ebb5b207205fe3
+    m_Address: Audio/Knock
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

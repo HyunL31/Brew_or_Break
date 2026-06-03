@@ -16,6 +16,7 @@ public enum UIRootType
 
 public enum UIType
 {
+    Background,
     TitleUI,
     LobbyUI,
     VisualNovelUI,
@@ -43,8 +44,19 @@ public static class UIExtension
     {
         uiManager.OpenMainUI(UIType.TitleUI);
         uiManager.OpenMainUI(UIType.LobbyUI, false);
+        uiManager.OpenBackgroundUI();
         uiManager.OpenMainUI(UIType.VisualNovelUI, false);
         uiManager.OpenPopupUI(UIType.SettingPopup, false);
+    }
+
+    public static void OpenBackgroundUI(this UIManager uiManager)
+    {
+        uiManager.OpenUI(UIRootType.Background, UIType.Background);
+    }
+
+    public static void CloseBackgroundUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.Background);
     }
 
     public static void CloseTitleUI(this UIManager uiManager)

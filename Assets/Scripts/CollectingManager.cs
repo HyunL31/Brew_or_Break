@@ -58,6 +58,8 @@ public class CollectingManager : MonoBehaviour
     // 플레이어 및 맵 초기화
     public async UniTask SetCollectingMap()
     {
+        UIManager.Inst.CloseBackgroundUI();
+
         string mapPath = "Prefabs/Collecting/Map";
         string playerPath = "Prefabs/Collecting/Girl/Player";
 
@@ -111,6 +113,8 @@ public class CollectingManager : MonoBehaviour
 
         _player = null;
         _map = null;
+
+        UIManager.Inst.OpenBackgroundUI();
     }
 
     private Enemy AddMonsterObject(GameObject monster, string monsterID, Transform spawnSpot)

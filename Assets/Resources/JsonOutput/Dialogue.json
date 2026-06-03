@@ -5,6 +5,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "어느 평화롭던 마을.",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Opening_01",
@@ -16,6 +17,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 오늘도 빵을 굽고, 물건을 사고, 소소한 하루를 보내고 있었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_01",
@@ -27,6 +29,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날, 그 일이 벌어지기 전까지는.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_01",
@@ -38,6 +41,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "쾅—!!",
+    "Command": "CameraShake",
     "BGM": null,
     "SFX": "Bomb",
     "Background": "Opening_02",
@@ -49,6 +53,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "눈부신 빛과 함께, 마을 중앙광장은 흔적도 없이 날아가 버렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -60,6 +65,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "연기 사이에서 모습을 드러낸 건...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -71,6 +77,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "바로, 문제의 연금술사.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -86,6 +93,7 @@
       "R"
     ],
     "Content": "....엥?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -97,6 +105,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손에 들린 건 반쯤 타버린 실험 기록지, 그리고 아직도 끓고 있는 정체불명의 마법약.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -108,6 +117,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그건 분명, 가벼운 호기심에서 시작된 실험이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -119,6 +129,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "하지만 결과는 마을의 중심을 통째로 날려버린 대참사.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -130,6 +141,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 이후, 사람들은 수군거렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -141,6 +153,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“또 저 연금술사야...”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -152,6 +165,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“이번엔 진짜 끝난 거 아니야?”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_02",
@@ -163,6 +177,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리고 마침내, 마법 의회가 움직였다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -174,6 +189,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "차가운 시선 아래, 판결이 내려졌다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -185,6 +201,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“마을 중앙광장 복구 비용 전액 변상, 기한은 단 10일.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -196,6 +213,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“기한 내에 갚지 못할 경우, 즉시 추방한다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -207,6 +225,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "10일.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -218,6 +237,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리 길지도, 그렇다고 짧지도 않은 시간.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -229,6 +249,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "하지만 가진 돈은 바닥에 정상적인 방법으로는 절대 갚을 수 없는 금액.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -240,6 +261,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그래서 악제사는 결심했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -255,6 +277,7 @@
       "R"
     ],
     "Content": "....팔아야지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -266,6 +289,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "합법이든, 불법이든.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -277,6 +301,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "돈이 된다면, 뭐든지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -288,6 +313,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "수상한 재료, 정체불명의 주문, 그리고 어딘가 위험해 보이는 손님들.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -299,6 +325,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이제, 마을 한구석에서 시작되는 조금은 위험한 마법약 장사가 시작된다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -314,6 +341,7 @@
       "C"
     ],
     "Content": "쿨럭, 쿨럭... 여기가... 용한 약사가 있다는 그곳인가?",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Time",
@@ -329,6 +357,7 @@
       "C"
     ],
     "Content": "제발... 나를 좀 도와주게. 나에게 남은 시간이 얼마 없네.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -346,6 +375,7 @@
       "L"
     ],
     "Content": "어르신, 천천히 말씀하세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -363,6 +393,7 @@
       "L"
     ],
     "Content": "숨이 많이 차 보이시는데 여기 좀 앉으시겠어요? 어디가 편찮으신가요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -380,6 +411,7 @@
       "R"
     ],
     "Content": "내 겉모습에 속지 말게. 나는 아카데미에서 시간 마법을 전공하던 '에린'이라네.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -397,6 +429,7 @@
       "R"
     ],
     "Content": "불과 세 시간 전만 해도 나는 스무 살이었어!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -414,6 +447,7 @@
       "R"
     ],
     "Content": "고대 유물인 '크로노스의 모래시계'를 연구하다가 주문을 잘못 읊는 바람에...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -431,6 +465,7 @@
       "R"
     ],
     "Content": "내 육체의 시간이 수십 년이나 앞당겨져 버렸단 말일세.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -448,6 +483,7 @@
       "L"
     ],
     "Content": "에린? 에린이라면 작년에 아카데미를 수석으로 졸업했다던 그 천재 학자 말씀이신가요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -465,6 +501,7 @@
       "L"
     ],
     "Content": "하지만... 그분은 젊은 여성이라고 들었는데요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -482,6 +519,7 @@
       "R"
     ],
     "Content": "믿기 힘들겠지만 사실일세!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -499,6 +537,7 @@
       "R"
     ],
     "Content": "이 저주를 풀려면 육체의 시간을 강제로 되돌리는 '시간 억류제'가 필요해.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -514,6 +553,7 @@
       "C"
     ],
     "Content": "제발, 나를 원래대로 돌려주게. 연구를 완성해야 한단 말이야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -531,6 +571,7 @@
       "L"
     ],
     "Content": "에린 씨, 당신의 말이 사실이라면 이건 단순한 노화가 아니라 마법적 변이예요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -548,6 +589,7 @@
       "L"
     ],
     "Content": "회춘의 비약은 재료도 귀할뿐더러, 만약 당신이 진짜 에린이 아니라면 노인에게 치명적인 독이 될 수도 있습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -565,6 +607,7 @@
       "R"
     ],
     "Content": "나를 못 믿는 건가? 내 눈을 보게! 이 눈속에 담긴 지식과 열정은 절대 거짓이 아니야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -582,6 +625,7 @@
       "R"
     ],
     "Content": "시간이 갈수록 내 기억이 하나둘 사라지고 있어... 아카데미의 공식도, 내 이름조차도 흐릿해진단 말이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -597,6 +641,7 @@
       "C"
     ],
     "Content": "제발, 내가 누군지 잊기 전에 나를 구해줘!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -614,6 +659,7 @@
       "L"
     ],
     "Content": "당신의 눈에 서린 그 절박함을 믿어보죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -631,6 +677,7 @@
       "R"
     ],
     "Content": "돌아왔어... 정말 고마워요. 사라졌던 공식들이 다시 머릿속에 떠올라요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -648,6 +695,7 @@
       "R"
     ],
     "Content": "이 은혜는 잊지 않을게요. 시간 마법의 위험성을 이제야 깨달았어요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -665,6 +713,7 @@
       "L"
     ],
     "Content": "죄송하지만, 이런 위험한 약을 근거도 없이 드릴 수는 없습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -682,6 +731,7 @@
       "L"
     ],
     "Content": "아카데미에 연락해서 신원 확인부터 하는 게 좋겠어요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -699,6 +749,7 @@
       "R"
     ],
     "Content": "확인할 때쯤이면... 나는 이미 아무것도 기억하지 못하는 진짜 노인이 되어 있겠지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -714,6 +765,7 @@
       "C"
     ],
     "Content": "내 찬란했던 미래가 이렇게 허무하게...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -729,6 +781,7 @@
       "C"
     ],
     "Content": "이게 뭐야! 아주 형편없는 마법약이잖아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -744,6 +797,7 @@
       "C"
     ],
     "Content": "아무래도 내가 잘못 찾아왔나보군. 쯧.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -759,6 +813,7 @@
       "C"
     ],
     "Content": "어...? 여기가 어디지...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -774,6 +829,7 @@
       "C"
     ],
     "Content": "잘못 찾아왔나보네... 다음에 또 봐요. 젊은이...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Time",
@@ -789,6 +845,7 @@
       "C"
     ],
     "Content": "이봐, 약제사! 이 마을에서 가장 독한 '진실의 정수'를 내놔. 지금 당장!",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -806,6 +863,7 @@
       "L"
     ],
     "Content": "진실의 정수 말이세요? 그건 사용처가 분명해야 판매할 수 있는 규제 품목입니다만...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -823,6 +881,7 @@
       "L"
     ],
     "Content": "무슨 급한 일이라도 있으신가요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -840,6 +899,7 @@
       "R"
     ],
     "Content": "흥, 내 저택에 감히 쥐새끼 같은 도둑놈이 들어왔거든.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -857,6 +917,7 @@
       "R"
     ],
     "Content": "운 좋게 붙잡긴 했는데, 이놈이 보석함을 어디다 숨겼는지 입을 꾹 다물고 있지 뭐야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -874,6 +935,7 @@
       "R"
     ],
     "Content": "내 인내심이 바닥나기 전에 그놈 입을 열어야겠으니, 토달지 말고 당장 가져와!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -891,6 +953,7 @@
       "L"
     ],
     "Content": "도둑을 잡으셨다니 다행이군요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -908,6 +971,7 @@
       "L"
     ],
     "Content": "그런데 손님, 성함이 어떻게 되시는지... 처음 뵙는 얼굴이라서요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -925,6 +989,7 @@
       "R"
     ],
     "Content": "나? 나는 저 언덕 위 저택을 새로 산 '카반 백작'이다!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -940,6 +1005,7 @@
       "C"
     ],
     "Content": "무례하게 굴지 말고 빨리 약이나 준비해. 금화는 충분히 줄 테니까!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -957,6 +1023,7 @@
       "L"
     ],
     "Content": "카반 백작님, 이상하네요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -974,6 +1041,7 @@
       "L"
     ],
     "Content": "제가 알기로는 귀족 나으리들 사이에서 문신은 금기로 여겨진다고 하던데요...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -991,6 +1059,7 @@
       "R"
     ],
     "Content": "아, 이거? 내가 서커스단에 있을 때 한거다. 서커스로 돈을 좀 땡겼거든.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1008,6 +1077,7 @@
       "R"
     ],
     "Content": "단원 녀석들이 아주 지겹게 굴어서...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1023,6 +1093,7 @@
       "C"
     ],
     "Content": "그것보다 잔말 말고 빨리 '진실의 정수'나 내놔!!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1040,6 +1111,7 @@
       "L"
     ],
     "Content": "하... 알겠어요...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1057,6 +1129,7 @@
       "L"
     ],
     "Content": "여기서 잠시 기다리세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1074,6 +1147,7 @@
       "L"
     ],
     "Content": "귀족님의 말씀을 믿겠습니다. 여기, 가장 강력한 자백제입니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1091,6 +1165,7 @@
       "L"
     ],
     "Content": "한 방울만 먹여도 숨긴 비밀을 모두 털어놓게 될 겁니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1108,6 +1183,7 @@
       "R"
     ],
     "Content": "흐흐흐, 좋아! 이제 그 영감탱이가 보석함 위치를 불 수밖에 없겠군!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1119,6 +1195,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "다음 날, 언덕 위 저택의 주인이 실종되고 모든 보물이 털렸다는 소식이 들려왔다...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1136,6 +1213,7 @@
       "L"
     ],
     "Content": "하... 거짓말 하지마세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1153,6 +1231,7 @@
       "L"
     ],
     "Content": "그러고 살고 싶습니까? 당신은 백작이 아니고, 도둑이겠죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1170,6 +1249,7 @@
       "R"
     ],
     "Content": "뭐, 뭐라고? 이 자식이...!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1187,6 +1267,7 @@
       "L"
     ],
     "Content": "한마디라도 더 하면 신고할겁니다. 얼른 나가요!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1204,6 +1285,7 @@
       "R"
     ],
     "Content": "젠장, 약제사 주제에 눈치만 빨라가지고...!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1221,6 +1303,7 @@
       "R"
     ],
     "Content": "어...? 여기가 어디지...? 내가 여기서 뭘 하고있더라...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1238,6 +1321,7 @@
       "L"
     ],
     "Content": "저기요, 아저씨. 방금 의회에 가야한다고 하시지 않으셨어요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1255,6 +1339,7 @@
       "L"
     ],
     "Content": "빨리 가지 않으시면 곧 문을 닫을 시간이라고요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1272,6 +1357,7 @@
       "R"
     ],
     "Content": "어? 어... 맞아... 의회에 가려고 했지...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1287,6 +1373,7 @@
       "C"
     ],
     "Content": "이게 뭐야! 아주 형편없는 마법약이잖아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1302,6 +1389,7 @@
       "C"
     ],
     "Content": "쓸모없긴. 쯧.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1317,6 +1405,7 @@
       "C"
     ],
     "Content": "아아... 사방이 어둠뿐이로군.",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -1332,6 +1421,7 @@
       "C"
     ],
     "Content": "하지만 이곳에 서린 영험한 기운만큼은 내 마음의 눈으로도 선명히 느껴지는구려.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1347,6 +1437,7 @@
       "C"
     ],
     "Content": "이곳의 주인이 그 유명한 명약사인가?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1364,6 +1455,7 @@
       "L"
     ],
     "Content": "명약사요? 어... 맞을걸요..? 일단 들어오세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1381,6 +1473,7 @@
       "L"
     ],
     "Content": "앞이 보이지 않으시는 것 같은데, 제가 부축해 드릴까요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1398,6 +1491,7 @@
       "R"
     ],
     "Content": "허허, 괜찮소. 육신의 눈은 잃었으나 신이 내린 예언의 눈은 갈수록 밝아지니...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1415,6 +1509,7 @@
       "R"
     ],
     "Content": "하지만 요즘 들어 미래의 환영을 보는 것이 너무나 고통스럽구려.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1432,6 +1527,7 @@
       "R"
     ],
     "Content": "내 영혼이 타들어 가는 것만 같아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1449,6 +1545,7 @@
       "L"
     ],
     "Content": "미래를 보는 대가인가요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1466,6 +1563,7 @@
       "L"
     ],
     "Content": "저런... 제가 도와드릴 방법이 있을까요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1483,6 +1581,7 @@
       "R"
     ],
     "Content": "내 영안을 잠시나마 감소시켜 줄 '발광성 환각 물약'이 필요하오.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1500,6 +1599,7 @@
       "R"
     ],
     "Content": "아주 강력한 놈으로 말이오.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1515,6 +1615,7 @@
       "C"
     ],
     "Content": "법적으로 금지된 물건이라는 건 알지만, 고통받는 예언자의 가련한 운명을 위해 한 번만 눈감아 줄 수 없겠소?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1532,6 +1633,7 @@
       "L"
     ],
     "Content": "발광성 환각 물약'은 정말 위험한 물건인 거 아시죠?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1549,6 +1651,7 @@
       "L"
     ],
     "Content": "일반인에게 잘못 사용한다면 중독 증세를 보일 거에요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1566,6 +1669,7 @@
       "R"
     ],
     "Content": "아아... 하지만 자네도 알다시피 나는 일반인이 아니잖은가...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1581,6 +1685,7 @@
       "C"
     ],
     "Content": "부디 이 불쌍한 영혼을 도와주게...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1598,6 +1703,7 @@
       "L"
     ],
     "Content": "아, 네... 그럼 일단 앉아서 기다려주세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1615,6 +1721,7 @@
       "L"
     ],
     "Content": "제가 금방 만들어올게요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1632,6 +1739,7 @@
       "R"
     ],
     "Content": "정말... 정말 고마워. 당신에게는 복이 있을거요...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1649,6 +1757,7 @@
       "R"
     ],
     "Content": "아, 방금 신의 음성이 들렸소! 약사 양반이 아주 귀한 재료를 꺼냈다고 말이오!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1666,6 +1775,7 @@
       "L"
     ],
     "Content": "하하... 예에...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1683,6 +1793,7 @@
       "L"
     ],
     "Content": "예언자님, 이상하네요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1700,6 +1811,7 @@
       "L"
     ],
     "Content": "미래를 보는 고통을 줄이려면 신경 안정제가 필요할 텐데, 왜 환각과 강한 빛을 내는 물약을 찾으시나요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1717,6 +1829,7 @@
       "L"
     ],
     "Content": "그건 오히려 눈에 더 해로울 텐데요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1734,6 +1847,7 @@
       "R"
     ],
     "Content": "그... 그건 예언의 형상을 더 뚜렷하게 보기 위함이오!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1751,6 +1865,7 @@
       "R"
     ],
     "Content": "일반인은 이해 못 할 고차원적인 조제법이 필요한 법이지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1768,6 +1883,7 @@
       "R"
     ],
     "Content": "자꾸 묻지 말고 어서 내놓으시오. 신께서 당신에게 복을 내릴 거라지 않소!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1785,6 +1901,7 @@
       "L"
     ],
     "Content": "솔직히 말씀하시죠. 사실은 오늘 밤 광장에서 열 쇼에서 사람들에게 이 약을 먹이려는 것 아닌가요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1802,6 +1919,7 @@
       "L"
     ],
     "Content": "강렬한 환각과 빛을 보게 해서, 마치 신의 계시를 받은 것처럼 착각하게 만들려는 거죠?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1819,6 +1937,7 @@
       "L"
     ],
     "Content": "사기극은 그만두세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1836,6 +1955,7 @@
       "R"
     ],
     "Content": "쳇, 운도 없지! 촌구석 약사가 눈치만 빨라가지고... 오늘 장사는 망쳤군!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1853,6 +1973,7 @@
       "L"
     ],
     "Content": "여기, 요구하신 대로 눈이 멀 정도로 강렬한 빛을 내는 환각제입니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1870,6 +1991,7 @@
       "L"
     ],
     "Content": "부디 통증이 나아지셨으면 좋겠어요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1887,6 +2009,7 @@
       "R"
     ],
     "Content": "아아, 고맙구려. 정말 고마워!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1904,6 +2027,7 @@
       "R"
     ],
     "Content": "내 오늘 밤 광장을 아주 난장판으로... 아니, 은혜의 장으로 만들겠소!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1919,6 +2043,7 @@
       "C"
     ],
     "Content": "엥...? 방금 뭐라고...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1934,6 +2059,7 @@
       "C"
     ],
     "Content": "에잉! 이게 무슨 마법약이야! 아주 나를 물로 보는구먼!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1949,6 +2075,7 @@
       "C"
     ],
     "Content": "오늘 장사는 자네 때문에 공쳤네, 공쳤어!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1964,6 +2091,7 @@
       "C"
     ],
     "Content": "약사님, 제발 저희 남편 좀 살려주세요.",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -1979,6 +2107,7 @@
       "C"
     ],
     "Content": "아니, 살리지 못해도 좋으니 제발 그 고통만이라도 멈추게 해주세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -1996,6 +2125,7 @@
       "L"
     ],
     "Content": "무슨 일이신가요? 남편분이 어디가 편찮으신 거죠?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2013,6 +2143,7 @@
       "R"
     ],
     "Content": "몹쓸 병에 걸렸어요. 마을 의사들도 손을 뗐고, 일반적인 진통제는 이제 듣지도 않아요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2030,6 +2161,7 @@
       "R"
     ],
     "Content": "밤새 괴로워하며 울부짖는 남편의 소리를 듣고 있자니 제 가슴이 찢어지는 것 같아요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2047,6 +2179,7 @@
       "R"
     ],
     "Content": "차라리 제가 대신 아프고 싶을 정도예요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2064,6 +2197,7 @@
       "R"
     ],
     "Content": "마법 의회에서 금지한 '네크로 마력 세럼'이라는 약이 있다고 들었어요. 중독성이 강해 불법이라는 건 알지만.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2079,6 +2213,7 @@
       "C"
     ],
     "Content": "죽어가는 사람의 마지막이라도 편안하게 해주고 싶어요. 제발, 부탁드려요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2096,6 +2231,7 @@
       "L"
     ],
     "Content": "부인, '네크로 마력 세럼'은 단순한 진통제가 아닙니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2113,6 +2249,7 @@
       "L"
     ],
     "Content": "제조하는 것만으로도 연금술 자격이 박탈되고 투옥될 수 있는 위험한 약이에요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2130,6 +2267,7 @@
       "R"
     ],
     "Content": "돈은 얼마든지 드릴 수 있습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2145,6 +2283,7 @@
       "C"
     ],
     "Content": "제 남편의 마지막 소원이에요. 약사님, 당신도 인간이라면 이 비참한 광경을 외면하지 않으시겠죠?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2160,6 +2299,7 @@
       "C"
     ],
     "Content": "그래요... 법보다는 생명이 우선이죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2175,6 +2315,7 @@
       "C"
     ],
     "Content": "남편분을 위해... 약을 준비해드리겠습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2192,6 +2333,7 @@
       "L"
     ],
     "Content": "안타깝지만... 저는 약을 만들어드리지 못할 것 같습니다...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2209,6 +2351,7 @@
       "L"
     ],
     "Content": "아무래도 의회에 걸릴 경우에 제가 잡혀갈 수도 있으니깐요...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2226,6 +2369,7 @@
       "R"
     ],
     "Content": "흠... 그래요. 양심적이시네요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2243,6 +2387,7 @@
       "L"
     ],
     "Content": "마음은 아프지만, 불법 약물은 드릴 수 없습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2260,6 +2405,7 @@
       "L"
     ],
     "Content": "대신 합법적인 범위 내에서 가장 효과가 좋은 진통제를 조제해 드릴 테니 이걸 가져가세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2277,6 +2423,7 @@
       "R"
     ],
     "Content": "훌륭하군요. 최근 금지 약물을 유통하는 약국이 많아 조사 중이었습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2294,6 +2441,7 @@
       "R"
     ],
     "Content": "유혹에 흔들리지 않고 원칙을 지키는 모습, 마법 의회 수사관으로서 높게 평가하죠. 그럼, 이만.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2307,6 +2455,7 @@
     ],
     "Slots": null,
     "Content": "허, 뭐야...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2324,6 +2473,7 @@
       "L"
     ],
     "Content": "여기, 약을 준비했습니다. '네크로 마력 세럼'이에요....",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2341,6 +2491,7 @@
       "R"
     ],
     "Content": "수사 완료. 금지 약물 제조 및 판매 현행범으로 당신을 체포합니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2358,6 +2509,7 @@
       "R"
     ],
     "Content": "당신의 '자비'가 법 위에 있을 순 없죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2375,6 +2527,7 @@
       "L"
     ],
     "Content": "네? 그게 무슨... 잠시만요...!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2390,6 +2543,7 @@
       "C"
     ],
     "Content": "이게 대체... 무슨 마법약이죠..?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2405,6 +2559,7 @@
       "C"
     ],
     "Content": "쓸모없군요... 시간만 낭비했어요...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2420,6 +2575,7 @@
       "C"
     ],
     "Content": "애초에 불법 마법약을 만들 실력조차 없었군요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2435,6 +2591,7 @@
       "C"
     ],
     "Content": "어이, 약사! 이 근방에서 네 솜씨가 제일이라며?",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -2449,7 +2606,8 @@
     "Slots": [
       "C"
     ],
-    "Content": "내 보검을 닦을 '예리함의 도료'를 좀 만들어줘야겠어.",
+    "Content": "내 보검을 닦을 \"예리함의 도료\"를 좀 만들어줘야겠어.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2465,6 +2623,7 @@
       "C"
     ],
     "Content": "아주 번쩍번쩍해서 눈이 멀 정도로 말이야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2481,7 +2640,8 @@
       "R",
       "L"
     ],
-    "Content": "예리함의 도료'요? 그건 의장용 검에나 쓰는 비싼 물건인데...",
+    "Content": "\"예리함의 도료\"요? 그건 의장용 검에나 쓰는 비싼 물건인데...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2499,6 +2659,7 @@
       "L"
     ],
     "Content": "실례지만 용도가 어떻게 되시죠? 요즘 의회에서 함정 수사를 자주 나와서 조심스러워서요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2516,6 +2677,7 @@
       "R"
     ],
     "Content": "함정? 하! 이 몸은 저 깊은 동굴에서 전설의 성검을 발굴한 탐험가다!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2533,6 +2695,7 @@
       "R"
     ],
     "Content": "성검이라면 그에 걸맞게 빛이 나야 하지 않겠어? 그래야 세상을 구하는 영웅 대접을 받지!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2548,6 +2711,7 @@
       "C"
     ],
     "Content": "자, 여기 금화다. 잔돈은 필요 없으니 당장 내놔!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2565,6 +2729,7 @@
       "L"
     ],
     "Content": "전설의 성검이라면 분명... 마법 의회가 수배를 건 물건 아닌가요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2582,6 +2747,7 @@
       "R"
     ],
     "Content": "하핫! 너도 알고 있구나?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2599,6 +2765,7 @@
       "R"
     ],
     "Content": "맞아, 이게 바로 그 대단한 전설의 성검이라고!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2614,6 +2781,7 @@
       "C"
     ],
     "Content": "들키기 전에 다른 곳으로 도망가야 하니 빨리 약이나 달라고!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2631,6 +2799,7 @@
       "L"
     ],
     "Content": "알겠어요. 약을 만들어 드리죠. 여기서 잠시만 기다리세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2648,6 +2817,7 @@
       "R"
     ],
     "Content": "어! 기다릴테니 빨리 만들어달라고!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2665,6 +2835,7 @@
       "L"
     ],
     "Content": "음... 안될 거 같은데요...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2682,6 +2853,7 @@
       "R"
     ],
     "Content": "뭐? 왜? 나 돈 많아! 얼마를 원하는데?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2699,6 +2871,7 @@
       "L"
     ],
     "Content": "아니요... 돈 문제가 아니라...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2716,6 +2889,7 @@
       "L"
     ],
     "Content": "그 전설의 성검, 훔친 거 맞죠?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2733,6 +2907,7 @@
       "R"
     ],
     "Content": "어? 어어... 그렇긴 한데... 어떻게 알았지?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2750,6 +2925,7 @@
       "L"
     ],
     "Content": "저도 마법 의회에 감시당하는 입장이에요. 약은 만들어 줄 수 없어요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2767,6 +2943,7 @@
       "R"
     ],
     "Content": "쳇, 한 시가 바쁜데 잘못 찾아왔구만.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2784,6 +2961,7 @@
       "L"
     ],
     "Content": "이 '예리함의 도료'를 사용하면 검이 엄청 밝게 빛날 거에요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2801,6 +2979,7 @@
       "R"
     ],
     "Content": "하핫, 그래! 그걸 원했다고! 고마워, 형씨!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2812,6 +2991,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 밤, 수상한 빛을 본 경비대가 전설의 성검을 훔친 도적단을 검거했다는 소식이 신문에 실렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2829,6 +3009,7 @@
       "L"
     ],
     "Content": "여기요. 약 가져가세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2846,6 +3027,7 @@
       "R"
     ],
     "Content": "어? 뭐야! 내가 원하는 '예리함의 도료'가 아니잖아!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2863,6 +3045,7 @@
       "L"
     ],
     "Content": "당연히 아니죠. 아까 도망가야 한다고 하셨죠?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2880,6 +3063,7 @@
       "L"
     ],
     "Content": "예리함의 도료'를 바른 검은 엄청나게 밝게 빛난다구요. 그걸 들고 어떻게 도망가려고 그래요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2897,6 +3081,7 @@
       "L"
     ],
     "Content": "이 약은 '은폐의 연무'에요. 이걸 바르면 사람들은 전설의 성검을 인식하지 못할테고 당신은 무사히 도망갈 수 있을 거에요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2914,6 +3099,7 @@
       "L"
     ],
     "Content": "정 '예리함의 도료'를 원한다면 멀리 도망간 다음에 사서 바르던가 하세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2931,6 +3117,7 @@
       "R"
     ],
     "Content": "와! 형씨, 정말 똑똑하구나?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2948,6 +3135,7 @@
       "R"
     ],
     "Content": "고마워! 이 은혜는 잊지 않을테니깐 걱정하지 말라구!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2959,6 +3147,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "다음 날, 전설의 성검이 흔적없이 사라졌다는 소식이 신문에 실렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2974,6 +3163,7 @@
       "C"
     ],
     "Content": "응? 이게 뭐야! 이건 내가 원하던 약이 아니라고!!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -2989,6 +3179,7 @@
       "C"
     ],
     "Content": "형씨... 실력 완전 형편없구나...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3004,6 +3195,7 @@
       "C"
     ],
     "Content": "괜찮아... 그럴 수 있지... 형씨만큼 재능없는 사람은 처음 보지만... 힘내고, 응?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3021,6 +3213,7 @@
       "R"
     ],
     "Content": "이곳의 약이 그렇게 확실하다지?",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -3038,6 +3231,7 @@
       "R"
     ],
     "Content": "내 거추장스러운 라이벌 한 명을 아주 조용히, 그리고 영원히 잠재울 물건이 필요해서 왔네.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3057,6 +3251,7 @@
       "L"
     ],
     "Content": "라이벌을... 영원히요? 그건 마법 의회에서 엄격히 금지하는...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3076,6 +3271,7 @@
       "C"
     ],
     "Content": "법 따위 내 앞에서 읊지 마라. 내 뒤의 이 친구가 보이나? 이 친구는 말이 통하지 않는 상대를 아주 싫어하거든.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3093,6 +3289,7 @@
       "R"
     ],
     "Content": "자, 선택해라. 내 고민을 해결해 줄 독을 내놓을 것인지, 아니면 지금 이 자리에서 네 고민을 영원히 끝내줄 것인지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3112,6 +3309,7 @@
       "L"
     ],
     "Content": "독을 원하신다면 드릴 수 있습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3131,6 +3329,7 @@
       "L"
     ],
     "Content": "하지만 손님처럼 영리하신 분이 단순한 독을 쓰실 리 없겠죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3150,6 +3349,7 @@
       "L"
     ],
     "Content": "라이벌이 죽으면 수사관들이 가장 먼저 당신을 의심할 텐데요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3169,6 +3369,7 @@
       "C"
     ],
     "Content": "흐흐, 상관없다. 그 녀석만 죽으면 돼.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3188,6 +3389,7 @@
       "C"
     ],
     "Content": "나머지는 돈으로 처리하면 되니깐....",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3205,6 +3407,7 @@
       "R"
     ],
     "Content": "자, 어서 약을 내놓아라!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3224,6 +3427,7 @@
       "L"
     ],
     "Content": "으음... 알겠어요... 대신 돈은 많이 받을 겁니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3243,6 +3447,7 @@
       "L"
     ],
     "Content": "저도 그만큼의 리스크는 지고 가는 거니깐요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3262,6 +3467,7 @@
       "C"
     ],
     "Content": "흐흐... 이제야 말이 좀 통하는군. 걱정말고 약이나 가져와라!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3281,6 +3487,7 @@
       "L"
     ],
     "Content": "저는... 의뢰를 받지 않겠습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3300,6 +3507,7 @@
       "C"
     ],
     "Content": "뭐? 감히... 내 의뢰를 거절한다는 건가?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3319,6 +3527,7 @@
       "L"
     ],
     "Content": "네... 죄송하지만 저희 가게는 이미 마법 의회에 감시를 당하고 있습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3338,6 +3547,7 @@
       "L"
     ],
     "Content": "아마 여기서 마법약을 구매하신다면 손님도 감시를 당하게 될지도 모르는 일이니깐요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3357,6 +3567,7 @@
       "L"
     ],
     "Content": "원하신다면 제가 지하도시의 마법약 가게를 추천해드릴게요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3376,6 +3587,7 @@
       "C"
     ],
     "Content": "흠... 알겠네. 일단은 이만 물러나도록 하지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3395,6 +3607,7 @@
       "C"
     ],
     "Content": "다음에 또 볼 기회가 있을 거란 걸 염두에 두도록.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3414,6 +3627,7 @@
       "L"
     ],
     "Content": "완성되었습니다. '사멸의 독'입니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3433,6 +3647,7 @@
       "L"
     ],
     "Content": "효과는 확실하지만 천천히 진행되기 때문에 신중한 분들이 많이 사용하시죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3452,6 +3667,7 @@
       "C"
     ],
     "Content": "오, 소문대로 실력은 확실하군.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3471,6 +3687,7 @@
       "C"
     ],
     "Content": "자, 이제 처리하도록.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3490,6 +3707,7 @@
       "L"
     ],
     "Content": "네...? 그게 무슨 소리...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3509,6 +3727,7 @@
       "L"
     ],
     "Content": "이 가게는 이미 마법 의회에게 감시당하고 있어요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3528,6 +3747,7 @@
       "L"
     ],
     "Content": "이런 상황에서 마법약을 구매하신다면 손님도 감시를 당하게 될지도 모르죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3547,6 +3767,7 @@
       "C"
     ],
     "Content": "호오... 그래서? 네놈이 무슨 대안이라도 있다는 건가?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3566,6 +3787,7 @@
       "L"
     ],
     "Content": "네, 여기 '가사 상태의 비약'입니다. 사고로 위장하는 거죠.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3585,6 +3807,7 @@
       "C"
     ],
     "Content": "하하, 나를 바보로 아는군.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3604,6 +3827,7 @@
       "C"
     ],
     "Content": "이건 시장 바닥에서도 파는 싸구려 수면제 아닌가? 감히 나를 속여?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3623,6 +3847,7 @@
       "L"
     ],
     "Content": "자, 여기 있습니다. 손님이 원하시는 아주 확실한 독이에요. 서서히 죽어갈 겁니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3642,6 +3867,7 @@
       "C"
     ],
     "Content": "흠, 보기에는 내가 알던 독이랑 아주 다른데... 냄새는 어떨지...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3661,6 +3887,7 @@
       "C"
     ],
     "Content": "어라...? 내가 여기서 뭘 하고 있었더라...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3680,6 +3907,7 @@
       "R"
     ],
     "Content": "엇... 그러게요... 왜 제가 여기 있는거죠...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3699,6 +3927,7 @@
       "C"
     ],
     "Content": "두 분 머리 아프다고 하시더니 좀 괜찮아지셨어요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3718,6 +3947,7 @@
       "C"
     ],
     "Content": "괜찮아지셨으면 얼른 돌아가주세요. 저도 장사를 해야하거든요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3737,6 +3967,7 @@
       "R"
     ],
     "Content": "아아, 우리를 치료해준건가?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3756,6 +3987,7 @@
       "C"
     ],
     "Content": "고맙군. 여기 보답으로 금화를 주도록 하지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3773,6 +4005,7 @@
       "C"
     ],
     "Content": "세상에... 이런 엉망인 마법약은 처음 보는군.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3790,6 +4023,7 @@
       "C"
     ],
     "Content": "소문은 역시 믿을만한 게 못되는 모양이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3807,6 +4041,7 @@
       "C"
     ],
     "Content": "멍청하긴, 이만 가도록 하지. 시간만 낭비했군.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3822,6 +4057,7 @@
       "C"
     ],
     "Content": "약제사! 나 왔어! 저번에 말했던 그... '진실이 정수' 말이야. 그거 완성됐어?",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -3839,6 +4075,7 @@
       "L"
     ],
     "Content": "어, 왔냐. 오랜만이다? 요즘 안 보이던데... 많이 바빴어?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3856,6 +4093,7 @@
       "R"
     ],
     "Content": "어... 어, 그렇지. 이것저것 엄청 바빴다구!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3873,6 +4111,7 @@
       "R"
     ],
     "Content": "아무튼! '진실의 정수' 얼른 줘! 그때 만들어주기로 약속했잖아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3890,6 +4129,7 @@
       "L"
     ],
     "Content": "근데 어디다가 쓰려고? '진실의 정수'는 사용처를 알아야 팔 수 있어.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3905,6 +4145,7 @@
       "C"
     ],
     "Content": "아이, 참. 우리 사이에 왜 그래. 응? 내가 어련히 알아서 잘 사용할까!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3922,6 +4163,7 @@
       "L"
     ],
     "Content": "우리 사이니깐 이러는거지. 진짜 아무 일도 없는 거 맞아?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3937,6 +4179,7 @@
       "C"
     ],
     "Content": "아, 그렇다니깐. 약제사는 그냥 '진실의 정수'만 만들어주고 돈만 받으면 돼.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3954,6 +4197,7 @@
       "L"
     ],
     "Content": "음... 뭐, 그래. 너는 우리 가게 단골이니깐.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3971,6 +4215,7 @@
       "L"
     ],
     "Content": "대신 걸리지 않게 잘 써야한다?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -3988,6 +4233,7 @@
       "R"
     ],
     "Content": "아이, 그럼! 당연하지! 나 믿지?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4005,6 +4251,7 @@
       "L"
     ],
     "Content": "음... 정말 미안한데 안 될 거 같아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4022,6 +4269,7 @@
       "L"
     ],
     "Content": "너도 요즘 알지? 마법 의회에서 자꾸 몰래 감시 나오는 거...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4039,6 +4287,7 @@
       "L"
     ],
     "Content": "그거 가져가면 아마 너도 곤란해질거야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4056,6 +4305,7 @@
       "R"
     ],
     "Content": "어, 어? 아... 나도 잘 알지...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4073,6 +4323,7 @@
       "R"
     ],
     "Content": "뭐, 어쩔 수 없지! 대신 다음에 오면 싸게 해줘야 해, 알았지?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4090,6 +4341,7 @@
       "L"
     ],
     "Content": "당연하지. 언제든 와도 돼.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4101,6 +4353,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "다음 날, 도적단 말단이 마법 의회의 함정 수사 미끼로 활동했다는 소식이 신문에 실렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4118,6 +4371,7 @@
       "L"
     ],
     "Content": "자, 여기. 말했던 '진실의 정수'야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4135,6 +4389,7 @@
       "L"
     ],
     "Content": "분명히 말해두는데 절대 들키지 말고 조심히 사용해야 돼. 알았지?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4152,6 +4407,7 @@
       "R"
     ],
     "Content": "저기... 미안해, 약제사...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4169,6 +4425,7 @@
       "L"
     ],
     "Content": "뭐? 갑자기 왜?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4184,6 +4441,7 @@
       "C"
     ],
     "Content": "어... 약제사... 요즘 막 몸이 아프다거나... 무슨 일 있어...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4199,6 +4457,7 @@
       "C"
     ],
     "Content": "이건 '진실의 정수'가 아닌데...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4214,6 +4473,7 @@
       "C"
     ],
     "Content": "요즘 많이 힘들구나... 힘내...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4229,6 +4489,7 @@
       "C"
     ],
     "Content": "어쩔 수 없지. 난 이만 가볼게... 힘내, 알았지?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4244,6 +4505,7 @@
       "C"
     ],
     "Content": "이 눅눅한 곰팡이 냄새... 그리고 코끝을 찌르는 싸구려 약초 향기.",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -4259,6 +4521,7 @@
       "C"
     ],
     "Content": "여전하네. 아카데미 시절, 네 실험실 앞에 서 있을 때랑 똑같아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4276,6 +4539,7 @@
       "L"
     ],
     "Content": "카일...? 세상에, 정말 너야?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4293,6 +4557,7 @@
       "L"
     ],
     "Content": "졸업식 날 갑자기 사라지더니 대체 어디 있었던 거야! 연락 한 통 없어서 다들 얼마나 걱정했는지 알아?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4310,6 +4575,7 @@
       "R"
     ],
     "Content": "걱정? 하, 그런 한가한 감정은 사치일 뿐이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4327,6 +4593,7 @@
       "R"
     ],
     "Content": "나는 너처럼 이런 구석진 마을에서 소꿉장난이나 하려고 연금술을 배운 게 아니거든.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4344,6 +4611,7 @@
       "R"
     ],
     "Content": "나는... 진리에 도달하기 직전이야. 세상을 뒤집어엎을 위대한 업적 말이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4361,6 +4629,7 @@
       "L"
     ],
     "Content": "뭐? 오랜만에 나타나서는 그게 대체 무슨 소리야?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4378,6 +4647,7 @@
       "L"
     ],
     "Content": "안색은 또 왜 이렇게 안 좋아?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4395,6 +4665,7 @@
       "L"
     ],
     "Content": "목소리도 갈라지고... 일단 저기 앉아봐. 따뜻한 차라도 내올게.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4412,6 +4683,7 @@
       "R"
     ],
     "Content": "앉아서 노가리나 까자고 온 거 아니야. 시간이 없어.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4429,6 +4701,7 @@
       "R"
     ],
     "Content": "자, 이걸 봐. '태양의 심장'을 완성하기 위한 마지막 퍼즐이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4446,6 +4719,7 @@
       "R"
     ],
     "Content": "이 도면에 적힌 고농축 촉매제, 네 실력이라면 당장 조제할 수 있지?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4461,6 +4735,7 @@
       "C"
     ],
     "Content": "아니, 너밖에 못 해. 이 마을의 멍청한 약사들은 이 수식을 읽지도 못할 테니까.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4478,6 +4753,7 @@
       "L"
     ],
     "Content": "태양의 심장...? 너 이딴 걸 만들려고 연락 한 통 없던 거야?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4495,6 +4771,7 @@
       "R"
     ],
     "Content": "이딴 거라니... 말이 심하잖아. '태양의 심장', 너도 알지?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4512,6 +4789,7 @@
       "R"
     ],
     "Content": "전설로만 알고 있었겠지만... 내가 드디어 만들어냈어.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4529,6 +4807,7 @@
       "R"
     ],
     "Content": "이것만 있으면... 더 이상 누구도 죽지 않아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4544,6 +4823,7 @@
       "C"
     ],
     "Content": "인간이 태양조차 넘어설 수 있다는 말이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4561,6 +4841,7 @@
       "L"
     ],
     "Content": "하, 알았어. 만들어 올테니깐 일단 저기 앉아.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4578,6 +4859,7 @@
       "R"
     ],
     "Content": "고마워. 역시 너라면 내 말을 들어줄 거라고 생각했어.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4595,6 +4877,7 @@
       "L"
     ],
     "Content": "오랜만에 만나서 이런 부탁이라니... 너는 정말...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4612,6 +4895,7 @@
       "L"
     ],
     "Content": "카일, 손이 왜 이래? 왜 이렇게 차가워? 마치...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4629,6 +4913,7 @@
       "R"
     ],
     "Content": "손대지 마! 아무것도 아니야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4646,6 +4931,7 @@
       "R"
     ],
     "Content": "내 몸은 내가 제일 잘 알아. 이건 진화하는 과정이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4663,6 +4949,7 @@
       "R"
     ],
     "Content": "불필요한 장기들이 연금술적 결합을 통해 더 완벽한 형태로 변하고 있는 거라고!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4680,6 +4967,7 @@
       "R"
     ],
     "Content": "이제 한 단계만 남았어. 네가 만들어줄 그 촉매제만 있으면, 난 영원히 죽지 않는 존재가 된다고!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4697,6 +4985,7 @@
       "L"
     ],
     "Content": "정신 차려, 카일! 너 지금 죽어가고 있는 거야. 이건 자살 행위야! 후회하기 전에 그만두라고!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4714,6 +5003,7 @@
       "R"
     ],
     "Content": "아, 됐어! 괜히 왔어! 너야말로 후회하지 마!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4729,6 +5019,7 @@
       "C"
     ],
     "Content": "아, 기다려! 카일!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4740,6 +5031,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "카일이 떠난 다음 날, 미친 연금술사가 실험 중 사망했다는 소식이 신문에 실렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4757,6 +5049,7 @@
       "L"
     ],
     "Content": "자, 여기. '금단의 아르카늄'이야. 이게 실험을 도울 수 있을거야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4774,6 +5067,7 @@
       "L"
     ],
     "Content": "이걸 주는 게 맞는지 모르겠다, 진짜...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4791,6 +5085,7 @@
       "R"
     ],
     "Content": "후회하지 않을거야. 나는 인간보다 신에 가까워지는 거라고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4808,6 +5103,7 @@
       "R"
     ],
     "Content": "너는 그런 날 도운거고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4825,6 +5121,7 @@
       "L"
     ],
     "Content": "자, 여기. '에테르 스테빌라이저'. 얼른 마셔.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4842,6 +5139,7 @@
       "R"
     ],
     "Content": "뭐야, 이게? 내가 말한대로 만든 거 맞아?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4859,6 +5157,7 @@
       "L"
     ],
     "Content": "아, 맞으니깐 얼른 마시라고. 정 못 믿겠으면 나가고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4876,6 +5175,7 @@
       "R"
     ],
     "Content": "뭐, 네가 나한테 독을 줄 일은 없겠지. 잘 마실게.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4887,6 +5187,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "다음 날, 멀쩡해진 카일은 가게를 다시 찾아와 멋쩍은 표정으로 미안하다 말했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4902,6 +5203,7 @@
       "C"
     ],
     "Content": "뭐야, 이거? 마법약 맞아...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4917,6 +5219,7 @@
       "C"
     ],
     "Content": "너... 아카데미 다닐 때 성적 꽤 높지 않았어...?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4932,6 +5235,7 @@
       "C"
     ],
     "Content": "아니, 뭐... 그래... 그럴 수 있지...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4947,6 +5251,7 @@
       "C"
     ],
     "Content": "내가 뭐라 할 입장은 아니지만 그래도... 다른 길을 찾아보는 게 좋을 것 같아...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4962,6 +5267,7 @@
       "C"
     ],
     "Content": "약사 양반, 급하네! 어젯밤 영주님의 창고를 턴 고약한 도둑놈을 드디어 생포했어.",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -4977,6 +5283,7 @@
       "C"
     ],
     "Content": "하지만 이놈이 보물의 행방에 대해 입을 굳게 다물고 있군.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -4994,6 +5301,7 @@
       "L"
     ],
     "Content": "오, 마커스 대장님! 역시 대단하시네요. 도둑을 벌써 잡으시다니요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5011,6 +5319,7 @@
       "R"
     ],
     "Content": "칭찬은 됐고, 당장 그놈의 혓바닥을 풀어줄 '진실의 정수'를 내놔. 영주님이 노발대발하고 계셔서 한시가 급해.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5026,6 +5335,7 @@
       "C"
     ],
     "Content": "수사상의 기밀이니 군말 말고 협조하게. 이건 경비대의 공식 요청이야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5043,6 +5353,7 @@
       "L"
     ],
     "Content": "마커스 대장님, 직인 살짝 덜 마른 것 같은데.... 많이 바쁘셨나봐요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5060,6 +5371,7 @@
       "R"
     ],
     "Content": "내가 말했잖아. 영주님이 노발대발하고 계신다고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5075,6 +5387,7 @@
       "C"
     ],
     "Content": "빨리 보물의 행방에 대해 알아내라고 아주 난리도 아니야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5092,6 +5405,7 @@
       "L"
     ],
     "Content": "아하, 그렇군요. 잠시만 기다리세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5109,6 +5423,7 @@
       "L"
     ],
     "Content": "빨리 만들어드릴게요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5126,6 +5441,7 @@
       "L"
     ],
     "Content": "하지만 항상 직인은 아주 중요해서 망가지지 않게 해야한다고 하셨잖아요?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5143,6 +5459,7 @@
       "R"
     ],
     "Content": "...자네, 눈치가 지나치게 빠르군. 시골 약사라면 주는 대로 돈이나 받고 입을 다무는 게 신상에 좋을 텐데 말이야.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5160,6 +5477,7 @@
       "L"
     ],
     "Content": "역시... 도둑을 잡은 게 아니라, 당신이 도둑이었군요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5177,6 +5495,7 @@
       "L"
     ],
     "Content": "자백제로 영주에게서 보물을 빼앗으려는 거죠?",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5194,6 +5513,7 @@
       "L"
     ],
     "Content": "당신 같은 범죄자에게 약을 팔 순 없습니다! 경비대에 신고할거에요!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5211,6 +5531,7 @@
       "R"
     ],
     "Content": "젠장! 약사면 약만 만들 것이지, 말이 많아!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5222,6 +5543,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "신고한 다음 날, 경비대장을 사칭하던 도둑이 잡혀 들어갔다는 소식이 신문에 실렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5239,6 +5561,7 @@
       "L"
     ],
     "Content": "자, 여기 있습니다. '진실의 정수'는 소량만으로 충분하니 조심히 사용하세요.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5256,6 +5579,7 @@
       "R"
     ],
     "Content": "아, 고맙군! 이거라면 보석의 행방을 알아낼 수 있을거야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5273,6 +5597,7 @@
       "R"
     ],
     "Content": "여기, 약속한 돈이네.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5288,6 +5613,7 @@
       "C"
     ],
     "Content": "뭐야, 이게! 자네 아주 마법 의회를 우습게 아는군!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5303,6 +5629,7 @@
       "C"
     ],
     "Content": "이따위 약을 어떻게 사용하라고 내준건가!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5318,6 +5645,7 @@
       "C"
     ],
     "Content": "됐네, 자네와는 더 이상 거래하지 않을거야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5333,6 +5661,7 @@
       "C"
     ],
     "Content": "으윽... 시간이... 없다. 마력 회로가... 얼어붙고 있어.",
+    "Command": null,
     "BGM": "Opening",
     "SFX": null,
     "Background": "Store",
@@ -5348,6 +5677,7 @@
       "C"
     ],
     "Content": "이대로라면 내 몸속의 마력이 폭발해... 이 도시 전체를 영구 동토로 만들어버릴 거다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5365,6 +5695,7 @@
       "L"
     ],
     "Content": "마탑주님! 이게 대체 무슨 일이에요!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5382,6 +5713,7 @@
       "L"
     ],
     "Content": "마력 폭주가 이 정도라니... 손이 벌써 감각이 없으시잖아요!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5399,6 +5731,7 @@
       "R"
     ],
     "Content": "닥치고... '빙옥 속박제'를 내놔라.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5416,6 +5749,7 @@
       "R"
     ],
     "Content": "이 뜨거운 마력의 소용돌이를... 더 차가운 냉기로 억눌러야 해.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5431,6 +5765,7 @@
       "C"
     ],
     "Content": "차갑게 얼려서... 잠재우는 수밖에 없어!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5448,6 +5783,7 @@
       "L"
     ],
     "Content": "하지만 마탑주님! '빙옥 속박제'를 사용하면 오히려 더 악화될거에요!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5465,6 +5801,7 @@
       "R"
     ],
     "Content": "지금 내 마력 핵은 너무 뜨거워서 비명을 지르고 있다...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5482,6 +5819,7 @@
       "R"
     ],
     "Content": "겉면의 얼음은 그 열기를 가둬 폭주가 일어나는 거야!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5497,6 +5835,7 @@
       "C"
     ],
     "Content": "조용히 하고 당장 빙결약을 내놔! 이건 명령이다!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5514,6 +5853,7 @@
       "L"
     ],
     "Content": "일단! 잠시만 기다리세요!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5531,6 +5871,7 @@
       "L"
     ],
     "Content": "마탑주님의 판단을 믿겠습니다. 여기있습니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5548,6 +5889,7 @@
       "R"
     ],
     "Content": "크으... 얼른 이리 줘.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5565,6 +5907,7 @@
       "L"
     ],
     "Content": "전 제 눈을 믿겠어요. 이걸 마시고 속의 열기를 밖으로 뚫어내세요!",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5582,6 +5925,7 @@
       "R"
     ],
     "Content": "크으... 알았으니깐 얼른 이리 줘.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5599,6 +5943,7 @@
       "R"
     ],
     "Content": "...",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5616,6 +5961,7 @@
       "R"
     ],
     "Content": "...살았군. 내 마력의 흐름이... 다시 부드러워졌어.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5633,6 +5979,7 @@
       "R"
     ],
     "Content": "자네가 아니었다면 나는 내 손으로 이 세계를 끝낼 뻔했네. 진정한 현자는 내가 아니라 자네였어.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5644,6 +5991,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 밤, 가게 문을 두드리는 소리가 울렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5655,7 +6003,8 @@
     "Speakers": null,
     "Slots": null,
     "Content": "쾅. 쾅. 쾅.",
-    "BGM": null,
+    "Command": "CameraShaking",
+    "BGM": "Knock",
     "SFX": null,
     "Background": "Arrest",
     "ResultID": null
@@ -5666,6 +6015,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "문을 열자마자 보인 건 무표정한 마법 의회 집행관들.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5677,6 +6027,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“약제사.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5688,6 +6039,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "차가운 목소리가 내려앉았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5699,6 +6051,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“불법 독약 제조 및 유통 혐의로 당신을 체포한다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5710,6 +6063,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“아, 잠깐...! 그건 독약이 아니라...!”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5721,6 +6075,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "변명은 끝까지 이어지지 못했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5732,6 +6087,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이미 증거는 충분했고, 피해자는 넘쳐났으며, 너무 멀리 와버렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -5743,6 +6099,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "철컹, 손목에 차가운 금속이 채워진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -5754,6 +6111,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "익숙하던 가게는 멀어지고, 어둠이 점점 가까워진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -5765,6 +6123,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“10일 안에 갚으라 했지.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -5776,6 +6135,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“그 전에, 선을 넘었군.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -5787,6 +6147,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그렇게 마법약 장사는 조용히, 그리고 확실하게 막을 내렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -5804,6 +6165,7 @@
       "R"
     ],
     "Content": "그는 아무 말 없이, 병을 받아들었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5821,6 +6183,7 @@
       "R"
     ],
     "Content": "빛을 비추듯 천천히 들어 올려, 내용물을 한 번 확인한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5838,6 +6201,7 @@
       "R"
     ],
     "Content": "그리고 희미하게 웃었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5855,6 +6219,7 @@
       "R"
     ],
     "Content": "“잘 만들었군.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5872,6 +6237,7 @@
       "R"
     ],
     "Content": "그 한마디는 분명 칭찬이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5889,6 +6255,7 @@
       "R"
     ],
     "Content": "하지만 그는 병을 내려놓으며 조용히 말을 이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5906,6 +6273,7 @@
       "R"
     ],
     "Content": "“너무 사람을 잘 믿는군.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5923,6 +6291,7 @@
       "R"
     ],
     "Content": "공기가 순간 식어버린다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5940,6 +6309,7 @@
       "R"
     ],
     "Content": "“당신의 입은 믿는다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5957,6 +6327,7 @@
       "R"
     ],
     "Content": "짧은 침묵.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5974,6 +6345,7 @@
       "R"
     ],
     "Content": "“하지만 혹시 모를 위험은... 미리 제거해 두는 게 좋지.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -5985,6 +6357,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이상하리만큼 차분한 목소리였다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -5996,6 +6369,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그래서 더 늦게 깨달았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6007,6 +6381,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이건 거래의 끝이 아니라 정리의 순간이라는 걸.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6018,6 +6393,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "뒤에서 발소리가 들린다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6029,6 +6405,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "도망칠 틈도, 변명할 시간도 없었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6040,6 +6417,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손이 움직이기도 전에 시야가 크게 흔들린다.",
+    "Command": "CameraShaking",
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6051,8 +6429,9 @@
     "Speakers": null,
     "Slots": null,
     "Content": "무언가가 바닥에 떨어지는 소리.",
+    "Command": null,
     "BGM": null,
-    "SFX": null,
+    "SFX": "Glass",
     "Background": "Bad_03",
     "ResultID": null
   },
@@ -6062,6 +6441,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "네가 만든 약이, 바닥에 흩어진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6073,6 +6453,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리고 마법약 상점의 빛이 꺼졌다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6090,6 +6471,7 @@
       "R"
     ],
     "Content": "그는 아무 말 없이 네가 내민 병을 받아들었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6107,6 +6489,7 @@
       "R"
     ],
     "Content": "익숙한 듯 병을 기울여 빛에 비춰본다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6124,6 +6507,7 @@
       "R"
     ],
     "Content": "그리고 망설임 없이 뚜껑을 열었다. ",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6141,6 +6525,7 @@
       "R"
     ],
     "Content": "한 방울, 조심스럽게 혀끝에 올린다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6158,6 +6543,7 @@
       "R"
     ],
     "Content": "짧은 침묵과 함께 그의 손이 멈췄다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6175,6 +6561,7 @@
       "R"
     ],
     "Content": "공기가 식는다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6192,6 +6579,7 @@
       "R"
     ],
     "Content": "아주 천천히 고개가 기울어지며 입꼬리가 비틀린다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6209,6 +6597,7 @@
       "R"
     ],
     "Content": "“이건... 독이 아니군. 수면제인가.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6226,6 +6615,7 @@
       "R"
     ],
     "Content": "조용한 목소리. 하지만 그 안에 담긴 건 분명한 분노였다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6243,6 +6633,7 @@
       "R"
     ],
     "Content": "“감히... 날 속여?”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6260,6 +6651,7 @@
       "R"
     ],
     "Content": "한 걸음. 또 한 걸음. 뒷걸음질 칠 틈도 없다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6277,6 +6669,7 @@
       "R"
     ],
     "Content": "“거래를 어기고, 나를 시험해?”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6294,6 +6687,7 @@
       "R"
     ],
     "Content": "“그 대가는... 네가 직접 치르게 될 거다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6305,6 +6699,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "뒤에서 발소리가 들린다. 이미 늦었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6316,6 +6711,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손이 움직이기도 전에 시야가 크게 흔들린다.",
+    "Command": "CameraShaking",
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6327,8 +6723,9 @@
     "Speakers": null,
     "Slots": null,
     "Content": "무언가가 바닥에 떨어지는 소리.",
+    "Command": null,
     "BGM": null,
-    "SFX": null,
+    "SFX": "Glass",
     "Background": "Bad_03",
     "ResultID": null
   },
@@ -6338,6 +6735,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "네가 만든 약이, 바닥에 흩어진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6349,6 +6747,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리고 마법약 상점의 빛이 꺼졌다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6364,6 +6763,7 @@
       "C"
     ],
     "Content": "너무나도 익숙한 소년의 얼굴이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6379,6 +6779,7 @@
       "C"
     ],
     "Content": "문을 열고 들어오는 순간, 굳이 경계할 필요도 없을 만큼.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6394,6 +6795,7 @@
       "C"
     ],
     "Content": "늘 그랬듯, 가볍게 웃으며 말을 건넨다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6409,6 +6811,7 @@
       "C"
     ],
     "Content": "“오랜만이네.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6424,6 +6827,7 @@
       "C"
     ],
     "Content": "평소보다 조금 낮은 목소리. 하지만 그 차이를 눈치채지 못했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6439,6 +6843,7 @@
       "C"
     ],
     "Content": "소년은 완성된 마법약을 받아들고, 가볍게 흔들어본다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6454,6 +6859,7 @@
       "C"
     ],
     "Content": "“역시, 믿고 맡길 만하다니까.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6469,6 +6875,7 @@
       "C"
     ],
     "Content": "그 말은 익숙했고, 그래서 의심하지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6484,6 +6891,7 @@
       "C"
     ],
     "Content": "그가 병을 내려놓는다. 그리고 가볍게 손을 들어올렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6495,7 +6903,8 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그 순간, 문이 열렸다.",
-    "BGM": null,
+    "Command": "CameraShaking",
+    "BGM": "Knock",
     "SFX": null,
     "Background": "Arrest",
     "ResultID": null
@@ -6506,6 +6915,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "여러 개의 발소리. 무거운 장비가 부딪히는 소리. 익숙하지 않은 공기.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6517,6 +6927,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“움직이지 마라.” 낮고 단단한 목소리.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6528,6 +6939,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "순식간에 낯선 사람들로 가게 안이 가득 찬다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6539,6 +6951,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "하지만 그들의 복장은, 낯설지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6550,6 +6963,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그제야 소년의 표정이 보인다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6561,6 +6975,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "더 이상, 익숙한 ‘손님’의 얼굴이 아니다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6572,6 +6987,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“수고했다.” 낯선 사람이 짧게 말한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6583,6 +6999,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "누구에게 하는 말인지 이제는 알 것 같았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -6594,6 +7011,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“약제사.” 차갑게 식은 목소리가 들려온다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6605,6 +7023,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“불법 약물 제조 및 유통 혐의로 당신을 체포한다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6616,6 +7035,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“잠깐...! 그건...!”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6627,6 +7047,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이미 늦었다. 너의 손에 남아 있던 건 선택의 결과뿐이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6638,6 +7059,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "철컹. 손목이 묶이고 익숙했던 공간이 순식간에 낯설어진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6649,6 +7071,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그 소년은 문을 나서기 전 처음보는 표정을 했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6660,6 +7083,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 이후, 그 가게는 다시 열리지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6671,6 +7095,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리고 사람들은 말한다. 가장 익숙한 손님이 가장 위험할 수도 있다고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6686,6 +7111,7 @@
       "C"
     ],
     "Content": "익숙한 냄새, 익숙한 손놀림. 오래 전부터 봐왔던 모습이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6701,6 +7127,7 @@
       "C"
     ],
     "Content": "하지만 처음 본 어딘가 정상적이지 않은 눈.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6716,6 +7143,7 @@
       "C"
     ],
     "Content": "“도움이 좀 필요해서 왔어.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6731,6 +7159,7 @@
       "C"
     ],
     "Content": "그는 웃었지만, 그 표정은 어딘가 어긋나 있었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6746,6 +7175,7 @@
       "C"
     ],
     "Content": "숨긴 손이 미세하게 떨리고, 호흡이 일정하지 않다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6761,6 +7191,7 @@
       "C"
     ],
     "Content": "“조금... 무리한 실험을 하고 있어서.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6776,6 +7207,7 @@
       "C"
     ],
     "Content": "가볍게 말했지만 그 말이 가볍게 들리지는 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6791,6 +7223,7 @@
       "C"
     ],
     "Content": "“그 실험을 안성시킬 약. 너라면 만들 수 있잖아.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6806,6 +7239,7 @@
       "C"
     ],
     "Content": "완성된 병을 그에게 넘겼다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6821,6 +7255,7 @@
       "C"
     ],
     "Content": "그는 기다렸다는 듯이 뚜껑을 열어 망설임 없이 바로 들이켰다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6836,6 +7271,7 @@
       "C"
     ],
     "Content": "그리고 짧은 숨과 함께 몸이 멈춘다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6851,6 +7287,7 @@
       "C"
     ],
     "Content": "“이거... 이상한데...”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6866,6 +7303,7 @@
       "C"
     ],
     "Content": "쿵. 무릎이 바닥에 부딪힌다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -6877,6 +7315,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "공기가 뒤틀리며 보이지 않는 무언가가 주변을 짓누른다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
@@ -6888,6 +7327,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“아... 아아...” 그의 목소리가 갈라진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
@@ -6899,6 +7339,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "몸에서 새어나오는 통제되지 않은 마력. 그의 몸에서 빛이 번진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
@@ -6910,6 +7351,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“멈춰! 그만...!” 이미 늦었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
@@ -6921,7 +7363,8 @@
     "Speakers": null,
     "Slots": null,
     "Content": "폭발음과 함께 벽이 갈라지고, 유리가 산산이 부서진다.",
-    "BGM": null,
+    "Command": "CameraShaking",
+    "BGM": "Bomb",
     "SFX": null,
     "Background": "Bad_06",
     "ResultID": null
@@ -6932,6 +7375,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "약병들이 쏟아지고 마력이 뒤섞이며 가게가 무너진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
@@ -6943,6 +7387,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "연기가 가라앉았을 때, 남아 있던 건 형태를 알아볼 수 없는 잔해와 침묵뿐이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
@@ -6954,6 +7399,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 이후, 가게는 다시 열리지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_06",
@@ -6965,6 +7411,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“변상금 지급 기한, 10일.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -6976,6 +7423,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“미이행.” 판결은 간단했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -6987,6 +7435,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그렇게 {Store.Name}은 빚과 함께 끝을 맞았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -6998,6 +7447,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 말한다. 연금술사의 몸조차 가장 위험한 재료가 될 수 있다고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -7013,6 +7463,7 @@
       "C"
     ],
     "Content": "단정하게 정리된 옷, 흔들림 없는 자세. 누가 봐도 의심할 이유가 없는 사람.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7028,6 +7479,7 @@
       "C"
     ],
     "Content": "“약제사. 협조 요청이다.” ",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7043,6 +7495,7 @@
       "C"
     ],
     "Content": "그는 주변을 한 번 살피고, 조용히 말을 이었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7058,6 +7511,7 @@
       "C"
     ],
     "Content": "“체포한 범죄자가 있다. 입을 열지 않아서 말이지.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7073,6 +7527,7 @@
       "C"
     ],
     "Content": "“자백제를 하나 만들어라.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7088,6 +7543,7 @@
       "C"
     ],
     "Content": "합법적인 요청. 정당한 이유. 그래서 의심하지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7103,6 +7559,7 @@
       "C"
     ],
     "Content": "완성된 마법약을 그의 손에 넘긴다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7118,6 +7575,7 @@
       "C"
     ],
     "Content": "그의 손에 넘긴다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7133,6 +7591,7 @@
       "C"
     ],
     "Content": "그는 그것을 받아들고, 천천히 고개를 끄덕인다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7148,6 +7607,7 @@
       "C"
     ],
     "Content": "천천히 고개를 끄덕인다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7163,6 +7623,7 @@
       "C"
     ],
     "Content": "“수고했다.” 짧은 말을 남기고 돌아섰다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7174,7 +7635,8 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 밤, 문을 두드리는 소리가 울린다.",
-    "BGM": null,
+    "Command": "CameraShaking",
+    "BGM": "Knock",
     "SFX": null,
     "Background": "Arrest",
     "ResultID": null
@@ -7185,6 +7647,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "문을 열자마자 보인 건 여러 명의 경비대원들.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7196,6 +7659,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "하지만 아까 그 사람은 없었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7207,6 +7671,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“약제사. 불법 약물 제조 및 반역 혐의로 당신을 체포한다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7218,6 +7683,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“잠깐... 방금 경비대장이...!”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7229,6 +7695,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“경비대장이라니. 우리는 오늘 이곳에 온 적 없다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7240,6 +7707,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "머릿속이 멈춘다. 그제야 깨닫는다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7251,6 +7719,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그가 남긴 건 의뢰가 아니라 증거였다는 걸.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7262,6 +7731,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "철컹. 손목에 차가운 금속이 채워진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7273,6 +7743,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“범죄자에게 협조하고, 수사에 혼선을 준 혐의.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7284,6 +7755,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "끌려 나가는 순간 가게가 눈에 들어온다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7295,6 +7767,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "익숙했던 공간. 하지만 이제는 돌아올 수 없다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7306,6 +7779,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그렇게 누군가의 속임수 속에서 끝을 맞았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7317,6 +7791,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7328,6 +7803,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "겉모습이 진실을 보장해주진 않는다고. 믿음은 때로 가장 쉬운 함정이 된다고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7343,6 +7819,7 @@
       "C"
     ],
     "Content": "그는 문을 부수듯 들어왔다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7358,6 +7835,7 @@
       "C"
     ],
     "Content": "순식간에 온도가 떨어진다. 그리고 그 중심에 그가 서 있었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7373,6 +7851,7 @@
       "C"
     ],
     "Content": "마탑주. 이름만으로도 설명이 필요 없는 존재.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7388,6 +7867,7 @@
       "C"
     ],
     "Content": "하지만 지금의 그는 달랐다. 몸 곳곳이 얼어붙어 있었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7403,6 +7883,7 @@
       "C"
     ],
     "Content": "피부 위로 번지는 서리, 갈라진 숨과 목소리, 떨리는 눈동자.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7418,6 +7899,7 @@
       "C"
     ],
     "Content": "그의 요구대로 완성된 빙결 마법약을 넘긴다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7433,6 +7915,7 @@
       "C"
     ],
     "Content": "투명하게 빛나는 액체. 차갑게 식어 있는 색.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7448,6 +7931,7 @@
       "C"
     ],
     "Content": "그는 망설이지 않고 곧바로 들이켰다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7463,6 +7947,7 @@
       "C"
     ],
     "Content": "쿵. 무릎이 떨어진다. 바닥이 얼어붙는다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7478,6 +7963,7 @@
       "C"
     ],
     "Content": "“아... 아아...” 몸 전체가 급격히 얼어붙는다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7489,6 +7975,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리고 그 다음 순간, 억제되던 마력이 폭주하기 시작했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7500,6 +7987,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그제서야 깨닫는다. 마탑주는 빙결 마법약이 아닌 다른 약이 필요했다고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7511,7 +7999,8 @@
     "Speakers": null,
     "Slots": null,
     "Content": "눈부신 빛과 함께, 차가운 파동이 사방으로 터져 나간다.",
-    "BGM": null,
+    "Command": "CameraShaking",
+    "BGM": "Bomb",
     "SFX": null,
     "Background": "Bad_09",
     "ResultID": null
@@ -7522,6 +8011,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "가게가 얼어붙고 벽이 갈라진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7533,6 +8023,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "거리까지 순식간에 하얗게 뒤덮이며 모든 사람들이 얼어붙는다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7544,6 +8035,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "모든 것이 부서지며 연기와 서리가 뒤섞인다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7555,6 +8047,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "마을이 버티지 못했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7566,6 +8059,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "버티지 못한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7577,6 +8071,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 이후, 그 마을은 지도에서 사라졌다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7588,6 +8083,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "마법 의회 기록에는 한 줄이 추가되었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7599,6 +8095,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“마력 폭주로 인한 전면 붕괴.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7610,6 +8107,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그렇게 세상과 함께 끝을 맞이했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7621,6 +8119,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7632,6 +8131,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "연금술에서 가장 위험한 건 실력이 아니라 판단이라고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -7647,6 +8147,7 @@
       "C"
     ],
     "Content": "“남편이... 너무 아파서... 어떤 약도 듣질 않아요...”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7662,6 +8163,7 @@
       "C"
     ],
     "Content": "그녀의 손이 탁자 위를 꽉 붙잡는다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7677,6 +8179,7 @@
       "C"
     ],
     "Content": "“강한 진통제... 있죠? 조금... 불법이어도 괜찮아요.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7692,6 +8195,7 @@
       "C"
     ],
     "Content": "그 말은 조용했지만 무게는 충분했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7707,6 +8211,7 @@
       "C"
     ],
     "Content": "망설임. 짧지만, 분명한 순간.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7722,6 +8227,7 @@
       "C"
     ],
     "Content": "짧지만, 분명한 순간.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7737,6 +8243,7 @@
       "C"
     ],
     "Content": "그녀는 그 망설임을 알아차렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7752,6 +8259,7 @@
       "C"
     ],
     "Content": "며칠 뒤, 완성된 병을 그녀에게 넘겼다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7767,6 +8275,7 @@
       "C"
     ],
     "Content": "그녀는 담담히 마약에 가까운 그 마법약을 받아들었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7782,6 +8291,7 @@
       "C"
     ],
     "Content": "잠깐이지만 그 모습에 기이한 예감이 들었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7797,6 +8307,7 @@
       "C"
     ],
     "Content": "“...확인이 필요하겠군요.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7812,6 +8323,7 @@
       "C"
     ],
     "Content": "목소리가 바뀌어 있었다. 등골이 서늘해진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7827,6 +8339,7 @@
       "C"
     ],
     "Content": "천천히 그녀의 목에 걸리 팬던트를 바라본다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7842,6 +8355,7 @@
       "C"
     ],
     "Content": "마법 의회의 인장. 그녀를 동정하느라 눈치채지 못했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -7853,7 +8367,8 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그 순간 문이 열리고 여러 명의 인원이 가게 안으로 들이닥쳤다.",
-    "BGM": null,
+    "Command": null,
+    "BGM": "Knock",
     "SFX": null,
     "Background": "Arrest",
     "ResultID": null
@@ -7864,6 +8379,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“현장 확인 완료. 불법 약물 제조 및 유통 적발.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7875,6 +8391,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“약제사. 즉시 영업을 중단한다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7886,6 +8403,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "\"...잠깐, 이게 무슨...!\"",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7897,6 +8415,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“변명은 의회에서 듣겠다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7908,6 +8427,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "익숙한 가게 안에 낯선 공기가 가득 찬다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7919,6 +8439,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그 ‘공무원’은 돌아선다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7930,6 +8451,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“환자도, 남편도 없습니다. 단지, 확인이 필요했을 뿐이죠.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7941,6 +8463,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "문이 닫히는 소리가 이상하리만큼 크게 울린다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7952,6 +8475,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“불법 약물 제조 적발. 영업 정지를 선고한다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7963,6 +8487,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그렇게 가게는 선택 하나로 멈춰버렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7974,6 +8499,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7985,6 +8511,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "가장 설득력 있는 거짓말은 진심처럼 들린다고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -7996,6 +8523,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "10일. 짧다면 짧고, 길다면 긴 시간.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8007,6 +8535,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "당신은 만들었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8018,6 +8547,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "팔고, 또 만들고, 다시 팔았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8029,6 +8559,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손은 쉬지 않았고, 머리는 멈추지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8040,6 +8571,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리고 마침내. 마지막 금화를 탁자 위에 올려놓았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8051,6 +8583,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“확인했다. 변상금, 전액 납부.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8062,6 +8595,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "끝났다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8073,6 +8607,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "분명, 끝난 줄 알았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8084,6 +8619,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "하지만 집행관은 서류를 덮으며, 짧게 덧붙였다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8095,6 +8631,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“단, 별개의 문제가 있다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8106,6 +8643,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“불법 실험. 위험 약물 유통. 다수의 민원. 기준 이하의 평판”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8117,6 +8655,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“따라서 이 마을에서의 거주를 금지한다.즉시 떠나라.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8128,6 +8667,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그리 많지 않은 짐을 싸고 가게 문을 닫았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8139,6 +8679,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "익숙했던 공간이지만 앞으로는 돌아올 수 없다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8150,6 +8691,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "도착한 곳은 마을의 바로 밑에 위치한 지하도시.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8161,6 +8703,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이곳에서는 아무도 묻지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8172,6 +8715,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "무엇을 만들었는지, 어디서 왔는지.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8183,6 +8727,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "지하도시의 사람들은 오직 무엇을 팔 수 있는지만 궁금해했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8194,6 +8739,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "다시 약을 만들기 시작했다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8205,6 +8751,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이번에는 더 조용하게, 더 위험하게.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8216,6 +8763,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8227,6 +8775,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "한 번 무너진 이름은 다시 돌아오지 않는다고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8238,6 +8787,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "마법약 상점은 아직 열려있었지만 약제사를 빛 아래에서 볼 일은 더 이상 없었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8249,6 +8799,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "10일. 짧다면 짧고, 길다면 긴 시간.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8260,6 +8811,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "당신은 만들었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8271,6 +8823,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "팔고, 또 만들고, 다시 팔았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8282,6 +8835,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손은 쉬지 않았고, 머리는 멈추지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8293,6 +8847,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 다시 찾아왔고, 약은 제대로 쓰였으며, 소문은 천천히 바뀌었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8304,6 +8859,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“효과가 확실하더라. 그 약제사, 이제 믿을 만해.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8315,6 +8871,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "작은 말들이 쌓였고, 마지막 날이 다가왔다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8326,6 +8883,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "마침내, 마지막 금화를 탁자 위에 올려놓았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8337,6 +8895,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“확인했다. 변상금, 전액 납부.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8348,6 +8907,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "의회에서 돌아와 가게 안을 둘러본다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Good_Ending_01",
@@ -8359,6 +8919,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "익숙한 공간이지만 이제는 조금 다르게 느껴진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8370,6 +8931,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "문이 열리고 손님들이 들어왔다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8381,6 +8943,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“여기, 아직 약 팔죠?”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8392,6 +8955,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그날 이후, 가게는 계속 열렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8403,6 +8967,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손님은 늘었고, 이름은 퍼졌으며, 신뢰는 쌓였다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8414,6 +8979,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이제 막 다른 무언가가 시작되려 하고 있었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8425,6 +8991,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8436,6 +9003,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이름이 알려지면 그만큼 더 위험한 일도 따라오지 않겠냐고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8447,6 +9015,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "남은 시간, 하루.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8458,6 +9027,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손은 멈추지 않았다. 재료를 넣고, 저어내고, 또다시 만들고.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8469,6 +9039,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "하지만 금화는 늘 모자랐다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8480,6 +9051,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "몇 개만 더 팔면 될 것 같았고, 조금만 더 시간이 있으면 될 것 같았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8491,6 +9063,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "하지만 시간은 기다려주지 않았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8502,6 +9075,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "마지막 날, 해가 져버렸다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8513,6 +9087,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "가게 안에는 팔리지 않은 약과 채워지지 않은 금액, 그리고 침묵만이 남았다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -8524,6 +9099,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "문을 두드리는 소리. 말은 필요 없었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8535,6 +9111,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "집행관들의 시선이 이미 모든 걸 말해주고 있었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8546,6 +9123,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "이미 모든 걸 말해주고 있었다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8557,6 +9135,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“연금술사. 지급 기한 종료. 변상금, 미납.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8568,6 +9147,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“...조금만 더 시간을...”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8579,6 +9159,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "말이 끝나기도 전에 고개가 저어진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8590,6 +9171,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“기회는 충분히 주어졌다. 10일.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8601,6 +9183,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“따라서 즉시 추방한다.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8612,6 +9195,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "힘이 빠지고 손에 쥐고 있던 동전이 바닥으로 떨어진다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8623,6 +9207,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "손에 쥐고 있던 동전이 떨어지는 소리를 마지막으로 모든 게 끝난다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8634,6 +9219,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "짐을 챙길 시간도 없이, 끌려나간다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8645,6 +9231,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "가게를 스쳐 지나간다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8656,6 +9243,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "익숙했던 공간이지만 이제는 아무 의미도 없다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8667,6 +9255,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그렇게 모든 것을 남긴 채 쫓겨났다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8678,6 +9267,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "마법 의회 기록.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8689,6 +9279,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "“변상금 미납. 강제 추방.”",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -8700,6 +9291,7 @@
     "Speakers": null,
     "Slots": null,
     "Content": "그 이후 그 약제사를 봤다는 사람은 없다.",
+    "Command": null,
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",

@@ -20,6 +20,7 @@ public class VisualNovelManager : MonoBehaviour
     public Func<string, bool> OnMoveNextContent;
     public Action<string, string> OnAddLog;
     public Action OnExitDialogue;
+    public Action<string> OnDialogueCommand;
 
     private Dictionary<string, Dialogue> _dialogues;
     private Dictionary<string, Result> _results;

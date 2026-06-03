@@ -122,7 +122,12 @@ public class DialogueUI : UIBase
         SetBGM(_dialogues[id].BGM);
         SetSFX(_dialogues[id].SFX);
 
-        SetDialogueLog(_dialogues[id].Facial, id);
+        SetDialogueLog(id);
+
+        if (!string.IsNullOrEmpty(_dialogues[id].Command))
+        {
+            VisualNovelManager.Inst.OnDialogueCommand?.Invoke(id);
+        }
     }
 
     // 다음 대사로 이동
@@ -154,14 +159,20 @@ public class DialogueUI : UIBase
     }
 
     // 대사 로그 설정
-    private void SetDialogueLog(string speakerID, string currentID)
+    private void SetDialogueLog(string currentID)
     {
         if (_lastLogID == currentID)
         {
             return;
         }
 
-        if (string.IsNullOrEmpty(speakerID))
+        string speakerID = string.Empty;
+
+        if (_dialogues[currentID].Speakers.Count != 0)
+        {
+            speakerID = _dialogues[currentID].Speakers[0];
+        }
+        else
         {
             speakerID = "Narr";
         }
@@ -184,7 +195,7 @@ public class DialogueUI : UIBase
                 break;
             }
 
-            SetDialogueLog(_dialogues[nextID].Facial, nextID);
+            SetDialogueLog(nextID);
 
             VisualNovelManager.Inst.OnSetDialogueID(nextID);
             nextID = _dialogues[GetCurrentID()].NextID;
