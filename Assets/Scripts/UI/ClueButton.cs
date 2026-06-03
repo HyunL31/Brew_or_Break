@@ -12,6 +12,7 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 {
     [SerializeField] private string ClueID;
     [SerializeField] private Button Button_Clue;
+    [SerializeField] private Animator Anim;
 
     private Dictionary<string, Clue> _data;
 
@@ -30,6 +31,7 @@ public class ClueButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     public void OnPointerEnter(PointerEventData eventData)
     {
         SetCursorImage("ClueCursor").Forget();
+        Anim.SetTrigger("Clue");
     }
 
     public void OnPointerExit(PointerEventData eventData)
