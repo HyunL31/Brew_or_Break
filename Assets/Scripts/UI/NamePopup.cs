@@ -20,6 +20,12 @@ public class NamePopup : UIBase
         Button_Close.onClick.AddListener(UIManager.Inst.CloseNamePopup);
     }
 
+    private void OnEnable()
+    {
+        PlayerName.text = string.Empty;
+        StoreName.text = string.Empty;
+    }
+
     private void OnClickConfirm()
     {
         if ((PlayerName.text == string.Empty || StoreName.text == string.Empty) || PlayerName.text.Length > 10 || StoreName.text.Length > 16)

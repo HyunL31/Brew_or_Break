@@ -1,5 +1,6 @@
 ﻿using Cysharp.Threading.Tasks;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ public class Inventory : UIBase
 {
     [SerializeField] Button Button_Close;
     [SerializeField] Transform SlotParent;
+    [SerializeField] TextMeshProUGUI Text_EmptyInfo;
 
     private Dictionary<string, InventorySlot> _inventory = new Dictionary<string, InventorySlot>();
 
@@ -31,20 +33,35 @@ public class Inventory : UIBase
 
     private void OnDisable()
     {
-        GameManager.Inst.OnSetInventory = null;
+        GameManager.Inst.OnSetInventory -= (id, count) => { UpdateInventory(id, count).Forget(); };
     }
 
     private async UniTask SetInventory()
     {
         List<ItemModel> items = GameManager.Inst.PlayerModel.Inventory;
 
-        if (items.Count <= 0)
+        // 인벤토리 슬롯 초기화
+        foreach (InventorySlot slot in _inventory.Values)
         {
+            if (slot != null)
+            {
+                slot.gameObject.SetActive(false);
+            }
+        }
+
+        if (items == null || items.Count <= 0)
+        {
+            Text_EmptyInfo.gameObject.SetActive(true);
             return;
         }
 
         foreach (ItemModel item in items)
         {
+            if (item.ItemCount <= 0)
+            {
+                continue;
+            }
+
             await CreateSlot(item.ItemID, item.ItemCount);
         }
     }
@@ -54,40 +71,41 @@ public class Inventory : UIBase
     {
         if (count <= 0)
         {
-            if (_inventory.ContainsKey(id))
+            if (_inventory.ContainsKey(id) && _inventory[id] != null)
             {
-                if (_inventory[id] != null)
-                {
-                    Destroy(_inventory[id].gameObject);
-                }
+                _inventory[id].gameObject.SetActive(false);
+            }
 
-                _inventory.Remove(id);
+            if (_inventory.Count <= 0)
+            {
+                Text_EmptyInfo.gameObject.SetActive(true);
             }
 
             return;
         }
 
         await CreateSlot(id, count);
+        Text_EmptyInfo.gameObject.SetActive(false);
     }
 
     // 슬롯 생성
     private async UniTask CreateSlot(string id, int count)
     {
-        if (_inventory.ContainsKey(id))
+        if (_inventory.ContainsKey(id) && _inventory[id] != null)
         {
+            _inventory[id].gameObject.SetActive(true);
             _inventory[id].SetItemCount(count);
         }
         else
         {
-            if (_inventory.ContainsKey(id) && _inventory[id] == null)
+            if (_inventory.ContainsKey(id))
             {
-                await UniTask.WaitUntil(() => _inventory.ContainsKey(id) && _inventory[id] != null);
-                _inventory[id].SetItemCount(count);
                 return;
             }
-            string path = "Prefabs/UI/InventorySlot";
 
             _inventory.Add(id, null);
+
+            string path = "Prefabs/UI/InventorySlot";
 
             GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, SlotParent);
             InventorySlot inventorySlot = prefab.GetComponent<InventorySlot>();

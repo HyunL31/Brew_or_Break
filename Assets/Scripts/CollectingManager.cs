@@ -112,6 +112,7 @@ public class CollectingManager : MonoBehaviour
     public void DestroyPlayer()
     {
         StoreManager.Inst.OnResetPoint?.Invoke();
+
         Destroy(_player.gameObject);
         Destroy(_map);
 
@@ -240,6 +241,11 @@ public class CollectingManager : MonoBehaviour
 
     public void ClearPlayerBubble()
     {
+        if (_playerBubble == null)
+        {
+            return;
+        }
+
         Destroy(_playerBubble.gameObject);
         _playerBubble = null;
     }

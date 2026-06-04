@@ -28,6 +28,8 @@ public class GenderUI : UIBase
         GameUtil.LoadSpriteAndSet("Character/Girl", Image_Girl).Forget();
         GameUtil.LoadSpriteAndSet("Character/Boy", Image_Boy).Forget();
 
+        Button_Confirm.gameObject.SetActive(false);
+
         Button_Girl.interactable = true;
         Button_Boy.interactable = true;
     }

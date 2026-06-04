@@ -9,6 +9,11 @@ public class DropZone : MonoBehaviour, IDropHandler
 {
     public void OnDrop(PointerEventData eventData)
     {
+        if (eventData == null)
+        {
+            return;
+        }
+
         SoundManager.Inst.OnSFX?.Invoke("Audio/Plop");
 
         GameObject dragItem = eventData.pointerDrag;
