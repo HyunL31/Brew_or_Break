@@ -15,6 +15,9 @@ public class DropZone : MonoBehaviour, IDropHandler
         InventorySlot slot = dragItem.GetComponent<InventorySlot>();
         UIManager.Inst.CloseDrawItem();
 
-        VisualNovelManager.Inst.OnDropItem?.Invoke(slot.ItemID);
+        if (slot.ItemID != null)
+        {
+            VisualNovelManager.Inst.OnDropItem?.Invoke(slot.ItemID);
+        }
     }
 }

@@ -11,12 +11,15 @@ public class SaveUI : UIBase
 {
     [SerializeField] private Button Button_Close;
     [SerializeField] private Transform SlotParent;
+    [SerializeField] private GameObject InfoText;
 
     private HashSet<int> _slotID = new HashSet<int>();
 
     private void Awake()
     {
         Button_Close.onClick.AddListener(OnClickClose);
+
+        SaveManager.Inst.OnSaveClear = ClearSaveSlot;
     }
 
     private void OnEnable()
@@ -33,6 +36,8 @@ public class SaveUI : UIBase
 
     private async UniTask RefreshSlot()
     {
+        ClearSaveSlot();
+
         foreach (int i in GameManager.Inst.SlotIndex)
         {
             if (_slotID.Contains(i))
@@ -45,6 +50,18 @@ public class SaveUI : UIBase
             saveSlot.InitSlot(i);
 
             _slotID.Add(i);
+        }
+    }
+
+    private void ClearSaveSlot()
+    {
+        if (GameManager.Inst.SlotIndex.Count == 0)
+        {
+            InfoText.SetActive(true);
+        }
+        else
+        {
+            InfoText.SetActive(false);
         }
     }
 

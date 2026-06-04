@@ -13,6 +13,7 @@ public class ClueUI : UIBase
 
     [SerializeField] private Transform SlotParent;
     [SerializeField] private Button Button_Confirm;
+    [SerializeField] private GameObject EmptyInfo;
 
     private List<GameObject> _clueSlots = new List<GameObject>();
 
@@ -21,6 +22,8 @@ public class ClueUI : UIBase
         VisualNovelManager.Inst.OnClickClueButton = (id) => SetClueSlot(id).Forget();
         Button_Confirm.onClick.AddListener(OnClickConfirm);
         ActiveClueParent(GameManager.Inst.PlayerModel.Day);
+
+        EmptyInfo.gameObject.SetActive(true);
     }
 
     private void ActiveClueParent(int day)
@@ -30,6 +33,8 @@ public class ClueUI : UIBase
 
     private async UniTask SetClueSlot(string id)
     {
+        EmptyInfo.gameObject.SetActive(false);
+
         string slotPath = "Prefabs/UI/ClueSlot";
 
         GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(slotPath, SlotParent);

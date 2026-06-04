@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using UnityEngine;
 
 /// <summary>
@@ -8,6 +9,8 @@ using UnityEngine;
 public class SaveManager : MonoBehaviour
 {
     public static SaveManager Inst;
+
+    public Action OnSaveClear;
 
     private void Awake()
     {

@@ -102,6 +102,8 @@ public class SaveSlot : MonoBehaviour
         }
 
         GameManager.Inst.SlotIndex.Remove(_slotID);
+        SaveManager.Inst.OnSaveClear?.Invoke();
+
         Destroy(this.gameObject);
     }
 }
