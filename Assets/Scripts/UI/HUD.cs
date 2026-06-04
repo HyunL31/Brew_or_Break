@@ -21,9 +21,12 @@ public class HUD : UIBase
     [SerializeField] private GameObject ItemKeyInfo;
     
     private Dictionary<string, SkillButton> _skills = new Dictionary<string, SkillButton>();
+    private Dictionary<string, Skill> _data;
 
     private void Awake()
     {
+        _data = GameDataManager.Inst.SkillDataList;
+
         Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
         Button_EndCollecting.onClick.AddListener(EndCollecting);
         CollectingManager.Inst.OnChangeStamina = UpdateStamina;
@@ -54,9 +57,8 @@ public class HUD : UIBase
     private void InitSkillButton()
     {
         int playerLevel = StoreManager.Inst.StoreModel.Level;
-        var datas = GameDataManager.Inst.SkillDataList.Values;
 
-        foreach (var data in datas)
+        foreach (var data in _data.Values)
         {
             if (data.Level <= playerLevel)
             {

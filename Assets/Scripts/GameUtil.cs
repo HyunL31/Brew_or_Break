@@ -17,6 +17,7 @@ public static class GameUtil
         GameDataManager.Inst.LoadPotionData("Potion");
         GameDataManager.Inst.LoadResultData("Result");
         GameDataManager.Inst.LoadSkillData("Skill");
+        GameDataManager.Inst.LoadEndingData("Ending");
     }
 
     // 스프라이트 로드 & 적용 (이미지)

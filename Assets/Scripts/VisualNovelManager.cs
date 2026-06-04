@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 /// <summary>
@@ -106,10 +107,7 @@ public class VisualNovelManager : MonoBehaviour
         else if (nextID == "0")
         {
             GameManager.Inst.PlayerModel.IsComplete = true;
-            GameManager.Inst.SaveData();
-            UIManager.Inst.CloseDialogueUI();
-            UIManager.Inst.CloseVisualNovelUI();
-            UIManager.Inst.InitStart();
+            UIManager.Inst.OpenEndingPopup();
 
             isMoved = true;
         }
@@ -177,5 +175,11 @@ public class VisualNovelManager : MonoBehaviour
     private void ClearLog()
     {
         DialogueLogs.Clear();
+    }
+
+    // 엔딩 적용
+    public string GetEndingID()
+    {
+        return _dialogues[CurrentDialogueID].Command;
     }
 }

@@ -101,3 +101,10 @@ public class Skill : GameDataBase
     public string Type;
     public string Anim;
 }
+
+[Serializable]
+public class Ending : GameDataBase
+{
+    public string Name;
+    public string Description;
+}

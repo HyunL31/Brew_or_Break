@@ -2,7 +2,7 @@
   {
     "ID": "Episode_0_01",
     "NextID": "Episode_0_02",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "어느 평화롭던 마을.",
     "Command": null,
@@ -14,7 +14,7 @@
   {
     "ID": "Episode_0_02",
     "NextID": "Episode_0_03",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 오늘도 빵을 굽고, 물건을 사고, 소소한 하루를 보내고 있었다.",
     "Command": null,
@@ -26,7 +26,7 @@
   {
     "ID": "Episode_0_03",
     "NextID": "Episode_0_04",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날, 그 일이 벌어지기 전까지는.",
     "Command": null,
@@ -38,7 +38,7 @@
   {
     "ID": "Episode_0_04",
     "NextID": "Episode_0_05",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "쾅—!!",
     "Command": "CameraShake",
@@ -50,7 +50,7 @@
   {
     "ID": "Episode_0_05",
     "NextID": "Episode_0_06",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "눈부신 빛과 함께, 마을 중앙광장은 흔적도 없이 날아가 버렸다.",
     "Command": null,
@@ -62,7 +62,7 @@
   {
     "ID": "Episode_0_06",
     "NextID": "Episode_0_07",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "연기 사이에서 모습을 드러낸 건...",
     "Command": null,
@@ -74,7 +74,7 @@
   {
     "ID": "Episode_0_07",
     "NextID": "Episode_0_08",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "바로, 문제의 연금술사.",
     "Command": null,
@@ -86,7 +86,7 @@
   {
     "ID": "Episode_0_08",
     "NextID": "Episode_0_09",
-    "Speakers": [
+    "Facials": [
       "Player_01_05"
     ],
     "Slots": [
@@ -102,7 +102,7 @@
   {
     "ID": "Episode_0_09",
     "NextID": "Episode_0_10",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손에 들린 건 반쯤 타버린 실험 기록지, 그리고 아직도 끓고 있는 정체불명의 마법약.",
     "Command": null,
@@ -114,7 +114,7 @@
   {
     "ID": "Episode_0_10",
     "NextID": "Episode_0_11",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그건 분명, 가벼운 호기심에서 시작된 실험이었다.",
     "Command": null,
@@ -126,7 +126,7 @@
   {
     "ID": "Episode_0_11",
     "NextID": "Episode_0_12",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "하지만 결과는 마을의 중심을 통째로 날려버린 대참사.",
     "Command": null,
@@ -138,7 +138,7 @@
   {
     "ID": "Episode_0_12",
     "NextID": "Episode_0_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 이후, 사람들은 수군거렸다.",
     "Command": null,
@@ -150,7 +150,7 @@
   {
     "ID": "Episode_0_13",
     "NextID": "Episode_0_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“또 저 연금술사야...”",
     "Command": null,
@@ -162,7 +162,7 @@
   {
     "ID": "Episode_0_14",
     "NextID": "Episode_0_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“이번엔 진짜 끝난 거 아니야?”",
     "Command": null,
@@ -174,7 +174,7 @@
   {
     "ID": "Episode_0_15",
     "NextID": "Episode_0_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리고 마침내, 마법 의회가 움직였다.",
     "Command": null,
@@ -186,7 +186,7 @@
   {
     "ID": "Episode_0_16",
     "NextID": "Episode_0_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "차가운 시선 아래, 판결이 내려졌다.",
     "Command": null,
@@ -198,7 +198,7 @@
   {
     "ID": "Episode_0_17",
     "NextID": "Episode_0_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“마을 중앙광장 복구 비용 전액 변상, 기한은 단 <color=#fdcdcd>10일</color>.”",
     "Command": null,
@@ -210,7 +210,7 @@
   {
     "ID": "Episode_0_18",
     "NextID": "Episode_0_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“기한 내에 갚지 못할 경우, 즉시 추방한다.”",
     "Command": null,
@@ -222,7 +222,7 @@
   {
     "ID": "Episode_0_19",
     "NextID": "Episode_0_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "10일.",
     "Command": null,
@@ -234,7 +234,7 @@
   {
     "ID": "Episode_0_20",
     "NextID": "Episode_0_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리 길지도, 그렇다고 짧지도 않은 시간.",
     "Command": null,
@@ -246,7 +246,7 @@
   {
     "ID": "Episode_0_21",
     "NextID": "Episode_0_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "하지만 가진 돈은 바닥에 정상적인 방법으로는 절대 갚을 수 없는 금액.",
     "Command": null,
@@ -258,7 +258,7 @@
   {
     "ID": "Episode_0_22",
     "NextID": "Episode_0_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그래서 악제사는 결심했다.",
     "Command": null,
@@ -270,7 +270,7 @@
   {
     "ID": "Episode_0_23",
     "NextID": "Episode_0_24",
-    "Speakers": [
+    "Facials": [
       "Player_01_04"
     ],
     "Slots": [
@@ -286,7 +286,7 @@
   {
     "ID": "Episode_0_24",
     "NextID": "Episode_0_25",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "합법이든, 불법이든.",
     "Command": null,
@@ -298,7 +298,7 @@
   {
     "ID": "Episode_0_25",
     "NextID": "Episode_0_26",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "돈이 된다면, 뭐든지.",
     "Command": null,
@@ -310,7 +310,7 @@
   {
     "ID": "Episode_0_26",
     "NextID": "Episode_0_27",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "수상한 재료, 정체불명의 주문, 그리고 어딘가 위험해 보이는 손님들.",
     "Command": null,
@@ -322,7 +322,7 @@
   {
     "ID": "Episode_0_27",
     "NextID": "Lobby",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이제, 마을 한구석에서 시작되는 조금은 위험한 마법약 장사가 시작된다.",
     "Command": null,
@@ -334,7 +334,7 @@
   {
     "ID": "Episode_1_01",
     "NextID": "Episode_1_02",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02"
     ],
     "Slots": [
@@ -350,7 +350,7 @@
   {
     "ID": "Episode_1_02",
     "NextID": "Episode_1_03",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02"
     ],
     "Slots": [
@@ -366,7 +366,7 @@
   {
     "ID": "Episode_1_03",
     "NextID": "Episode_1_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Scholar_01_02"
     ],
@@ -384,7 +384,7 @@
   {
     "ID": "Episode_1_04",
     "NextID": "Episode_1_05",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Scholar_01_02"
     ],
@@ -402,7 +402,7 @@
   {
     "ID": "Episode_1_05",
     "NextID": "Episode_1_06",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_01",
       "Player_01_05"
     ],
@@ -420,7 +420,7 @@
   {
     "ID": "Episode_1_06",
     "NextID": "Episode_1_07",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_01",
       "Player_01_05"
     ],
@@ -438,7 +438,7 @@
   {
     "ID": "Episode_1_07",
     "NextID": "Episode_1_08",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02",
       "Player_01_05"
     ],
@@ -456,7 +456,7 @@
   {
     "ID": "Episode_1_08",
     "NextID": "Episode_1_09",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02",
       "Player_01_05"
     ],
@@ -474,7 +474,7 @@
   {
     "ID": "Episode_1_09",
     "NextID": "Episode_1_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Scholar_01_02"
     ],
@@ -492,7 +492,7 @@
   {
     "ID": "Episode_1_10",
     "NextID": "Episode_1_11",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Scholar_01_02"
     ],
@@ -510,7 +510,7 @@
   {
     "ID": "Episode_1_11",
     "NextID": "Episode_1_12",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_01",
       "Player_01_06"
     ],
@@ -528,7 +528,7 @@
   {
     "ID": "Episode_1_12",
     "NextID": "Episode_1_13",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_01",
       "Player_01_06"
     ],
@@ -546,7 +546,7 @@
   {
     "ID": "Episode_1_13",
     "NextID": "Clue_01",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02"
     ],
     "Slots": [
@@ -562,7 +562,7 @@
   {
     "ID": "Episode_1_14",
     "NextID": "Episode_1_15",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Scholar_01_01"
     ],
@@ -580,7 +580,7 @@
   {
     "ID": "Episode_1_15",
     "NextID": "Episode_1_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Scholar_01_01"
     ],
@@ -598,7 +598,7 @@
   {
     "ID": "Episode_1_16",
     "NextID": "Episode_1_17",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_01",
       "Player_01_04"
     ],
@@ -616,7 +616,7 @@
   {
     "ID": "Episode_1_17",
     "NextID": "Episode_1_18",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02",
       "Player_01_04"
     ],
@@ -634,7 +634,7 @@
   {
     "ID": "Episode_1_18",
     "NextID": "Choice_01",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02"
     ],
     "Slots": [
@@ -650,7 +650,7 @@
   {
     "ID": "Episode_1_19",
     "NextID": "Craft_01",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Scholar_01_02"
     ],
@@ -668,7 +668,7 @@
   {
     "ID": "Episode_1_20",
     "NextID": "Episode_1_21",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_05",
       "Player_01_04"
     ],
@@ -686,7 +686,7 @@
   {
     "ID": "Episode_1_21",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_05",
       "Player_01_04"
     ],
@@ -704,7 +704,7 @@
   {
     "ID": "Episode_1_22",
     "NextID": "Episode_1_23",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Scholar_01_02"
     ],
@@ -722,7 +722,7 @@
   {
     "ID": "Episode_1_23",
     "NextID": "Episode_1_24",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Scholar_01_02"
     ],
@@ -740,7 +740,7 @@
   {
     "ID": "Episode_1_24",
     "NextID": "Episode_1_25",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02",
       "Player_01_04"
     ],
@@ -758,7 +758,7 @@
   {
     "ID": "Episode_1_25",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_02"
     ],
     "Slots": [
@@ -774,7 +774,7 @@
   {
     "ID": "Episode_1_26",
     "NextID": "Episode_1_27",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_01"
     ],
     "Slots": [
@@ -790,7 +790,7 @@
   {
     "ID": "Episode_1_27",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_01"
     ],
     "Slots": [
@@ -806,7 +806,7 @@
   {
     "ID": "Episode_1_28",
     "NextID": "Episode_1_29",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_03"
     ],
     "Slots": [
@@ -822,7 +822,7 @@
   {
     "ID": "Episode_1_29",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Scholar_01_03"
     ],
     "Slots": [
@@ -838,7 +838,7 @@
   {
     "ID": "Episode_2_01",
     "NextID": "Episode_2_02",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01"
     ],
     "Slots": [
@@ -854,7 +854,7 @@
   {
     "ID": "Episode_2_02",
     "NextID": "Episode_2_03",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Tattoo_01_01"
     ],
@@ -872,7 +872,7 @@
   {
     "ID": "Episode_2_03",
     "NextID": "Episode_2_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Tattoo_01_01"
     ],
@@ -890,7 +890,7 @@
   {
     "ID": "Episode_2_04",
     "NextID": "Episode_2_05",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01",
       "Player_01_06"
     ],
@@ -908,7 +908,7 @@
   {
     "ID": "Episode_2_05",
     "NextID": "Episode_2_06",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01",
       "Player_01_06"
     ],
@@ -926,7 +926,7 @@
   {
     "ID": "Episode_2_06",
     "NextID": "Episode_2_07",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01",
       "Player_01_06"
     ],
@@ -944,7 +944,7 @@
   {
     "ID": "Episode_2_07",
     "NextID": "Episode_2_08",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Tattoo_01_01"
     ],
@@ -962,7 +962,7 @@
   {
     "ID": "Episode_2_08",
     "NextID": "Episode_2_09",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Tattoo_01_01"
     ],
@@ -980,7 +980,7 @@
   {
     "ID": "Episode_2_09",
     "NextID": "Episode_2_10",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01",
       "Player_01_06"
     ],
@@ -998,7 +998,7 @@
   {
     "ID": "Episode_2_10",
     "NextID": "Clue_02",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01"
     ],
     "Slots": [
@@ -1014,7 +1014,7 @@
   {
     "ID": "Episode_2_11",
     "NextID": "Episode_2_12",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Tattoo_01_01"
     ],
@@ -1032,7 +1032,7 @@
   {
     "ID": "Episode_2_12",
     "NextID": "Episode_2_13",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Tattoo_01_01"
     ],
@@ -1050,7 +1050,7 @@
   {
     "ID": "Episode_2_13",
     "NextID": "Episode_2_14",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01",
       "Player_01_06"
     ],
@@ -1068,7 +1068,7 @@
   {
     "ID": "Episode_2_14",
     "NextID": "Episode_2_15",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01",
       "Player_01_06"
     ],
@@ -1086,7 +1086,7 @@
   {
     "ID": "Episode_2_15",
     "NextID": "Choice_02",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01"
     ],
     "Slots": [
@@ -1102,7 +1102,7 @@
   {
     "ID": "Episode_2_16",
     "NextID": "Episode_2_17",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Tattoo_01_01"
     ],
@@ -1120,7 +1120,7 @@
   {
     "ID": "Episode_2_17",
     "NextID": "Craft_02",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Tattoo_01_01"
     ],
@@ -1138,7 +1138,7 @@
   {
     "ID": "Episode_2_18",
     "NextID": "Episode_2_19",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Tattoo_01_01"
     ],
@@ -1156,7 +1156,7 @@
   {
     "ID": "Episode_2_19",
     "NextID": "Episode_2_20",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Tattoo_01_01"
     ],
@@ -1174,7 +1174,7 @@
   {
     "ID": "Episode_2_20",
     "NextID": "Episode_2_21",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_02",
       "Player_01_02"
     ],
@@ -1192,7 +1192,7 @@
   {
     "ID": "Episode_2_21",
     "NextID": "Account",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "다음 날, 언덕 위 저택의 주인이 실종되고 모든 보물이 털렸다는 소식이 들려왔다...",
     "Command": null,
@@ -1204,7 +1204,7 @@
   {
     "ID": "Episode_2_22",
     "NextID": "Episode_2_23",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Tattoo_01_01"
     ],
@@ -1222,7 +1222,7 @@
   {
     "ID": "Episode_2_23",
     "NextID": "Episode_2_24",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Tattoo_01_01"
     ],
@@ -1240,7 +1240,7 @@
   {
     "ID": "Episode_2_24",
     "NextID": "Episode_2_25",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_04",
       "Player_01_03"
     ],
@@ -1258,7 +1258,7 @@
   {
     "ID": "Episode_2_25",
     "NextID": "Episode_2_26",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Tattoo_01_04"
     ],
@@ -1276,7 +1276,7 @@
   {
     "ID": "Episode_2_26",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_04",
       "Player_01_01"
     ],
@@ -1294,7 +1294,7 @@
   {
     "ID": "Episode_2_27",
     "NextID": "Episode_2_28",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_03",
       "Player_01_01"
     ],
@@ -1312,7 +1312,7 @@
   {
     "ID": "Episode_2_28",
     "NextID": "Episode_2_29",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Tattoo_01_03"
     ],
@@ -1330,7 +1330,7 @@
   {
     "ID": "Episode_2_29",
     "NextID": "Episode_2_30",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Tattoo_01_03"
     ],
@@ -1348,7 +1348,7 @@
   {
     "ID": "Episode_2_30",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_03",
       "Player_01_01"
     ],
@@ -1366,7 +1366,7 @@
   {
     "ID": "Episode_2_31",
     "NextID": "Episode_2_32",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01"
     ],
     "Slots": [
@@ -1382,7 +1382,7 @@
   {
     "ID": "Episode_2_32",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Tattoo_01_01"
     ],
     "Slots": [
@@ -1398,7 +1398,7 @@
   {
     "ID": "Episode_3_01",
     "NextID": "Episode_3_02",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01"
     ],
     "Slots": [
@@ -1414,7 +1414,7 @@
   {
     "ID": "Episode_3_02",
     "NextID": "Episode_3_03",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01"
     ],
     "Slots": [
@@ -1430,7 +1430,7 @@
   {
     "ID": "Episode_3_03",
     "NextID": "Episode_3_04",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01"
     ],
     "Slots": [
@@ -1446,7 +1446,7 @@
   {
     "ID": "Episode_3_04",
     "NextID": "Episode_3_05",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Prophet_01_01"
     ],
@@ -1464,7 +1464,7 @@
   {
     "ID": "Episode_3_05",
     "NextID": "Episode_3_06",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Prophet_01_01"
     ],
@@ -1482,7 +1482,7 @@
   {
     "ID": "Episode_3_06",
     "NextID": "Episode_3_07",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_02"
     ],
@@ -1500,7 +1500,7 @@
   {
     "ID": "Episode_3_07",
     "NextID": "Episode_3_08",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_02"
     ],
@@ -1518,7 +1518,7 @@
   {
     "ID": "Episode_3_08",
     "NextID": "Episode_3_09",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_02"
     ],
@@ -1536,7 +1536,7 @@
   {
     "ID": "Episode_3_09",
     "NextID": "Episode_3_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Prophet_01_01"
     ],
@@ -1554,7 +1554,7 @@
   {
     "ID": "Episode_3_10",
     "NextID": "Episode_3_11",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Prophet_01_01"
     ],
@@ -1572,7 +1572,7 @@
   {
     "ID": "Episode_3_11",
     "NextID": "Episode_3_12",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_05"
     ],
@@ -1590,7 +1590,7 @@
   {
     "ID": "Episode_3_12",
     "NextID": "Episode_3_13",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_05"
     ],
@@ -1608,7 +1608,7 @@
   {
     "ID": "Episode_3_13",
     "NextID": "Clue_03",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01"
     ],
     "Slots": [
@@ -1624,7 +1624,7 @@
   {
     "ID": "Episode_3_14",
     "NextID": "Episode_3_15",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Prophet_01_01"
     ],
@@ -1642,7 +1642,7 @@
   {
     "ID": "Episode_3_15",
     "NextID": "Episode_3_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Prophet_01_01"
     ],
@@ -1660,7 +1660,7 @@
   {
     "ID": "Episode_3_16",
     "NextID": "Episode_3_17",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_04"
     ],
@@ -1678,7 +1678,7 @@
   {
     "ID": "Episode_3_17",
     "NextID": "Choice_03",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01"
     ],
     "Slots": [
@@ -1694,7 +1694,7 @@
   {
     "ID": "Episode_3_18",
     "NextID": "Episode_3_19",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Prophet_01_01"
     ],
@@ -1712,7 +1712,7 @@
   {
     "ID": "Episode_3_19",
     "NextID": "Episode_3_20",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Prophet_01_01"
     ],
@@ -1730,7 +1730,7 @@
   {
     "ID": "Episode_3_20",
     "NextID": "Episode_3_21",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_04"
     ],
@@ -1748,7 +1748,7 @@
   {
     "ID": "Episode_3_21",
     "NextID": "Episode_3_22",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_04"
     ],
@@ -1766,7 +1766,7 @@
   {
     "ID": "Episode_3_22",
     "NextID": "Craft_03",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Prophet_01_01"
     ],
@@ -1784,7 +1784,7 @@
   {
     "ID": "Episode_3_23",
     "NextID": "Episode_3_24",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Prophet_01_01"
     ],
@@ -1802,7 +1802,7 @@
   {
     "ID": "Episode_3_24",
     "NextID": "Episode_3_25",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Prophet_01_01"
     ],
@@ -1820,7 +1820,7 @@
   {
     "ID": "Episode_3_25",
     "NextID": "Episode_3_26",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Prophet_01_01"
     ],
@@ -1838,7 +1838,7 @@
   {
     "ID": "Episode_3_26",
     "NextID": "Episode_3_27",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_06"
     ],
@@ -1856,7 +1856,7 @@
   {
     "ID": "Episode_3_27",
     "NextID": "Episode_3_28",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_06"
     ],
@@ -1874,7 +1874,7 @@
   {
     "ID": "Episode_3_28",
     "NextID": "Episode_3_29",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_06"
     ],
@@ -1892,7 +1892,7 @@
   {
     "ID": "Episode_3_29",
     "NextID": "Episode_3_30",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Prophet_01_01"
     ],
@@ -1910,7 +1910,7 @@
   {
     "ID": "Episode_3_30",
     "NextID": "Episode_3_31",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Prophet_01_01"
     ],
@@ -1928,7 +1928,7 @@
   {
     "ID": "Episode_3_31",
     "NextID": "Episode_3_32",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Prophet_01_01"
     ],
@@ -1946,7 +1946,7 @@
   {
     "ID": "Episode_3_32",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01",
       "Player_01_03"
     ],
@@ -1964,7 +1964,7 @@
   {
     "ID": "Episode_3_33",
     "NextID": "Episode_3_34",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Prophet_01_01"
     ],
@@ -1982,7 +1982,7 @@
   {
     "ID": "Episode_3_34",
     "NextID": "Episode_3_35",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Prophet_01_01"
     ],
@@ -2000,7 +2000,7 @@
   {
     "ID": "Episode_3_35",
     "NextID": "Episode_3_36",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_02",
       "Player_01_02"
     ],
@@ -2018,7 +2018,7 @@
   {
     "ID": "Episode_3_36",
     "NextID": "Episode_3_37",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_02",
       "Player_01_02"
     ],
@@ -2036,7 +2036,7 @@
   {
     "ID": "Episode_3_37",
     "NextID": "End_Illegal_01",
-    "Speakers": [
+    "Facials": [
       "Player_01_05"
     ],
     "Slots": [
@@ -2052,7 +2052,7 @@
   {
     "ID": "Episode_3_38",
     "NextID": "Episode_3_39",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01"
     ],
     "Slots": [
@@ -2068,7 +2068,7 @@
   {
     "ID": "Episode_3_39",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Prophet_01_01"
     ],
     "Slots": [
@@ -2084,7 +2084,7 @@
   {
     "ID": "Episode_4_01",
     "NextID": "Episode_4_02",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -2100,7 +2100,7 @@
   {
     "ID": "Episode_4_02",
     "NextID": "Episode_4_03",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -2116,7 +2116,7 @@
   {
     "ID": "Episode_4_03",
     "NextID": "Episode_4_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Magician_01_01"
     ],
@@ -2134,7 +2134,7 @@
   {
     "ID": "Episode_4_04",
     "NextID": "Episode_4_05",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01",
       "Player_01_04"
     ],
@@ -2152,7 +2152,7 @@
   {
     "ID": "Episode_4_05",
     "NextID": "Episode_4_06",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01",
       "Player_01_04"
     ],
@@ -2170,7 +2170,7 @@
   {
     "ID": "Episode_4_06",
     "NextID": "Episode_4_07",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01",
       "Player_01_04"
     ],
@@ -2188,7 +2188,7 @@
   {
     "ID": "Episode_4_07",
     "NextID": "Episode_4_08",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01",
       "Player_01_04"
     ],
@@ -2206,7 +2206,7 @@
   {
     "ID": "Episode_4_08",
     "NextID": "Clue_04",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -2222,7 +2222,7 @@
   {
     "ID": "Episode_4_09",
     "NextID": "Episode_4_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Magician_01_01"
     ],
@@ -2240,7 +2240,7 @@
   {
     "ID": "Episode_4_10",
     "NextID": "Episode_4_11",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Magician_01_01"
     ],
@@ -2258,7 +2258,7 @@
   {
     "ID": "Episode_4_11",
     "NextID": "Episode_4_12",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01",
       "Player_01_04"
     ],
@@ -2276,7 +2276,7 @@
   {
     "ID": "Episode_4_12",
     "NextID": "Choice_04",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -2292,7 +2292,7 @@
   {
     "ID": "Episode_4_13",
     "NextID": "Episode_4_14",
-    "Speakers": [
+    "Facials": [
       "Player_01_04"
     ],
     "Slots": [
@@ -2308,7 +2308,7 @@
   {
     "ID": "Episode_4_14",
     "NextID": "Craft_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_04"
     ],
     "Slots": [
@@ -2324,7 +2324,7 @@
   {
     "ID": "Episode_4_15",
     "NextID": "Episode_4_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Magician_01_01"
     ],
@@ -2342,7 +2342,7 @@
   {
     "ID": "Episode_4_16",
     "NextID": "Episode_4_17",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Magician_01_01"
     ],
@@ -2360,7 +2360,7 @@
   {
     "ID": "Episode_4_17",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01",
       "Player_01_04"
     ],
@@ -2378,7 +2378,7 @@
   {
     "ID": "Episode_4_18",
     "NextID": "Episode_4_19",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Magician_01_01"
     ],
@@ -2396,7 +2396,7 @@
   {
     "ID": "Episode_4_19",
     "NextID": "Episode_4_20",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Magician_01_01"
     ],
@@ -2414,7 +2414,7 @@
   {
     "ID": "Episode_4_20",
     "NextID": "Episode_4_21",
-    "Speakers": [
+    "Facials": [
       "Magician_01_02",
       "Player_01_02"
     ],
@@ -2432,7 +2432,7 @@
   {
     "ID": "Episode_4_21",
     "NextID": "Episode_4_22",
-    "Speakers": [
+    "Facials": [
       "Magician_01_02",
       "Player_01_02"
     ],
@@ -2450,7 +2450,7 @@
   {
     "ID": "Episode_4_22",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Player_01_06"
     ],
     "Slots": null,
@@ -2464,7 +2464,7 @@
   {
     "ID": "Episode_4_23",
     "NextID": "Episode_4_24",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Magician_01_03"
     ],
@@ -2482,7 +2482,7 @@
   {
     "ID": "Episode_4_24",
     "NextID": "Episode_4_25",
-    "Speakers": [
+    "Facials": [
       "Magician_01_03",
       "Player_01_02"
     ],
@@ -2500,7 +2500,7 @@
   {
     "ID": "Episode_4_25",
     "NextID": "Episode_4_26",
-    "Speakers": [
+    "Facials": [
       "Magician_01_03",
       "Player_01_02"
     ],
@@ -2518,7 +2518,7 @@
   {
     "ID": "Episode_4_26",
     "NextID": "End_Trap_01",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Magician_01_03"
     ],
@@ -2536,7 +2536,7 @@
   {
     "ID": "Episode_4_27",
     "NextID": "Episode_4_28",
-    "Speakers": [
+    "Facials": [
       "Magician_01_03"
     ],
     "Slots": [
@@ -2552,7 +2552,7 @@
   {
     "ID": "Episode_4_28",
     "NextID": "Episode_4_29",
-    "Speakers": [
+    "Facials": [
       "Magician_01_03"
     ],
     "Slots": [
@@ -2568,7 +2568,7 @@
   {
     "ID": "Episode_4_29",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Magician_01_03"
     ],
     "Slots": [
@@ -2584,7 +2584,7 @@
   {
     "ID": "Episode_5_01",
     "NextID": "Episode_5_02",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01"
     ],
     "Slots": [
@@ -2600,7 +2600,7 @@
   {
     "ID": "Episode_5_02",
     "NextID": "Episode_5_03",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01"
     ],
     "Slots": [
@@ -2616,7 +2616,7 @@
   {
     "ID": "Episode_5_03",
     "NextID": "Episode_5_04",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01"
     ],
     "Slots": [
@@ -2632,7 +2632,7 @@
   {
     "ID": "Episode_5_04",
     "NextID": "Episode_5_05",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Boss_01_01"
     ],
@@ -2650,7 +2650,7 @@
   {
     "ID": "Episode_5_05",
     "NextID": "Episode_5_06",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Boss_01_01"
     ],
@@ -2668,7 +2668,7 @@
   {
     "ID": "Episode_5_06",
     "NextID": "Episode_5_07",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_06"
     ],
@@ -2686,7 +2686,7 @@
   {
     "ID": "Episode_5_07",
     "NextID": "Episode_5_08",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_06"
     ],
@@ -2704,7 +2704,7 @@
   {
     "ID": "Episode_5_08",
     "NextID": "Clue_05",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01"
     ],
     "Slots": [
@@ -2720,7 +2720,7 @@
   {
     "ID": "Episode_5_09",
     "NextID": "Episode_5_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Boss_01_01"
     ],
@@ -2738,7 +2738,7 @@
   {
     "ID": "Episode_5_10",
     "NextID": "Episode_5_11",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_06"
     ],
@@ -2756,7 +2756,7 @@
   {
     "ID": "Episode_5_11",
     "NextID": "Episode_5_12",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_06"
     ],
@@ -2774,7 +2774,7 @@
   {
     "ID": "Episode_5_12",
     "NextID": "Choice_05",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01"
     ],
     "Slots": [
@@ -2790,7 +2790,7 @@
   {
     "ID": "Episode_5_13",
     "NextID": "Episode_5_14",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Boss_01_01"
     ],
@@ -2808,7 +2808,7 @@
   {
     "ID": "Episode_5_14",
     "NextID": "Craft_05",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_04"
     ],
@@ -2826,7 +2826,7 @@
   {
     "ID": "Episode_5_15",
     "NextID": "Episode_5_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Boss_01_01"
     ],
@@ -2844,7 +2844,7 @@
   {
     "ID": "Episode_5_16",
     "NextID": "Episode_5_17",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_04"
     ],
@@ -2862,7 +2862,7 @@
   {
     "ID": "Episode_5_17",
     "NextID": "Episode_5_18",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Boss_01_01"
     ],
@@ -2880,7 +2880,7 @@
   {
     "ID": "Episode_5_18",
     "NextID": "Episode_5_19",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Boss_01_01"
     ],
@@ -2898,7 +2898,7 @@
   {
     "ID": "Episode_5_19",
     "NextID": "Episode_5_20",
-    "Speakers": [
+    "Facials": [
       "Boss_01_02",
       "Player_01_04"
     ],
@@ -2916,7 +2916,7 @@
   {
     "ID": "Episode_5_20",
     "NextID": "Episode_5_21",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Boss_01_02"
     ],
@@ -2934,7 +2934,7 @@
   {
     "ID": "Episode_5_21",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Boss_01_02",
       "Player_01_04"
     ],
@@ -2952,7 +2952,7 @@
   {
     "ID": "Episode_5_22",
     "NextID": "Episode_5_23",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Boss_01_02"
     ],
@@ -2970,7 +2970,7 @@
   {
     "ID": "Episode_5_23",
     "NextID": "Episode_5_24",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_02"
     ],
@@ -2988,7 +2988,7 @@
   {
     "ID": "Episode_5_24",
     "NextID": "Account",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 밤, 수상한 빛을 본 경비대가 전설의 성검을 훔친 도적단을 검거했다는 소식이 신문에 실렸다.",
     "Command": null,
@@ -3000,7 +3000,7 @@
   {
     "ID": "Episode_5_25",
     "NextID": "Episode_5_26",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Boss_01_02"
     ],
@@ -3018,7 +3018,7 @@
   {
     "ID": "Episode_5_26",
     "NextID": "Episode_5_27",
-    "Speakers": [
+    "Facials": [
       "Boss_01_02",
       "Player_01_02"
     ],
@@ -3036,7 +3036,7 @@
   {
     "ID": "Episode_5_27",
     "NextID": "Episode_5_28",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Boss_01_02"
     ],
@@ -3054,7 +3054,7 @@
   {
     "ID": "Episode_5_28",
     "NextID": "Episode_5_29",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Boss_01_02"
     ],
@@ -3072,7 +3072,7 @@
   {
     "ID": "Episode_5_29",
     "NextID": "Episode_5_30",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Boss_01_02"
     ],
@@ -3090,7 +3090,7 @@
   {
     "ID": "Episode_5_30",
     "NextID": "Episode_5_31",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Boss_01_02"
     ],
@@ -3108,7 +3108,7 @@
   {
     "ID": "Episode_5_31",
     "NextID": "Episode_5_32",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_03"
     ],
@@ -3126,7 +3126,7 @@
   {
     "ID": "Episode_5_32",
     "NextID": "Episode_5_33",
-    "Speakers": [
+    "Facials": [
       "Boss_01_01",
       "Player_01_03"
     ],
@@ -3144,7 +3144,7 @@
   {
     "ID": "Episode_5_33",
     "NextID": "Account",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "다음 날, 전설의 성검이 흔적없이 사라졌다는 소식이 신문에 실렸다.",
     "Command": null,
@@ -3156,7 +3156,7 @@
   {
     "ID": "Episode_5_34",
     "NextID": "Episode_5_35",
-    "Speakers": [
+    "Facials": [
       "Boss_01_02"
     ],
     "Slots": [
@@ -3172,7 +3172,7 @@
   {
     "ID": "Episode_5_35",
     "NextID": "Episode_5_36",
-    "Speakers": [
+    "Facials": [
       "Boss_01_02"
     ],
     "Slots": [
@@ -3188,7 +3188,7 @@
   {
     "ID": "Episode_5_36",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Boss_01_02"
     ],
     "Slots": [
@@ -3204,7 +3204,7 @@
   {
     "ID": "Episode_6_01",
     "NextID": "Episode_6_02",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -3222,7 +3222,7 @@
   {
     "ID": "Episode_6_02",
     "NextID": "Episode_6_03",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -3240,7 +3240,7 @@
   {
     "ID": "Episode_6_03",
     "NextID": "Episode_6_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3260,7 +3260,7 @@
   {
     "ID": "Episode_6_04",
     "NextID": "Episode_6_05",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_05",
       "Knight_01_01"
@@ -3280,7 +3280,7 @@
   {
     "ID": "Episode_6_05",
     "NextID": "Clue_06",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -3298,7 +3298,7 @@
   {
     "ID": "Episode_6_06",
     "NextID": "Episode_6_07",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3318,7 +3318,7 @@
   {
     "ID": "Episode_6_07",
     "NextID": "Episode_6_08",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3338,7 +3338,7 @@
   {
     "ID": "Episode_6_08",
     "NextID": "Episode_6_09",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3358,7 +3358,7 @@
   {
     "ID": "Episode_6_09",
     "NextID": "Episode_6_10",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Player_01_04",
       "Knight_01_01"
@@ -3378,7 +3378,7 @@
   {
     "ID": "Episode_6_10",
     "NextID": "Episode_6_11",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Player_01_04",
       "Knight_01_01"
@@ -3398,7 +3398,7 @@
   {
     "ID": "Episode_6_11",
     "NextID": "Choice_06",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -3416,7 +3416,7 @@
   {
     "ID": "Episode_6_12",
     "NextID": "Episode_6_13",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3436,7 +3436,7 @@
   {
     "ID": "Episode_6_13",
     "NextID": "Episode_6_14",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3456,7 +3456,7 @@
   {
     "ID": "Episode_6_14",
     "NextID": "Craft_06",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Player_01_04",
       "Knight_01_01"
@@ -3476,7 +3476,7 @@
   {
     "ID": "Episode_6_15",
     "NextID": "Episode_6_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3496,7 +3496,7 @@
   {
     "ID": "Episode_6_16",
     "NextID": "Episode_6_17",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_04",
       "Knight_01_01"
@@ -3516,7 +3516,7 @@
   {
     "ID": "Episode_6_17",
     "NextID": "Episode_6_18",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3536,7 +3536,7 @@
   {
     "ID": "Episode_6_18",
     "NextID": "Episode_6_19",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3556,7 +3556,7 @@
   {
     "ID": "Episode_6_19",
     "NextID": "Episode_6_20",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3576,7 +3576,7 @@
   {
     "ID": "Episode_6_20",
     "NextID": "Episode_6_21",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_04",
       "Knight_01_01"
@@ -3596,7 +3596,7 @@
   {
     "ID": "Episode_6_21",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_04",
       "Knight_01_01"
@@ -3616,7 +3616,7 @@
   {
     "ID": "Episode_6_22",
     "NextID": "Episode_6_23",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3636,7 +3636,7 @@
   {
     "ID": "Episode_6_23",
     "NextID": "Episode_6_24",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3656,7 +3656,7 @@
   {
     "ID": "Episode_6_24",
     "NextID": "Episode_6_25",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Player_01_05",
       "Knight_01_01"
@@ -3676,7 +3676,7 @@
   {
     "ID": "Episode_6_25",
     "NextID": "Episode_6_26",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Player_01_05",
       "Knight_01_01"
@@ -3696,7 +3696,7 @@
   {
     "ID": "Episode_6_26",
     "NextID": "End_Mouth_01",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Loyal_01_02",
       "Knight_01_01"
@@ -3716,7 +3716,7 @@
   {
     "ID": "Episode_6_27",
     "NextID": "Episode_6_28",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3736,7 +3736,7 @@
   {
     "ID": "Episode_6_28",
     "NextID": "Episode_6_29",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3756,7 +3756,7 @@
   {
     "ID": "Episode_6_29",
     "NextID": "Episode_6_30",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_04",
       "Knight_01_01"
@@ -3776,7 +3776,7 @@
   {
     "ID": "Episode_6_30",
     "NextID": "Episode_6_31",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3796,7 +3796,7 @@
   {
     "ID": "Episode_6_31",
     "NextID": "Episode_6_32",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_04",
       "Knight_01_01"
@@ -3816,7 +3816,7 @@
   {
     "ID": "Episode_6_32",
     "NextID": "End_Fraud_01",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_04",
       "Knight_01_01"
@@ -3836,7 +3836,7 @@
   {
     "ID": "Episode_6_33",
     "NextID": "Episode_6_34",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Loyal_01_01",
       "Knight_01_01"
@@ -3856,7 +3856,7 @@
   {
     "ID": "Episode_6_34",
     "NextID": "Episode_6_35",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_02",
       "Knight_01_01"
@@ -3876,7 +3876,7 @@
   {
     "ID": "Episode_6_35",
     "NextID": "Episode_6_36",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_03",
       "Player_01_02",
       "Knight_01_01"
@@ -3896,7 +3896,7 @@
   {
     "ID": "Episode_6_36",
     "NextID": "Episode_6_37",
-    "Speakers": [
+    "Facials": [
       "Knight_01_01",
       "Loyal_01_03",
       "Player_01_02"
@@ -3916,7 +3916,7 @@
   {
     "ID": "Episode_6_37",
     "NextID": "Episode_6_38",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Loyal_01_03",
       "Knight_01_01"
@@ -3936,7 +3936,7 @@
   {
     "ID": "Episode_6_38",
     "NextID": "Episode_6_39",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Loyal_01_03",
       "Knight_01_01"
@@ -3956,7 +3956,7 @@
   {
     "ID": "Episode_6_39",
     "NextID": "Episode_6_40",
-    "Speakers": [
+    "Facials": [
       "Knight_01_01",
       "Loyal_01_03",
       "Player_01_02"
@@ -3976,7 +3976,7 @@
   {
     "ID": "Episode_6_40",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Player_01_02",
       "Knight_01_01"
@@ -3996,7 +3996,7 @@
   {
     "ID": "Episode_6_41",
     "NextID": "Episode_6_42",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -4014,7 +4014,7 @@
   {
     "ID": "Episode_6_42",
     "NextID": "Episode_6_43",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -4032,7 +4032,7 @@
   {
     "ID": "Episode_6_43",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -4050,7 +4050,7 @@
   {
     "ID": "Episode_7_01",
     "NextID": "Episode_7_02",
-    "Speakers": [
+    "Facials": [
       "Regular_01_02"
     ],
     "Slots": [
@@ -4066,7 +4066,7 @@
   {
     "ID": "Episode_7_02",
     "NextID": "Episode_7_03",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Regular_01_02"
     ],
@@ -4084,7 +4084,7 @@
   {
     "ID": "Episode_7_03",
     "NextID": "Episode_7_04",
-    "Speakers": [
+    "Facials": [
       "Regular_01_01",
       "Player_01_02"
     ],
@@ -4102,7 +4102,7 @@
   {
     "ID": "Episode_7_04",
     "NextID": "Episode_7_05",
-    "Speakers": [
+    "Facials": [
       "Regular_01_01",
       "Player_01_02"
     ],
@@ -4120,7 +4120,7 @@
   {
     "ID": "Episode_7_05",
     "NextID": "Episode_7_06",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Regular_01_01"
     ],
@@ -4138,7 +4138,7 @@
   {
     "ID": "Episode_7_06",
     "NextID": "Clue_07",
-    "Speakers": [
+    "Facials": [
       "Regular_01_01"
     ],
     "Slots": [
@@ -4154,7 +4154,7 @@
   {
     "ID": "Episode_7_07",
     "NextID": "Episode_7_08",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Regular_01_01"
     ],
@@ -4172,7 +4172,7 @@
   {
     "ID": "Episode_7_08",
     "NextID": "Choice_07",
-    "Speakers": [
+    "Facials": [
       "Regular_01_01"
     ],
     "Slots": [
@@ -4188,7 +4188,7 @@
   {
     "ID": "Episode_7_09",
     "NextID": "Episode_7_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Regular_01_01"
     ],
@@ -4206,7 +4206,7 @@
   {
     "ID": "Episode_7_10",
     "NextID": "Episode_7_11",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Regular_01_01"
     ],
@@ -4224,7 +4224,7 @@
   {
     "ID": "Episode_7_11",
     "NextID": "Craft_07",
-    "Speakers": [
+    "Facials": [
       "Regular_01_02",
       "Player_01_02"
     ],
@@ -4242,7 +4242,7 @@
   {
     "ID": "Episode_7_12",
     "NextID": "Episode_7_13",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Regular_01_01"
     ],
@@ -4260,7 +4260,7 @@
   {
     "ID": "Episode_7_13",
     "NextID": "Episode_7_14",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Regular_01_01"
     ],
@@ -4278,7 +4278,7 @@
   {
     "ID": "Episode_7_14",
     "NextID": "Episode_7_15",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Regular_01_01"
     ],
@@ -4296,7 +4296,7 @@
   {
     "ID": "Episode_7_15",
     "NextID": "Episode_7_16",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03",
       "Player_01_04"
     ],
@@ -4314,7 +4314,7 @@
   {
     "ID": "Episode_7_16",
     "NextID": "Episode_7_17",
-    "Speakers": [
+    "Facials": [
       "Regular_01_02",
       "Player_01_04"
     ],
@@ -4332,7 +4332,7 @@
   {
     "ID": "Episode_7_17",
     "NextID": "Episode_7_18",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Regular_01_02"
     ],
@@ -4350,7 +4350,7 @@
   {
     "ID": "Episode_7_18",
     "NextID": "Account",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "다음 날, 도적단 말단이 마법 의회의 함정 수사 미끼로 활동했다는 소식이 신문에 실렸다.",
     "Command": null,
@@ -4362,7 +4362,7 @@
   {
     "ID": "Episode_7_19",
     "NextID": "Episode_7_20",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Regular_01_03"
     ],
@@ -4380,7 +4380,7 @@
   {
     "ID": "Episode_7_20",
     "NextID": "Episode_7_21",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Regular_01_03"
     ],
@@ -4398,7 +4398,7 @@
   {
     "ID": "Episode_7_21",
     "NextID": "Episode_7_22",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03",
       "Player_01_02"
     ],
@@ -4416,7 +4416,7 @@
   {
     "ID": "Episode_7_22",
     "NextID": "End_Regular_01",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Regular_01_03"
     ],
@@ -4434,7 +4434,7 @@
   {
     "ID": "Episode_7_23",
     "NextID": "Episode_7_24",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -4450,7 +4450,7 @@
   {
     "ID": "Episode_7_24",
     "NextID": "Episode_7_25",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -4466,7 +4466,7 @@
   {
     "ID": "Episode_7_25",
     "NextID": "Episode_7_26",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -4482,7 +4482,7 @@
   {
     "ID": "Episode_7_26",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -4498,7 +4498,7 @@
   {
     "ID": "Episode_8_01",
     "NextID": "Episode_8_02",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01"
     ],
     "Slots": [
@@ -4514,7 +4514,7 @@
   {
     "ID": "Episode_8_02",
     "NextID": "Episode_8_03",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01"
     ],
     "Slots": [
@@ -4530,7 +4530,7 @@
   {
     "ID": "Episode_8_03",
     "NextID": "Episode_8_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Alchemist_01_01"
     ],
@@ -4548,7 +4548,7 @@
   {
     "ID": "Episode_8_04",
     "NextID": "Episode_8_05",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Alchemist_01_01"
     ],
@@ -4566,7 +4566,7 @@
   {
     "ID": "Episode_8_05",
     "NextID": "Episode_8_06",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_01"
     ],
@@ -4584,7 +4584,7 @@
   {
     "ID": "Episode_8_06",
     "NextID": "Episode_8_07",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_01"
     ],
@@ -4602,7 +4602,7 @@
   {
     "ID": "Episode_8_07",
     "NextID": "Episode_8_08",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_01"
     ],
@@ -4620,7 +4620,7 @@
   {
     "ID": "Episode_8_08",
     "NextID": "Episode_8_09",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Alchemist_01_01"
     ],
@@ -4638,7 +4638,7 @@
   {
     "ID": "Episode_8_09",
     "NextID": "Episode_8_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Alchemist_01_01"
     ],
@@ -4656,7 +4656,7 @@
   {
     "ID": "Episode_8_10",
     "NextID": "Episode_8_11",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Alchemist_01_01"
     ],
@@ -4674,7 +4674,7 @@
   {
     "ID": "Episode_8_11",
     "NextID": "Episode_8_12",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_04"
     ],
@@ -4692,7 +4692,7 @@
   {
     "ID": "Episode_8_12",
     "NextID": "Episode_8_13",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_04"
     ],
@@ -4710,7 +4710,7 @@
   {
     "ID": "Episode_8_13",
     "NextID": "Episode_8_14",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_04"
     ],
@@ -4728,7 +4728,7 @@
   {
     "ID": "Episode_8_14",
     "NextID": "Clue_08",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01"
     ],
     "Slots": [
@@ -4744,7 +4744,7 @@
   {
     "ID": "Episode_8_15",
     "NextID": "Episode_8_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Alchemist_01_01"
     ],
@@ -4762,7 +4762,7 @@
   {
     "ID": "Episode_8_16",
     "NextID": "Episode_8_17",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_04"
     ],
@@ -4780,7 +4780,7 @@
   {
     "ID": "Episode_8_17",
     "NextID": "Episode_8_18",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_04"
     ],
@@ -4798,7 +4798,7 @@
   {
     "ID": "Episode_8_18",
     "NextID": "Episode_8_19",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_04"
     ],
@@ -4816,7 +4816,7 @@
   {
     "ID": "Episode_8_19",
     "NextID": "Choice_08",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01"
     ],
     "Slots": [
@@ -4832,7 +4832,7 @@
   {
     "ID": "Episode_8_20",
     "NextID": "Episode_8_21",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Alchemist_01_01"
     ],
@@ -4850,7 +4850,7 @@
   {
     "ID": "Episode_8_21",
     "NextID": "Episode_8_22",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_01"
     ],
@@ -4868,7 +4868,7 @@
   {
     "ID": "Episode_8_22",
     "NextID": "Craft_08",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Alchemist_01_01"
     ],
@@ -4886,7 +4886,7 @@
   {
     "ID": "Episode_8_23",
     "NextID": "Episode_8_24",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Alchemist_01_01"
     ],
@@ -4904,7 +4904,7 @@
   {
     "ID": "Episode_8_24",
     "NextID": "Episode_8_25",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_02",
       "Player_01_05"
     ],
@@ -4922,7 +4922,7 @@
   {
     "ID": "Episode_8_25",
     "NextID": "Episode_8_26",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_02",
       "Player_01_05"
     ],
@@ -4940,7 +4940,7 @@
   {
     "ID": "Episode_8_26",
     "NextID": "Episode_8_27",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_02",
       "Player_01_05"
     ],
@@ -4958,7 +4958,7 @@
   {
     "ID": "Episode_8_27",
     "NextID": "Episode_8_28",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_02",
       "Player_01_05"
     ],
@@ -4976,7 +4976,7 @@
   {
     "ID": "Episode_8_28",
     "NextID": "Episode_8_29",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Alchemist_01_02"
     ],
@@ -4994,7 +4994,7 @@
   {
     "ID": "Episode_8_29",
     "NextID": "Episode_8_30",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_03",
       "Player_01_05"
     ],
@@ -5012,7 +5012,7 @@
   {
     "ID": "Episode_8_30",
     "NextID": "Episode_8_31",
-    "Speakers": [
+    "Facials": [
       "Player_01_05"
     ],
     "Slots": [
@@ -5028,7 +5028,7 @@
   {
     "ID": "Episode_8_31",
     "NextID": "Account",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "카일이 떠난 다음 날, 미친 연금술사가 실험 중 사망했다는 소식이 신문에 실렸다.",
     "Command": null,
@@ -5040,7 +5040,7 @@
   {
     "ID": "Episode_8_32",
     "NextID": "Episode_8_33",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Alchemist_01_01"
     ],
@@ -5058,7 +5058,7 @@
   {
     "ID": "Episode_8_33",
     "NextID": "Episode_8_34",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Alchemist_01_01"
     ],
@@ -5076,7 +5076,7 @@
   {
     "ID": "Episode_8_34",
     "NextID": "Episode_8_35",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_03"
     ],
@@ -5094,7 +5094,7 @@
   {
     "ID": "Episode_8_35",
     "NextID": "End_Boom_01",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_03"
     ],
@@ -5112,7 +5112,7 @@
   {
     "ID": "Episode_8_36",
     "NextID": "Episode_8_37",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Alchemist_01_01"
     ],
@@ -5130,7 +5130,7 @@
   {
     "ID": "Episode_8_37",
     "NextID": "Episode_8_38",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_03",
       "Player_01_03"
     ],
@@ -5148,7 +5148,7 @@
   {
     "ID": "Episode_8_38",
     "NextID": "Episode_8_39",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Alchemist_01_03"
     ],
@@ -5166,7 +5166,7 @@
   {
     "ID": "Episode_8_39",
     "NextID": "Episode_8_40",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01",
       "Player_01_03"
     ],
@@ -5184,7 +5184,7 @@
   {
     "ID": "Episode_8_40",
     "NextID": "Account",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "다음 날, 멀쩡해진 카일은 가게를 다시 찾아와 멋쩍은 표정으로 미안하다 말했다.",
     "Command": null,
@@ -5196,7 +5196,7 @@
   {
     "ID": "Episode_8_41",
     "NextID": "Episode_8_42",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_03"
     ],
     "Slots": [
@@ -5212,7 +5212,7 @@
   {
     "ID": "Episode_8_42",
     "NextID": "Episode_8_43",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_03"
     ],
     "Slots": [
@@ -5228,7 +5228,7 @@
   {
     "ID": "Episode_8_43",
     "NextID": "Episode_8_44",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_03"
     ],
     "Slots": [
@@ -5244,7 +5244,7 @@
   {
     "ID": "Episode_8_44",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_03"
     ],
     "Slots": [
@@ -5260,7 +5260,7 @@
   {
     "ID": "Episode_9_01",
     "NextID": "Episode_9_02",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -5276,7 +5276,7 @@
   {
     "ID": "Episode_9_02",
     "NextID": "Episode_9_03",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -5292,7 +5292,7 @@
   {
     "ID": "Episode_9_03",
     "NextID": "Episode_9_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Guard_01_01"
     ],
@@ -5310,7 +5310,7 @@
   {
     "ID": "Episode_9_04",
     "NextID": "Episode_9_05",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01",
       "Guard_01_01"
     ],
@@ -5328,7 +5328,7 @@
   {
     "ID": "Episode_9_05",
     "NextID": "Clue_09",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -5344,7 +5344,7 @@
   {
     "ID": "Episode_9_06",
     "NextID": "Episode_9_07",
-    "Speakers": [
+    "Facials": [
       "Player_01_06",
       "Guard_01_01"
     ],
@@ -5362,7 +5362,7 @@
   {
     "ID": "Episode_9_07",
     "NextID": "Episode_9_08",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01",
       "Player_01_06"
     ],
@@ -5380,7 +5380,7 @@
   {
     "ID": "Episode_9_08",
     "NextID": "Choice_09",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -5396,7 +5396,7 @@
   {
     "ID": "Episode_9_09",
     "NextID": "Episode_9_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Guard_01_01"
     ],
@@ -5414,7 +5414,7 @@
   {
     "ID": "Episode_9_10",
     "NextID": "Craft_09",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Guard_01_01"
     ],
@@ -5432,7 +5432,7 @@
   {
     "ID": "Episode_9_11",
     "NextID": "Episode_9_12",
-    "Speakers": [
+    "Facials": [
       "Player_01_03",
       "Guard_01_01"
     ],
@@ -5450,7 +5450,7 @@
   {
     "ID": "Episode_9_12",
     "NextID": "Episode_9_13",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01",
       "Player_01_03"
     ],
@@ -5468,7 +5468,7 @@
   {
     "ID": "Episode_9_13",
     "NextID": "Episode_9_14",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Guard_01_01"
     ],
@@ -5486,7 +5486,7 @@
   {
     "ID": "Episode_9_14",
     "NextID": "Episode_9_15",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Guard_01_01"
     ],
@@ -5504,7 +5504,7 @@
   {
     "ID": "Episode_9_15",
     "NextID": "Episode_9_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_01",
       "Guard_01_01"
     ],
@@ -5522,7 +5522,7 @@
   {
     "ID": "Episode_9_16",
     "NextID": "Episode_9_17",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01",
       "Player_01_01"
     ],
@@ -5540,7 +5540,7 @@
   {
     "ID": "Episode_9_17",
     "NextID": "Account",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "신고한 다음 날, 경비대장을 사칭하던 도둑이 잡혀 들어갔다는 소식이 신문에 실렸다.",
     "Command": null,
@@ -5552,7 +5552,7 @@
   {
     "ID": "Episode_9_18",
     "NextID": "Episode_9_19",
-    "Speakers": [
+    "Facials": [
       "Player_01_02",
       "Guard_01_02"
     ],
@@ -5570,7 +5570,7 @@
   {
     "ID": "Episode_9_19",
     "NextID": "Episode_9_20",
-    "Speakers": [
+    "Facials": [
       "Guard_01_02",
       "Player_01_02"
     ],
@@ -5588,7 +5588,7 @@
   {
     "ID": "Episode_9_20",
     "NextID": "End_Guard_01",
-    "Speakers": [
+    "Facials": [
       "Guard_01_02",
       "Player_01_02"
     ],
@@ -5606,7 +5606,7 @@
   {
     "ID": "Episode_9_21",
     "NextID": "Episode_9_22",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -5622,7 +5622,7 @@
   {
     "ID": "Episode_9_22",
     "NextID": "Episode_9_23",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -5638,7 +5638,7 @@
   {
     "ID": "Episode_9_23",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -5654,8 +5654,8 @@
   {
     "ID": "Episode_10_01",
     "NextID": "Episode_10_02",
-    "Speakers": [
-      "Master_01_01"
+    "Facials": [
+      "Master_01"
     ],
     "Slots": [
       "C"
@@ -5670,7 +5670,7 @@
   {
     "ID": "Episode_10_02",
     "NextID": "Episode_10_03",
-    "Speakers": [
+    "Facials": [
       "Master_01_01"
     ],
     "Slots": [
@@ -5686,7 +5686,7 @@
   {
     "ID": "Episode_10_03",
     "NextID": "Episode_10_04",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Master_01_01"
     ],
@@ -5704,7 +5704,7 @@
   {
     "ID": "Episode_10_04",
     "NextID": "Episode_10_05",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Master_01_01"
     ],
@@ -5722,7 +5722,7 @@
   {
     "ID": "Episode_10_05",
     "NextID": "Episode_10_06",
-    "Speakers": [
+    "Facials": [
       "Master_01_02",
       "Player_01_05"
     ],
@@ -5740,7 +5740,7 @@
   {
     "ID": "Episode_10_06",
     "NextID": "Episode_10_07",
-    "Speakers": [
+    "Facials": [
       "Master_01_02",
       "Player_01_05"
     ],
@@ -5758,7 +5758,7 @@
   {
     "ID": "Episode_10_07",
     "NextID": "Clue_10",
-    "Speakers": [
+    "Facials": [
       "Master_01_02"
     ],
     "Slots": [
@@ -5774,7 +5774,7 @@
   {
     "ID": "Episode_10_08",
     "NextID": "Episode_10_09",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Master_01_03"
     ],
@@ -5792,7 +5792,7 @@
   {
     "ID": "Episode_10_09",
     "NextID": "Episode_10_10",
-    "Speakers": [
+    "Facials": [
       "Master_01_03",
       "Player_01_05"
     ],
@@ -5810,7 +5810,7 @@
   {
     "ID": "Episode_10_10",
     "NextID": "Episode_10_11",
-    "Speakers": [
+    "Facials": [
       "Master_01_03",
       "Player_01_05"
     ],
@@ -5828,7 +5828,7 @@
   {
     "ID": "Episode_10_11",
     "NextID": "Choice_10",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -5844,7 +5844,7 @@
   {
     "ID": "Episode_10_12",
     "NextID": "Craft_10",
-    "Speakers": [
+    "Facials": [
       "Player_01_05",
       "Master_01_03"
     ],
@@ -5862,7 +5862,7 @@
   {
     "ID": "Episode_10_13",
     "NextID": "Episode_10_14",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Master_01_03"
     ],
@@ -5880,7 +5880,7 @@
   {
     "ID": "Episode_10_14",
     "NextID": "Bad_Hell_01",
-    "Speakers": [
+    "Facials": [
       "Master_01_03",
       "Player_01_04"
     ],
@@ -5898,7 +5898,7 @@
   {
     "ID": "Episode_10_15",
     "NextID": "Episode_10_16",
-    "Speakers": [
+    "Facials": [
       "Player_01_04",
       "Master_01_03"
     ],
@@ -5916,7 +5916,7 @@
   {
     "ID": "Episode_10_16",
     "NextID": "Episode_10_17",
-    "Speakers": [
+    "Facials": [
       "Master_01_03",
       "Player_01_04"
     ],
@@ -5934,7 +5934,7 @@
   {
     "ID": "Episode_10_17",
     "NextID": "Episode_10_18",
-    "Speakers": [
+    "Facials": [
       "Master_01_03",
       "Player_01_04"
     ],
@@ -5952,7 +5952,7 @@
   {
     "ID": "Episode_10_18",
     "NextID": "Episode_10_19",
-    "Speakers": [
+    "Facials": [
       "Master_01_04",
       "Player_01_04"
     ],
@@ -5970,7 +5970,7 @@
   {
     "ID": "Episode_10_19",
     "NextID": "Account",
-    "Speakers": [
+    "Facials": [
       "Master_01_05",
       "Player_01_04"
     ],
@@ -5988,11 +5988,11 @@
   {
     "ID": "End_Illegal_01",
     "NextID": "End_Illegal_02",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 밤, 가게 문을 두드리는 소리가 울렸다.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Arrest",
     "ResultID": null
@@ -6000,19 +6000,19 @@
   {
     "ID": "End_Illegal_02",
     "NextID": "End_Illegal_03",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "쾅. 쾅. 쾅.",
     "Command": "CameraShaking",
-    "BGM": "Knock",
-    "SFX": null,
+    "BGM": null,
+    "SFX": "Knock",
     "Background": "Arrest",
     "ResultID": null
   },
   {
     "ID": "End_Illegal_03",
     "NextID": "End_Illegal_04",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "문을 열자마자 보인 건 무표정한 마법 의회 집행관들.",
     "Command": null,
@@ -6024,7 +6024,7 @@
   {
     "ID": "End_Illegal_04",
     "NextID": "End_Illegal_05",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“약제사.”",
     "Command": null,
@@ -6036,7 +6036,7 @@
   {
     "ID": "End_Illegal_05",
     "NextID": "End_Illegal_06",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "차가운 목소리가 내려앉았다.",
     "Command": null,
@@ -6048,7 +6048,7 @@
   {
     "ID": "End_Illegal_06",
     "NextID": "End_Illegal_07",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“불법 독약 제조 및 유통 혐의로 당신을 체포한다.”",
     "Command": null,
@@ -6060,7 +6060,7 @@
   {
     "ID": "End_Illegal_07",
     "NextID": "End_Illegal_08",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“아, 잠깐...! 그건 독약이 아니라...!”",
     "Command": null,
@@ -6072,7 +6072,7 @@
   {
     "ID": "End_Illegal_08",
     "NextID": "End_Illegal_09",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "변명은 끝까지 이어지지 못했다.",
     "Command": null,
@@ -6084,7 +6084,7 @@
   {
     "ID": "End_Illegal_09",
     "NextID": "End_Illegal_10",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이미 증거는 충분했고, 피해자는 넘쳐났으며, 너무 멀리 와버렸다.",
     "Command": null,
@@ -6096,7 +6096,7 @@
   {
     "ID": "End_Illegal_10",
     "NextID": "End_Illegal_11",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "철컹, 손목에 차가운 금속이 채워진다.",
     "Command": null,
@@ -6108,7 +6108,7 @@
   {
     "ID": "End_Illegal_11",
     "NextID": "End_Illegal_12",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "익숙하던 가게는 멀어지고, 어둠이 점점 가까워진다.",
     "Command": null,
@@ -6120,7 +6120,7 @@
   {
     "ID": "End_Illegal_12",
     "NextID": "End_Illegal_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“10일 안에 갚으라 했지.”",
     "Command": null,
@@ -6132,7 +6132,7 @@
   {
     "ID": "End_Illegal_13",
     "NextID": "End_Illegal_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“그 전에, 선을 넘었군.”",
     "Command": null,
@@ -6144,10 +6144,10 @@
   {
     "ID": "End_Illegal_14",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그렇게 마법약 장사는 조용히, 그리고 확실하게 막을 내렸다.",
-    "Command": null,
+    "Command": "Ending_01",
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -6156,7 +6156,7 @@
   {
     "ID": "End_Mouth_01",
     "NextID": "End_Mouth_02",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Knight_01_01"
     ],
@@ -6166,7 +6166,7 @@
     ],
     "Content": "그는 아무 말 없이, 병을 받아들었다.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -6174,7 +6174,7 @@
   {
     "ID": "End_Mouth_02",
     "NextID": "End_Mouth_03",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Knight_01_01"
     ],
@@ -6192,7 +6192,7 @@
   {
     "ID": "End_Mouth_03",
     "NextID": "End_Mouth_04",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Knight_01_01"
     ],
@@ -6210,7 +6210,7 @@
   {
     "ID": "End_Mouth_04",
     "NextID": "End_Mouth_05",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Knight_01_01"
     ],
@@ -6228,7 +6228,7 @@
   {
     "ID": "End_Mouth_05",
     "NextID": "End_Mouth_06",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Knight_01_01"
     ],
@@ -6246,7 +6246,7 @@
   {
     "ID": "End_Mouth_06",
     "NextID": "End_Mouth_07",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_02",
       "Knight_01_01"
     ],
@@ -6264,7 +6264,7 @@
   {
     "ID": "End_Mouth_07",
     "NextID": "End_Mouth_08",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6282,7 +6282,7 @@
   {
     "ID": "End_Mouth_08",
     "NextID": "End_Mouth_09",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6300,7 +6300,7 @@
   {
     "ID": "End_Mouth_09",
     "NextID": "End_Mouth_10",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6318,7 +6318,7 @@
   {
     "ID": "End_Mouth_10",
     "NextID": "End_Mouth_11",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6336,7 +6336,7 @@
   {
     "ID": "End_Mouth_11",
     "NextID": "End_Mouth_12",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6354,7 +6354,7 @@
   {
     "ID": "End_Mouth_12",
     "NextID": "End_Mouth_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이상하리만큼 차분한 목소리였다.",
     "Command": null,
@@ -6366,7 +6366,7 @@
   {
     "ID": "End_Mouth_13",
     "NextID": "End_Mouth_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그래서 더 늦게 깨달았다.",
     "Command": null,
@@ -6378,7 +6378,7 @@
   {
     "ID": "End_Mouth_14",
     "NextID": "End_Mouth_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이건 거래의 끝이 아니라 정리의 순간이라는 걸.",
     "Command": null,
@@ -6390,7 +6390,7 @@
   {
     "ID": "End_Mouth_15",
     "NextID": "End_Mouth_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "뒤에서 발소리가 들린다.",
     "Command": null,
@@ -6402,7 +6402,7 @@
   {
     "ID": "End_Mouth_16",
     "NextID": "End_Mouth_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "도망칠 틈도, 변명할 시간도 없었다.",
     "Command": null,
@@ -6414,7 +6414,7 @@
   {
     "ID": "End_Mouth_17",
     "NextID": "End_Mouth_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손이 움직이기도 전에 시야가 크게 흔들린다.",
     "Command": "CameraShaking",
@@ -6426,7 +6426,7 @@
   {
     "ID": "End_Mouth_18",
     "NextID": "End_Mouth_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "무언가가 바닥에 떨어지는 소리.",
     "Command": null,
@@ -6438,7 +6438,7 @@
   {
     "ID": "End_Mouth_19",
     "NextID": "End_Mouth_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "네가 만든 약이, 바닥에 흩어진다.",
     "Command": null,
@@ -6450,10 +6450,10 @@
   {
     "ID": "End_Mouth_20",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리고 마법약 상점의 빛이 꺼졌다.",
-    "Command": null,
+    "Command": "Ending_02",
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6462,7 +6462,7 @@
   {
     "ID": "End_Fraud_01",
     "NextID": "End_Fraud_02",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6472,7 +6472,7 @@
     ],
     "Content": "그는 아무 말 없이 네가 내민 병을 받아들었다.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -6480,7 +6480,7 @@
   {
     "ID": "End_Fraud_02",
     "NextID": "End_Fraud_03",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6498,7 +6498,7 @@
   {
     "ID": "End_Fraud_03",
     "NextID": "End_Fraud_04",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6516,7 +6516,7 @@
   {
     "ID": "End_Fraud_04",
     "NextID": "End_Fraud_05",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6534,7 +6534,7 @@
   {
     "ID": "End_Fraud_05",
     "NextID": "End_Fraud_06",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6552,7 +6552,7 @@
   {
     "ID": "End_Fraud_06",
     "NextID": "End_Fraud_07",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6570,7 +6570,7 @@
   {
     "ID": "End_Fraud_07",
     "NextID": "End_Fraud_08",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6588,7 +6588,7 @@
   {
     "ID": "End_Fraud_08",
     "NextID": "End_Fraud_09",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6606,7 +6606,7 @@
   {
     "ID": "End_Fraud_09",
     "NextID": "End_Fraud_10",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6624,7 +6624,7 @@
   {
     "ID": "End_Fraud_10",
     "NextID": "End_Fraud_11",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6642,7 +6642,7 @@
   {
     "ID": "End_Fraud_11",
     "NextID": "End_Fraud_12",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6660,7 +6660,7 @@
   {
     "ID": "End_Fraud_12",
     "NextID": "End_Fraud_13",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6678,7 +6678,7 @@
   {
     "ID": "End_Fraud_13",
     "NextID": "End_Fraud_14",
-    "Speakers": [
+    "Facials": [
       "Loyal_01_01",
       "Knight_01_01"
     ],
@@ -6696,7 +6696,7 @@
   {
     "ID": "End_Fraud_14",
     "NextID": "End_Fraud_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "뒤에서 발소리가 들린다. 이미 늦었다.",
     "Command": null,
@@ -6708,7 +6708,7 @@
   {
     "ID": "End_Fraud_15",
     "NextID": "End_Fraud_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손이 움직이기도 전에 시야가 크게 흔들린다.",
     "Command": "CameraShaking",
@@ -6720,7 +6720,7 @@
   {
     "ID": "End_Fraud_16",
     "NextID": "End_Fraud_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "무언가가 바닥에 떨어지는 소리.",
     "Command": null,
@@ -6732,7 +6732,7 @@
   {
     "ID": "End_Fraud_17",
     "NextID": "End_Fraud_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "네가 만든 약이, 바닥에 흩어진다.",
     "Command": null,
@@ -6744,10 +6744,10 @@
   {
     "ID": "End_Fraud_18",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리고 마법약 상점의 빛이 꺼졌다.",
-    "Command": null,
+    "Command": "Ending_03",
     "BGM": null,
     "SFX": null,
     "Background": "Bad_03",
@@ -6756,7 +6756,7 @@
   {
     "ID": "End_Regular_01",
     "NextID": "End_Regular_02",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6764,7 +6764,7 @@
     ],
     "Content": "너무나도 익숙한 소년의 얼굴이었다.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -6772,7 +6772,7 @@
   {
     "ID": "End_Regular_02",
     "NextID": "End_Regular_03",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6788,7 +6788,7 @@
   {
     "ID": "End_Regular_03",
     "NextID": "End_Regular_04",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6804,7 +6804,7 @@
   {
     "ID": "End_Regular_04",
     "NextID": "End_Regular_05",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6820,7 +6820,7 @@
   {
     "ID": "End_Regular_05",
     "NextID": "End_Regular_06",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6836,7 +6836,7 @@
   {
     "ID": "End_Regular_06",
     "NextID": "End_Regular_07",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6852,7 +6852,7 @@
   {
     "ID": "End_Regular_07",
     "NextID": "End_Regular_08",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6868,7 +6868,7 @@
   {
     "ID": "End_Regular_08",
     "NextID": "End_Regular_09",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6884,7 +6884,7 @@
   {
     "ID": "End_Regular_09",
     "NextID": "End_Regular_10",
-    "Speakers": [
+    "Facials": [
       "Regular_01_03"
     ],
     "Slots": [
@@ -6900,19 +6900,19 @@
   {
     "ID": "End_Regular_10",
     "NextID": "End_Regular_11",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그 순간, 문이 열렸다.",
     "Command": "CameraShaking",
-    "BGM": "Knock",
-    "SFX": null,
+    "BGM": null,
+    "SFX": "Knock",
     "Background": "Arrest",
     "ResultID": null
   },
   {
     "ID": "End_Regular_11",
     "NextID": "End_Regular_12",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "여러 개의 발소리. 무거운 장비가 부딪히는 소리. 익숙하지 않은 공기.",
     "Command": null,
@@ -6924,7 +6924,7 @@
   {
     "ID": "End_Regular_12",
     "NextID": "End_Regular_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“움직이지 마라.” 낮고 단단한 목소리.",
     "Command": null,
@@ -6936,7 +6936,7 @@
   {
     "ID": "End_Regular_13",
     "NextID": "End_Regular_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "순식간에 낯선 사람들로 가게 안이 가득 찬다.",
     "Command": null,
@@ -6948,7 +6948,7 @@
   {
     "ID": "End_Regular_14",
     "NextID": "End_Regular_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "하지만 그들의 복장은, 낯설지 않았다.",
     "Command": null,
@@ -6960,7 +6960,7 @@
   {
     "ID": "End_Regular_15",
     "NextID": "End_Regular_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그제야 소년의 표정이 보인다.",
     "Command": null,
@@ -6972,7 +6972,7 @@
   {
     "ID": "End_Regular_16",
     "NextID": "End_Regular_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "더 이상, 익숙한 ‘손님’의 얼굴이 아니다.",
     "Command": null,
@@ -6984,7 +6984,7 @@
   {
     "ID": "End_Regular_17",
     "NextID": "End_Regular_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“수고했다.” 낯선 사람이 짧게 말한다.",
     "Command": null,
@@ -6996,7 +6996,7 @@
   {
     "ID": "End_Regular_18",
     "NextID": "End_Regular_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "누구에게 하는 말인지 이제는 알 것 같았다.",
     "Command": null,
@@ -7008,7 +7008,7 @@
   {
     "ID": "End_Regular_19",
     "NextID": "End_Regular_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“약제사.” 차갑게 식은 목소리가 들려온다.",
     "Command": null,
@@ -7020,7 +7020,7 @@
   {
     "ID": "End_Regular_20",
     "NextID": "End_Regular_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“불법 약물 제조 및 유통 혐의로 당신을 체포한다.”",
     "Command": null,
@@ -7032,7 +7032,7 @@
   {
     "ID": "End_Regular_21",
     "NextID": "End_Regular_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“잠깐...! 그건...!”",
     "Command": null,
@@ -7044,9 +7044,9 @@
   {
     "ID": "End_Regular_22",
     "NextID": "End_Regular_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
-    "Content": "이미 늦었다. 너의 손에 남아 있던 건 선택의 결과뿐이었다.",
+    "Content": "이미 늦었다. 손에 남아 있던 건 선택의 결과뿐이었다.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -7056,7 +7056,7 @@
   {
     "ID": "End_Regular_23",
     "NextID": "End_Regular_24",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "철컹. 손목이 묶이고 익숙했던 공간이 순식간에 낯설어진다.",
     "Command": null,
@@ -7068,7 +7068,7 @@
   {
     "ID": "End_Regular_24",
     "NextID": "End_Regular_25",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그 소년은 문을 나서기 전 처음보는 표정을 했다.",
     "Command": null,
@@ -7080,7 +7080,7 @@
   {
     "ID": "End_Regular_25",
     "NextID": "End_Regular_26",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 이후, 그 가게는 다시 열리지 않았다.",
     "Command": null,
@@ -7092,10 +7092,10 @@
   {
     "ID": "End_Regular_26",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리고 사람들은 말한다. 가장 익숙한 손님이 가장 위험할 수도 있다고.",
-    "Command": null,
+    "Command": "Ending_04",
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7104,7 +7104,7 @@
   {
     "ID": "End_Boom_01",
     "NextID": "End_Boom_02",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_01"
     ],
     "Slots": [
@@ -7112,7 +7112,7 @@
     ],
     "Content": "익숙한 냄새, 익숙한 손놀림. 오래 전부터 봐왔던 모습이었다.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -7120,7 +7120,7 @@
   {
     "ID": "End_Boom_02",
     "NextID": "End_Boom_03",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_02"
     ],
     "Slots": [
@@ -7136,7 +7136,7 @@
   {
     "ID": "End_Boom_03",
     "NextID": "End_Boom_04",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_03"
     ],
     "Slots": [
@@ -7152,7 +7152,7 @@
   {
     "ID": "End_Boom_04",
     "NextID": "End_Boom_05",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_04"
     ],
     "Slots": [
@@ -7168,7 +7168,7 @@
   {
     "ID": "End_Boom_05",
     "NextID": "End_Boom_06",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_05"
     ],
     "Slots": [
@@ -7184,7 +7184,7 @@
   {
     "ID": "End_Boom_06",
     "NextID": "End_Boom_07",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_06"
     ],
     "Slots": [
@@ -7200,7 +7200,7 @@
   {
     "ID": "End_Boom_07",
     "NextID": "End_Boom_08",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_07"
     ],
     "Slots": [
@@ -7216,7 +7216,7 @@
   {
     "ID": "End_Boom_08",
     "NextID": "End_Boom_09",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_08"
     ],
     "Slots": [
@@ -7232,7 +7232,7 @@
   {
     "ID": "End_Boom_09",
     "NextID": "End_Boom_10",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_09"
     ],
     "Slots": [
@@ -7248,7 +7248,7 @@
   {
     "ID": "End_Boom_10",
     "NextID": "End_Boom_11",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_10"
     ],
     "Slots": [
@@ -7264,7 +7264,7 @@
   {
     "ID": "End_Boom_11",
     "NextID": "End_Boom_12",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_11"
     ],
     "Slots": [
@@ -7280,7 +7280,7 @@
   {
     "ID": "End_Boom_12",
     "NextID": "End_Boom_13",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_12"
     ],
     "Slots": [
@@ -7296,7 +7296,7 @@
   {
     "ID": "End_Boom_13",
     "NextID": "End_Boom_14",
-    "Speakers": [
+    "Facials": [
       "Alchemist_01_13"
     ],
     "Slots": [
@@ -7312,7 +7312,7 @@
   {
     "ID": "End_Boom_14",
     "NextID": "End_Boom_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "공기가 뒤틀리며 보이지 않는 무언가가 주변을 짓누른다.",
     "Command": null,
@@ -7324,7 +7324,7 @@
   {
     "ID": "End_Boom_15",
     "NextID": "End_Boom_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“아... 아아...” 그의 목소리가 갈라진다.",
     "Command": null,
@@ -7336,7 +7336,7 @@
   {
     "ID": "End_Boom_16",
     "NextID": "End_Boom_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "몸에서 새어나오는 통제되지 않은 마력. 그의 몸에서 빛이 번진다.",
     "Command": null,
@@ -7348,7 +7348,7 @@
   {
     "ID": "End_Boom_17",
     "NextID": "End_Boom_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“멈춰! 그만...!” 이미 늦었다.",
     "Command": null,
@@ -7360,19 +7360,19 @@
   {
     "ID": "End_Boom_18",
     "NextID": "End_Boom_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "폭발음과 함께 벽이 갈라지고, 유리가 산산이 부서진다.",
     "Command": "CameraShaking",
-    "BGM": "Bomb",
-    "SFX": null,
+    "BGM": null,
+    "SFX": "Bomb",
     "Background": "Bad_06",
     "ResultID": null
   },
   {
     "ID": "End_Boom_19",
     "NextID": "End_Boom_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "약병들이 쏟아지고 마력이 뒤섞이며 가게가 무너진다.",
     "Command": null,
@@ -7384,7 +7384,7 @@
   {
     "ID": "End_Boom_20",
     "NextID": "End_Boom_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "연기가 가라앉았을 때, 남아 있던 건 형태를 알아볼 수 없는 잔해와 침묵뿐이었다.",
     "Command": null,
@@ -7396,7 +7396,7 @@
   {
     "ID": "End_Boom_21",
     "NextID": "End_Boom_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 이후, 가게는 다시 열리지 않았다.",
     "Command": null,
@@ -7408,7 +7408,7 @@
   {
     "ID": "End_Boom_22",
     "NextID": "End_Boom_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“변상금 지급 기한, 10일.”",
     "Command": null,
@@ -7420,7 +7420,7 @@
   {
     "ID": "End_Boom_23",
     "NextID": "End_Boom_24",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“미이행.” 판결은 간단했다.",
     "Command": null,
@@ -7432,7 +7432,7 @@
   {
     "ID": "End_Boom_24",
     "NextID": "End_Boom_25",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그렇게 {Store.Name}은 빚과 함께 끝을 맞았다.",
     "Command": null,
@@ -7444,10 +7444,10 @@
   {
     "ID": "End_Boom_25",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 말한다. 연금술사의 몸조차 가장 위험한 재료가 될 수 있다고.",
-    "Command": null,
+    "Command": "Ending_05",
     "BGM": null,
     "SFX": null,
     "Background": "Opening_04",
@@ -7456,7 +7456,7 @@
   {
     "ID": "End_Guard_01",
     "NextID": "End_Guard_02",
-    "Speakers": [
+    "Facials": [
       "Guard_01_01"
     ],
     "Slots": [
@@ -7464,7 +7464,7 @@
     ],
     "Content": "단정하게 정리된 옷, 흔들림 없는 자세. 누가 봐도 의심할 이유가 없는 사람.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -7472,7 +7472,7 @@
   {
     "ID": "End_Guard_02",
     "NextID": "End_Guard_03",
-    "Speakers": [
+    "Facials": [
       "Guard_01_02"
     ],
     "Slots": [
@@ -7488,7 +7488,7 @@
   {
     "ID": "End_Guard_03",
     "NextID": "End_Guard_04",
-    "Speakers": [
+    "Facials": [
       "Guard_01_03"
     ],
     "Slots": [
@@ -7504,7 +7504,7 @@
   {
     "ID": "End_Guard_04",
     "NextID": "End_Guard_05",
-    "Speakers": [
+    "Facials": [
       "Guard_01_04"
     ],
     "Slots": [
@@ -7520,7 +7520,7 @@
   {
     "ID": "End_Guard_05",
     "NextID": "End_Guard_06",
-    "Speakers": [
+    "Facials": [
       "Guard_01_05"
     ],
     "Slots": [
@@ -7536,7 +7536,7 @@
   {
     "ID": "End_Guard_06",
     "NextID": "End_Guard_07",
-    "Speakers": [
+    "Facials": [
       "Guard_01_06"
     ],
     "Slots": [
@@ -7552,7 +7552,7 @@
   {
     "ID": "End_Guard_07",
     "NextID": "End_Guard_08",
-    "Speakers": [
+    "Facials": [
       "Guard_01_07"
     ],
     "Slots": [
@@ -7568,7 +7568,7 @@
   {
     "ID": "End_Guard_08",
     "NextID": "End_Guard_09",
-    "Speakers": [
+    "Facials": [
       "Guard_01_08"
     ],
     "Slots": [
@@ -7584,7 +7584,7 @@
   {
     "ID": "End_Guard_09",
     "NextID": "End_Guard_10",
-    "Speakers": [
+    "Facials": [
       "Guard_01_09"
     ],
     "Slots": [
@@ -7600,7 +7600,7 @@
   {
     "ID": "End_Guard_10",
     "NextID": "End_Guard_11",
-    "Speakers": [
+    "Facials": [
       "Guard_01_10"
     ],
     "Slots": [
@@ -7616,7 +7616,7 @@
   {
     "ID": "End_Guard_11",
     "NextID": "End_Guard_12",
-    "Speakers": [
+    "Facials": [
       "Guard_01_11"
     ],
     "Slots": [
@@ -7632,19 +7632,19 @@
   {
     "ID": "End_Guard_12",
     "NextID": "End_Guard_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 밤, 문을 두드리는 소리가 울린다.",
     "Command": "CameraShaking",
-    "BGM": "Knock",
-    "SFX": null,
+    "BGM": null,
+    "SFX": "Knock",
     "Background": "Arrest",
     "ResultID": null
   },
   {
     "ID": "End_Guard_13",
     "NextID": "End_Guard_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "문을 열자마자 보인 건 여러 명의 경비대원들.",
     "Command": null,
@@ -7656,7 +7656,7 @@
   {
     "ID": "End_Guard_14",
     "NextID": "End_Guard_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "하지만 아까 그 사람은 없었다.",
     "Command": null,
@@ -7668,7 +7668,7 @@
   {
     "ID": "End_Guard_15",
     "NextID": "End_Guard_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“약제사. 불법 약물 제조 및 반역 혐의로 당신을 체포한다.”",
     "Command": null,
@@ -7680,7 +7680,7 @@
   {
     "ID": "End_Guard_16",
     "NextID": "End_Guard_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“잠깐... 방금 경비대장이...!”",
     "Command": null,
@@ -7692,7 +7692,7 @@
   {
     "ID": "End_Guard_17",
     "NextID": "End_Guard_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“경비대장이라니. 우리는 오늘 이곳에 온 적 없다.”",
     "Command": null,
@@ -7704,7 +7704,7 @@
   {
     "ID": "End_Guard_18",
     "NextID": "End_Guard_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "머릿속이 멈춘다. 그제야 깨닫는다.",
     "Command": null,
@@ -7716,7 +7716,7 @@
   {
     "ID": "End_Guard_19",
     "NextID": "End_Guard_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그가 남긴 건 의뢰가 아니라 증거였다는 걸.",
     "Command": null,
@@ -7728,7 +7728,7 @@
   {
     "ID": "End_Guard_20",
     "NextID": "End_Guard_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "철컹. 손목에 차가운 금속이 채워진다.",
     "Command": null,
@@ -7740,7 +7740,7 @@
   {
     "ID": "End_Guard_21",
     "NextID": "End_Guard_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“범죄자에게 협조하고, 수사에 혼선을 준 혐의.”",
     "Command": null,
@@ -7752,7 +7752,7 @@
   {
     "ID": "End_Guard_22",
     "NextID": "End_Guard_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "끌려 나가는 순간 가게가 눈에 들어온다.",
     "Command": null,
@@ -7764,7 +7764,7 @@
   {
     "ID": "End_Guard_23",
     "NextID": "End_Guard_24",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "익숙했던 공간. 하지만 이제는 돌아올 수 없다.",
     "Command": null,
@@ -7776,7 +7776,7 @@
   {
     "ID": "End_Guard_24",
     "NextID": "End_Guard_25",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그렇게 누군가의 속임수 속에서 끝을 맞았다.",
     "Command": null,
@@ -7788,7 +7788,7 @@
   {
     "ID": "End_Guard_25",
     "NextID": "End_Guard_26",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
     "Command": null,
@@ -7800,10 +7800,10 @@
   {
     "ID": "End_Guard_26",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "겉모습이 진실을 보장해주진 않는다고. 믿음은 때로 가장 쉬운 함정이 된다고.",
-    "Command": null,
+    "Command": "Ending_06",
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
@@ -7812,23 +7812,23 @@
   {
     "ID": "End_Hell_01",
     "NextID": "End_Hell_02",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
       "C"
     ],
     "Content": "그는 문을 부수듯 들어왔다.",
-    "Command": null,
-    "BGM": null,
-    "SFX": null,
+    "Command": "CameraShaking",
+    "BGM": "Bad",
+    "SFX": "Knock",
     "Background": "Store",
     "ResultID": null
   },
   {
     "ID": "End_Hell_02",
     "NextID": "End_Hell_03",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7844,7 +7844,7 @@
   {
     "ID": "End_Hell_03",
     "NextID": "End_Hell_04",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7860,7 +7860,7 @@
   {
     "ID": "End_Hell_04",
     "NextID": "End_Hell_05",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7876,7 +7876,7 @@
   {
     "ID": "End_Hell_05",
     "NextID": "End_Hell_06",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7892,7 +7892,7 @@
   {
     "ID": "End_Hell_06",
     "NextID": "End_Hell_07",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7908,7 +7908,7 @@
   {
     "ID": "End_Hell_07",
     "NextID": "End_Hell_08",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7924,7 +7924,7 @@
   {
     "ID": "End_Hell_08",
     "NextID": "End_Hell_09",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7940,7 +7940,7 @@
   {
     "ID": "End_Hell_09",
     "NextID": "End_Hell_10",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7956,7 +7956,7 @@
   {
     "ID": "End_Hell_10",
     "NextID": "End_Hell_11",
-    "Speakers": [
+    "Facials": [
       "Master_01_03"
     ],
     "Slots": [
@@ -7972,7 +7972,7 @@
   {
     "ID": "End_Hell_11",
     "NextID": "End_Hell_12",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리고 그 다음 순간, 억제되던 마력이 폭주하기 시작했다.",
     "Command": null,
@@ -7984,7 +7984,7 @@
   {
     "ID": "End_Hell_12",
     "NextID": "End_Hell_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그제서야 깨닫는다. 마탑주는 빙결 마법약이 아닌 다른 약이 필요했다고.",
     "Command": null,
@@ -7996,19 +7996,19 @@
   {
     "ID": "End_Hell_13",
     "NextID": "End_Hell_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "눈부신 빛과 함께, 차가운 파동이 사방으로 터져 나간다.",
     "Command": "CameraShaking",
-    "BGM": "Bomb",
-    "SFX": null,
+    "BGM": null,
+    "SFX": "Bomb",
     "Background": "Bad_09",
     "ResultID": null
   },
   {
     "ID": "End_Hell_14",
     "NextID": "End_Hell_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "가게가 얼어붙고 벽이 갈라진다.",
     "Command": null,
@@ -8020,7 +8020,7 @@
   {
     "ID": "End_Hell_15",
     "NextID": "End_Hell_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "거리까지 순식간에 하얗게 뒤덮이며 모든 사람들이 얼어붙는다.",
     "Command": null,
@@ -8032,7 +8032,7 @@
   {
     "ID": "End_Hell_16",
     "NextID": "End_Hell_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "모든 것이 부서지며 연기와 서리가 뒤섞인다.",
     "Command": null,
@@ -8044,7 +8044,7 @@
   {
     "ID": "End_Hell_17",
     "NextID": "End_Hell_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "마을이 버티지 못했다.",
     "Command": null,
@@ -8056,7 +8056,7 @@
   {
     "ID": "End_Hell_18",
     "NextID": "End_Hell_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "버티지 못한다.",
     "Command": null,
@@ -8068,7 +8068,7 @@
   {
     "ID": "End_Hell_19",
     "NextID": "End_Hell_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 이후, 그 마을은 지도에서 사라졌다.",
     "Command": null,
@@ -8080,7 +8080,7 @@
   {
     "ID": "End_Hell_20",
     "NextID": "End_Hell_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "마법 의회 기록에는 한 줄이 추가되었다.",
     "Command": null,
@@ -8092,7 +8092,7 @@
   {
     "ID": "End_Hell_21",
     "NextID": "End_Hell_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“마력 폭주로 인한 전면 붕괴.”",
     "Command": null,
@@ -8104,7 +8104,7 @@
   {
     "ID": "End_Hell_22",
     "NextID": "End_Hell_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그렇게 세상과 함께 끝을 맞이했다.",
     "Command": null,
@@ -8116,7 +8116,7 @@
   {
     "ID": "End_Hell_23",
     "NextID": "End_Hell_24",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
     "Command": null,
@@ -8128,10 +8128,10 @@
   {
     "ID": "End_Hell_24",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "연금술에서 가장 위험한 건 실력이 아니라 판단이라고.",
-    "Command": null,
+    "Command": "Ending_07",
     "BGM": null,
     "SFX": null,
     "Background": "Bad_09",
@@ -8140,7 +8140,7 @@
   {
     "ID": "End_Trap_01",
     "NextID": "End_Trap_02",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8148,7 +8148,7 @@
     ],
     "Content": "“남편이... 너무 아파서... 어떤 약도 듣질 않아요...”",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -8156,7 +8156,7 @@
   {
     "ID": "End_Trap_02",
     "NextID": "End_Trap_03",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8172,7 +8172,7 @@
   {
     "ID": "End_Trap_03",
     "NextID": "End_Trap_04",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8188,7 +8188,7 @@
   {
     "ID": "End_Trap_04",
     "NextID": "End_Trap_05",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8204,7 +8204,7 @@
   {
     "ID": "End_Trap_05",
     "NextID": "End_Trap_06",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8220,7 +8220,7 @@
   {
     "ID": "End_Trap_06",
     "NextID": "End_Trap_07",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8236,7 +8236,7 @@
   {
     "ID": "End_Trap_07",
     "NextID": "End_Trap_08",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8252,7 +8252,7 @@
   {
     "ID": "End_Trap_08",
     "NextID": "End_Trap_09",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8268,7 +8268,7 @@
   {
     "ID": "End_Trap_09",
     "NextID": "End_Trap_10",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8284,7 +8284,7 @@
   {
     "ID": "End_Trap_10",
     "NextID": "End_Trap_11",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8300,7 +8300,7 @@
   {
     "ID": "End_Trap_11",
     "NextID": "End_Trap_12",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8316,7 +8316,7 @@
   {
     "ID": "End_Trap_12",
     "NextID": "End_Trap_13",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8332,7 +8332,7 @@
   {
     "ID": "End_Trap_13",
     "NextID": "End_Trap_14",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8348,7 +8348,7 @@
   {
     "ID": "End_Trap_14",
     "NextID": "End_Trap_15",
-    "Speakers": [
+    "Facials": [
       "Magician_01_01"
     ],
     "Slots": [
@@ -8364,19 +8364,19 @@
   {
     "ID": "End_Trap_15",
     "NextID": "End_Trap_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그 순간 문이 열리고 여러 명의 인원이 가게 안으로 들이닥쳤다.",
     "Command": null,
-    "BGM": "Knock",
-    "SFX": null,
+    "BGM": null,
+    "SFX": "Knock",
     "Background": "Arrest",
     "ResultID": null
   },
   {
     "ID": "End_Trap_16",
     "NextID": "End_Trap_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“현장 확인 완료. 불법 약물 제조 및 유통 적발.”",
     "Command": null,
@@ -8388,7 +8388,7 @@
   {
     "ID": "End_Trap_17",
     "NextID": "End_Trap_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“약제사. 즉시 영업을 중단한다.”",
     "Command": null,
@@ -8400,7 +8400,7 @@
   {
     "ID": "End_Trap_18",
     "NextID": "End_Trap_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "\"...잠깐, 이게 무슨...!\"",
     "Command": null,
@@ -8412,7 +8412,7 @@
   {
     "ID": "End_Trap_19",
     "NextID": "End_Trap_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“변명은 의회에서 듣겠다.”",
     "Command": null,
@@ -8424,7 +8424,7 @@
   {
     "ID": "End_Trap_20",
     "NextID": "End_Trap_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "익숙한 가게 안에 낯선 공기가 가득 찬다.",
     "Command": null,
@@ -8436,7 +8436,7 @@
   {
     "ID": "End_Trap_21",
     "NextID": "End_Trap_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그 ‘공무원’은 돌아선다.",
     "Command": null,
@@ -8448,7 +8448,7 @@
   {
     "ID": "End_Trap_22",
     "NextID": "End_Trap_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“환자도, 남편도 없습니다. 단지, 확인이 필요했을 뿐이죠.”",
     "Command": null,
@@ -8460,7 +8460,7 @@
   {
     "ID": "End_Trap_23",
     "NextID": "End_Trap_24",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "문이 닫히는 소리가 이상하리만큼 크게 울린다.",
     "Command": null,
@@ -8472,7 +8472,7 @@
   {
     "ID": "End_Trap_24",
     "NextID": "End_Trap_25",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“불법 약물 제조 적발. 영업 정지를 선고한다.”",
     "Command": null,
@@ -8484,7 +8484,7 @@
   {
     "ID": "End_Trap_25",
     "NextID": "End_Trap_26",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그렇게 가게는 선택 하나로 멈춰버렸다.",
     "Command": null,
@@ -8496,7 +8496,7 @@
   {
     "ID": "End_Trap_26",
     "NextID": "End_Trap_27",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
     "Command": null,
@@ -8508,10 +8508,10 @@
   {
     "ID": "End_Trap_27",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "가장 설득력 있는 거짓말은 진심처럼 들린다고.",
-    "Command": null,
+    "Command": "Ending_08",
     "BGM": null,
     "SFX": null,
     "Background": "Arrest",
@@ -8520,11 +8520,11 @@
   {
     "ID": "Normal_End_01",
     "NextID": "Normal_End_02",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "10일. 짧다면 짧고, 길다면 긴 시간.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Normal",
     "SFX": null,
     "Background": "Good_Ending_01",
     "ResultID": null
@@ -8532,7 +8532,7 @@
   {
     "ID": "Normal_End_02",
     "NextID": "Normal_End_03",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "당신은 만들었다.",
     "Command": null,
@@ -8544,7 +8544,7 @@
   {
     "ID": "Normal_End_03",
     "NextID": "Normal_End_04",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "팔고, 또 만들고, 다시 팔았다.",
     "Command": null,
@@ -8556,7 +8556,7 @@
   {
     "ID": "Normal_End_04",
     "NextID": "Normal_End_05",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손은 쉬지 않았고, 머리는 멈추지 않았다.",
     "Command": null,
@@ -8568,7 +8568,7 @@
   {
     "ID": "Normal_End_05",
     "NextID": "Normal_End_06",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리고 마침내. 마지막 금화를 탁자 위에 올려놓았다.",
     "Command": null,
@@ -8580,7 +8580,7 @@
   {
     "ID": "Normal_End_06",
     "NextID": "Normal_End_07",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“확인했다. 변상금, 전액 납부.”",
     "Command": null,
@@ -8592,7 +8592,7 @@
   {
     "ID": "Normal_End_07",
     "NextID": "Normal_End_08",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "끝났다.",
     "Command": null,
@@ -8604,7 +8604,7 @@
   {
     "ID": "Normal_End_08",
     "NextID": "Normal_End_09",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "분명, 끝난 줄 알았다.",
     "Command": null,
@@ -8616,7 +8616,7 @@
   {
     "ID": "Normal_End_09",
     "NextID": "Normal_End_10",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "하지만 집행관은 서류를 덮으며, 짧게 덧붙였다.",
     "Command": null,
@@ -8628,7 +8628,7 @@
   {
     "ID": "Normal_End_10",
     "NextID": "Normal_End_11",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“단, 별개의 문제가 있다.”",
     "Command": null,
@@ -8640,7 +8640,7 @@
   {
     "ID": "Normal_End_11",
     "NextID": "Normal_End_12",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“불법 실험. 위험 약물 유통. 다수의 민원. 기준 이하의 평판”",
     "Command": null,
@@ -8652,7 +8652,7 @@
   {
     "ID": "Normal_End_12",
     "NextID": "Normal_End_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“따라서 이 마을에서의 거주를 금지한다.즉시 떠나라.”",
     "Command": null,
@@ -8664,7 +8664,7 @@
   {
     "ID": "Normal_End_13",
     "NextID": "Normal_End_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그리 많지 않은 짐을 싸고 가게 문을 닫았다.",
     "Command": null,
@@ -8676,7 +8676,7 @@
   {
     "ID": "Normal_End_14",
     "NextID": "Normal_End_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "익숙했던 공간이지만 앞으로는 돌아올 수 없다.",
     "Command": null,
@@ -8688,7 +8688,7 @@
   {
     "ID": "Normal_End_15",
     "NextID": "Normal_End_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "도착한 곳은 마을의 바로 밑에 위치한 지하도시.",
     "Command": null,
@@ -8700,7 +8700,7 @@
   {
     "ID": "Normal_End_16",
     "NextID": "Normal_End_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이곳에서는 아무도 묻지 않았다.",
     "Command": null,
@@ -8712,7 +8712,7 @@
   {
     "ID": "Normal_End_17",
     "NextID": "Normal_End_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "무엇을 만들었는지, 어디서 왔는지.",
     "Command": null,
@@ -8724,7 +8724,7 @@
   {
     "ID": "Normal_End_18",
     "NextID": "Normal_End_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "지하도시의 사람들은 오직 무엇을 팔 수 있는지만 궁금해했다.",
     "Command": null,
@@ -8736,7 +8736,7 @@
   {
     "ID": "Normal_End_19",
     "NextID": "Normal_End_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "다시 약을 만들기 시작했다.",
     "Command": null,
@@ -8748,7 +8748,7 @@
   {
     "ID": "Normal_End_20",
     "NextID": "Normal_End_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이번에는 더 조용하게, 더 위험하게.",
     "Command": null,
@@ -8760,7 +8760,7 @@
   {
     "ID": "Normal_End_21",
     "NextID": "Normal_End_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
     "Command": null,
@@ -8772,7 +8772,7 @@
   {
     "ID": "Normal_End_22",
     "NextID": "Normal_End_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "한 번 무너진 이름은 다시 돌아오지 않는다고.",
     "Command": null,
@@ -8784,10 +8784,10 @@
   {
     "ID": "Normal_End_23",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "마법약 상점은 아직 열려있었지만 약제사를 빛 아래에서 볼 일은 더 이상 없었다.",
-    "Command": null,
+    "Command": "Ending_09",
     "BGM": null,
     "SFX": null,
     "Background": "Normal_01_{gender}",
@@ -8796,11 +8796,11 @@
   {
     "ID": "Good_End_01",
     "NextID": "Good_End_02",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "10일. 짧다면 짧고, 길다면 긴 시간.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Good",
     "SFX": null,
     "Background": "Good_Ending_01",
     "ResultID": null
@@ -8808,7 +8808,7 @@
   {
     "ID": "Good_End_02",
     "NextID": "Good_End_03",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "당신은 만들었다.",
     "Command": null,
@@ -8820,7 +8820,7 @@
   {
     "ID": "Good_End_03",
     "NextID": "Good_End_04",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "팔고, 또 만들고, 다시 팔았다.",
     "Command": null,
@@ -8832,7 +8832,7 @@
   {
     "ID": "Good_End_04",
     "NextID": "Good_End_05",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손은 쉬지 않았고, 머리는 멈추지 않았다.",
     "Command": null,
@@ -8844,7 +8844,7 @@
   {
     "ID": "Good_End_05",
     "NextID": "Good_End_06",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 다시 찾아왔고, 약은 제대로 쓰였으며, 소문은 천천히 바뀌었다.",
     "Command": null,
@@ -8856,7 +8856,7 @@
   {
     "ID": "Good_End_06",
     "NextID": "Good_End_07",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“효과가 확실하더라. 그 약제사, 이제 믿을 만해.”",
     "Command": null,
@@ -8868,7 +8868,7 @@
   {
     "ID": "Good_End_07",
     "NextID": "Good_End_08",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "작은 말들이 쌓였고, 마지막 날이 다가왔다.",
     "Command": null,
@@ -8880,7 +8880,7 @@
   {
     "ID": "Good_End_08",
     "NextID": "Good_End_09",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "마침내, 마지막 금화를 탁자 위에 올려놓았다.",
     "Command": null,
@@ -8892,7 +8892,7 @@
   {
     "ID": "Good_End_09",
     "NextID": "Good_End_10",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“확인했다. 변상금, 전액 납부.”",
     "Command": null,
@@ -8904,7 +8904,7 @@
   {
     "ID": "Good_End_10",
     "NextID": "Good_End_11",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "의회에서 돌아와 가게 안을 둘러본다.",
     "Command": null,
@@ -8916,7 +8916,7 @@
   {
     "ID": "Good_End_11",
     "NextID": "Good_End_12",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "익숙한 공간이지만 이제는 조금 다르게 느껴진다.",
     "Command": null,
@@ -8928,19 +8928,19 @@
   {
     "ID": "Good_End_12",
     "NextID": "Good_End_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "문이 열리고 손님들이 들어왔다.",
     "Command": null,
     "BGM": null,
-    "SFX": null,
+    "SFX": "OpenStore",
     "Background": "Store",
     "ResultID": null
   },
   {
     "ID": "Good_End_13",
     "NextID": "Good_End_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“여기, 아직 약 팔죠?”",
     "Command": null,
@@ -8952,7 +8952,7 @@
   {
     "ID": "Good_End_14",
     "NextID": "Good_End_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그날 이후, 가게는 계속 열렸다.",
     "Command": null,
@@ -8964,7 +8964,7 @@
   {
     "ID": "Good_End_15",
     "NextID": "Good_End_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손님은 늘었고, 이름은 퍼졌으며, 신뢰는 쌓였다.",
     "Command": null,
@@ -8976,7 +8976,7 @@
   {
     "ID": "Good_End_16",
     "NextID": "Good_End_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이제 막 다른 무언가가 시작되려 하고 있었다.",
     "Command": null,
@@ -8988,7 +8988,7 @@
   {
     "ID": "Good_End_17",
     "NextID": "Good_End_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "사람들은 말한다.",
     "Command": null,
@@ -9000,10 +9000,10 @@
   {
     "ID": "Good_End_18",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이름이 알려지면 그만큼 더 위험한 일도 따라오지 않겠냐고.",
-    "Command": null,
+    "Command": "Ending_10",
     "BGM": null,
     "SFX": null,
     "Background": "Store",
@@ -9012,11 +9012,11 @@
   {
     "ID": "Bad_End_01",
     "NextID": "Bad_End_02",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "남은 시간, 하루.",
     "Command": null,
-    "BGM": null,
+    "BGM": "Bad",
     "SFX": null,
     "Background": "Store",
     "ResultID": null
@@ -9024,7 +9024,7 @@
   {
     "ID": "Bad_End_02",
     "NextID": "Bad_End_03",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손은 멈추지 않았다. 재료를 넣고, 저어내고, 또다시 만들고.",
     "Command": null,
@@ -9036,7 +9036,7 @@
   {
     "ID": "Bad_End_03",
     "NextID": "Bad_End_04",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "하지만 금화는 늘 모자랐다.",
     "Command": null,
@@ -9048,7 +9048,7 @@
   {
     "ID": "Bad_End_04",
     "NextID": "Bad_End_05",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "몇 개만 더 팔면 될 것 같았고, 조금만 더 시간이 있으면 될 것 같았다.",
     "Command": null,
@@ -9060,7 +9060,7 @@
   {
     "ID": "Bad_End_05",
     "NextID": "Bad_End_06",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "하지만 시간은 기다려주지 않았다.",
     "Command": null,
@@ -9072,7 +9072,7 @@
   {
     "ID": "Bad_End_06",
     "NextID": "Bad_End_07",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "마지막 날, 해가 져버렸다.",
     "Command": null,
@@ -9084,7 +9084,7 @@
   {
     "ID": "Bad_End_07",
     "NextID": "Bad_End_08",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "가게 안에는 팔리지 않은 약과 채워지지 않은 금액, 그리고 침묵만이 남았다.",
     "Command": null,
@@ -9096,19 +9096,19 @@
   {
     "ID": "Bad_End_08",
     "NextID": "Bad_End_09",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "문을 두드리는 소리. 말은 필요 없었다.",
-    "Command": null,
+    "Command": "CameraShaking",
     "BGM": null,
-    "SFX": null,
+    "SFX": "Knock",
     "Background": "Arrest",
     "ResultID": null
   },
   {
     "ID": "Bad_End_09",
     "NextID": "Bad_End_10",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "집행관들의 시선이 이미 모든 걸 말해주고 있었다.",
     "Command": null,
@@ -9120,7 +9120,7 @@
   {
     "ID": "Bad_End_10",
     "NextID": "Bad_End_11",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "이미 모든 걸 말해주고 있었다.",
     "Command": null,
@@ -9132,7 +9132,7 @@
   {
     "ID": "Bad_End_11",
     "NextID": "Bad_End_12",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“연금술사. 지급 기한 종료. 변상금, 미납.”",
     "Command": null,
@@ -9144,7 +9144,7 @@
   {
     "ID": "Bad_End_12",
     "NextID": "Bad_End_13",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“...조금만 더 시간을...”",
     "Command": null,
@@ -9156,7 +9156,7 @@
   {
     "ID": "Bad_End_13",
     "NextID": "Bad_End_14",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "말이 끝나기도 전에 고개가 저어진다.",
     "Command": null,
@@ -9168,7 +9168,7 @@
   {
     "ID": "Bad_End_14",
     "NextID": "Bad_End_15",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“기회는 충분히 주어졌다. 10일.”",
     "Command": null,
@@ -9180,7 +9180,7 @@
   {
     "ID": "Bad_End_15",
     "NextID": "Bad_End_16",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“따라서 즉시 추방한다.”",
     "Command": null,
@@ -9192,7 +9192,7 @@
   {
     "ID": "Bad_End_16",
     "NextID": "Bad_End_17",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "힘이 빠지고 손에 쥐고 있던 동전이 바닥으로 떨어진다.",
     "Command": null,
@@ -9204,7 +9204,7 @@
   {
     "ID": "Bad_End_17",
     "NextID": "Bad_End_18",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "손에 쥐고 있던 동전이 떨어지는 소리를 마지막으로 모든 게 끝난다.",
     "Command": null,
@@ -9216,7 +9216,7 @@
   {
     "ID": "Bad_End_18",
     "NextID": "Bad_End_19",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "짐을 챙길 시간도 없이, 끌려나간다.",
     "Command": null,
@@ -9228,7 +9228,7 @@
   {
     "ID": "Bad_End_19",
     "NextID": "Bad_End_20",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "가게를 스쳐 지나간다.",
     "Command": null,
@@ -9240,7 +9240,7 @@
   {
     "ID": "Bad_End_20",
     "NextID": "Bad_End_21",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "익숙했던 공간이지만 이제는 아무 의미도 없다.",
     "Command": null,
@@ -9252,7 +9252,7 @@
   {
     "ID": "Bad_End_21",
     "NextID": "Bad_End_22",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그렇게 모든 것을 남긴 채 쫓겨났다.",
     "Command": null,
@@ -9264,7 +9264,7 @@
   {
     "ID": "Bad_End_22",
     "NextID": "Bad_End_23",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "마법 의회 기록.",
     "Command": null,
@@ -9276,7 +9276,7 @@
   {
     "ID": "Bad_End_23",
     "NextID": "Bad_End_24",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "“변상금 미납. 강제 추방.”",
     "Command": null,
@@ -9288,10 +9288,10 @@
   {
     "ID": "Bad_End_24",
     "NextID": "0",
-    "Speakers": null,
+    "Facials": null,
     "Slots": null,
     "Content": "그 이후 그 약제사를 봤다는 사람은 없다.",
-    "Command": null,
+    "Command": "Ending_11",
     "BGM": null,
     "SFX": null,
     "Background": "Cuffs_{gender}",
