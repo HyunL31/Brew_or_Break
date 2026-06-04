@@ -73,6 +73,7 @@ public class Monster : GameDataBase
     public int ATK;
     public float CoolTime;
     public List<string> DropItem;
+    public List<string> Bubbles;
 }
 
 [Serializable]

@@ -11,8 +11,10 @@ public class CollectingManager : MonoBehaviour
 {
     public static CollectingManager Inst;
 
+    private Camera _main;
     private CameraMoving _camera;
     private PlayerMoving _player;
+    private PlayerBubble _playerBubble;
     private GameObject _map;
     private int _generatedKey = 0;
     private Dictionary<int, Enemy> _monsters = new Dictionary<int, Enemy>();
@@ -31,8 +33,10 @@ public class CollectingManager : MonoBehaviour
 
         OnEndCollecting += ClearHPBar;
         OnEndCollecting += DestroyPlayer;
+        OnEndCollecting += ClearPlayerBubble;
 
         OnStartCollecting += () => { SetCollectingMap().Forget(); };
+        _main = Camera.main;
     }
 
     public void SetCamera(CameraMoving camera)
@@ -188,5 +192,46 @@ public class CollectingManager : MonoBehaviour
         }
 
         _hpBars.Clear();
+    }
+
+    // 플레이어 말풍선
+    public async UniTask OpenPlayerBubble(string text)
+    {
+        if (_playerBubble == null)
+        {
+            string path = "Prefabs/UI/PlayerBubble";
+            GameObject prefab = await ResourceManager.Inst.InstantiatePrefab(path, UIManager.Inst.GetUIRootTransform(UIRootType.Background));
+            PlayerBubble playerBubble = prefab.GetComponent<PlayerBubble>();
+            _playerBubble = playerBubble;
+        }
+        else
+        {
+            _playerBubble.gameObject.SetActive(true);
+        }
+
+        _playerBubble.SetBubbleText(text, _player.gameObject.transform);
+
+        await UniTask.Delay(TimeSpan.FromSeconds(1f), cancellationToken: _playerBubble.GetCancellationTokenOnDestroy());
+
+        _playerBubble.gameObject.SetActive(false);
+    }
+
+    public void ClearPlayerBubble()
+    {
+        Destroy(_playerBubble.gameObject);
+        _playerBubble = null;
+    }
+
+    public void SetHUDPos(Transform playerPos, RectTransform rect, float yOffset)
+    {
+        if (playerPos == null || _main == null)
+        {
+            return;
+        }
+
+        Vector3 targetPos = playerPos.position + new Vector3(0, yOffset, 0);
+        Vector3 screenPos = _main.WorldToScreenPoint(targetPos);
+
+        rect.transform.position = screenPos;
     }
 }

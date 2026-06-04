@@ -12,35 +12,15 @@ public class HPBar : MonoBehaviour
     [SerializeField] private RectTransform _rect;
 
     private Transform _target;
-    private Camera _main;
-
-    private void Awake()
-    {
-        _main = Camera.main;
-    }
 
     private void LateUpdate()
     {
-        SetPosition();
+        CollectingManager.Inst.SetHUDPos(_target, _rect, Yoffset);
     }
 
     public void SetTarget(Transform target)
     {
         _target = target;
-    }
-
-    // 게임 오브젝트 위치 따라가기
-    private void SetPosition()
-    {
-        if (_target == null || _main == null)
-        {
-            return;
-        }
-
-        Vector3 targetPos = _target.position + new Vector3(0, Yoffset, 0);
-        Vector3 screenPos = _main.WorldToScreenPoint(targetPos);
-
-        _rect.transform.position = screenPos;
     }
 
     // 남은 HP에 따라 이미지 색 변경

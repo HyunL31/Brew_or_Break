@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float MoveRange = 5f;
 
     private int _instanceID;
+
     private Transform _parent;
     private Rigidbody2D _rb;
     private Vector2 _startPos;
@@ -173,6 +174,9 @@ public class Enemy : MonoBehaviour
             _canAttack = true;
             _isMoving = false;
             CancelMoveRoutine();
+
+            int random = UnityEngine.Random.Range(0, _monsterData.Bubbles.Count);
+            CollectingManager.Inst.OpenPlayerBubble(_monsterData.Bubbles[random]).Forget();
 
             if (_tokenSource == null)
             {

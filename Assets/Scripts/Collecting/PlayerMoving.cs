@@ -250,6 +250,8 @@ public class PlayerMoving : MonoBehaviour
 
     private IEnumerator Die()
     {
+        _isAlive = false;
+
         AnimController.SetState(AnimState.Dead);
 
         float delay = AnimController.GetAnimDelay();
