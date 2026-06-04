@@ -47,7 +47,8 @@ public class Craft : GameDataBase
 public class Dialogue : GameDataBase
 {
     public string NextID;
-    public List<string> Speakers;
+    public string Speaker;
+    public List<string> Facials;
     public List<string> Slots;
     public string Content;
     public string Command;

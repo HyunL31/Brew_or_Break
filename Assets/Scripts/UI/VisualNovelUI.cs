@@ -61,7 +61,7 @@ public class VisualNovelUI : UIBase
         CancelCharacter();
         _characterToken = new CancellationTokenSource();
 
-        List<string> characters = _data[id].Speakers;
+        List<string> characters = _data[id].Facials;
         List<string> slots = _data[id].Slots;
 
         if (characters == null || characters.Count == 0)

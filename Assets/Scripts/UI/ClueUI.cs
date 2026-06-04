@@ -29,6 +29,11 @@ public class ClueUI : UIBase
     private void ActiveClueParent(int day)
     {
         ClueButtons[day - 1].SetActive(true);
+        
+        foreach (Transform child in ClueButtons[day - 1].transform)
+        {
+            child.gameObject.SetActive(true);
+        }
     }
 
     private async UniTask SetClueSlot(string id)

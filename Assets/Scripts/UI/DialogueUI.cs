@@ -97,13 +97,13 @@ public class DialogueUI : UIBase
     // 대사 보여주기
     private void ShowDialogue(string id)
     {
-        if (_dialogues[id].Speakers.Count == 0)
+        if (string.IsNullOrEmpty(_dialogues[id].Speaker))
         {
             Image_Speaker.gameObject.SetActive(false);
         }
         else
         {
-            string speaker = _dialogues[id].Speakers[0];
+            string speaker = _dialogues[id].Speaker;
 
             if (speaker != string.Empty)
             {
@@ -167,11 +167,11 @@ public class DialogueUI : UIBase
 
         string speakerID = string.Empty;
 
-        if (_dialogues[currentID].Speakers.Count != 0)
+        if (!string.IsNullOrEmpty(_dialogues[currentID].Speaker))
         {
-            speakerID = _dialogues[currentID].Speakers[0];
+            speakerID = _dialogues[currentID].Facials[0];
         }
-        else
+        else 
         {
             speakerID = "Narr";
         }
