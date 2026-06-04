@@ -260,6 +260,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c716c489b113c094c97662af24b6eefa
+    m_Address: Prefabs/UI/PlayerBubble
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d0f0dbb12f29e5a468f2da1a4be70b6b
     m_Address: Character/Loyal_01_01
     m_ReadOnly: 0

@@ -216,6 +216,28 @@ public class CollectingManager : MonoBehaviour
         _playerBubble.gameObject.SetActive(false);
     }
 
+    public void ClosePlayerBubble()
+    {
+        _playerBubble.gameObject.SetActive(false);
+    }
+
+    public bool IsOpenPlayerBubble()
+    {
+        if (_playerBubble == null)
+        {
+            return false;
+        }
+
+        if (_playerBubble.gameObject.activeSelf)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
     public void ClearPlayerBubble()
     {
         Destroy(_playerBubble.gameObject);

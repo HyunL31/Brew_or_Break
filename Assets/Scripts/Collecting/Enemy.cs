@@ -175,8 +175,11 @@ public class Enemy : MonoBehaviour
             _isMoving = false;
             CancelMoveRoutine();
 
-            int random = UnityEngine.Random.Range(0, _monsterData.Bubbles.Count);
-            CollectingManager.Inst.OpenPlayerBubble(_monsterData.Bubbles[random]).Forget();
+            if (!CollectingManager.Inst.IsOpenPlayerBubble())
+            {
+                int random = UnityEngine.Random.Range(0, _monsterData.Bubbles.Count);
+                CollectingManager.Inst.OpenPlayerBubble(_monsterData.Bubbles[random]).Forget();
+            }
 
             if (_tokenSource == null)
             {
@@ -194,6 +197,11 @@ public class Enemy : MonoBehaviour
             _isMoving = true;
 
             CancelAttackRoutine();
+
+            if (CollectingManager.Inst.IsOpenPlayerBubble())
+            {
+                CollectingManager.Inst.ClosePlayerBubble();
+            }
         }
     }
 

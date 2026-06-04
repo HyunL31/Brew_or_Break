@@ -22,6 +22,7 @@ public class SkillButton : MonoBehaviour
     [SerializeField] private Button Button_Skill;
     [SerializeField] private Image Image_Skill;
     [SerializeField] private TextMeshProUGUI Text_Skill;
+    [SerializeField] private TextMeshProUGUI Text_Key;
 
     private string _skillID;
     private int _ATK;
@@ -31,6 +32,14 @@ public class SkillButton : MonoBehaviour
     private void Awake()
     {
         _data = GameDataManager.Inst.SkillDataList;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown($"{_data[_skillID].Level}"))
+        {
+            Button_Skill.onClick.Invoke();
+        }
     }
 
     private void Start()
@@ -46,6 +55,7 @@ public class SkillButton : MonoBehaviour
         _skillID = id;
 
         Text_Skill.text = _data[id].SkillName;
+        Text_Key.text = $"{_data[id].Level}";
 
         string path = $"Icon/Skill[{id}]";
         GameUtil.LoadSpriteAndSet(path, Image_Skill).Forget();

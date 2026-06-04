@@ -32,6 +32,18 @@ public class HUD : UIBase
         ItemKeyInfo.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            UIManager.Inst.OpenInventory();
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            EndCollecting();
+        }
+    }
+
     private void OnEnable()
     {
         InitSkillButton();
