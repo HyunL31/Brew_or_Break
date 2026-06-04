@@ -20,6 +20,7 @@ public class DialogueUI : UIBase
     [SerializeField] private Button Button_Log;
     [SerializeField] private Toggle Toggle_Auto;
     [SerializeField] private Button Button_Skip;
+    [SerializeField] private Button Button_Dialogue;
 
     [Header("텍스트")]
     [SerializeField] private TextMeshProUGUI Text_Dialogue;
@@ -40,6 +41,7 @@ public class DialogueUI : UIBase
 
     private void Awake()
     {
+        Button_Dialogue.onClick.AddListener(OnClickDialogoue);
         Button_Skip.onClick.AddListener(SkipDialogue);
         Toggle_Auto.isOn = _isAuto;
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
@@ -75,23 +77,20 @@ public class DialogueUI : UIBase
         CancelTypingRoutine();
     }
 
-    private void Update()
+    private void OnClickDialogoue()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (UIManager.Inst.IsOpenedUI(UIType.DialogueLog))
         {
-            if (UIManager.Inst.IsOpenedUI(UIType.DialogueLog))
-            {
-                return;
-            }
-            else if (_isTyping)
-            {
-                _isTyping = false;
-                SoundManager.Inst.OnPause?.Invoke(AudioSource);
-            }
-            else
-            {
-                MoveToNextDialogue(GetCurrentID());
-            }
+            return;
+        }
+        else if (_isTyping)
+        {
+            _isTyping = false;
+            SoundManager.Inst.OnPause?.Invoke(AudioSource);
+        }
+        else
+        {
+            MoveToNextDialogue(GetCurrentID());
         }
     }
 
@@ -211,6 +210,11 @@ public class DialogueUI : UIBase
         if (isOn)
         {
             _isAuto = true;
+
+            if (!_isTyping)
+            {
+                MoveToNextDialogue(GetCurrentID());
+            }
         }
         else
         {
