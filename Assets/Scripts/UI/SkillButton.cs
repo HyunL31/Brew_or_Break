@@ -28,18 +28,12 @@ public class SkillButton : MonoBehaviour
     private int _ATK;
     private float _stamina;
     private Dictionary<string, Skill> _data;
+    private KeyCode _mainKeyCode;
+    private KeyCode _keypadCode;
 
     private void Awake()
     {
         _data = GameDataManager.Inst.SkillDataList;
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown($"{_data[_skillID].Level}"))
-        {
-            Button_Skill.onClick.Invoke();
-        }
     }
 
     private void Start()
@@ -48,6 +42,14 @@ public class SkillButton : MonoBehaviour
 
         _ATK = _data[_skillID].ATK;
         _stamina = _data[_skillID].Stamina;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(_mainKeyCode) || Input.GetKeyDown(_keypadCode))
+        {
+            Button_Skill.onClick.Invoke();
+        }
     }
 
     public void SetSkillInfo(string id)
@@ -81,6 +83,9 @@ public class SkillButton : MonoBehaviour
                 Button_Skill.onClick.AddListener(OnClickOverlapSkill);
                 break;
         }
+
+        _mainKeyCode = KeyCode.Alpha0 + _data[_skillID].Level;
+        _keypadCode = KeyCode.Keypad0 + _data[_skillID].Level;
     }
 
     // 스킬 사용
