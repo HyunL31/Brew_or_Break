@@ -200,7 +200,7 @@
     "NextID": "Episode_0_18",
     "Speakers": null,
     "Slots": null,
-    "Content": "“마을 중앙광장 복구 비용 전액 변상, 기한은 단 10일.”",
+    "Content": "“마을 중앙광장 복구 비용 전액 변상, 기한은 단 <color=#fdcdcd>10일</color>.”",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -536,7 +536,7 @@
       "L",
       "R"
     ],
-    "Content": "이 저주를 풀려면 육체의 시간을 강제로 되돌리는 '시간 억류제'가 필요해.",
+    "Content": "이 저주를 풀려면 육체의 시간을 강제로 되돌리는 <color=#fdcdcd>시간 억류제</color>가 필요해.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -844,7 +844,7 @@
     "Slots": [
       "C"
     ],
-    "Content": "이봐, 약제사! 이 마을에서 가장 독한 '진실의 정수'를 내놔. 지금 당장!",
+    "Content": "이봐, 약제사! 이 마을에서 가장 독한 <color=#fdcdcd>진실의 정수</color>를 내놔. 지금 당장!",
     "Command": null,
     "BGM": "Opening",
     "SFX": null,
@@ -988,7 +988,7 @@
       "L",
       "R"
     ],
-    "Content": "나? 나는 저 언덕 위 저택을 새로 산 '카반 백작'이다!",
+    "Content": "나? 나는 저 언덕 위 저택을 새로 산 카반 백작이다!",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -1092,7 +1092,7 @@
     "Slots": [
       "C"
     ],
-    "Content": "그것보다 잔말 말고 빨리 '진실의 정수'나 내놔!!",
+    "Content": "그것보다 잔말 말고 빨리 <color=#fdcdcd>진실의 정수</color>나 내놔!!",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -1580,7 +1580,7 @@
       "L",
       "R"
     ],
-    "Content": "내 영안을 잠시나마 감소시켜 줄 '발광성 환각 물약'이 필요하오.",
+    "Content": "내 영안을 잠시나마 감소시켜 줄 <color=#fdcdcd>발광성 환각 물약</color>이 필요하오.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -1632,7 +1632,7 @@
       "R",
       "L"
     ],
-    "Content": "발광성 환각 물약'은 정말 위험한 물건인 거 아시죠?",
+    "Content": "<color=#fdcdcd>발광성 환각 물약</color>은 정말 위험한 물건인 거 아시죠?",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -2196,7 +2196,7 @@
       "L",
       "R"
     ],
-    "Content": "마법 의회에서 금지한 '네크로 마력 세럼'이라는 약이 있다고 들었어요. 중독성이 강해 불법이라는 건 알지만.",
+    "Content": "마법 의회에서 금지한 <color=#fdcdcd>네크로 마력 세럼</color>이라는 약이 있다고 들었어요. 중독성이 강해 불법이라는 건 알지만.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -2230,7 +2230,7 @@
       "R",
       "L"
     ],
-    "Content": "부인, '네크로 마력 세럼'은 단순한 진통제가 아닙니다.",
+    "Content": "부인, <color=#fdcdcd>네크로 마력 세럼</color>은 단순한 진통제가 아닙니다.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -2472,7 +2472,7 @@
       "R",
       "L"
     ],
-    "Content": "여기, 약을 준비했습니다. '네크로 마력 세럼'이에요....",
+    "Content": "여기, 약을 준비했습니다. <color=#fdcdcd>네크로 마력 세럼</color>이에요....",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -2606,7 +2606,7 @@
     "Slots": [
       "C"
     ],
-    "Content": "내 보검을 닦을 \"예리함의 도료\"를 좀 만들어줘야겠어.",
+    "Content": "내 보검을 닦을 <color=#fdcdcd>예리함의 도료</color>를 좀 만들어줘야겠어.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -2960,7 +2960,7 @@
       "R",
       "L"
     ],
-    "Content": "이 '예리함의 도료'를 사용하면 검이 엄청 밝게 빛날 거에요.",
+    "Content": "이 <color=#fdcdcd>예리함의 도료</color>를 사용하면 검이 엄청 밝게 빛날 거에요.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -3026,7 +3026,7 @@
       "L",
       "R"
     ],
-    "Content": "어? 뭐야! 내가 원하는 '예리함의 도료'가 아니잖아!",
+    "Content": "어? 뭐야! 내가 원하는 <color=#fdcdcd>예리함의 도료</color>가 아니잖아!",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -3062,7 +3062,7 @@
       "R",
       "L"
     ],
-    "Content": "예리함의 도료'를 바른 검은 엄청나게 밝게 빛난다구요. 그걸 들고 어떻게 도망가려고 그래요?",
+    "Content": "<color=#fdcdcd>예리함의 도료</color>를 바른 검은 엄청나게 밝게 빛난다구요. 그걸 들고 어떻게 도망가려고 그래요?",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -3080,7 +3080,7 @@
       "R",
       "L"
     ],
-    "Content": "이 약은 '은폐의 연무'에요. 이걸 바르면 사람들은 전설의 성검을 인식하지 못할테고 당신은 무사히 도망갈 수 있을 거에요.",
+    "Content": "이 약은 <color=#fdcdcd>은폐의 연무</color>에요. 이걸 바르면 사람들은 전설의 성검을 인식하지 못할테고 당신은 무사히 도망갈 수 있을 거에요.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -3098,7 +3098,7 @@
       "R",
       "L"
     ],
-    "Content": "정 '예리함의 도료'를 원한다면 멀리 도망간 다음에 사서 바르던가 하세요.",
+    "Content": "정 <color=#fdcdcd>예리함의 도료</color>를 원한다면 멀리 도망간 다음에 사서 바르던가 하세요.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -3626,7 +3626,7 @@
       "C",
       "L"
     ],
-    "Content": "완성되었습니다. '사멸의 독'입니다.",
+    "Content": "완성되었습니다. <color=#fdcdcd>사멸의 독</color>입니다.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -3786,7 +3786,7 @@
       "C",
       "L"
     ],
-    "Content": "네, 여기 '가사 상태의 비약'입니다. 사고로 위장하는 거죠.",
+    "Content": "네, 여기 <color=#fdcdcd>가사 상태의 비약</color>입니다. 사고로 위장하는 거죠.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -4056,7 +4056,7 @@
     "Slots": [
       "C"
     ],
-    "Content": "약제사! 나 왔어! 저번에 말했던 그... '진실이 정수' 말이야. 그거 완성됐어?",
+    "Content": "약제사! 나 왔어! 저번에 말했던 그... <color=#fdcdcd>진실의 정수</color> 말이야. 그거 완성됐어?",
     "Command": null,
     "BGM": "Opening",
     "SFX": null,
@@ -4110,7 +4110,7 @@
       "L",
       "R"
     ],
-    "Content": "아무튼! '진실의 정수' 얼른 줘! 그때 만들어주기로 약속했잖아.",
+    "Content": "아무튼! <color=#fdcdcd>진실의 정수</color> 얼른 줘! 그때 만들어주기로 약속했잖아.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -4128,7 +4128,7 @@
       "R",
       "L"
     ],
-    "Content": "근데 어디다가 쓰려고? '진실의 정수'는 사용처를 알아야 팔 수 있어.",
+    "Content": "근데 어디다가 쓰려고? <color=#fdcdcd>진실의 정수</color>는 사용처를 알아야 팔 수 있어.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -4178,7 +4178,7 @@
     "Slots": [
       "C"
     ],
-    "Content": "아, 그렇다니깐. 약제사는 그냥 '진실의 정수'만 만들어주고 돈만 받으면 돼.",
+    "Content": "아, 그렇다니깐. 약제사는 그냥 <color=#fdcdcd>진실의 정수</color>만 만들어주고 돈만 받으면 돼.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -4370,7 +4370,7 @@
       "R",
       "L"
     ],
-    "Content": "자, 여기. 말했던 '진실의 정수'야.",
+    "Content": "자, 여기. 말했던 <color=#fdcdcd>진실의 정수</color>야.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -4456,7 +4456,7 @@
     "Slots": [
       "C"
     ],
-    "Content": "이건 '진실의 정수'가 아닌데...?",
+    "Content": "이건 <color=#fdcdcd>진실의 정수</color>가 아닌데...?",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -5048,7 +5048,7 @@
       "R",
       "L"
     ],
-    "Content": "자, 여기. '금단의 아르카늄'이야. 이게 실험을 도울 수 있을거야.",
+    "Content": "자, 여기. <color=#fdcdcd>금단의 아르카늄</color>이야. 이게 실험을 도울 수 있을거야.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -5120,7 +5120,7 @@
       "R",
       "L"
     ],
-    "Content": "자, 여기. '에테르 스테빌라이저'. 얼른 마셔.",
+    "Content": "자, 여기. <color=#fdcdcd>에테르 스테빌라이저</color>. 얼른 마셔.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -5318,7 +5318,7 @@
       "L",
       "R"
     ],
-    "Content": "칭찬은 됐고, 당장 그놈의 혓바닥을 풀어줄 '진실의 정수'를 내놔. 영주님이 노발대발하고 계셔서 한시가 급해.",
+    "Content": "칭찬은 됐고, 당장 그놈의 혓바닥을 풀어줄 <color=#fdcdcd>진실의 정수</color>를 내놔. 영주님이 노발대발하고 계셔서 한시가 급해.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -5560,7 +5560,7 @@
       "R",
       "L"
     ],
-    "Content": "자, 여기 있습니다. '진실의 정수'는 소량만으로 충분하니 조심히 사용하세요.",
+    "Content": "자, 여기 있습니다. <color=#fdcdcd>진실의 정수</color>는 소량만으로 충분하니 조심히 사용하세요.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -5730,7 +5730,7 @@
       "L",
       "R"
     ],
-    "Content": "닥치고... '빙옥 속박제'를 내놔라.",
+    "Content": "닥치고... <color=#fdcdcd>빙옥 속박제</color>를 내놔라.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -5782,7 +5782,7 @@
       "R",
       "L"
     ],
-    "Content": "하지만 마탑주님! '빙옥 속박제'를 사용하면 오히려 더 악화될거에요!",
+    "Content": "하지만 마탑주님! <color=#fdcdcd>빙옥 속박제</color>를 사용하면 오히려 더 악화될거에요!",
     "Command": null,
     "BGM": null,
     "SFX": null,
