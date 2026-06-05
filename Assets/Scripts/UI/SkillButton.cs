@@ -84,7 +84,6 @@ public class SkillButton : MonoBehaviour
                 break;
         }
 
-        Debug.Log(_skillID);
         _mainKeyCode = KeyCode.Alpha0 + _data[_skillID].Level;
         _keypadCode = KeyCode.Keypad0 + _data[_skillID].Level;
     }

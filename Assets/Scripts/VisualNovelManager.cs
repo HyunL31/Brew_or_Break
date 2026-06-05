@@ -22,6 +22,7 @@ public class VisualNovelManager : MonoBehaviour
     public Action<string, string> OnAddLog;
     public Action OnExitDialogue;
     public Action<string> OnDialogueCommand;
+    public Action OnEnterEnding;
 
     private Dictionary<string, Dialogue> _dialogues;
     private Dictionary<string, Result> _results;
@@ -103,6 +104,7 @@ public class VisualNovelManager : MonoBehaviour
         else if (nextID.Contains("End") && nextID.Contains("01"))
         {
             GameManager.Inst.PlayerModel.EndingID = nextID;
+            OnEnterEnding?.Invoke();
         }
         else if (nextID == "0")
         {

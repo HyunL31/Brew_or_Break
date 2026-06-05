@@ -87,6 +87,8 @@ public class SaveSlot : MonoBehaviour
 
         UIManager.Inst.OpenVisualNovelUI();
         UIManager.Inst.OpenDialogueUI();
+        VisualNovelManager.Inst.OnEnterEnding?.Invoke();
+
         UIManager.Inst.CloseTitleUI();
         UIManager.Inst.CloseSaveUI();
     }

@@ -47,6 +47,7 @@ public class DialogueUI : UIBase
         Toggle_Auto.onValueChanged.AddListener(OnClickAuto);
 
         Button_Return.onClick.AddListener(OpenLobbyPopup);
+        VisualNovelManager.Inst.OnEnterEnding = EnterEnding;
         Button_Log.onClick.AddListener(UIManager.Inst.OpenDialogueLog);
 
         _dialogues = GameDataManager.Inst.DialogueDataList;
@@ -58,6 +59,7 @@ public class DialogueUI : UIBase
 
     private void OnEnable()
     {
+        Button_Return.gameObject.SetActive(true);
         _typingWaitTime = PlayerPrefs.GetFloat("TextSpeed", 0.03f);
 
         ShowDialogue(GetCurrentID());
@@ -313,5 +315,10 @@ public class DialogueUI : UIBase
         string characterID = $"{results[0]}_{results[1]}";
 
         return characterID;
+    }
+
+    private void EnterEnding()
+    {
+        Button_Return.gameObject.SetActive(false);
     }
 }
