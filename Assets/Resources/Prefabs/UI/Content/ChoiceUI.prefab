@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.00090995897, y: -0.00086614094}
-  m_SizeDelta: {x: -0.0009, y: 486.8931}
+  m_SizeDelta: {x: -0.0009, y: 489.06}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6820178968639936373
 MonoBehaviour:
@@ -203,7 +203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed035ea6e85ca88488d162a0d7a1a8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceUI
-  ChoiceSlotPrefab: {fileID: 7613857914494089648, guid: 3133911d013a519458515c4e30cdd391, type: 3}
   ChoiceParent: {fileID: 5268914125562668428}
 --- !u!1 &5682835090181387150
 GameObject:
@@ -295,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ScrollRect
   m_Content: {fileID: 5268914125562668428}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 2
   m_Elasticity: 0.1

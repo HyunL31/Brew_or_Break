@@ -119,6 +119,9 @@ public class CollectingManager : MonoBehaviour
         _player = null;
         _map = null;
 
+        GameManager.Inst.IsOpenStore(false);
+
+        UIManager.Inst.OpenLoadingUI();
         UIManager.Inst.OpenBackgroundUI();
     }
 

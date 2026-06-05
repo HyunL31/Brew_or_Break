@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public PlayerModel PlayerModel { get; private set; } = new PlayerModel();
     public int CurrentSlotIndex { get; private set; } = 0;
     public HashSet<int> SlotIndex { get; private set; } = new HashSet<int>();
+    public bool IsOpeningStore { get; private set; } = true;
 
     public Action<string, int> OnSetInventory;
     public Action<float> OnChangeBrightness;
@@ -143,5 +144,10 @@ public class GameManager : MonoBehaviour
         }
 
         return 0;
+    }
+
+    public void IsOpenStore(bool isLobby)
+    {
+        IsOpeningStore = isLobby;
     }
 }

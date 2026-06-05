@@ -36,7 +36,8 @@ public enum UIType
     SettingPopup,
     SaveUI,
     GenderUI,
-    EndingPopup
+    EndingPopup,
+    LoadingUI
 }
 
 public static class UIExtension
@@ -258,5 +259,15 @@ public static class UIExtension
     public static void CloseGenderUI(this UIManager uiManager)
     {
         uiManager.CloseUI(UIType.GenderUI);
+    }
+
+    public static void OpenLoadingUI(this UIManager uiManager)
+    {
+        UIBase uiBase = uiManager.OpenPopupUI(UIType.LoadingUI);
+    }
+
+    public static void CloseLoadingUI(this UIManager uiManager)
+    {
+        uiManager.CloseUI(UIType.LoadingUI);
     }
 }
