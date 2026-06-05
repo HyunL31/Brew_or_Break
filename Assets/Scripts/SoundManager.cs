@@ -64,4 +64,9 @@ public class SoundManager : MonoBehaviour
             audioSource.Pause();
         }
     }
+
+    public void PauseSFXAudio()
+    {
+        Audio_SFX.Stop();
+    }
 }

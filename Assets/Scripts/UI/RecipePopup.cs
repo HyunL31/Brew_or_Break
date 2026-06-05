@@ -52,6 +52,8 @@ public class RecipePopup : UIBase
         SetPotionInfo(_currentIndex).Forget();
 
         OnClickRecipe();
+
+        GameUtil.LoadSpriteAndSet($"Character/{GameManager.Inst.PlayerModel.Gender}/Player_01_02", Image_Player).Forget();
     }
 
     // 화살표 버튼 관리

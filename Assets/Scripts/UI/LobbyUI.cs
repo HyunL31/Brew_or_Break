@@ -90,10 +90,9 @@ public class LobbyUI : UIBase
     {
         SoundManager.Inst.SetSFXAndPlay("Audio/OpenStore").Forget();
         VisualNovelManager.Inst.SetCurrentDialogueID();
-        UIManager.Inst.OpenLoadingUI();
 
         GameManager.Inst.IsOpenStore(true);
-
+        UIManager.Inst.OpenLoadingUI();
         UIManager.Inst.CloseLobbyUI();
     }
 

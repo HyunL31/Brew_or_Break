@@ -93,6 +93,7 @@ public class CraftUI : UIBase
 
     private void OnClickConfirm()
     {
+        Stopwatch.SetActive(false);
         ShowPotion();
         _addedItem.Clear();
     }

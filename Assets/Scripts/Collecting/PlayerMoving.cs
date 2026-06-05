@@ -258,11 +258,11 @@ public class PlayerMoving : MonoBehaviour
 
         yield return new WaitForSeconds(delay);
 
+        CollectingManager.Inst.OnEndCollecting?.Invoke();
+
         GameManager.Inst.SetDay();
         UIManager.Inst.CloseHUD();
         UIManager.Inst.OpenLobbyUI();
-
-        CollectingManager.Inst.OnEndCollecting?.Invoke();
     }
 
     // 아이템 줍기

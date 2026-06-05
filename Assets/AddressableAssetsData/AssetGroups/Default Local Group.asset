@@ -15,108 +15,8 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: c40ad986f1f19014f8915708511d09f1
   m_SerializeEntries:
-  - m_GUID: 163e1e88634223b43b18836e748d9e10
-    m_Address: Character/Boy/Player_01_06
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 18b02a619ea280f418732edf1fad355d
-    m_Address: Character/Master_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 18c75077ee9c7d540b14b752913a2bc5
-    m_Address: Character/Prophet_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1b32d0af68b4fda46a55fa35c025a825
-    m_Address: Character/Boss_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 220f5dec0cd807240877e9005a9aacb6
-    m_Address: Character/Boy/Player_01_05
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 24ac45ff1ea2a9043bab498cdb7ffef7
-    m_Address: Character/Tattoo_01_04
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 264560f090ff9464ab6ab46504247973
-    m_Address: Character/Master_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2a2e08dbbff6a2c44aea334d2529d1cc
-    m_Address: Character/Master_01_04
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2c19bd7db8eda184db0d977685ff0bdb
-    m_Address: Character/Master_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2f511dcef28e2964f84625583b66f22d
-    m_Address: Character/Girl/Player_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 31476d564b49fd845bd62562355bd9f3
-    m_Address: Character/Loyal_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 35a221d9965a8974798fedfd3322a133
-    m_Address: Background/Boy/StoreLoading
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 36d2010dc09301d42bb87731153e1aae
-    m_Address: Character/Guard_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 389426f01d9247743a746de8caf32057
-    m_Address: Character/Prophet_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3eaff92da901d564eb1e9f3a18dad5f3
-    m_Address: Character/Alchemist_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 443f0159495471c41967bed23fdb8f10
-    m_Address: Character/Guard_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4c00e2a43b5b8e8429713213e7e0af77
     m_Address: Prefabs/Monster_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4c9110e9ccb25d0439252289c7ed11d7
-    m_Address: Character/Alchemist_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4e3426825d3797f428b92cbe32e6fb42
-    m_Address: Background/Boy/CollectingLoading
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5039b5118962a6b48bfc73e5cbb824da
-    m_Address: Audio/Clock
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 532dabde6c7e69649a4f6b4370ce2269
-    m_Address: Character/Girl/Player_01_02
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -125,18 +25,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 57dcc76792aac724683bd07ded43abbd
-    m_Address: Background/Cuffs_Boy
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5a250dbb3f939db4aa6146b4a5386260
     m_Address: Prefabs/Collecting/Boy/Player
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5c1adb5f8b77223429a16b3cea694c01
-    m_Address: Character/Boy/Player_01_04
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -145,83 +35,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5df8b7d04c5583e4383c523300119c19
-    m_Address: Character/Tattoo_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6459212cea17b0c4bbc12d9663f9f5ac
-    m_Address: Character/Girl/Player_01_06
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7042a76b5f6b44a41a91cdc3c30d7b02
-    m_Address: Background/Normal_01_Boy
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 70c9f32e1c8cd1c428127affb55a1ead
-    m_Address: Character/Scholar_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 79c5d269a3c48a446b762bb7031fc244
     m_Address: Prefabs/Monster_05
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7b9fb2e492d8bff4baee66d360ab0dec
-    m_Address: Character/Scholar_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7e8ae5638ad926847922e44e08bb399f
-    m_Address: Character/Magician_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 87ac17ee962b4594b97a88d70756b8cd
-    m_Address: Character/Boss_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8808646bd52be8d4baa0fecaf5f12837
-    m_Address: Character/Knight_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8ed962aee321cfa45a81641a0e44ac1a
-    m_Address: Character/Alchemist_01_04
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 928fe13647cb6e448a066e179a77c5ce
-    m_Address: Character/Loyal_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 946e59f01241600409157c93ffcf3e6a
-    m_Address: Character/Regular_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 988faaf11bf8ddf44974e409f77de328
-    m_Address: Audio/Glass
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9a85f8a6151027e4e870e4ca24deea6f
-    m_Address: Character/Tattoo_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a2cff9f357acdda4aac01ab8dbd07f68
-    m_Address: Character/Scholar_01_05
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a565af338955e444a8053010ced020ca
-    m_Address: Character/Master_01_05
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -230,78 +45,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: abc6b41031d0e4b4fa256360e008cf63
-    m_Address: Character/Boy/Player_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b380f029601b39340b563cafeb56ddbe
-    m_Address: Character/Boy/Player_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b629a75c44ea60f4d9d732fd5d2f0943
-    m_Address: Character/Tattoo_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ba6164dfaf7a7dd42bfafc6f3aab3a09
-    m_Address: Character/Magician_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bc2d014e1795d534895e06a965914fdd
     m_Address: Prefabs/Monster_03
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c0cad3e0efe9c414897b7fa3301822df
-    m_Address: Character/Regular_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c0f1c9f7a8a120e4b8febf63d4d92ef3
-    m_Address: Character/Scholar_01_04
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c11fa22b74df1e64fa4d79e83b553d05
-    m_Address: Character/Scholar_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c23252e242a5a3c498ebc67e813b39f1
-    m_Address: Character/Girl/Player_01_03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c716c489b113c094c97662af24b6eefa
     m_Address: Prefabs/UI/PlayerBubble
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cb0d0682395f794428e41bc17f00cef5
-    m_Address: Background/Girl/StoreLoading
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cd5f447b6b270fb43a865df5cb4935a7
-    m_Address: Background/Girl/CollectingLoading
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d0f0dbb12f29e5a468f2da1a4be70b6b
-    m_Address: Character/Loyal_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d1f06f1a11778954d8b01207d9087791
-    m_Address: Character/Boy/Player_01_02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e4d89ba70cdd81b438ebb5b207205fe3
-    m_Address: Audio/Knock
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -312,31 +62,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e80d2677ba76e324ea88f3cf7c59f151
     m_Address: Prefabs/Collecting/Map
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f3fe6cdbcfaeafa42ae5f72acaf37f77
-    m_Address: Character/Girl/Player_01_05
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f45844711611e7f49bb9ac07c5f59867
-    m_Address: Character/Girl/Player_01_04
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f8de24e7d1d3d4346a0180f14085e7fc
-    m_Address: Character/Alchemist_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fcf4a5d36d9a66d4a857da30765a8917
-    m_Address: Character/Regular_01_01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ffa1ac51fa95a7141a11920d7d16fec0
-    m_Address: Character/Magician_01_01
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

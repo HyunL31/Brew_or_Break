@@ -17,6 +17,11 @@ public class Stopwatch : MonoBehaviour
         RotateSceondHand().Forget();
     }
 
+    private void OnDisable()
+    {
+        SoundManager.Inst.PauseSFXAudio();
+    }
+
     // 스탑워치 타이머
     private async UniTaskVoid RotateSceondHand()
     {
