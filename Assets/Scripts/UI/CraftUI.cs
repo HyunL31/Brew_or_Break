@@ -45,7 +45,6 @@ public class CraftUI : UIBase
         VisualNovelManager.Inst.OnDropItem = (itemID) => AddItem(itemID);
         VisualNovelManager.Inst.OnEndTimer = ShowPotion;
         VisualNovelManager.Inst.OnStartTimer = (play) => Stopwatch.SetActive(play);
-        Debug.Log("연결 완");
     }
 
     private void OnEnable()

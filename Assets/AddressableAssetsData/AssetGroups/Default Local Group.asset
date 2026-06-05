@@ -110,6 +110,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5039b5118962a6b48bfc73e5cbb824da
+    m_Address: Audio/Clock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 532dabde6c7e69649a4f6b4370ce2269
     m_Address: Character/Girl/Player_01_02
     m_ReadOnly: 0

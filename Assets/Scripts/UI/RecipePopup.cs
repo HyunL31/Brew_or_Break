@@ -15,11 +15,18 @@ public class RecipePopup : UIBase
     [SerializeField] Button Button_Right;
     [SerializeField] Button Button_Confirm;
 
-    [Header("콘텐츠")]
+    [Header("레시피")]
+    [SerializeField] GameObject RecipePanel;
+    [SerializeField] Button Button_Recipe;
     [SerializeField] Image Image_Potion;
     [SerializeField] TextMeshProUGUI Text_PotionName;
     [SerializeField] TextMeshProUGUI Text_PotionDescription;
     [SerializeField] Transform ItemSlotParent;
+
+    [Header("튜토리얼")]
+    [SerializeField] GameObject TutorialPanel;
+    [SerializeField] Image Image_Player;
+    [SerializeField] Button Button_Tutorial;
 
     private int _currentIndex = 1;
     private int _maxPotionCount;
@@ -34,6 +41,8 @@ public class RecipePopup : UIBase
         Button_Left.onClick.AddListener(OnClickLeftArrow);
         Button_Right.onClick.AddListener(OnClickRightArrow);
         Button_Confirm.onClick.AddListener(OnClickConfirm);
+        Button_Recipe.onClick.AddListener(OnClickRecipe);
+        Button_Tutorial.onClick.AddListener(OnClickTutorial);
     }
 
     private void OnEnable()
@@ -41,6 +50,8 @@ public class RecipePopup : UIBase
         _currentIndex = 1;
 
         SetPotionInfo(_currentIndex).Forget();
+
+        OnClickRecipe();
     }
 
     // 화살표 버튼 관리
@@ -122,9 +133,32 @@ public class RecipePopup : UIBase
     private void OnClickConfirm()
     {
         VisualNovelManager.Inst.OnStartTimer?.Invoke(true);
-        Debug.Log("켜짐");
 
         UIManager.Inst.CloseRecipePopup();
+    }
+
+    private void OnClickRecipe()
+    {
+        Button_Tutorial.image.color = Color.grey;
+        Button_Recipe.image.color = Color.white;
+
+        RecipePanel.SetActive(true);
+        TutorialPanel.SetActive(false);
+
+        Button_Left.gameObject.SetActive(true);
+        Button_Right.gameObject.SetActive(true);
+    }
+
+    private void OnClickTutorial()
+    {
+        Button_Tutorial.image.color = Color.white;
+        Button_Recipe.image.color = Color.grey;
+
+        RecipePanel.SetActive(false);
+        TutorialPanel.SetActive(true);
+
+        Button_Left.gameObject.SetActive(false);
+        Button_Right.gameObject.SetActive(false);
     }
 
     private string GetPotionID(int index)
