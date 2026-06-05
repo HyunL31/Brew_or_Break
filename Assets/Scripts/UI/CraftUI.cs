@@ -24,6 +24,8 @@ public class CraftUI : UIBase
     [SerializeField] private Image Image_Litmus;
     [SerializeField] private Slider Slider_Acidity;
 
+    [SerializeField] private GameObject Stopwatch;
+
     private int _randomAcidity = 0;
     private List<string> _addedItem = new List<string>();
     private string _potionID = string.Empty;
@@ -39,7 +41,11 @@ public class CraftUI : UIBase
         Button_Confirm.onClick.AddListener(OnClickConfirm);
         Button_Next.onClick.AddListener(OnClickNext);
         Slider_Acidity.onValueChanged.AddListener((value) => SetLitmusColor(value));
+
         VisualNovelManager.Inst.OnDropItem = (itemID) => AddItem(itemID);
+        VisualNovelManager.Inst.OnEndTimer = ShowPotion;
+        VisualNovelManager.Inst.OnStartTimer = (play) => Stopwatch.SetActive(play);
+        Debug.Log("연결 완");
     }
 
     private void OnEnable()
@@ -118,6 +124,7 @@ public class CraftUI : UIBase
             effect = "Success";
         }
 
+        Stopwatch.SetActive(false);
         PlayPotionEffect(effect).Forget();
 
         GameUtil.LoadSpriteAndSet(path, Image_Pot).Forget();

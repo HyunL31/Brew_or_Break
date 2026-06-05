@@ -106,7 +106,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4e3426825d3797f428b92cbe32e6fb42
-    m_Address: Background/Boy/Collecting
+    m_Address: Background/Boy/CollectingLoading
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -277,6 +277,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cb0d0682395f794428e41bc17f00cef5
     m_Address: Background/Girl/StoreLoading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd5f447b6b270fb43a865df5cb4935a7
+    m_Address: Background/Girl/CollectingLoading
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

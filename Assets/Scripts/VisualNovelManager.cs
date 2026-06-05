@@ -14,15 +14,20 @@ public class VisualNovelManager : MonoBehaviour
     public string CurrentDialogueID { get; private set; }
 
     public Action<string> OnChangeBaseUI;
+
     public Action<string> OnClickClueButton;
     public Action OnClickChoiceButton;
-    public Action<string> OnDropItem;
+
     public Action<string> OnSetDialogueID;
     public Func<string, bool> OnMoveNextContent;
     public Action<string, string> OnAddLog;
     public Action OnExitDialogue;
     public Action<string> OnDialogueCommand;
     public Action OnEnterEnding;
+
+    public Action<string> OnDropItem;
+    public Action OnEndTimer;
+    public Action<bool> OnStartTimer;
 
     private Dictionary<string, Dialogue> _dialogues;
     private Dictionary<string, Result> _results;

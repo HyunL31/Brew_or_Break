@@ -121,6 +121,9 @@ public class RecipePopup : UIBase
 
     private void OnClickConfirm()
     {
+        VisualNovelManager.Inst.OnStartTimer?.Invoke(true);
+        Debug.Log("켜짐");
+
         UIManager.Inst.CloseRecipePopup();
     }
 
