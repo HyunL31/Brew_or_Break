@@ -218,7 +218,10 @@ public class CollectingManager : MonoBehaviour
             _playerBubble.gameObject.SetActive(true);
         }
 
-        _playerBubble.SetBubbleText(text, _player.gameObject.transform);
+        if (_player.IsAlive())
+        {
+            _playerBubble.SetBubbleText(text, _player.gameObject.transform);
+        }
 
         await UniTask.Delay(TimeSpan.FromSeconds(1f), cancellationToken: _playerBubble.GetCancellationTokenOnDestroy());
 

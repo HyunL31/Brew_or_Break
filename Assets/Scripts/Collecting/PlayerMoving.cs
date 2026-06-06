@@ -331,4 +331,14 @@ public class PlayerMoving : MonoBehaviour
             }
         }
     }
+
+    public bool IsAlive()
+    {
+        if (_isAlive)
+        {
+            return true;
+        }
+        
+        return false;
+    }
 }
