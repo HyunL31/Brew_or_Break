@@ -41,6 +41,8 @@ public class LobbyUI : UIBase
 
     private void OnEnable()
     {
+        SoundManager.Inst.OnBGM?.Invoke("Audio/Base");
+
         SetPlayerInfo();
         SetStoreInfo();
 

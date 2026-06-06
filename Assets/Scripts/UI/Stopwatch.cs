@@ -10,23 +10,28 @@ public class Stopwatch : MonoBehaviour
     [SerializeField] private Image Image_Filled;
 
     private float _duration = 30f;
+    private CancellationTokenSource _cancel;
 
     private void OnEnable()
     {
+        _cancel = new CancellationTokenSource();
+
         SoundManager.Inst.SetSFXAndPlay("Audio/Clock").Forget();
-        RotateSceondHand().Forget();
+        RotateSceondHand(_cancel.Token).Forget();
     }
 
     private void OnDisable()
     {
+        _cancel.Cancel();
+        _cancel.Dispose();
+        _cancel = null;
+
         SoundManager.Inst.PauseSFXAudio();
     }
 
     // 스탑워치 타이머
-    private async UniTaskVoid RotateSceondHand()
+    private async UniTaskVoid RotateSceondHand(CancellationToken cancelToken)
     {
-        CancellationToken cancelToken = this.GetCancellationTokenOnDestroy();
-
         float elapsed = 0f;
 
         while (elapsed < _duration)

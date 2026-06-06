@@ -52,8 +52,23 @@ public class AccountUI : UIBase
         Text_Compensation.text = $"배상금 : {StoreManager.Inst.StoreModel.Compensation}G";
         Image_Compensation.fillAmount = StoreManager.Inst.CalculatStat(StatType.Compensation, StoreManager.Inst.StoreModel);
 
-        Text_RequestGold.text = $"다음 레벨까지 {_requestLevel} G";
-        Text_RequestCompen.text = $"청산까지 {StoreManager.Inst.StoreModel.Compensation} G";
+        if (StoreManager.Inst.CheckMaxLevel())
+        {
+            Text_RequestGold.text = "최대 레벨 도달";
+        }
+        else
+        {
+            Text_RequestGold.text = $"다음 레벨까지 {_requestLevel} G";
+        }
+
+        if (StoreManager.Inst.CheckCompensation())
+        {
+            Text_RequestCompen.text = "청산 완료";
+        }
+        else
+        {
+            Text_RequestCompen.text = $"청산까지 {StoreManager.Inst.StoreModel.Compensation} G";
+        }
     }
 
     private void OnClickConfirm()
@@ -77,31 +92,36 @@ public class AccountUI : UIBase
 
     private void OnClickLevel()
     {
-        if (StoreManager.Inst.StoreModel.Gold < _requestLevel)
+        if (StoreManager.Inst.StoreModel.Gold < _requestLevel && !StoreManager.Inst.CheckMaxLevel())
         {
             UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestLevel}의 금화가 필요합니다.");
             return;
         }
 
         StoreManager.Inst.SetStoreLevel();
-        StoreManager.Inst.SetGold(_requestLevel * -1);
-
-        _requestLevel *= 2;
-
         SetState();
+
+        if (!StoreManager.Inst.CheckMaxLevel())
+        {
+            StoreManager.Inst.SetGold(_requestLevel * -1);
+            _requestLevel *= 2;
+        }
     }
 
     private void OnClickCompensation()
     {
-        if (StoreManager.Inst.StoreModel.Gold < _requestCompen)
+        if (StoreManager.Inst.StoreModel.Gold < _requestCompen && !StoreManager.Inst.CheckCompensation())
         {
             UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestCompen}의 금화가 필요합니다.");
             return;
         }
 
         StoreManager.Inst.SetStoreDebt();
-        StoreManager.Inst.SetGold(_requestCompen * -1);
-
         SetState();
+
+        if (!StoreManager.Inst.CheckCompensation())
+        {
+            StoreManager.Inst.SetGold(_requestCompen * -1);
+        }
     }
 }

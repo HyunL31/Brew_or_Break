@@ -62,6 +62,11 @@ public class PlayerMoving : MonoBehaviour
     // 이동 및 애니메이션
     private void Move(float inputX, float inputY)
     {
+        if (!_isAlive)
+        {
+            return;
+        }
+
         if (inputX == 0 && inputY == 0)
         {
             RigidBody.linearVelocity = Vector3.zero;
@@ -251,6 +256,8 @@ public class PlayerMoving : MonoBehaviour
     private IEnumerator Die()
     {
         _isAlive = false;
+
+        CollectingManager.Inst.ClearPlayerBubble();
 
         AnimController.SetState(AnimState.Dead);
 

@@ -45,8 +45,8 @@ public class SaveSlot : MonoBehaviour
 
         _slotModel = SaveManager.Inst.RequestLoadData(slotID);
 
-        Text_PlayerName.text = $"이름 : {_slotModel.PlayerName}";
-        Text_StoreName.text = $"상호명 : {_slotModel.StoreName}";
+        Text_PlayerName.text = $"{_slotModel.PlayerName}";
+        Text_StoreName.text = $"{_slotModel.StoreName}";
 
         string path = $"Icon/Portrait[{_slotModel.Gender}_Player_01_04]";
         GameUtil.LoadSpriteAndSet(path, Image_Character).Forget();

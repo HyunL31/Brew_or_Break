@@ -33,7 +33,6 @@ public class CollectingManager : MonoBehaviour
 
         OnEndCollecting += ClearHPBar;
         OnEndCollecting += DestroyPlayer;
-        OnEndCollecting += ClearPlayerBubble;
 
         OnStartCollecting += () => { SetCollectingMap().Forget(); };
         _main = Camera.main;

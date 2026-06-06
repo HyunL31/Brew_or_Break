@@ -163,8 +163,6 @@ public class VisualNovelUI : UIBase
         float shakeTime = _totalShakeTime;
         Vector2 originPos = Rect.anchoredPosition;
 
-        Debug.Log("카메라");
-
         while (shakeTime > 0)
         {
             shakeTime -= Time.deltaTime;

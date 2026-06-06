@@ -21,6 +21,11 @@ public class TitleUI : UIBase
         Button_Quit.onClick.AddListener(Application.Quit);
     }
 
+    private void OnEnable()
+    {
+        SoundManager.Inst.OnBGM?.Invoke("Audio/Base");
+    }
+
     private void OnClickNewGame()
     {
         GameManager.Inst.LoadDefaultData();

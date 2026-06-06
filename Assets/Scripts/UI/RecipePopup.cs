@@ -52,6 +52,7 @@ public class RecipePopup : UIBase
         SetPotionInfo(_currentIndex).Forget();
 
         OnClickRecipe();
+        Button_Left.gameObject.SetActive(false);
 
         GameUtil.LoadSpriteAndSet($"Character/{GameManager.Inst.PlayerModel.Gender}/Player_01_02", Image_Player).Forget();
     }
@@ -147,7 +148,15 @@ public class RecipePopup : UIBase
         RecipePanel.SetActive(true);
         TutorialPanel.SetActive(false);
 
-        Button_Left.gameObject.SetActive(true);
+        if (_currentIndex == 1)
+        {
+            Button_Left.gameObject.SetActive(false);
+        }
+        else
+        {
+            Button_Left.gameObject.SetActive(true);
+        }
+
         Button_Right.gameObject.SetActive(true);
     }
 

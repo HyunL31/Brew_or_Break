@@ -34,6 +34,7 @@ public class Inventory : UIBase
     private void OnDisable()
     {
         GameManager.Inst.OnSetInventory -= (id, count) => { UpdateInventory(id, count).Forget(); };
+        UIManager.Inst.CloseItemDescription();
     }
 
     private async UniTask SetInventory()
@@ -76,7 +77,17 @@ public class Inventory : UIBase
                 _inventory[id].gameObject.SetActive(false);
             }
 
-            if (_inventory.Count <= 0)
+            bool hasActiveSlot = false;
+            foreach (InventorySlot slot in _inventory.Values)
+            {
+                if (slot != null && slot.gameObject.activeSelf)
+                {
+                    hasActiveSlot = true;
+                    break;
+                }
+            }
+
+            if (!hasActiveSlot)
             {
                 Text_EmptyInfo.gameObject.SetActive(true);
             }

@@ -3277,7 +3277,7 @@
     "NextID": "Episode_5_31",
     "Speaker": "Player_01",
     "Facials": [
-      "Player_01_03",
+      "Player_01_02",
       "Boss_01_02"
     ],
     "Slots": [
@@ -3297,7 +3297,7 @@
     "Speaker": "Boss_01",
     "Facials": [
       "Boss_01_01",
-      "Player_01_03"
+      "Player_01_02"
     ],
     "Slots": [
       "L",
@@ -3316,7 +3316,7 @@
     "Speaker": "Boss_01",
     "Facials": [
       "Boss_01_01",
-      "Player_01_03"
+      "Player_01_02"
     ],
     "Slots": [
       "L",
@@ -8547,7 +8547,7 @@
     "Speaker": null,
     "Facials": null,
     "Slots": null,
-    "Content": "마을이 버티지 못했다.",
+    "Content": "마을이 버티지 못한다.",
     "Command": null,
     "BGM": null,
     "SFX": null,
@@ -8560,7 +8560,7 @@
     "Speaker": null,
     "Facials": null,
     "Slots": null,
-    "Content": "버티지 못한다.",
+    "Content": "버티지 못했다.",
     "Command": null,
     "BGM": null,
     "SFX": null,

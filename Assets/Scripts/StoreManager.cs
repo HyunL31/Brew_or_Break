@@ -39,9 +39,10 @@ public class StoreManager : MonoBehaviour
 
     public void SetStoreLevel()
     {
-        if (StoreModel.Level >= _maxLevel)
+        if (CheckMaxLevel())
         {
             UIManager.Inst.OpenConfirmPopup("최대 레벨입니다.");
+            return;
         }
 
         StoreModel.Level++;
@@ -55,7 +56,7 @@ public class StoreManager : MonoBehaviour
 
     public void SetStoreDebt()
     {
-        if (StoreModel.Compensation <= 0)
+        if (CheckCompensation())
         {
             UIManager.Inst.OpenConfirmPopup("모든 변상금을 상환했습니다.");
         }
@@ -81,6 +82,26 @@ public class StoreManager : MonoBehaviour
     public int GetCluePoint()
     {
         return _todayCluePoint;
+    }
+
+    public bool CheckMaxLevel()
+    {
+        if (StoreModel.Level >= _maxLevel)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    public bool CheckCompensation()
+    {
+        if (StoreModel.Compensation <= 0)
+        {
+            return true;
+        }
+
+        return false;
     }
 
     // 상태바 값 계산
