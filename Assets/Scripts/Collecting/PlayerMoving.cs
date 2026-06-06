@@ -212,8 +212,14 @@ public class PlayerMoving : MonoBehaviour
 
     private bool CheckSkillUsable(float stamina)
     {
-        if (_isSkillUsing || _playerStamina < stamina || !_isAlive)
+        if (_isSkillUsing || !_isAlive)
         {
+            return false;
+        }
+
+        if (_playerStamina < stamina)
+        {
+            CollectingManager.Inst.OnLackStamina?.Invoke();
             return false;
         }
 

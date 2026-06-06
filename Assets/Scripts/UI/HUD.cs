@@ -1,5 +1,7 @@
 ﻿using Cysharp.Threading.Tasks;
+using System;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,9 +21,11 @@ public class HUD : UIBase
     [SerializeField] private Image Image_Player;
     [SerializeField] private Image Image_Stamina;
     [SerializeField] private GameObject ItemKeyInfo;
+    [SerializeField] private GameObject StaminaInfo;
     
     private Dictionary<string, SkillButton> _skills = new Dictionary<string, SkillButton>();
     private Dictionary<string, Skill> _data;
+    private CancellationTokenSource _disable;
 
     private void Awake()
     {
@@ -29,10 +33,13 @@ public class HUD : UIBase
 
         Button_Inventory.onClick.AddListener(UIManager.Inst.OpenInventory);
         Button_EndCollecting.onClick.AddListener(EndCollecting);
+
         CollectingManager.Inst.OnChangeStamina = UpdateStamina;
+        CollectingManager.Inst.OnLackStamina = OnSetStaminaInfo;
         CollectingManager.Inst.OnEnterItem = (value) => ItemKeyInfo.SetActive(value);
 
         ItemKeyInfo.SetActive(false);
+        StaminaInfo.SetActive(false);
     }
 
     private void Update()
@@ -49,8 +56,17 @@ public class HUD : UIBase
 
     private void OnEnable()
     {
+        _disable = new CancellationTokenSource();
+
         InitSkillButton();
         SetHUDImage();
+    }
+
+    private void OnDisable()
+    {
+        _disable.Cancel();
+        _disable.Dispose();
+        _disable = null;
     }
 
     // 플레이어 레벨에 따른 스킬 버튼 생성
@@ -121,5 +137,19 @@ public class HUD : UIBase
         GameManager.Inst.SetDay();
         UIManager.Inst.OpenLobbyUI();
         UIManager.Inst.CloseHUD();
+    }
+
+    private async UniTask SetStaminaInfo()
+    {
+        StaminaInfo.SetActive(true);
+
+        await UniTask.Delay(TimeSpan.FromSeconds(1f), cancellationToken: _disable.Token);
+
+        StaminaInfo.SetActive(false);
+    }
+
+    private void OnSetStaminaInfo()
+    {
+        SetStaminaInfo().Forget();
     }
 }

@@ -23,6 +23,7 @@ public class CollectingManager : MonoBehaviour
 
     public Action<int, int> OnSkillCollision;
     public Action<float, float> OnChangeStamina;
+    public Action OnLackStamina;
     public Action OnEndCollecting;
     public Action OnStartCollecting;
     public Action<bool> OnEnterItem;
@@ -200,6 +201,11 @@ public class CollectingManager : MonoBehaviour
     // 플레이어 말풍선
     public async UniTask OpenPlayerBubble(string text)
     {
+        if (_player == null || _player.gameObject == null)
+        {
+            return;
+        }
+
         if (_playerBubble == null)
         {
             string path = "Prefabs/UI/PlayerBubble";
