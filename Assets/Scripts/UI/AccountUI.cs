@@ -92,36 +92,44 @@ public class AccountUI : UIBase
 
     private void OnClickLevel()
     {
-        if (StoreManager.Inst.StoreModel.Gold < _requestLevel && !StoreManager.Inst.CheckMaxLevel())
+        if (StoreManager.Inst.CheckMaxLevel())
+        {
+            UIManager.Inst.OpenConfirmPopup("최대 레벨에 도달했습니다.");
+            return;
+        }
+
+        if (StoreManager.Inst.StoreModel.Gold < _requestLevel)
         {
             UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestLevel}의 금화가 필요합니다.");
             return;
         }
 
+        StoreManager.Inst.SetGold(_requestLevel * -1);
         StoreManager.Inst.SetStoreLevel();
-        SetState();
 
-        if (!StoreManager.Inst.CheckMaxLevel())
-        {
-            StoreManager.Inst.SetGold(_requestLevel * -1);
-            _requestLevel *= 2;
-        }
+        _requestLevel *= 2;
+
+        SetState();
     }
 
     private void OnClickCompensation()
     {
-        if (StoreManager.Inst.StoreModel.Gold < _requestCompen && !StoreManager.Inst.CheckCompensation())
+        if (StoreManager.Inst.CheckCompensation())
+        {
+            UIManager.Inst.OpenConfirmPopup("모든 변상금을 상환했습니다.");
+            return;
+        }
+
+        if (StoreManager.Inst.StoreModel.Gold < _requestCompen)
         {
             UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestCompen}의 금화가 필요합니다.");
             return;
         }
 
-        StoreManager.Inst.SetStoreDebt();
-        SetState();
 
-        if (!StoreManager.Inst.CheckCompensation())
-        {
-            StoreManager.Inst.SetGold(_requestCompen * -1);
-        }
+        StoreManager.Inst.SetGold(_requestCompen * -1);
+        StoreManager.Inst.SetStoreDebt();
+
+        SetState();
     }
 }

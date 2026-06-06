@@ -39,12 +39,6 @@ public class StoreManager : MonoBehaviour
 
     public void SetStoreLevel()
     {
-        if (CheckMaxLevel())
-        {
-            UIManager.Inst.OpenConfirmPopup("최대 레벨입니다.");
-            return;
-        }
-
         StoreModel.Level++;
     }
 
@@ -56,11 +50,6 @@ public class StoreManager : MonoBehaviour
 
     public void SetStoreDebt()
     {
-        if (CheckCompensation())
-        {
-            UIManager.Inst.OpenConfirmPopup("모든 변상금을 상환했습니다.");
-        }
-
         StoreModel.Compensation -= 100;
     }
 
