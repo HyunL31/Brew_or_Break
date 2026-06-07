@@ -26,10 +26,26 @@
   {
     "ID": "Clue_02_01",
     "Name": "문신",
-    "Description": "얼굴에 큰 문신이 있다.",
+    "Description": "이 마을의 얼굴에 큰 문신이 있는 귀족은 본 적이 없다.",
     "Point": 3,
     "ReturnID": "Episode_2_15",
     "Path": "Icon/Clue[Clue_04]"
+  },
+  {
+    "ID": "Clue_02_02",
+    "Name": "머리카락",
+    "Description": "머리를 급하게 만진 것처럼 흐뜨러져 있다.",
+    "Point": null,
+    "ReturnID": "Episode_2_15",
+    "Path": "Icon/Clue[Clue_20]"
+  },
+  {
+    "ID": "Clue_02_03",
+    "Name": "얼굴",
+    "Description": "백작이지만 한 번도 본 적 없는 얼굴이다.",
+    "Point": null,
+    "ReturnID": "Episode_2_15",
+    "Path": "Icon/Clue[Clue_01]"
   },
   {
     "ID": "Clue_03_01",

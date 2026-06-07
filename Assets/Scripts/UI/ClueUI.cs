@@ -1,5 +1,6 @@
 ﻿using Cysharp.Threading.Tasks;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +15,7 @@ public class ClueUI : UIBase
     [SerializeField] private Transform SlotParent;
     [SerializeField] private Button Button_Confirm;
     [SerializeField] private GameObject EmptyInfo;
+    [SerializeField] private TextMeshProUGUI Text_ClueCount;
 
     private List<GameObject> _clueSlots = new List<GameObject>();
 
@@ -28,12 +30,17 @@ public class ClueUI : UIBase
 
     private void ActiveClueParent(int day)
     {
+        int clueCount = 0;
+
         ClueButtons[day - 1].SetActive(true);
         
         foreach (Transform child in ClueButtons[day - 1].transform)
         {
             child.gameObject.SetActive(true);
+            clueCount++;
         }
+
+        Text_ClueCount.text = $"단서의 개수 : {clueCount}";
     }
 
     private async UniTask SetClueSlot(string id)

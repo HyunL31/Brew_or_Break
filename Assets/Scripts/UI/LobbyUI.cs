@@ -68,7 +68,7 @@ public class LobbyUI : UIBase
     private void SetStoreInfo()
     {
         Text_Gold.text = $"{StoreManager.Inst.StoreModel.Gold} G";
-        Text_Reputation.text = $"{StoreManager.Inst.StoreModel.Reputation}REP";
+        Text_Reputation.text = $"{StoreManager.Inst.StoreModel.Reputation} REP";
     }
 
     private void SetStatus()
