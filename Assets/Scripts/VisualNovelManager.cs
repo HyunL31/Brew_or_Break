@@ -115,6 +115,7 @@ public class VisualNovelManager : MonoBehaviour
         {
             GameManager.Inst.PlayerModel.IsComplete = true;
             UIManager.Inst.OpenEndingPopup();
+            OnExitDialogue?.Invoke();
 
             isMoved = true;
         }

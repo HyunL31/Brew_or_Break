@@ -38,6 +38,9 @@ public class AccountUI : UIBase
     {
         Text_AccountDay.text = $"마감 정산 (Day {GameManager.Inst.PlayerModel.Day})";
 
+        int currentLevel = StoreManager.Inst.StoreModel.Level;
+        _requestLevel = 10 * (int)Mathf.Pow(2, currentLevel - 1);
+
         SetState();
     }
 
@@ -107,7 +110,8 @@ public class AccountUI : UIBase
         StoreManager.Inst.SetGold(_requestLevel * -1);
         StoreManager.Inst.SetStoreLevel();
 
-        _requestLevel *= 2;
+        int currentLevel = StoreManager.Inst.StoreModel.Level;
+        _requestLevel = 10 * (int)Mathf.Pow(2, currentLevel - 1);
 
         SetState();
     }
@@ -125,7 +129,6 @@ public class AccountUI : UIBase
             UIManager.Inst.OpenConfirmPopup($"가진 금화가 적습니다.\n{_requestCompen}의 금화가 필요합니다.");
             return;
         }
-
 
         StoreManager.Inst.SetGold(_requestCompen * -1);
         StoreManager.Inst.SetStoreDebt();
